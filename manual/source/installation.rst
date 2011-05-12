@@ -79,7 +79,7 @@ Open up the software center by clicking on the :guilabel:`Software Center` icon
 in the Launcher if you are using the Unity desktop, or if you are using an 
 older version of Ubuntu, or the Classic Desktop go to :menuselection:`Applications`
 and select the Software Center from the bottom of the menu. You will need to 
-be the administrator of the system to isntall OpenLP and will be asked for the
+be the administrator of the system to install OpenLP and will be asked for the
 administrator password several times through this process.
 
 We will first need to add the OpenLP Personal Package Archive (PPA) to your
@@ -106,7 +106,7 @@ when you have it back to running simple search for OpenLP and click
 
 .. image:: pics/4searchopenlp.png
 
-You will now see the install progress as OpenLP and the depenencies required
+You will now see the install progress as OpenLP and the dependencies required
 for it to run are downloaded.
 
 .. image:: pics/5installprogressubuntu.png
@@ -117,7 +117,7 @@ After installation you should see that OpenLP is installed.
 
 You can now run OpenLP by either searching for it in the `Dash`, or clicking on
 the category `Media Apps` in Unity. If you are running the Classic Desktop you 
-will have OpenLP avaialable by clicking 
+will have OpenLP available by clicking 
 :menuselection:`Applications --> Sound and Video --> OpenLP`
 
 Ubuntu Command Line Install
@@ -125,7 +125,7 @@ Ubuntu Command Line Install
 
 The following install procedure should work across all Ubuntu variants. We will
 first need to add the Personal Package Archive (PPA) to Ubuntu's software 
-soruces. From a terminal type::
+sources. From a terminal type::
 
   user@ubuntu:~$ sudo add-apt-repository ppa:openlp-core/release
   
@@ -137,7 +137,7 @@ Install OpenLP::
 
   user@ubuntu:~$ sudo apt-get install openlp
 
-OpenLP should now be avaialable in your desktops menu system, but if you wish 
+OpenLP should now be available in your desktops menu system, but if you wish 
 to run OpenLP from the command line type::
 
   user@ubuntu:~$ openlp
@@ -160,7 +160,7 @@ Check the check box for OpenLP then click :guilabel:`Apply`
 
 .. image:: pics/3fedoraaddremove.png
 
-Click :guilabel:`Continue` to confirm isntalling any additional software.
+Click :guilabel:`Continue` to confirm installing any additional software.
 
 .. image:: pics/4fedoraadditionalconfirm.png
 
@@ -177,5 +177,3 @@ OpenLP will be available in :menuselection:`Applications --> Sound & Video --> O
 
 Fedora (KDE)
 ^^^^^^^^^^^^
-
-

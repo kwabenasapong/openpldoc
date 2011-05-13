@@ -82,8 +82,8 @@ and select the Software Center from the bottom of the menu. You will need to
 be the administrator of the system to install OpenLP and will be asked for the
 administrator password several times through this process.
 
-We will first need to add the OpenLP Personal Package Archive (PPA) to your
-system. Go to :menuselection:`Edit --> Software Sources`
+First you will first need to add the OpenLP Personal Package Archive (PPA) to
+your system. Go to :menuselection:`Edit --> Software Sources`
 
 .. image:: pics/1softwaresources.png
 
@@ -100,14 +100,14 @@ Click :guilabel:`Add Source`
   
 .. image:: pics/3aptline.png
 
-You will now need to restart the Software Center to refresh the package list.
-when you have it back to running simple search for OpenLP and click 
+You now need to restart the Software Center to refresh the package list. When
+you have the Software Center running simply search for OpenLP and click 
 :guilabel:`Install`.
 
 .. image:: pics/4searchopenlp.png
 
-You will now see the install progress as OpenLP and the dependencies required
-for it to run are downloaded.
+You will see the install progress as OpenLP and the dependencies required for
+it to run are downloaded.
 
 .. image:: pics/5installprogressubuntu.png
 
@@ -115,21 +115,21 @@ After installation you should see that OpenLP is installed.
 
 .. image:: pics/6installcompleteubuntu.png
 
-You can now run OpenLP by either searching for it in the `Dash`, or clicking on
-the category `Media Apps` in Unity. If you are running the Classic Desktop you 
+You can now run OpenLP by either searching for it in the *Dash*, or clicking on
+the category *Media Apps* in Unity. If you are running the Classic Desktop you 
 will have OpenLP available by clicking 
 :menuselection:`Applications --> Sound and Video --> OpenLP`
 
 Ubuntu Command Line Install
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The following install procedure should work across all Ubuntu variants. We will
-first need to add the Personal Package Archive (PPA) to Ubuntu's software 
+The following install procedure should work across all Ubuntu variants. You
+will need to add the Personal Package Archive (PPA) to Ubuntu's software 
 sources. From a terminal type::
 
   user@ubuntu:~$ sudo add-apt-repository ppa:openlp-core/release
   
-Now we need to refresh the package list::
+Now you need to refresh the package list::
 
   user@ubuntu:~$ sudo apt-get update
   
@@ -145,7 +145,7 @@ to run OpenLP from the command line type::
 Fedora (GNOME)
 ^^^^^^^^^^^^^^
 
-Installing with Fedora we will use the default Add/Remove Programs available
+Installing with Fedora you will use the default Add/Remove Programs available
 from :menuselection:`System --> Administration --> Add/Remove Programs` in 
 Fedora 14 and below or in :menuselection:`Applications --> System Tools --> 
 Add/Remove Programs`
@@ -177,3 +177,4 @@ OpenLP will be available in :menuselection:`Applications --> Sound & Video --> O
 
 Fedora (KDE)
 ^^^^^^^^^^^^
+think

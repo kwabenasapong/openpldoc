@@ -66,7 +66,7 @@ Linux
 Setting up OpenLP varies by distribution. We have included documentation on
 popular distributions or distributions that have OpenLP available from their
 package managers. It should be possible to get OpenLP running on 
-nearly any linux distribution.
+nearly any Linux distribution.
 
 Ubuntu
 ^^^^^^

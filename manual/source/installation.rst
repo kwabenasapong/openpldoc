@@ -63,7 +63,7 @@ Applications folder.
 Linux
 -----
 
-Setting up OpenLP varies by distribution, we have included documentation on
+Setting up OpenLP varies by distribution. We have included documentation on
 popular distributions or distributions that have OpenLP available from their
 package managers. It should be possible to get OpenLP running on 
 nearly any linux distribution.
@@ -82,7 +82,7 @@ and select the Software Center from the bottom of the menu. You will need to
 be the administrator of the system to install OpenLP and will be asked for the
 administrator password several times through this process.
 
-First you will first need to add the OpenLP Personal Package Archive (PPA) to
+First you will need to add the OpenLP Personal Package Archive (PPA) to
 your system. Go to :menuselection:`Edit --> Software Sources`
 
 .. image:: pics/1softwaresources.png

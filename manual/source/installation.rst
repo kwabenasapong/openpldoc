@@ -175,6 +175,4 @@ later.
 
 OpenLP will be available in :menuselection:`Applications --> Sound & Video --> OpenLP`
 
-Fedora (KDE)
-^^^^^^^^^^^^
-think
+

@@ -1,3 +1,4 @@
+==================
 Creating a service
 ==================
 
@@ -46,7 +47,7 @@ Moving through a Song or Bible verses
 
 When you display a song or Bible verse with multiple verses you will need to 
 move through them. When a song or verse is being displayed you will see the 
-lyrics at the top in the Live window and how it actually appears on your display 
+lyrics in the top Live window and how it actually appears on your display 
 in the bottom Live window. To change slides you can use your mouse to click on 
 each slide in the top Live window, use the Left Arrow and Right Arrow icons 
 under the top Live window or, use the :kbd:`Down Arrow` key to move down through 
@@ -100,19 +101,20 @@ On the *Live Controller Bar* in between the Live windows are three options to
 Blank your screen. Clicking on the down arrow next to the blank button will show 
 you your three options.
 
-*Blank Screen* Choosing this option will blank your projector to black as if it 
-were shut off. The shortcut for this option is :kbd:`.` (fullstop/period on your 
-keyboard).
+**Blank Screen** 
+  Choosing this option will blank your projector to black as if it were shut off. 
+  The shortcut for this option is :kbd:`.` (fullstop/period on your keyboard).
 
-*Blank to Theme* Choosing this option will show your blank theme only, without 
-lyrics or verses. If you are blanking a song with an assigned theme it will blank 
-to that theme. If no theme is assigned or you are blanking a presentation or 
-image, it will blank to the global theme. The shortcut for this option is :kbd:`T`. 
+**Blank to Theme** 
+  Choosing this option will show your blank theme only, without lyrics or verses. 
+  If you are blanking a song with an assigned theme it will blank to that theme. 
+  If no theme is assigned or you are blanking a presentation or image, it will 
+  blank to the global theme. The shortcut for this option is :kbd:`T`. 
 
-*Blank to Desktop* Choosing this option will show your desktop wallpaper or a 
-program that you have open on the extended monitor or projector. You can 
-seamlessly switch between one program and OpenLP by Blank to Desktop. The 
-shortcut for this option is :kbd:`D`.
+**Blank to Desktop** 
+  Choosing this option will show your desktop wallpaper or a program that you have 
+  open on the extended monitor or projector. You can seamlessly switch between one 
+  program and OpenLP by Blank to Desktop. The shortcut for this option is :kbd:`D`.
 
 Saving your service
 -------------------

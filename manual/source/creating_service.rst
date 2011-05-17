@@ -34,12 +34,27 @@ Displaying an Item
 When you have all of your items needed for the service in your Service Manager
 there are a few ways to get them to display on the screen. You can double-click
 the item, click it once with the mouse and push the :kbd:`Enter` key on your 
-keyboard or, click it once with the mouse and click on the projector at the 
-bottom of the Service Manager. Any of these methods will display your item on 
+keyboard, right click the item and left click *Show Live* or click it once with 
+the mouse and click on the projector at the bottom of the Service Manager. 
+
+.. image:: pics/service_send_live.png
+
+Any of these methods will display your item on 
 the screen. When your item is displayed, it will appear in the Live windows just 
-to the left of the Service Manager.
+to the left of the Service Manager. 
 
 .. image:: pics/service_live.png
+
+To Preview an item in the left *Preview* panes, right click the item and left 
+click *Show Preview*.
+
+Changing a Service theme
+------------------------
+
+When you get your Service file set up and you are previewing a slide or sending 
+it Live and you notice you don't have the correct theme for it, you can right 
+click the item and mouseover :guilabel:`Change Item Theme` and select the theme
+you want to use.
 
 Moving through a Service
 ------------------------
@@ -86,9 +101,11 @@ Sorting a group of Images
 -------------------------
 
 If you do not like the order the images are in, 
-right click Images and left click Reorder Item. 
+right click Images. 
 
 .. image:: pics/service_reorder.png
+
+Left click Reorder Item. 
 
 .. image:: pics/service_reorder_service_item.png
 
@@ -109,6 +126,23 @@ If you click :guilabel:`Add New Item` your image will be separate from your
 group of images as another item at the bottom of the Service. If you click 
 :guilabel:`Add to Selected Item` your image will be added to your group of 
 images.
+
+Adding a service Note
+---------------------
+
+You have the option to leave yourself or the next tech a service note. This is 
+done by right clicking on an item in your service and left clicking *Notes*.
+
+.. image:: pics/service_item_notes.png
+
+You can type your note in the box and click :guilabel:`Save`. If you change your
+mind you can click :guilabel:`Cancel`. Your note will appear as a yellow note on
+your item.
+
+.. image:: pics/service_note.png
+
+If you need to change your Note or delete it, open it again, delete your text 
+and click :guilabel:`Save`
 
 Using the Continuous Loop Timer
 -------------------------------
@@ -149,7 +183,7 @@ you your three options.
   open on the extended monitor or projector. You can seamlessly switch between one 
   program and OpenLP by Blank to Desktop. The shortcut for this option is :kbd:`D`.
   
-You can change or add the keyboard shortcuts here 
+You can change or add to the keyboard shortcuts here 
 :menuselection:`Settings --> Configure Shortcuts`.
 
 New, Open and Saving the service

@@ -169,19 +169,19 @@ you your three options.
 .. image:: pics/service_blank.png
 
 **Blank Screen** 
-  Choosing this option will blank your projector to black as if it were shut off. 
-  The shortcut for this option is :kbd:`.` (fullstop/period on your keyboard).
+    Choosing this option will blank your projector to black as if it were shut off. 
+    The shortcut for this option is :kbd:`.` (fullstop/period on your keyboard).
 
 **Blank to Theme** 
-  Choosing this option will show your blank theme only, without lyrics or verses. 
-  If you are blanking a song with an assigned theme it will blank to that theme. 
-  If no theme is assigned or you are blanking a presentation or image, it will 
-  blank to the global theme. The shortcut for this option is :kbd:`T`. 
+    Choosing this option will show your blank theme only, without lyrics or verses. 
+    If you are blanking a song with an assigned theme it will blank to that theme. 
+    If no theme is assigned or you are blanking a presentation or image, it will 
+    blank to the global theme. The shortcut for this option is :kbd:`T`. 
 
 **Blank to Desktop** 
-  Choosing this option will show your desktop wallpaper or a program that you have 
-  open on the extended monitor or projector. You can seamlessly switch between one 
-  program and OpenLP by Blank to Desktop. The shortcut for this option is :kbd:`D`.
+    Choosing this option will show your desktop wallpaper or a program that you have 
+    open on the extended monitor or projector. You can seamlessly switch between one 
+    program and OpenLP by Blank to Desktop. The shortcut for this option is :kbd:`D`.
   
 You can change or add to the keyboard shortcuts here 
 :menuselection:`Settings --> Configure Shortcuts`.

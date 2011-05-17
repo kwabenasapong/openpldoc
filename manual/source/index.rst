@@ -14,6 +14,7 @@ Getting Started With OpenLP
 
    introduction
    installation
+   creating_service.rst
 
 Reference Manual
 ----------------

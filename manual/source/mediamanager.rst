@@ -1,3 +1,5 @@
+.. _mediamanager:
+
 =============
 Media Manager
 =============

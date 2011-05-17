@@ -77,7 +77,7 @@ in the bottom Live window. To change slides you can use your mouse to click on
 each slide in the top Live window, use the Left Arrow and Right Arrow icons 
 under the top Live window.
 
-service_live_arrows.png
+.. image:: pics/service_live_arrows.png
 
 You can also use the :kbd:`Down Arrow` key to move down through 
 the song or verses. Using the :kbd:`Up Arrow` key will move you from bottom to 

@@ -1,67 +1,5 @@
-Installing OpenLP
-=================
-
-Microsoft Windows
------------------
-
-Installing OpenLP is identical over all supported versions of Windows. After
-downloading the file from the `download page <http://www.openlp.org/en/download.html>`_ 
-open the file by double clicking when the download is complete. After opening 
-the downloaded file agree to open the unverified file if you are prompted.
-
-Next select your language and click :guilabel:`OK`
-
-.. image:: pics/selectlanguage.png
-
-After reading the welcome message click :guilabel:`Next` to continue the
-installation.
-
-.. image:: pics/welcome.png
-
-Agree to the license agreement. Click :guilabel:`Next` to continue.
-
-.. image:: pics/license.png
-
-Select the install location for OpenLP. Choosing the default location is
-generally the best choice. Click :guilabel:`Next` to continue.
-
-.. image:: pics/installlocation.png
-
-Select a start menu folder for OpenLP to be visible in. The default location
-here is generally the best choice. Click :guilabel:`Next` to continue.
-
-.. image:: pics/startmenufolder.png
-
-Select if you want to create a desktop or Quick Launch icon. Click :guilabel:`Next`
-to continue.
-
-.. image:: pics/additionaltask.png
-
-Review your previous choices. If you need to make any changes click the
-:guilabel:`Back button` to get to the previous choices, or click :guilabel:`Install`
-
-.. image:: pics/readytoinstall.png
-
-The progress bar will update you on how far along the installation has gone.
-
-.. image:: pics/progress.png
-
-When the install is complete you will have the option to launch OpenLP. After
-making your selection click :guilabel:`Finish`
-
-Mac OS X
---------
-
-Installing OpenLP on OS X is very simple. After downloading the correct file
-from the OpenLP `download page <http://www.openlp.org/en/download.html>`_ 
-double click on the .dmg file. Drag the OpenLP icon over to the Applications
-folder and you will be ready to use OpenLP. OpenLP will be available in your
-Applications folder.
-
-.. image:: pics/osxinstall.png
-
-Linux
------
+Installing OpenLP on Linux
+==========================
 
 Setting up OpenLP varies by distribution. We have included documentation on
 popular distributions or distributions that have OpenLP available from their
@@ -137,13 +75,16 @@ Install OpenLP::
 
   user@ubuntu:~$ sudo apt-get install openlp
 
-OpenLP should now be available in your desktops menu system, but if you wish 
+OpenLP should now be available in your desktop's menu system, but if you wish 
 to run OpenLP from the command line type::
 
   user@ubuntu:~$ openlp
 
 Fedora (GNOME)
 ^^^^^^^^^^^^^^
+
+**Note** When installing OpenLP you will need to have administrator privileges.
+You will be asked for the administrator password to install.
 
 Installing with Fedora you will use the default Add/Remove Programs available
 from :menuselection:`System --> Administration --> Add/Remove Programs` in 
@@ -175,4 +116,58 @@ later.
 
 OpenLP will be available in :menuselection:`Applications --> Sound & Video --> OpenLP`
 
+Fedora (KDE)
+^^^^^^^^^^^^
 
+**Note** when installing OpenLP you will need to have administrator privileges.
+You will be asked for the administrator password to install.
+
+From the KickOff open *Software Management*. Type OpenLP into the search
+box. Then click :guilabel:`Find by name` or press :kbd:`Enter`.
+
+.. image:: pics/1fedoragetremove.png 
+
+Select OpenLP from the search results. Next, click :guilabel:`Apply`
+
+.. image:: pics/2fedoragetremove.png
+
+Now give permission to install other software dependencies that are needed by
+clicking :guilabel:`Continue`
+
+.. image:: pics/3fedoraadditionalchanges.png
+
+Once completed you can run OpenLP by clicking on its logo in the completed 
+install notification, or from the KickOff menu.
+
+.. image:: pics/4fedoracompleted.png
+
+Fedora Command Line Install
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+To install OpenLP from the command line type::
+
+  user@fedora:~$ sudo yum install openlp
+
+OpenLP should now be available in your desktop's menu system, but if you wish 
+to run OpenLP from the command line type::
+
+  user@fedora:~$ openlp
+
+Arch Linux
+^^^^^^^^^^
+
+OpenLP is availabe on Arch Linux through the Arch User Repository, or AUR. Info
+on the AUR can be found `at the Arch wiki <https://wiki.archlinux.org/index.php/Arch_User_Repository>`_.
+
+There are a variety of tools and methods to install from the AUR. For this
+example we will demonstrate using Yaourt. For more info on Yaourt please see 
+the `Yaourt documentation <https://wiki.archlinux.org/index.php/Yaourt>`_.  
+
+From a terminal type::
+
+  user@arch:~$ yaourt -S openlp
+
+OpenLP should now be available in your desktop's menu system, but if you wish
+to run OpenLP from the command line type::
+
+  user@arch:~$ openlp

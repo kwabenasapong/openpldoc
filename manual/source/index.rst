@@ -13,7 +13,8 @@ Getting Started With OpenLP
    :maxdepth: 2
 
    introduction
-   installation
+   install_windows_mac
+   install_linux
 
 Reference Manual
 ----------------

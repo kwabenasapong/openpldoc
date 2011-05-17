@@ -184,7 +184,7 @@ Fedora (KDE)
 **Note** when installing OpenLP you will need to have administrator privileges.
 You will be asked for the administrator password to install.
 
-From the KickOff open *Get and Remove Software*. Type OpenLP into the search
+From the KickOff open *Software Management*. Type OpenLP into the search
 box. Then click :guilabel:`Find by name` or press :kbd:`Enter`.
 
 .. image:: pics/1fedoragetremove.png 

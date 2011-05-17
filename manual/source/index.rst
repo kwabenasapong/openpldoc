@@ -13,8 +13,8 @@ Getting Started With OpenLP
    :maxdepth: 2
 
    introduction
-   installation
-   creating_service.rst
+   install_windows_mac
+   install_linux
 
 Reference Manual
 ----------------

@@ -335,22 +335,24 @@ Your choices will be displayed here.
 Remote Tab
 ===========
 
-.. image:: pics/configureremotes.png
+OpenLP gives you the ability to control your Service Manager or send an Alert 
+from a remote computer through a web browser. This could be usefull for a nursery 
+or day care to display an Alert message or use it as an interface to control the 
+whole service remotely. This will work in any web browser that has network access 
+whether it is another computer, a netbook or a smartphone.
 
-OpenLP gives you the ability to control your Service Manager from a remote
-computer through a web browser. This was originally written for a nursery or day 
-care where a "come and get YYYY" message could be triggered remotely. It has
-now become an interface to control the whole service remotely.
-
-An example of one use for this would be if you have a missionary with a 
+A couple examples of use for this would be if you have a missionary with a 
 PowerPoint presentation, it may be easier for that missionary to remotely 
-connect to your projection computer and change the slides when he wants to. 
+connect to your projection computer and change the slides when he wants to, or 
+could be used for a nursery or day care to display an Alert message. 
 
 To use this feature your computers will need to be on the same network, wired or 
 wireless.
 
 Server Settings
 ^^^^^^^^^^^^^^^
+
+.. image:: pics/configureremotes.png
 
 **Serve on IP address:** 
 

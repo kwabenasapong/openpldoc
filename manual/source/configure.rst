@@ -8,7 +8,7 @@ self-explanatory and we will quickly review them.
 To configure OpenLP, click on :menuselection:`Settings --> Configure OpenLP...`
 
 The plugins you have activated will have configure options. If all the plugins
-are activated there will be 9 tabs across the top  you can configure.
+are activated there will be 10 items down the left side you can configure.
 
 General Tab
 ===========
@@ -338,7 +338,7 @@ Remote Tab
 .. image:: pics/configureremotes.png
 
 OpenLP gives you the ability to control your Service Manager from a remote
-computer through a web browser. This was written actually for a nursery or day 
+computer through a web browser. This was originally written for a nursery or day 
 care where a "come and get YYYY" message could be triggered remotely. It has
 now become an interface to control the whole service remotely.
 
@@ -346,31 +346,40 @@ An example of one use for this would be if you have a missionary with a
 PowerPoint presentation, it may be easier for that missionary to remotely 
 connect to your projection computer and change the slides when he wants to. 
 
-To use this feature you will need to be on a network, wired or wireless, know
-the IP address of the projection computer and enter that IP address and port 
-number in the remote computer's web browser.
-
-To find your projection computer's IP address for Windows, open Command Prompt
-and type in “ipconfig” (without quotations), press Enter key and your IP
-address will show. In Linux, open Terminal and type “ifconfig” (without
-quotations), and use the IP address after “inet addr:” The IP address will
-always have a format of xxx.xxx.xxx.xxx where x is one to three digits long.
+To use this feature your computers will need to be on the same network, wired or 
+wireless.
 
 Server Settings
 ^^^^^^^^^^^^^^^
 
-Serve on IP address: Put your projection computer's IP address here. 
+**Serve on IP address:** 
 
-Port Number
-^^^^^^^^^^^
+Put your projection computer's IP address here or use 
+0.0.0.0 which will display your ip address links below. 
+
+**Port Number:** 
 
 You can use the default port number or change it to another number.
+
+**Remote URL:** 
+
+This should show the address you will use in the remote computer
+web browser.
+
+**Stage view URL:** 
+
+This should show the address you will use in the remote 
+computer for Stage view.
+
+If the Remote or Stage view URL are not showing you can manually find these
+settings. To find your projection computer's IP address for Windows, open 
+*Command Prompt* and type in “ipconfig” (without quotations), press Enter key and 
+your IP address will show. In Linux, open *Terminal* and type “ifconfig” (without
+quotations), and use the IP address after “inet addr:” The IP address will
+always have a format of xxx.xxx.xxx.xxx where x is one to three digits long.
 
 With these two settings written down, open a web browser in the remote computer
 and enter the IP address followed by a colon and then the port number, ie: 
 192.168.1.104:4316  then press enter. You should now have access to the OpenLP
 Controller. If it does not come up, you either entered the wrong IP address, 
-port number or one or both computer's are not connected to the network. 
-
-
-
+port number or one or both computer's are not connected to the network.

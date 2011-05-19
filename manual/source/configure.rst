@@ -390,11 +390,11 @@ Open *Terminal* and type :command:`ifconfig` and use the IP address
 after “inet addr:” The IP address will always have a format of 
 xxx.xxx.xxx.xxx where x is one to three digits long.
 
-**OS X 10.4 or 10.3** 
+**OS X 10.6 or 10.5** 
 
-From the Apple menu, select `Location --> Network Preferences...`
-In the Network Preference window, next to "Show:", select :command:`Network Status`. 
-You will see your network status and your IP address displayed.
+From the Apple menu, select :menuselection:`System Preferences --> View --> Network`.
+In the Network preference window, click a network port (e.g., Ethernet, AirPort, 
+modem). If you are connected, you'll see its IP address under "Status:".
 
 With these two settings written down, open a web browser in the remote computer
 and enter the IP address followed by a colon and then the port number, ie: 

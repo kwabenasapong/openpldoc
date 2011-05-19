@@ -343,7 +343,7 @@ whether it is another computer, a netbook or a smartphone.
 
 An example of use for this would be if you have a missionary with a 
 PowerPoint presentation, it may be easier for that missionary to remotely 
-connect to your projection computer and change the slides when he wants to.
+connect to your projection computer and change the slides when they want to.
 
 To use this feature your computers will need to be on the same network, wired or 
 wireless.
@@ -385,7 +385,9 @@ Open *Command Prompt* and type::
   
   C:\Documents and Settings\user>ipconfig
  
-press the Enter key and your IP address will show. 
+Press the :kbd:`Enter` key and the output of your command will display the
+adapter IP address. The IP address will always have a format of xxx.xxx.xxx.xxx 
+where x is one to three digits long.
 
 **Linux:** 
 
@@ -393,7 +395,10 @@ Open *Terminal* and type::
 
   linux@user:~$ifconfig 
 
-and use the IP address after “inet addr:” The IP address will always have a 
+Press the :kbd:`Enter` key. This will display a fair amount of technical 
+information about your network cards. On most computers, the network card is 
+named "eth0". The IP address for your network card is just after "inet addr:" in 
+the section with your network card's name. The IP address will always have a 
 format of xxx.xxx.xxx.xxx where x is one to three digits long.
 
 **OS X 10.6 or 10.5** 

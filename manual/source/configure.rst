@@ -373,12 +373,28 @@ web browser.
 This will show the address you will use in the remote 
 computer for Stage view.
 
+Finding your IP address
+^^^^^^^^^^^^^^^^^^^^^^^
+
 If the Remote or Stage view URL are not showing you can manually find these
-settings. To find your projection computer's IP address for Windows, open 
-*Command Prompt* and type in “ipconfig” (without quotations), press Enter key and 
-your IP address will show. In Linux, open *Terminal* and type “ifconfig” (without
-quotations), and use the IP address after “inet addr:” The IP address will
-always have a format of xxx.xxx.xxx.xxx where x is one to three digits long.
+settings. To find your projection computer's IP address use these steps below. 
+
+**Windows:** 
+
+Open *Command Prompt* and type in :command:`ipconfig`, press the Enter key and 
+your IP address will show. 
+
+**Linux:** 
+
+Open *Terminal* and type :command:`ifconfig` and use the IP address 
+after “inet addr:” The IP address will always have a format of 
+xxx.xxx.xxx.xxx where x is one to three digits long.
+
+**OS X 10.4 or 10.3** 
+
+From the Apple menu, select `Location --> Network Preferences...`
+In the Network Preference window, next to "Show:", select :command:`Network Status`. 
+You will see your network status and your IP address displayed.
 
 With these two settings written down, open a web browser in the remote computer
 and enter the IP address followed by a colon and then the port number, ie: 

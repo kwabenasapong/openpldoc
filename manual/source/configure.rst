@@ -381,14 +381,20 @@ settings. To find your projection computer's IP address use these steps below.
 
 **Windows:** 
 
-Open *Command Prompt* and type in :command:`ipconfig`, press the Enter key and 
-your IP address will show. 
+Open *Command Prompt* and type::
+  
+  C:\Documents and Settings\user>ipconfig
+ 
+press the Enter key and your IP address will show. 
 
 **Linux:** 
 
-Open *Terminal* and type :command:`ifconfig` and use the IP address 
-after “inet addr:” The IP address will always have a format of 
-xxx.xxx.xxx.xxx where x is one to three digits long.
+Open *Terminal* and type::
+
+  linux@user:~$ifconfig 
+
+and use the IP address after “inet addr:” The IP address will always have a 
+format of xxx.xxx.xxx.xxx where x is one to three digits long.
 
 **OS X 10.6 or 10.5** 
 

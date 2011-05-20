@@ -105,16 +105,14 @@ click on the search result and click on :guilabel:`Install`. Click the
 .. image:: pics/kubuntuopenlpsearch.png
 
 You should now see the progress of the download.
-
+ 
 .. image:: pics/kubuntudownloadprogress.png
 
-Once completed you may have the option to click on OpenLP to launch or
-:guilabel:`Cancel` to use later. This option may not appear on all systems.
+Once completed you may have the option to start OpenLP from the window pictured
+below. If this feature is not enabled, you can start OpenLP from the KickOff
+menu.
 
 .. image:: pics/kubuntuopenlplaunch.png
-
-OpenLP will now be available from the KickOff Menu.
-
 
 Ubuntu Command Line Install
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^

@@ -108,11 +108,12 @@ You should now see the progress of the download.
 
 .. image:: pics/kubuntudownloadprogress.png
 
-Once completed click on OpenLP to launch or :guilabel:`Cancel` to use later.
+Once completed you may have the option to click on OpenLP to launch or
+:guilabel:`Cancel` to use later. This option may not appear on all systems.
 
 .. image:: pics/kubuntuopenlplaunch.png
 
-OpenLP will also now be available from the KickOff Menu.
+OpenLP will now be available from the KickOff Menu.
 
 
 Ubuntu Command Line Install

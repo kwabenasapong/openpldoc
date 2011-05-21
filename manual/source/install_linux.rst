@@ -58,6 +58,62 @@ the category *Media Apps* in Unity. If you are running the Classic Desktop you
 will have OpenLP available by clicking 
 :menuselection:`Applications --> Sound and Video --> OpenLP`
 
+Kubuntu
+^^^^^^^
+
+From the KickOff Menu click :guilabel:`System Settings` Then click on 
+:guilabel:`Software Management`.
+
+.. image:: pics/kubuntusystemsettings.png
+
+Click on settings in the left hand column.
+
+.. image:: pics/kubuntugetremovesoftware.png
+
+Click on the :guilabel:`Edit Origins` button.
+
+.. image:: pics/kubuntuaddremovesettings.png
+
+Click on the :guilabel:`Other Software` tab.
+
+.. image:: pics/kubuntusoftwaresources.png
+
+Click the :guilabel:`Add` button.
+
+.. image:: pics/kubuntuothersoftware.png
+
+Type the following in the text box::
+
+  ppa:openlp-core/release
+
+.. image:: pics/kubuntuaddapt.png
+
+After clicking :guilabel:`OK` you should now see new entries for OpenLP
+
+.. image:: pics/kubuntusoftwareopenlpadded.png
+
+Click :guilabel:`Close` when given the option to reload the software 
+information click the :guilabel:`Reload` button.
+
+.. image:: pics/kubuntureloadsources.png
+
+Click on :guilabel:`Get and Remove Software` in the left column. Type openlp in
+the search box. Next, click on :guilabel:`Find by name`. Once OpenLP is located
+click on the search result and click on :guilabel:`Install`. Click the
+:guilabel:`Apply` button to install OpenLP 
+
+.. image:: pics/kubuntuopenlpsearch.png
+
+You should now see the progress of the download.
+ 
+.. image:: pics/kubuntudownloadprogress.png
+
+Once completed you may have the option to start OpenLP from the window pictured
+below. If this feature is not enabled, you can start OpenLP from the KickOff
+menu.
+
+.. image:: pics/kubuntuopenlplaunch.png
+
 Ubuntu Command Line Install
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 

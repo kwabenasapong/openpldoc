@@ -98,15 +98,15 @@ osis file for example::
 Importing OpenSong Bibles
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Converting from OpenSong you will need to locate your bibles database. In the 
+Converting from OpenSong you will need to locate your Bibles database. In the 
 later versions of OpenSong you are asked to define the location of this. The 
 songs will be located in a folder named :guilabel:`Bibles`. This folder should
-contain files with all your bibles in them without a file extension. (file.xmms).
-When you have located this folder you will need to select the bible from the 
+contain files with all your Bibles in them without a file extension. (file.xmms).
+When you have located this folder you will need to select the Bible from the 
 folder. 
 
-You may also import downloaded bibles from OpenSong. The process is the same,
-except you will need to extract the bible from a zip file. This is usually done
+You may also import downloaded Bibles from OpenSong. The process is the same,
+except you will need to extract the Bible from a zip file. This is usually done
 by right clicking on the downloaded file and select `Extract` or `Extract Here`.
 
 After selecting the OpenSong Bibles you want to import, follow the rest of the
@@ -120,7 +120,7 @@ Importing Web Download Bibles
 
 OpenLP provides a Web Download method to import Bibles when you do not have a
 locally installed Bible available. The Web Download method registers the Bible
-in OpenLP like the other bibles only it downloads the verses as you need them.
+in OpenLP like the other Bibles only it downloads the verses as you need them.
 This import is not meant to be used as your sole source for Bibles, but rather
 as another option and does require an internet connection.
 
@@ -140,7 +140,7 @@ not be needed.
 
 After selecting your download location and the Bible you wish to use, click
 :guilabel:`Next` to continue the import process. When your import is completed
-you should now be ready to use the web bible.
+you should now be ready to use the web Bible.
 
 Importing CSV formatted Bibles
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

@@ -4,7 +4,7 @@ Installing OpenLP on BSD
 PC-BSD
 ^^^^^^
 
-You will need to have root privileges to install OpenLP you will be asked for 
+You will need to have root privileges to install OpenLP. You will be asked for 
 the root password several times during installation.
 
 From the KickOff Menu select :guilabel:`System Settings`. From the System
@@ -23,7 +23,7 @@ located click on :guilabel:`Download`
 .. image:: pics/3pcbsd.png
 
 Confirm you want to download OpenLP. You should now be able to see the progress
-of the download and OpenLP installation.
+of the OpenLP download and installation.
 
 .. image:: pics/4pcbsd.png
 

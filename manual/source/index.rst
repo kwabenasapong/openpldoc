@@ -15,6 +15,7 @@ Getting Started With OpenLP
    introduction
    install_windows_mac
    install_linux
+   install_bsd
    creating_service
 
 Reference Manual

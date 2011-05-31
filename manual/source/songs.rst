@@ -222,7 +222,7 @@ typing a theme name in the box and the list will appear. You can also create a
 new theme by clicking the :guilabel:`New Theme` button. 
 
 **Copyright information:** Add or edit the copyright information in this box. If 
-you would like to use the © symbol click "guilabel:`©` button. This information
+you would like to use the © symbol click :guilabel:`©` button. This information
 is displayed in the footer.
 
 **CCLI number:** Enter the CCLI number in this box. Note: this is the CCLI number

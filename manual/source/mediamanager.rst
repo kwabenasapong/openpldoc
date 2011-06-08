@@ -108,13 +108,14 @@ You will type your search query in this box for the following two searches.
 
 `Search type:` You may search for a specific verse using this format below. 
 
-Book Chapter 
-Book Chapter-Chapter
-Book Chapter:Verse-Verse
-Book Chapter:Verse-End (this will display verses to the end of the chapter)
-Book Chapter:Verse-Verse, Verse-Verse
-Book Chapter:Verse-Verse,Chapter:Verse-Verse
-Book Chapter:Verse-Chapter:Verse
+* Book Chapter 
+* Book Chapter-Chapter
+* Book Chapter:Verse-Verse
+* Book Chapter:Verse-End (this will display verses to the end of the chapter)
+* Book Chapter:Verse-Verse, Verse-Verse
+* Book Chapter:Verse-Verse, Chapter:Verse-Verse
+* Book Chapter:Verse-Chapter:Verse
+
 
 `Text Search:`
 
@@ -152,7 +153,12 @@ Results will work the same as the Quick tab above.
 
 Presentations
 ^^^^^^^^^^^^^
+
+.. image:: pics/mediamanager_presentations.png
+
 Using the buttons you can:
+
+.. image:: pics/mediamanager_presentations_buttons.png
 
 `Load a new presentation:` This brings up a dialog box to find your presentation 
 and list it in OpenLP.
@@ -175,7 +181,12 @@ Right clicking on a Presentation file will bring up some of the same options.
 
 Images
 ^^^^^^
+
+.. image:: pics/mediamanager_images.png
+
 Using the buttons you can:
+
+.. image:: pics/mediamanager_images_buttons.png
 
 `Load a new Image:` This brings up a dialog box to find your Image and list it 
 in OpenLP.
@@ -202,11 +213,15 @@ Right clicking on an Image file will bring up some of the same options.
 
 Media
 ^^^^^
-
 Media is an audio or video file. Generally if you can play or view your media 
 on your computer without OpenLP, you can also play it in OpenLP.
 
+.. image:: pics/mediamanager_media.png
+
 Using the buttons you can:
+
+.. image:: pics/mediamanager_media_buttons.png
+
 `Load a new Media:` This brings up a dialog box to find your Media and list it 
 in OpenLP.
 
@@ -229,6 +244,12 @@ Right clicking on a Media file will bring up some of the same options.
 
 Custom
 ^^^^^^
+
+.. image:: pics/mediamanager_custom.png
+
+Using the buttons you can:
+
+.. image:: pics/mediamanager_custom_buttons.png
 
 Custom gives you the option of creating your own slide. This could be useful for 
 displaying readings, liturgy or any text that may not be found in Songs or 
@@ -253,6 +274,8 @@ Right clicking on a Custom file will bring up some of the same options.
 
 When you Add a new Custom slide a dialog box will appear. 
 
+.. image:: pics/mediamanager_custom_edit.png
+
 `Title:` Name of your Custom slide.
 
 `Add:` After clicking on Add you will enter your text you want to display in 
@@ -261,6 +284,7 @@ finished adding your text, click on the Save button.
 
 `Theme:` Select the theme you want to use for your Custom slide from this drop 
 down box.
+
 `Credits:` Anything typed in this box will be displayed in the footer 
 information on the display. When you are finished, click the Save button.
 

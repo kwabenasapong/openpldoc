@@ -37,7 +37,11 @@ Songs
 Clicking on Songs in the Media Manager will display all of the songs you have 
 added by Title and Author/Authors.
 
+.. image:: pics/mediamanager_songs.png
+
 Using the buttons you can: 
+
+.. image:: pics/mediamanager_songs_buttons.png
 
 `Add a song:` Brings up the dialog box to add a new song
 
@@ -63,7 +67,11 @@ Bibles
 Clicking on Bibles in the Media Manager will display your options for searching 
 and adding chapters and verses to the Service Manager.
 
+.. image:: pics/mediamanager_bibles.png
+
 Using the buttons you can:
+
+.. image:: pics/mediamanager_bibles_buttons.png
 
 `Import a Bible:` This is discussed in detail on the Bible Importer page in the 
 manual. 
@@ -78,6 +86,8 @@ Service Manager. You may also click and drag your verses over to the Service
 Manager. 
 
 **Quick tab**
+
+.. image:: pics/mediamanager_bibles_quick.png
 
 `Version:` Once you have imported a Bible, it will be displayed in the Version 
 drop down box. Select the version of the Bible you want to use here.
@@ -113,7 +123,11 @@ search, the more you will narrow down your results.
 
 **Results** `Clear and Keep.`
  
-Each search you make will display your verses below. If you would like to 
+Each search you make will display your verses below. 
+
+.. image:: pics/mediamanager_bibles_results.png
+
+If you would like to 
 display verses that are out of sequence you may select `Keep` in the drop down 
 box and continue your search for the next verse or verses. All searches will be 
 shown and kept below. 
@@ -121,6 +135,8 @@ If you select `Clear` from the drop down box, each new search clears the
 previous search from the list below.
 
 **Advanced tab**
+
+.. image:: pics/mediamanager_bibles_advanced.png
 
 This tab is convenient for selecting book, chapter and verse by name and number.
 Version and Second are the same as in Quick tab above. Click on each box and 

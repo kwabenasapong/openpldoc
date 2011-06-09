@@ -37,7 +37,11 @@ Songs
 Clicking on Songs in the Media Manager will display all of the songs you have 
 added by Title and Author/Authors.
 
+.. image:: pics/mediamanager_songs.png
+
 Using the buttons you can: 
+
+.. image:: pics/mediamanager_songs_buttons.png
 
 `Add a song:` Brings up the dialog box to add a new song
 
@@ -63,7 +67,11 @@ Bibles
 Clicking on Bibles in the Media Manager will display your options for searching 
 and adding chapters and verses to the Service Manager.
 
+.. image:: pics/mediamanager_bibles.png
+
 Using the buttons you can:
+
+.. image:: pics/mediamanager_bibles_buttons.png
 
 `Import a Bible:` This is discussed in detail on the Bible Importer page in the 
 manual. 
@@ -78,6 +86,8 @@ Service Manager. You may also click and drag your verses over to the Service
 Manager. 
 
 **Quick tab**
+
+.. image:: pics/mediamanager_bibles_quick.png
 
 `Version:` Once you have imported a Bible, it will be displayed in the Version 
 drop down box. Select the version of the Bible you want to use here.
@@ -98,13 +108,14 @@ You will type your search query in this box for the following two searches.
 
 `Search type:` You may search for a specific verse using this format below. 
 
-Book Chapter 
-Book Chapter-Chapter
-Book Chapter:Verse-Verse
-Book Chapter:Verse-End (this will display verses to the end of the chapter)
-Book Chapter:Verse-Verse, Verse-Verse
-Book Chapter:Verse-Verse,Chapter:Verse-Verse
-Book Chapter:Verse-Chapter:Verse
+* Book Chapter 
+* Book Chapter-Chapter
+* Book Chapter:Verse-Verse
+* Book Chapter:Verse-End (this will display verses to the end of the chapter)
+* Book Chapter:Verse-Verse, Verse-Verse
+* Book Chapter:Verse-Verse, Chapter:Verse-Verse
+* Book Chapter:Verse-Chapter:Verse
+
 
 `Text Search:`
 
@@ -113,7 +124,11 @@ search, the more you will narrow down your results.
 
 **Results** `Clear and Keep.`
  
-Each search you make will display your verses below. If you would like to 
+Each search you make will display your verses below. 
+
+.. image:: pics/mediamanager_bibles_results.png
+
+If you would like to 
 display verses that are out of sequence you may select `Keep` in the drop down 
 box and continue your search for the next verse or verses. All searches will be 
 shown and kept below. 
@@ -121,6 +136,8 @@ If you select `Clear` from the drop down box, each new search clears the
 previous search from the list below.
 
 **Advanced tab**
+
+.. image:: pics/mediamanager_bibles_advanced.png
 
 This tab is convenient for selecting book, chapter and verse by name and number.
 Version and Second are the same as in Quick tab above. Click on each box and 
@@ -136,7 +153,12 @@ Results will work the same as the Quick tab above.
 
 Presentations
 ^^^^^^^^^^^^^
+
+.. image:: pics/mediamanager_presentations.png
+
 Using the buttons you can:
+
+.. image:: pics/mediamanager_presentations_buttons.png
 
 `Load a new presentation:` This brings up a dialog box to find your presentation 
 and list it in OpenLP.
@@ -159,7 +181,12 @@ Right clicking on a Presentation file will bring up some of the same options.
 
 Images
 ^^^^^^
+
+.. image:: pics/mediamanager_images.png
+
 Using the buttons you can:
+
+.. image:: pics/mediamanager_images_buttons.png
 
 `Load a new Image:` This brings up a dialog box to find your Image and list it 
 in OpenLP.
@@ -186,11 +213,15 @@ Right clicking on an Image file will bring up some of the same options.
 
 Media
 ^^^^^
-
 Media is an audio or video file. Generally if you can play or view your media 
 on your computer without OpenLP, you can also play it in OpenLP.
 
+.. image:: pics/mediamanager_media.png
+
 Using the buttons you can:
+
+.. image:: pics/mediamanager_media_buttons.png
+
 `Load a new Media:` This brings up a dialog box to find your Media and list it 
 in OpenLP.
 
@@ -213,6 +244,12 @@ Right clicking on a Media file will bring up some of the same options.
 
 Custom
 ^^^^^^
+
+.. image:: pics/mediamanager_custom.png
+
+Using the buttons you can:
+
+.. image:: pics/mediamanager_custom_buttons.png
 
 Custom gives you the option of creating your own slide. This could be useful for 
 displaying readings, liturgy or any text that may not be found in Songs or 
@@ -237,6 +274,8 @@ Right clicking on a Custom file will bring up some of the same options.
 
 When you Add a new Custom slide a dialog box will appear. 
 
+.. image:: pics/mediamanager_custom_edit.png
+
 `Title:` Name of your Custom slide.
 
 `Add:` After clicking on Add you will enter your text you want to display in 
@@ -245,6 +284,7 @@ finished adding your text, click on the Save button.
 
 `Theme:` Select the theme you want to use for your Custom slide from this drop 
 down box.
+
 `Credits:` Anything typed in this box will be displayed in the footer 
 information on the display. When you are finished, click the Save button.
 

@@ -276,16 +276,15 @@ Right clicking on a Media file will bring up some of the same options.
 
 Custom
 ^^^^^^
+Custom gives you the option of creating your own slide. This could be useful for 
+displaying readings, liturgy or any text that may not be found in Songs or 
+Bibles.
 
 .. image:: pics/mediamanager_custom.png
 
 Using the buttons you can:
 
 .. image:: pics/mediamanager_custom_buttons.png
-
-Custom gives you the option of creating your own slide. This could be useful for 
-displaying readings, liturgy or any text that may not be found in Songs or 
-Bibles.
 
 *Add a new Custom:* Brings up the dialog box to add a new Custom display.
 *Edit the selected Custom:* Brings up the dialog box to make changes to the 

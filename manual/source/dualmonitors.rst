@@ -123,7 +123,7 @@ make sure that :guilabel:`Mirror displays` is **unchecked**
 
 .. image:: pics/gnome3displays.png 
 
-If after setting up your monitros you have the top panel on the wrong monitor
+If after setting up your monitors you have the top panel on the wrong monitor
 simply drag it to the monitor you want to serve as the primary screen.
 
 .. image:: pics/gnome3drag.png

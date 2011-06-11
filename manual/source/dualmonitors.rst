@@ -102,15 +102,31 @@ assumes you have properly set up any proprietary drivers if needed. You
 should seek out your distributions documentation if this general guide does not
 work.
 
-GNOME
-^^^^^
+GNOME 2
+^^^^^^^
 
-This guide is for users of the GNOME desktop who do not use proprietary drivers.
-From most distros go to :menuselection:`System --> Preferences --> Display
-Settings (Monitors)`. Set up your projector with the correct resolution and make
-sure that :guilabel:`Same image on all monitors` is **unchecked**.
+This guide is for users of the GNOME 2 desktop who do not use proprietary 
+drivers. From most distros go to :menuselection:`System --> Preferences --> 
+Display Settings (Monitors)`. Set up your projector with the correct resolution
+and make sure that :guilabel:`Same image on all monitors` is **unchecked**.
 
 .. image:: pics/gnome.png
+
+GNOME 3
+^^^^^^^
+
+This guide is for users of the GNOME 3 or GNOME Shell desktop who do not use
+proprietary drivers. In GNOME shell in the search box type *Displays* or in 
+GNOME shell or fall back mode go to :menuselection:`Applications --> System Tools --> System Settings`
+Then select Displays. Set up your projector with the correct resolution and
+make sure that :guilabel:`Mirror displays` is **unchecked**
+
+.. image:: pics/gnome3displays.png 
+
+If after setting up your monitros you have the top panel on the wrong monitor
+simply drag it to the monitor you want to serve as the primary screen.
+
+.. image:: pics/gnome3drag.png
 
 KDE
 ^^^

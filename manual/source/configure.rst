@@ -30,62 +30,52 @@ on your keyboard to close the display window.
 Application Startup
 ^^^^^^^^^^^^^^^^^^^
 
-**Show blank screen warning:**
+*Show blank screen warning:*
+  When this box is selected, you will get a warning when opening OpenLP that the 
+  output display has been blanked. You may have blanked it and shut down the 
+  program and this will warn you it is still blanked.
 
-When this box is selected, you will get a warning when opening OpenLP that the 
-output display has been blanked. You may have blanked it and shut down the 
-program and this will warn you it is still blanked.
+*Automatically open the last service:*
+  When this box is selected, OpenLP will remember the last service you were 
+  working on when you closed the program.
 
-**Automatically open the last service:**
+*Show the splash screen:*
+  The OpenLP logo is displayed while OpenLP loads when this checkbox is checked.
+  This is useful to give some indication that the program is loading.
 
-When this box is selected, OpenLP will remember the last service you were 
-working on when you closed the program.
-
-**Show the splash screen:**
-
-The OpenLP logo is displayed while OpenLP loads when this checkbox is checked.
-This is useful to give some indication that the program is loading.
-
-**Check for updates to OpenLP**
-
-OpenLP will check to see if there is a newer version available on a regular 
-basis when this checkbox is checked. Please note that this requires Internet 
-access.
+*Check for updates to OpenLP*
+  OpenLP will check to see if there is a newer version available on a regular 
+  basis when this checkbox is checked. Please note that this requires Internet 
+  access.
 
 Application Settings
 ^^^^^^^^^^^^^^^^^^^^
 
-**Prompt to save before starting a new service**
+*Prompt to save before starting a new service*
+  When this box is selected, OpenLP will prompt you to save the service you are
+  working on before starting a new service.
 
-When this box is selected, OpenLP will prompt you to save the service you are
-working on before starting a new service.
+*Automatically preview next item in service*
+  When this box is selected, the next item in the Service Manager will show in the
+  Preview pane.
 
-**Automatically preview next item in service**
+*Unblank display when adding new live item*
+  When using the :guilabel:`blank to` button with this checkbox checked, on going 
+  live with the next item, the screen will be automatically re-enabled. If this 
+  checkbox is not checked you will need to click the :guilabel:`blank to` button 
+  again to reverse the action.
 
-When this box is selected, the next item in the Service Manager will show in the
-Preview pane.
-
-**Unblank display when adding new live item**
-
-When using the :guilabel:`blank to` button with this checkbox checked, on going 
-live with the next item, the screen will be automatically re-enabled. If this 
-checkbox is not checked you will need to click the :guilabel:`blank to` button 
-again to reverse the action.
-
-
-**Slide loop delay** 
-
-This setting is the time delay in seconds if you want to continuously loop
-images, verses, or lyrics. This control timer is also accessible on the "live 
-toolbar.
+*Slide loop delay*
+  This setting is the time delay in seconds if you want to continuously loop
+  images, verses, or lyrics. This control timer is also accessible on the "live 
+  toolbar.
 
 CCLI Details
 ^^^^^^^^^^^^
 
-**CCLI number** 
-
-If you subscribe to CCLI, this box is for your License number. This number is
-also displayed in the Song Footer box.
+*CCLI number*
+  If you subscribe to CCLI, this box is for your License number. This number is
+  also displayed in the Song Footer box.
 
 Display Position
 ^^^^^^^^^^^^^^^^
@@ -113,23 +103,20 @@ Theme Level
 
 Choose from one of three options for the default use of your theme.
 
-**Song Level:**
+*Song Level:*
+  With this level selected, your theme is associated with the song. The theme is
+  controlled by adding or editing a song in the Song editor and  your song theme
+  takes priority. If your song does not have a theme associated with it, OpenLP
+  will use the theme set in the Service Manager.
 
-With this level selected, your theme is associated with the song. The theme is
-controlled by adding or editing a song in the Song editor and  your song theme
-takes priority. If your song does not have a theme associated with it, OpenLP
-will use the theme set in the Service Manager.
+*Service Level:*
+  With this level selected, your theme is controlled at the top of the Service
+  Manager. Select your default service theme there. This setting will override
+  your Song theme. 
 
-**Service Level:** 
-
-With this level selected, your theme is controlled at the top of the Service
-Manager. Select your default service theme there. This setting will override
-your Song theme. 
-
-**Global Level:**
-
-With this level selected, all songs and verses will use the theme selected on
-the left in the Global Theme drop down.
+*Global Level:*
+  With this level selected, all songs and verses will use the theme selected on
+  the left in the Global Theme drop down.
 
 Advanced Tab
 ============
@@ -140,27 +127,23 @@ Advanced Tab
 UI Settings (user interface)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-**Number of recent files to display:**
- 
-Set this number for OpenLP to remember your last files open. These will show 
-under File.
+*Number of recent files to display:*
+  Set this number for OpenLP to remember your last files open. These will show 
+  under File.
 
-**Remember active media manager tab on startup:**
- 
-With this box selected OpenLP media manager will open on the same tab that it
-was closed on.
+*Remember active media manager tab on startup:*
+  With this box selected OpenLP media manager will open on the same tab that it
+  was closed on.
 
-**Double-click to send items straight to live:**
+*Double-click to send items straight to live:*
+  With this box selected, double-clicking on anything in the Media Manager will
+  immediately send it live instead of to Preview.
 
-With this box selected, double-clicking on anything in the Media Manager will
-immediately send it live instead of to Preview.
-
-**Expand new service items on creation:**
-
-With this box selected, everything you add to the Service Manager will be
-expanded so you can see all the verses, lyrics and presentations, line by line.
-When you open OpenLP, everything will automatically be expanded in the Service
-Manager.
+*Expand new service items on creation:*
+  With this box selected, everything you add to the Service Manager will be
+  expanded so you can see all the verses, lyrics and presentations, line by line.
+  When you open OpenLP, everything will automatically be expanded in the Service
+  Manager.
 
 Songs Tab
 =========
@@ -170,31 +153,27 @@ Songs Tab
 Songs Mode
 ^^^^^^^^^^
 
-**Enable search as you type:**
+*Enable search as you type:*
+  With this box selected, Media Manager/Songs will display the song you are
+  searching for as you are typing. If this box is not selected, you need to type
+  in your search box and then click on the Search button.
 
-With this box selected, Media Manager/Songs will display the song you are
-searching for as you are typing. If this box is not selected, you need to type
-in your search box and then click on the Search button.
+*Display verses on live tool bar:*
+  With this box selected, a Go To drop down box is available on the live toolbar 
+  to select any part of the verse type you want displayed live. 
 
-**Display verses on live tool bar:**
+*Update service from song edit:*
+  With this box selected and you edit a song in the media manager, the results
+  will also change the song if it is added to the Service Manager. If this box
+  is not selected, your song edit changes will only be available in the Service
+  Manager if you add it again.
 
-With this box selected, a Go To drop down box is available on the live toolbar 
-to select any part of the verse type you want displayed live. 
-
-**Update service from song edit:**
-
-With this box selected and you edit a song in the media manager, the results
-will also change the song if it is added to the Service Manager. If this box
-is not selected, your song edit changes will only be available in the Service
-Manager if you add it again.
-
-**Add missing songs when opening service:**
-
-With this box selected, when you open an order of service created on another
-computer, or if one of the songs are no longer in your Media Manager, it will
-automatically enter the song in your Songs Media Manager. If this box is not 
-checked, the song is available in the service but will not be added to the 
-Media Manager.
+*Add missing songs when opening service:*
+  With this box selected, when you open an order of service created on another
+  computer, or if one of the songs are no longer in your Media Manager, it will
+  automatically enter the song in your Songs Media Manager. If this box is not 
+  checked, the song is available in the service but will not be added to the 
+  Media Manager.
 
 Bibles Tab
 ==========
@@ -204,42 +183,36 @@ Bibles Tab
 Verse Display
 ^^^^^^^^^^^^^
 
-**Only show new chapter numbers:**
+*Only show new chapter numbers:*
+  With this box selected, the live display of the verse will only show the
+  chapter number and verse for the first verse, and just the verse numbers after
+  that. If the chapter changes, the new chapter number will be displayed with the
+  verse number for the first line, and only the verse number displayed thereafter.
 
-With this box selected, the live display of the verse will only show the
-chapter number and verse for the first verse, and just the verse numbers after
-that. If the chapter changes, the new chapter number will be displayed with the
-verse number for the first line, and only the verse number displayed thereafter.
+*Display style:*
+  This option will put brackets around the chapter and verse numbers. You may
+  select No Brackets or your bracket style from the drop down menu.
 
-**Display style:**
+*Layout style:*
+  There are three options to determine how your Bible verses are displayed. 
 
-This option will put brackets around the chapter and verse numbers. You may
-select No Brackets or your bracket style from the drop down menu.
+* *Verse Per Slide* will display one verse per slide.
+* *Verse Per Line* will start each verse on a new line until the slide is full.
+* *Continuous* will run all verses together separated by verse number and chapter if chapter is selected to show above.
 
-**Layout style:**
+Note: Changes do not affect verses already in the service.
 
-There are three options to determine how your Bible verses are displayed. 
+*Display second Bible verses:*
+  OpenLP has the ability to display the same verse in two different Bible
+  versions for comparison. With this option selected, there will be a Second
+  choice in the Bible Media Manager to use this option. Verses will display with 
+  one verse per slide with the second Bible verse below.   
 
-`Verse Per Slide` will display one verse per slide.
-`Verse Per Line` will start each verse on a new line until the slide is full.
-`Continuous` will run all verses together separated by verse number and chapter
-if chapter is selected to show above.
+*Bible theme:*
+  You may select your default Bible theme from this drop down box. This selected
+  theme will only be used if your `Theme Level` is set at `Song Level`.
 
-**Note: Changes do not affect verses already in the service.** 
-
-**Display second Bible verses:**
-
-OpenLP has the ability to display the same verse in two different Bible
-versions for comparison. With this option selected, there will be a Second
-choice in the Bible Media Manager to use this option. Verses will display with 
-one verse per slide with the second Bible verse below.   
-
-**Bible theme:**
-
-You may select your default Bible theme from this drop down box. This selected
-theme will only be used if your `Theme Level` is set at `Song Level`.
-
-**Note: Changes do not affect verses already in the service.** 
+Note: Changes do not affect verses already in the service.
 
 
 Presentations Tab
@@ -260,11 +233,10 @@ the presentation. You may select your default controllers here in this tab.
 Advanced
 ^^^^^^^^
 
-**Allow presentation application to be overridden**
-
-With this option selected, you will see `Present using` area with a dropdown 
-box on the Presentations toolbar  in Media Manager which gives you the option 
-to select the presentation program you want to use.
+*Allow presentation application to be overridden*
+  With this option selected, you will see `Present using` area with a dropdown 
+  box on the Presentations toolbar  in Media Manager which gives you the option 
+  to select the presentation program you want to use.
 
 Media Tab
 =========
@@ -274,9 +246,8 @@ Media Tab
 Media Display
 ^^^^^^^^^^^^^
 
-**Use Phonon for video playback**
-
-If you are having trouble displaying media, selecting this box could help.
+*Use Phonon for video playback*
+  If you are having trouble displaying media, selecting this box could help.
 
 Custom Tab:
 ===========
@@ -286,13 +257,12 @@ Custom Tab:
 Custom Display
 ^^^^^^^^^^^^^^
 
-**Display Footer**
+*Display Footer*
+  With this option selected, your Custom slide Title will be displayed in the
+  footer. 
 
-With this option selected, your Custom slide Title will be displayed in the
-footer. 
-
-**Note: If you have an entry in the Credits box of your custom slide, title and
-credits will always be displayed.**
+Note: If you have an entry in the Credits box of your custom slide, title and
+credits will always be displayed.
 
 Alerts Tab
 ==========
@@ -302,35 +272,28 @@ Alerts Tab
 Font
 ^^^^
 
-**Font name:** 
+*Font name:*
+  Choose your desired font from the drop down menu
 
-Choose your desired font from the drop down menu
+*Font color:*
+  Choose your font color here.
 
-**Font color:**
+*Background color:*
+  Choose the background color the font will be displayed on.
 
-Choose your font color here.
+*Font size:*
+  This will adjust the size of the font.
 
-**Background color:** 
+*Alert timeout:*
+  This setting will determine how long your Alert will be displayed on the screen,
+  in seconds.
 
-Choose the background color the font will be displayed on.
+*Location:*
+  Choose the location where you want the alert displayed on the
+  screen, Top, Middle or Bottom.
 
-**Font size:** 
-
-This will adjust the size of the font.
-
-**Alert timeout:**
-
-This setting will determine how long your Alert will be displayed on the screen,
-in seconds.
-
-**Location:** 
-
-Choose the location where you want the alert displayed on the
-screen, Top, Middle or Bottom.
-
-**Preview:** 
-
-Your choices will be displayed here.
+*Preview:*
+  Your choices will be displayed here.
 
 Remote Tab
 ===========
@@ -353,25 +316,19 @@ Server Settings
 
 .. image:: pics/configureremotes.png
 
-**Serve on IP address:** 
+*Serve on IP address:*
+  Put your projection computer's IP address here or use 0.0.0.0 which will 
+  display your IP address links below. 
 
-Put your projection computer's IP address here or use 
-0.0.0.0 which will display your IP address links below. 
+*Port Number:*
+  You can use the default port number or change it to another number. If you don't 
+  understand this setting, you can leave it as is.
 
-**Port Number:** 
+*Remote URL:*
+  This will show the address you will use in the remote computer web browser.
 
-You can use the default port number or change it to another number. If you don't 
-understand this setting, you can leave it as is.
-
-**Remote URL:** 
-
-This will show the address you will use in the remote computer
-web browser.
-
-**Stage view URL:** 
-
-This will show the address you will use in the remote 
-computer for Stage view.
+*Stage view URL:*
+  This will show the address you will use in the remote computer for Stage view.
 
 Finding your IP address
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -379,8 +336,8 @@ Finding your IP address
 If the Remote or Stage view URL are not showing you can manually find these
 settings. To find your projection computer's IP address use these steps below. 
 
-**Windows:** 
-
+*Windows:*
+  
 Open *Command Prompt* and type::
   
   C:\Documents and Settings\user>ipconfig
@@ -389,7 +346,7 @@ Press the :kbd:`Enter` key and the output of your command will display the
 adapter IP address. The IP address will always have a format of xxx.xxx.xxx.xxx 
 where x is one to three digits long.
 
-**Linux:** 
+*Linux:*
 
 Open *Terminal* and type::
 
@@ -401,11 +358,10 @@ named "eth0". The IP address for your network card is just after "inet addr:" in
 the section with your network card's name. The IP address will always have a 
 format of xxx.xxx.xxx.xxx where x is one to three digits long.
 
-**OS X 10.6 or 10.5** 
-
-From the Apple menu, select :menuselection:`System Preferences --> View --> Network`.
-In the Network preference window, click a network port (e.g., Ethernet, AirPort, 
-modem). If you are connected, you'll see its IP address under "Status:".
+*OS X 10.6 or 10.5*
+  From the Apple menu, select :menuselection:`System Preferences --> View --> Network`.
+  In the Network preference window, click a network port (e.g., Ethernet, AirPort, 
+  modem). If you are connected, you'll see its IP address under "Status:".
 
 With these two settings written down, open a web browser in the remote computer
 and enter the IP address followed by a colon and then the port number, ie: 

@@ -5,7 +5,7 @@ Bibles
 Managing Bibles in OpenLP is a relatively simple process. There are also 
 converters provided to get data from other formats into OpenLP.
 
-.. _bibleimporter:
+.. _bible-importer:
 
 Bible Importer
 ==============
@@ -15,7 +15,10 @@ package, you may be able to convert your existing database to work in OpenLP
 2.0. To access the Bible Importer :menuselection:`File --> Import --> Bible`.
 You may also enter the Bible Importer by clicking the :guilabel:`Import Icon:`
 
-.. image:: pics/themeimportexport.png
+|importicon| Import Bibles
+    Click on the :guilabel:`Import Bibles` icon to start the Bible import wizard.
+
+.. |IMPORTICON| image:: pics/themeimportexport.png
 
 You will see the Bible Importer window, click :guilabel:`Next`.
 

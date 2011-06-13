@@ -1,3 +1,5 @@
+.. _glossary:
+
 ========
 Glossary
 ========
@@ -5,6 +7,8 @@ Glossary
 The developers of OpenLP have strived to make it a straightforward and easy to
 use application. However, it is good to be familiar with a few terms that will 
 be used throughout this documentation, and when seeking support.
+
+.. _main-window:
 
 Main Window
 -----------
@@ -14,6 +18,8 @@ The Main Window is what you will see when you first open OpenLP
 .. image:: pics/mainwindow.png
 
 The Main Window contains all the tools and plugins that make OpenLP function
+
+.. _media-manager:
 
 Media Manager
 -------------
@@ -31,6 +37,8 @@ Platform
 When the word platform is used, it is usually referring to your operating system,
 Windows, Linux or MAC OS.
 
+.. _preview:
+
 Preview 
 -------
 
@@ -39,16 +47,22 @@ with them.
 
 .. image:: pics/preview.png
 
+.. _service-file:
+
 Service File
 ------------
 
 A service file is the file that is created when you save your service in OpenLP.
 The service file consist of **Service Items**
 
+.. _service-item:
+
 Service Item
 ------------
 
 Service items are the **media items** that are in the **service manager**
+
+.. _service-manager:
 
 Service Manger
 --------------
@@ -59,6 +73,8 @@ services files from here.
 
 .. image:: pics/servicemanager.png
 
+.. _slide-controller:
+
 Slide Controller
 ----------------
 
@@ -66,6 +82,8 @@ The Slide Controller controls which slide from a **Service Item** is currently
 being displayed, and moving between the various slides.
 
 .. image:: pics/slidecontroller.png
+
+.. _theme-manager:
 
 Theme Manager
 -------------

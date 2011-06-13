@@ -5,15 +5,15 @@ Media Manager
 =============
 
 Once you get your system set up for OpenLP you will be ready to add content to
-your Service Manager. This will all happen through the **Media Manager**. The
-`Media Manager` contains all the Bibles, Songs, Presentations, Media, and 
+your Service Manager. This will all happen through the :ref:`media-manager`. The
+:ref:`media-manager` contains all the Bibles, Songs, Presentations, Media, and 
 everything else that you will project through OpenLP.
 
 Enabling the Plugins
 --------------------
 
 You may need to enable the plugins that came with OpenLP. As you can see below
-this is what the `Media Manager` looks like with all the plugins enabled.
+this is what the :ref:`media-manager` looks like with all the plugins enabled.
 
 .. image:: pics/mediamanager.png
 
@@ -34,38 +34,41 @@ capable of displaying.
 
 Songs
 ^^^^^
-Clicking on Songs in the Media Manager will display all of the songs you have 
-added by Title and Author/Authors.
+Clicking on songs in the :ref:`media-manager` will display all of the songs you have 
+added by title and author(s).
 
 .. image:: pics/mediamanager_songs.png
 
-Using the buttons you can: 
+Using the buttons in the toolbar you can: 
 
-.. image:: pics/mediamanager_songs_buttons.png
+|buttons_new| Add a song
+    Brings up the dialog box to add a new song.
 
-`Add a song:` Brings up the dialog box to add a new song
+|buttons_edit| Edit the selected song
+    Brings up the dialog box to make changes to the song.
 
-`Edit the selected song:` Brings up the dialog box to make changes to the song
+|buttons_delete| Delete the selected song
+    Removes the song from your song list.
 
-`Delete the selected song:` Removes the song from your song list
+|buttons_preview| Preview the selected song
+    Lets you see what your song will look like displayed live.
 
-`Preview the selected song:` Lets you see what your song will look like 
-displayed live
+|buttons_live| Send the selected song live
+    This option will immediately display your song live.
 
-`Send the selected song live:` This option will immediately display your song 
-live.
+|buttons_add| Add the selected song to the service
+    This will enter your song in the :ref:`service-manager`. You may also drag your
+    song over to the :ref:`service-manager`.
 
-`Add the selected Song to the service:` This will enter your song in the Service 
-Manager. You may also drag your song over to the Service Manager.
+|buttons_db| Maintain the list of authors, topics and books
+    Brings up a dialog box to edit authors, topics or song books.
 
-`Maintain the list of authors, topics and books:` Brings up a dialog box to edit 
-Authors, Topics or Song Books. 
-Note: Right clicking on a song file will bring up some of the same options.
+*Note*: Right clicking on a song file will bring up some of the same options.
 
 Bibles
 ^^^^^^
-Clicking on Bibles in the Media Manager will display your options for searching 
-and adding chapters and verses to the Service Manager.
+Clicking on Bibles in the :ref:`media-manager` will display your options for searching 
+and adding chapters and verses to the :ref:`service-manager`.
 
 .. image:: pics/mediamanager_bibles.png
 
@@ -73,56 +76,57 @@ Using the buttons you can:
 
 .. image:: pics/mediamanager_bibles_buttons.png
 
-`Import a Bible:` This is discussed in detail on the Bible Importer page in the 
-manual. 
+|buttons_import| Import a Bible
+    This is discussed in detail on the :ref:`bible-importer` page in the manual. 
 
-`Preview the selected Bible:` Sends your selected verses to the Preview window 
+|buttons_preview| Preview the selected Bible
+    Sends your selected verses to the Preview window.
 
-`Send the selected Bible live:` This option will immediately display your 
-selected verses live.
+|buttons_live| Send the selected Bible live
+    This option will immediately display your selected verses live.
 
-`Add the selected Bible to the service:` This will enter your verses into the 
-Service Manager. You may also click and drag your verses over to the Service 
-Manager. 
+|buttons_add| Add the selected Bible to the service
+    This will enter your verses into the :ref:`service-manager`. You may also
+    drag and drop your verses over to the :ref:`service-manager`.
 
 **Quick tab**
 
 .. image:: pics/mediamanager_bibles_quick.png
 
-`Version:` Once you have imported a Bible, it will be displayed in the Version 
-drop down box. Select the version of the Bible you want to use here.
+*Version*
+    Once you have imported a Bible, it will be displayed in the **version**
+    drop down box. Select the version of the Bible you want to use here.
 
-**Second**
+*Second*
+    If you have "Display second Bible verses" selected in Configure OpenLP,
+    Bibles tab, this choice will be visible. This option is for displaying
+    another version of the Bible for comparison. Both versions will be
+    displayed. If there is not enough space on one slide, the Second verses
+    will be displayed on the next slide.
 
-If you have “Display second Bible verses” selected in Configure OpenLP, Bibles 
-tab, this choice will be visible. This option is for displaying another version 
-of the Bible for comparison. Both versions will be displayed. If there is not 
-enough space on one slide, the Second version will be displayed on the next 
-slide.
+*Search*
+    Use the **Search** button to display your results in the box below.
 
-Use the `Search` button to display your results in the box below.
+*Find*
+    You will type your search query in this box for the following two searches.
 
-**Find**
+    *Scripture Reference*
+        You may search for a specific verse using this format below. 
 
-You will type your search query in this box for the following two searches.
+        * Book Chapter 
+        * Book Chapter-Chapter
+        * Book Chapter:Verse-Verse
+        * Book Chapter:Verse-End (this will display verses to the end of the chapter)
+        * Book Chapter:Verse-Verse, Verse-Verse
+        * Book Chapter:Verse-Verse, Chapter:Verse-Verse
+        * Book Chapter:Verse-Chapter:Verse
 
-`Search type:` You may search for a specific verse using this format below. 
+    *Text Search*
+        You may also search by a keyword or words. The more words you use for
+        the search, the more you will narrow down your results.
 
-* Book Chapter 
-* Book Chapter-Chapter
-* Book Chapter:Verse-Verse
-* Book Chapter:Verse-End (this will display verses to the end of the chapter)
-* Book Chapter:Verse-Verse, Verse-Verse
-* Book Chapter:Verse-Verse, Chapter:Verse-Verse
-* Book Chapter:Verse-Chapter:Verse
-
-
-`Text Search:`
-
-You may also search by a keyword or words. The more words you use for the 
-search, the more you will narrow down your results.
-
-**Results** `Clear and Keep.`
+*Results*
+    Clear and Keep.
  
 Each search you make will display your verses below. 
 
@@ -160,15 +164,18 @@ Using the buttons you can:
 
 .. image:: pics/mediamanager_presentations_buttons.png
 
-`Load a new presentation:` This brings up a dialog box to find your presentation 
-and list it in OpenLP.
+|button_open| Load a new presentation
+    This brings up a dialog box to find your presentation and load it into
+    OpenLP.
 
-`Delete the selected Presentation:` This removes your Presentation from the list. 
-Please note: this will not delete the presentation from your computer, only from  
-the OpenLP list.
+|button_delete| Delete the selected presentation
+    This removes your presentation from the list.
+    
+    *Please note*: this will not delete the presentation from your computer,
+    only from the OpenLP list.
 
-`Preview the selected Presentation:` Sends your selected Presentation to the 
-Preview window 
+|button_preview| Preview the selected presentation
+    Sends your selected presentation to the preview window.
 
 `Send the selected Presentation live:` This option will immediately display your 
 selected Presentation live.
@@ -291,3 +298,24 @@ information on the display. When you are finished, click the Save button.
 To Edit your slide, click on the Edit button to edit part of it or the Edit All 
 if you need to make multiple changes. Use the Up and Down arrows to change the 
 arrangement of your Custom slide.
+
+.. These are all the image templates that are used in this page.
+
+.. |BUTTONS_NEW| image:: pics/buttons_new.png
+
+.. |BUTTONS_EDIT| image:: pics/buttons_edit.png
+
+.. |BUTTONS_DELETE| image:: pics/buttons_delete.png
+
+.. |BUTTONS_PREVIEW| image:: pics/buttons_preview.png
+
+.. |BUTTONS_LIVE| image:: pics/buttons_live.png
+
+.. |BUTTONS_ADD| image:: pics/buttons_add.png
+
+.. |BUTTONS_DB| image:: pics/buttons_db.png
+
+.. |BUTTONS_IMPORT| image:: pics/buttons_import.png
+
+.. |BUTTONS_OPEN| image:: pics/buttons_open.png
+

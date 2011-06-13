@@ -225,7 +225,7 @@ sections on dual monitors with KDE and GNOME above.
 
 **Primary Monitor Issues**
 
-With certain cards your system may get confused on what is the primary display.
+With certain cards your system may get confused on which is the primary display.
 For example many users will be using a laptop. You will want your laptop screen 
 to be the primary screen, and your projector to be the secondary monitor.
 Certain Intel cards reverse this. To work around this you will need to know the

@@ -5,16 +5,6 @@ Frequently Asked Questions
 General Questions
 =================
 
-When is the release date for OpenLP 2.0?
-----------------------------------------
-
-*It will be ready when it's ready!* We do not have fixed dates, but we have 
-set some `targets for the releases <http://wiki.openlp.org/Version_2_Milestones>`_.
-If you take part in the `development <http://wiki.openlp.org/Development:Getting_Started>`_,
-start to `test OpenLP <http://wiki.openlp.org/Testing:Getting_Started>`_ and 
-`provide feedback <http://wiki.openlp.org/Help:Contents>`_ this will speed up 
-the progress.
-
 Can I help with OpenLP?
 -----------------------
 
@@ -78,24 +68,6 @@ is intended for those who want the latest version, and are prepared to give the
 program a good test before using it in a live situation to ensure they won't 
 encounter any unexpected problems. If you want to have a look at the latest beta 
 release then just `download it <http://openlp.org/en/download.html>`_.
-
-Should I use this beta release at Church in my Sunday services?
----------------------------------------------------------------
-
-As long as you have taken the time to run through your service a couple of times 
-on your target machine, the answer to this question is **yes**. The OpenLP 
-team believes that OpenLP 2.0 beta 1 is stable enough to be used in Sunday 
-services. As of beta 1, there are a good number of churches already using 
-version 2.0 successfully. The OpenLP team works hard to make sure each release 
-is solid, but cannot yet guarantee that everything works perfectly, or even 
-correctly.
-
-If however your congregation is made up of 85 year old women who snarl when you 
-suggest replacing the gas lamps with electric light bulbs and consider the pipe 
-organ too loud and modern, then we recommend sticking with version 1.2 for now.
-
-As of beta 1, version 1.2 of OpenLP is "put out to pasture" - no more 
-development or even bugfixes will be performed on that version.
 
 Upgrading
 =========
@@ -180,15 +152,6 @@ unlikely you'll get an exact match.
 Using OpenLP
 ============
 
-Is there a manual or any documentation for 2.0?
------------------------------------------------
-
-Some folks are working on a brand new manual for OpenLP 2.0. You can find the 
-latest version of this manual at http://manual.openlp.org. If you need help, 
-use the live chat feature or ask in the forums. If you would like to help write 
-the manual, please let us know - we are always happy for new volunteers to join 
-the team and contribute to the project.
-
 I've started OpenLP, but I can't see the songs or bibles section in the Media Manager
 -------------------------------------------------------------------------------------
 
@@ -261,7 +224,7 @@ OSIS
     ``<name>.osis`` file and import your Bible.
 
 OpenSong
-    OpenSong have a good selection of Bibles on their
+    OpenSong has a good selection of Bibles on their
     `download page <http://www.opensong.org/d/downloads#bible_translations>`_.
 
 Web Download

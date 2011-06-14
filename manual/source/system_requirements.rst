@@ -10,7 +10,7 @@ on less powerful hardware but you may not get the performance you desire.
 * 1GB RAM
 * 100MB free disk space
 * Windows XP/Vista/Windows 7, Linux, Mac OS X (10.5 or greater), Free BSD
-* Multiple Monitor Support is highly recommended
+* Multiple Monitor Support is highly recommended (not required)
 * For Presentation support:
 
   * Windows: PowerPoint XP or later, PowerPoint Viewer 2003 or 2007,

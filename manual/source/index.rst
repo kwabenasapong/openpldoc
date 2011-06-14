@@ -30,10 +30,10 @@ Reference Manual
    configure
    dualmonitors
    wizard
-   glossary
    mediamanager
    songs
    themes
+   glossary
 
 Questions and Troubleshooting
 -----------------------------

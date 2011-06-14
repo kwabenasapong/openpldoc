@@ -13,6 +13,7 @@ Getting Started With OpenLP
    :maxdepth: 2
 
    introduction
+   system_requirements
    install_windows_mac
    install_linux
    install_bsd

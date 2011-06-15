@@ -6,7 +6,7 @@ I can not play videos or other media
 ------------------------------------
 
 If you can not play video or audio through openlp, there are several areas that
-could be an issue. First thing is to make sure you can play the media file 
+could be an issue. First thing is to make sure you can play the media file
 through your default media player. OpenLP should be able to play any file that
 you can play through your default media player.
 
@@ -20,43 +20,43 @@ Make sure the check box for `Use Phonon for video playback` is checked.
 Codecs
 ^^^^^^
 
-You may need to install codecs for certain files to play. Most newer versions 
-of Windows and OS X will support most media types. Most Linux distributions 
+You may need to install codecs for certain files to play. Most newer versions
+of Windows and OS X will support most media types. Most Linux distributions
 will require a little more help to get certain media types to play.
 
 Microsoft Windows
 ^^^^^^^^^^^^^^^^^
 
-Later versions of Microsoft Windows (Vista, Windows 7) generally come with 
-everything you need to play most media formats. If for some reason you need 
+Later versions of Microsoft Windows (Vista, Windows 7) generally come with
+everything you need to play most media formats. If for some reason you need
 additional codecs we have seen success from the `Combined Community Codec Pack
 (CCCP) <http://www.cccp-project.net/>`_.  You might also wish to check out the
-K-Lite Codec Pack. If you are having issues, results do seem to vary with the 
-different options. What works for some may not for others, so some trial and 
+K-Lite Codec Pack. If you are having issues, results do seem to vary with the
+different options. What works for some may not for others, so some trial and
 error may be required.
 
 Mac
 ^^^
 
 If you are using a Mac. You may wish to play Windows formats. flip4mac enables
-you to use popular Windows formats such as .wmv on your Mac. You can get it 
+you to use popular Windows formats such as .wmv on your Mac. You can get it
 `from here <http://dynamic.telestream.net/downloads/download-flip4macwmv.htm>`_.
 
 Ubuntu Linux (and variants)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If you are using Ubuntu Linux, or one of its variants (Kubuntu, Edubuntu, etc...)
-it is a fairly quick and easy process to get all the codecs you need to make 
-things work. You will need to install two meta-packages that contain all the 
+it is a fairly quick and easy process to get all the codecs you need to make
+things work. You will need to install two meta-packages that contain all the
 multimedia codecs that you will generally need. From the Software Center install
 ubuntu-restricted-extras and Kubuntu-restricted-extras, or from the terminal::
- 
+
   user@linux:~ $ sudo apt-get install ubuntu-restricted-extras kubuntu-restricted-extras
 
 **Note** if you are running Kubuntu there is no need to install the
 ubuntu-restricted-extras meta-package
 
-For more information on Ubuntu and multimedia issues please check out the 
+For more information on Ubuntu and multimedia issues please check out the
 `community documentation <https://help.ubuntu.com/community/RestrictedFormats/>`_.
 
 Arch Linux
@@ -64,7 +64,7 @@ Arch Linux
 
 The following command provides the most complete solution for codecs on Arch
 Linux::
-  
+
   root@linux:~ # pacman -S gstreamer0.10-{base,good,bad,ugly}-plugins gstreamer0.10-ffmpeg
 
 If you need more help with Arch Linux and multimedia please see the `Arch Linux
@@ -89,9 +89,9 @@ Then install the following packages::
 Fedora Linux
 ^^^^^^^^^^^^
 You will need to set up Fedora to play most media formats. This is relatively
-simple using the rpmfusion repository. 
+simple using the rpmfusion repository.
 
-**Note** the following commands will enable a third party repository to your 
+**Note** the following commands will enable a third party repository to your
 system. Please check out `the RPM Fusion site <http://rpmfusion.org>`_ for more information.
 
 To enable both the free and nonfree components for any Fedora official release
@@ -103,14 +103,14 @@ After enabling the rpmfusion repository you will want to refresh your package
 list, perform any updates and search for gstreamer-good, bad, and ugly and
 install.
 
-Follow the tutorial `using the rpmfusion repository <http://www.linuxjournal.com/video/getting-mp3-support-fedora-using-rpmfusion-repositories>`_ 
+Follow the tutorial `using the rpmfusion repository <http://www.linuxjournal.com/video/getting-mp3-support-fedora-using-rpmfusion-repositories>`_
 to enable extra audio and video formats on Fedora
 
 The Media Manager appears to be missing some features
 -----------------------------------------------------
 
 If you do not see all the features listed in the Media Manager, you may need
-to enable them. 
+to enable them.
 
 To enable the plugins navigate to :menuselection:`Settings --> Plugins` or
 press :kbd:`Alt+F7`. You will want to click on the plugin to the left that you
@@ -125,7 +125,7 @@ I can not see the book, chapter, and verse when I display scripture
 -------------------------------------------------------------------
 
 The book, chapter, and verse should be displayed when you display scripture. If
-you can not see this your theme probably has the text size too small for the 
+you can not see this your theme probably has the text size too small for the
 info to be seen. See the section of the manual on :ref:`themes` if you need more info
 on text sizes in themes.
 
@@ -153,7 +153,7 @@ has fixed this problem according to some of our users.
 I have JPG images and they will not work on my system
 -----------------------------------------------------
 
-This is a known issue on some Mac OS X 10.5 systems and on a few Windows XP 
+This is a known issue on some Mac OS X 10.5 systems and on a few Windows XP
 systems. Currently the only solution is to convert your images into another
 format. We would suggest using PNG images when possible with OpenLP.
 
@@ -164,16 +164,17 @@ This seems to be a problem with XFCE and some versions of Gnome too. To correct
 this problem, open  a terminal and type in the following commands::
 
   gconftool-2 --type boolean --set /desktop/gnome/interface/buttons_have_icons true
-  
+
   gconftool-2 --type boolean --set /desktop/gnome/interface/menus_have_icons true
 
 I chose to use a web Bible but it did not download the entire Bible
 -------------------------------------------------------------------
 
 Due to copyright restrictions OpenLP cannot download an entire Bible. It can
-only download the section you search for. If you do not have an internet 
+only download the section you search for. If you do not have an internet
 connection where you intend to use OpenLP you will need another scripture
-source. For more information about acquiring Bibles please see :ref:`bibleimporter`.
+source. For more information about acquiring Bibles please see the section on
+the :ref:`bibles-import`.
 
 OpenLP is using a large amount of RAM when showing a presentation
 -----------------------------------------------------------------
@@ -190,7 +191,7 @@ about 20 slides.
 OpenLP is not displaying correctly, or is not on the correct screen
 -------------------------------------------------------------------
 
-Please read the documentation on :ref:`dualmonitors`. It is very important to 
+Please read the documentation on :ref:`dualmonitors`. It is very important to
 have dual monitors setup properly for OpenLP to function as expected.
 
 

@@ -2,15 +2,15 @@
 Bibles
 ======
 
-Managing Bibles in OpenLP is a relatively simple process. There are also 
+Managing Bibles in OpenLP is a relatively simple process. There are also
 converters provided to get data from other formats into OpenLP.
 
-.. _bible-importer:
+.. _bibles-import:
 
-Bible Importer
-==============
+Bible Import Wizard
+===================
 
-If you are using an earlier version of OpenLP or, come from another software 
+If you are using an earlier version of OpenLP or, come from another software
 package, you may be able to convert your existing database to work in OpenLP
 2.0. To access the Bible Importer :menuselection:`File --> Import --> Bible`.
 You may also enter the Bible Importer by clicking the :guilabel:`Import Icon:`
@@ -44,13 +44,13 @@ It may take some time to import your Bible so please be patient.
 
 .. image:: pics/bibleimportfinished1.png
 
-When the import has finished click :guilabel:`Finish` and you should be 
+When the import has finished click :guilabel:`Finish` and you should be
 ready to use your Bible in OpenLP.
 
 Importing from openlp.org 1.x
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Importing Bibles from openlp.org 1.x is a simple process. First you will need to 
+Importing Bibles from openlp.org 1.x is a simple process. First you will need to
 locate your version 1.x Bibles. Version 1.x Bibles have the `.bible` file
 extension.
 
@@ -74,16 +74,16 @@ your OSIS Bible file and continue the import process.
 **About OSIS Formatted Bibles**
 
 The OSIS XML standard was designed to provide a common format for distribution
-of electronic Bibles. More information can be found out at the `Bible Technologies website 
-<http://www.bibletechnologies.net/>`_. 
+of electronic Bibles. More information can be found out at the `Bible Technologies website
+<http://www.bibletechnologies.net/>`_.
 
-If you have any software installed that is part of the `Sword Project 
+If you have any software installed that is part of the `Sword Project
 <http://www.crosswire.org/sword/index.jsp>`_ it can be easily converted.
 
-You can use the commands below convert Bibles from that software to OSIS format. 
+You can use the commands below convert Bibles from that software to OSIS format.
 
-The following commands are used in all platforms and the commands are case 
-sensitive across all platforms. To convert a Bible using the command prompt in 
+The following commands are used in all platforms and the commands are case
+sensitive across all platforms. To convert a Bible using the command prompt in
 Windows or a terminal in Linux or Mac OS X you would type::
 
     mod2osis biblename > biblename.osis
@@ -93,7 +93,7 @@ something similar to this::
 
     mod2osis KJV > kjv.osis
 
-You may also wish to dictate a file location for the conversion to place the 
+You may also wish to dictate a file location for the conversion to place the
 osis file for example::
 
     mod2osis KJV > /home/user/bibles/kjv.osis
@@ -101,12 +101,12 @@ osis file for example::
 Importing OpenSong Bibles
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Converting from OpenSong you will need to locate your Bibles database. In the 
-later versions of OpenSong you are asked to define the location of this. The 
+Converting from OpenSong you will need to locate your Bibles database. In the
+later versions of OpenSong you are asked to define the location of this. The
 songs will be located in a folder named :guilabel:`Bibles`. This folder should
 contain files with all your Bibles in them without a file extension. (file.xmms).
-When you have located this folder you will need to select the Bible from the 
-folder. 
+When you have located this folder you will need to select the Bible from the
+folder.
 
 You may also import downloaded Bibles from OpenSong. The process is the same,
 except you will need to extract the Bible from a zip file. This is usually done
@@ -130,7 +130,7 @@ as another option and does require an internet connection.
 To use the web download feature select web download from the import wizard.
 
 You can select from several options of location to download from and also
-what Bible translation you need. You will probably want to choose the location 
+what Bible translation you need. You will probably want to choose the location
 from where you get the best performance or has the translation you need.
 
 .. image:: pics/webbible1.png
@@ -152,7 +152,7 @@ If you have a Bible in .csv format OpenLP can import it. CSV Bibles will
 consist of two files a `books` file and a `verse` file. Select CSV from the list
 of Bible types to import.
 
-You are now ready to select your .csv files. You will need to select both your 
+You are now ready to select your .csv files. You will need to select both your
 books and verse file location.
 
 .. image:: pics/csvimport1.png

@@ -31,6 +31,7 @@ Reference Manual
    dualmonitors
    wizard
    mediamanager
+   print_service
    songs
    themes
    glossary

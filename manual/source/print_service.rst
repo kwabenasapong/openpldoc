@@ -1,13 +1,13 @@
-===================
-Print Service Order
-===================
+=============
+Print Service 
+=============
 
 OpenLP gives you the option to print your service order. This can be useful for
 a variety of reasons, such as giving to your music team so they know the song
 order, or so pastors or speakers can know what is happening, etc.
 
-To print your service go to :menuselection:`File --> Print Service Order` or 
-press :kbd:`Control + P`
+To print your service go to :menuselection:`File --> Print Service` or press 
+:kbd:`Control + P`
 
 .. image:: pics/printservice1.png
 
@@ -41,8 +41,8 @@ customize the service order before printing.
   Check this to include all the text from songs or scripture
 
 *Add page break before each text item*
-  If you have checked include slide text if available you can check this to put
-  each slide on a separate page.
+  If you have checked *include slide text* if available you can check this to
+  put each text item (songs, custom slides, scripture) on a separate page.
 
 *Include service item notes*
   This option will include any notes you have added to the service items.

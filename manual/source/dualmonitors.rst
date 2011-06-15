@@ -102,15 +102,31 @@ assumes you have properly set up any proprietary drivers if needed. You
 should seek out your distributions documentation if this general guide does not
 work.
 
-GNOME
-^^^^^
+GNOME 2
+^^^^^^^
 
-This guide is for users of the GNOME desktop who do not use proprietary drivers.
-From most distros go to :menuselection:`System --> Preferences --> Display
-Settings (Monitors)`. Set up your projector with the correct resolution and make
-sure that :guilabel:`Same image on all monitors` is **unchecked**.
+This guide is for users of the GNOME 2 desktop who do not use proprietary 
+drivers. From most distros go to :menuselection:`System --> Preferences --> 
+Display Settings (Monitors)`. Set up your projector with the correct resolution
+and make sure that :guilabel:`Same image on all monitors` is **unchecked**.
 
 .. image:: pics/gnome.png
+
+GNOME 3
+^^^^^^^
+
+This guide is for users of the GNOME 3 or GNOME Shell desktop who do not use
+proprietary drivers. In GNOME shell in the search box type *Displays* or in 
+GNOME shell or fall back mode go to :menuselection:`Applications --> System Tools --> System Settings`
+then select Displays. Set up your projector with the correct resolution and
+make sure that :guilabel:`Mirror displays` is **unchecked**
+
+.. image:: pics/gnome3displays.png 
+
+If after setting up your monitors you have the top panel on the wrong monitor
+simply drag it to the monitor you want to serve as the primary screen.
+
+.. image:: pics/gnome3drag.png
 
 KDE
 ^^^
@@ -143,8 +159,8 @@ good idea to make a backup of any critical file before making changes::
 
   user@linux:~ $ sudo cp /etc/X11/xorg.conf /etc/X11/xorg.conf.old
 
-Or for those using systems that use the root user instead of sudo, change to
-root and enter::
+For those using systems that use the root user instead of sudo, change to root
+and enter::
 
   root@linux: # cp /etc/X11/xorg.conf /etc/X11/xorg.conf.old
 
@@ -158,7 +174,7 @@ terminal::
 
 Or, as root::
 
-  root@linux: # nividia-settings
+  root@linux: # nvidia-settings
 
 If you do not want to write the changes to your ``xorg.conf`` file simply run
 the nVidia Settings program (:command:`nvidia-settings`) from your desktop's
@@ -168,19 +184,19 @@ normal user run::
  user@linux:~ $ nvidia-settings
 
 Once you have opened nVidia Settings, click on :guilabel:`X Server Display
-Configuration`. Then select the monitor you are wanting to use as your second
+Configuration`. Select the monitor you are wanting to use as your second
 monitor and click :guilabel:`Configure`.
 
 .. image:: pics/nvlinux1.png
 
-After clicking :guilabel:`Configure`, select :guilabel:`TwinView`. Then click
+After clicking :guilabel:`Configure`, select :guilabel:`TwinView` and click
 :guilabel:`OK`.
 
 .. image:: pics/twinview.png
 
 Click :guilabel:`Apply` and if you are happy with the way things look click
-:guilabel:`Keep` to keep your new settings. Don't worry if all goes wrong the
-settings will return back to the previous settings in 15 seconds without any
+:guilabel:`Keep` to save your new settings. Don't worry if something goes wrong,
+the settings will return back to the previous settings in 15 seconds without any
 action. nVidia Settings should take care of selecting your optimum resolution
 etc, but that can be changed as needed. When you are happy with everything click
 on :guilabel:`Save to X Configuration File`.
@@ -209,7 +225,7 @@ sections on dual monitors with KDE and GNOME above.
 
 **Primary Monitor Issues**
 
-With certain cards your system may get confused on what is the primary display.
+With certain cards your system may get confused on which is the primary display.
 For example many users will be using a laptop. You will want your laptop screen 
 to be the primary screen, and your projector to be the secondary monitor.
 Certain Intel cards reverse this. To work around this you will need to know the

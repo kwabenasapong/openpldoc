@@ -9,7 +9,7 @@ under their respective categories. Using the Media Manager you will load new
 Media, Songs, Images, Bibles, or create a Custom slide as discussed earlier in
 :ref:`mediamanager`. 
 
-.. image:: pics/mediamanager.png
+.. image:: pics/mediamanager_songs.png
 
 On the right side of your screen at the top is the Service Manager. 
 

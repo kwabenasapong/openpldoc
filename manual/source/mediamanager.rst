@@ -7,7 +7,7 @@ Media Manager
 Once you get your system set up for OpenLP you will be ready to add content to
 your Service Manager. This will all happen through the :ref:`media-manager`. The
 :ref:`media-manager` contains all the Bibles, Songs, Presentations, Media, and 
-everything else that you will project through OpenLP.
+Slides that you will project through OpenLP.
 
 Enabling the Plugins
 --------------------
@@ -308,10 +308,10 @@ Using the buttons you can:
 
 Right clicking on a Media file will bring up some of the same options.
 
-Custom
-^^^^^^
-Custom gives you the option of creating your own slide. This could be useful for 
-displaying readings, liturgy or any text that may not be found in Songs or 
+Custom Slides
+^^^^^^^^^^^^^
+Custom Slides gives you the option of creating your own slide. This is useful 
+for displaying readings, liturgy or any text that may not be found in Songs or 
 Bibles.
 
 .. image:: pics/mediamanager_custom.png
@@ -320,31 +320,33 @@ Using the buttons you can:
 
 .. image:: pics/mediamanager_custom_buttons.png
 
-*Add a new Custom:*
-  Brings up the dialog box to add a new Custom display. *Edit the selected Custom:* 
-  Brings up the dialog box to make changes to the Custom display.
+*Add a new custom slide:*
+  Brings up the dialog box to add a new Custom slide display. 
 
-*Delete the selected Custom:*
-  Remove the Custom from your list.
+*Edit the selected custom slide:* 
+  Brings up the dialog box to make changes to the custom slide.
 
-*Preview the selected Custom:*
+*Delete the selected custom slide:*
+  Removes the custom slide from your list.
+
+*Preview the selected custom slide:*
   Lets you see what your Custom will look like displayed live.
 
-*Send the selected Custom live:*
-  This option will immediately display your Custom live.
+*Send the selected custom slide live:*
+  This option will immediately display your custom slide live.
 
-*Add the selected Custom to the service:*
-  This will enter your Custom slide in the Service Manager. You can also drag 
-  your Custom slide over to the Service Manager.
+*Add the selected custom slide to the service:*
+  This will enter your custom slide in the Service Manager. You can also drag 
+  your custom slide over to the Service Manager.
 
-Right clicking on a Custom file will bring up some of the same options.
+Right clicking on a custom slide file will bring up some of the same options.
 
-When you Add a new Custom slide a dialog box will appear. 
+When you Add a new custom slide a dialog box will appear. 
 
 .. image:: pics/mediamanager_custom_edit.png
 
 *Title:*
-  Name of your Custom slide.
+  Name of your custom slide.
 
 *Add:*
   After clicking on Add you will enter your text you want to display in this box. 
@@ -360,7 +362,7 @@ When you Add a new Custom slide a dialog box will appear.
 
 To Edit your slide, click on :guilabel:`Edit` to edit part of it or 
 :guilabel:`Edit All` if you need to make multiple changes. Use the Up and Down 
-arrows to change the arrangement of your Custom slide.
+arrows to change the arrangement of your custom slide.
 
 .. These are all the image templates that are used in this page.
 

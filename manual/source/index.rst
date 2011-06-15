@@ -13,6 +13,7 @@ Getting Started With OpenLP
    :maxdepth: 2
 
    introduction
+   system_requirements
    install_windows_mac
    install_linux
    install_bsd
@@ -29,10 +30,10 @@ Reference Manual
    configure
    dualmonitors
    wizard
-   glossary
    mediamanager
    songs
    themes
+   glossary
 
 Questions and Troubleshooting
 -----------------------------

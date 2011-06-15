@@ -27,7 +27,7 @@ Media Manager
 The Media Manager contains a number of tabs the plugins supply to OpenLP.
 Each tab in the Media Manager is called a **Media Item**
 
-.. image:: pics/mediamanager.png
+.. image:: pics/mediamanager_songs.png
 
 From the Media Manager you can send Media Items to the Preview or Live screens.
 

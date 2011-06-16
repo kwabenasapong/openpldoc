@@ -68,6 +68,8 @@ It is possible to customize the printed service using CSS. To do this go to
 servicePrint.css delete it. In the open folder create a file named 
 service_print.css containing your customizations.
 
+For more information please check out this `example <http://wiki.openlp.org/Documentation:Service_Print>`_.
+
 .. The following section defines the inline pics
 
 .. |printbutton| image:: pics/general_print.png

@@ -2,7 +2,7 @@
 Print Service 
 =============
 
-OpenLP provides the option to print your service order. This can be useful for
+OpenLP provides the ability to print the service order. This can be useful for
 a variety of reasons, such as giving the printed service to your music team so
 they have the song order, or so pastors or speakers can have the flow of the
 service.
@@ -12,7 +12,7 @@ To print your service go to :menuselection:`File --> Print Service` or press
 
 .. image:: pics/printservice1.png
 
-This will bring up a window with your service order for review and printing.
+This will bring up a window with the service order for review and printing.
 
 .. image:: pics/printservice2.png
 
@@ -20,7 +20,7 @@ Toolbar
 -------
 
 |printbutton| **Print**
-  This will print your service bringing up your system's print options. Use
+  This will print the service bringing up the system's print options. Use
   this when you are ready to print.
 
 |optionbutton| **Options** 
@@ -56,10 +56,10 @@ Options
 .. image:: pics/printservice3.png
 
 **Title:**
-  Gives you the ability to change the title of your printed document.
+  Gives you the ability to change the title of the printed document.
 
 **Custom Footer Text:**
-  Add text to the footer of your printed document.
+  Add text to the footer of the printed document.
 
 **Other Options**
 
@@ -75,7 +75,7 @@ Options
   This option will include any notes you have added to the service items.
 
 **Include play length of media items**
-  This option will print the length of media items in your service.
+  This option will print the length of media items in the service.
 
 Customizing with CSS (Advanced)
 -------------------------------

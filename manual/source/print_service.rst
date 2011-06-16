@@ -2,7 +2,7 @@
 Print Service 
 =============
 
-OpenLP gives you the option to print your service order. This can be useful for
+OpenLP provides the option to print your service order. This can be useful for
 a variety of reasons, such as giving the printed service to your music team so
 they have the song order, or so pastors or speakers can have the flow of the
 service.

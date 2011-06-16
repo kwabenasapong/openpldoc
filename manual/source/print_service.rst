@@ -15,17 +15,11 @@ You should now see a preview of your service
 
 .. image:: pics/printservice2.png
 
-The :guilabel:`Print Button` |printbutton| will print your service bringing 
-up your system's print options.
+|printbutton| will print your service bringing up your system's print options.
+Use this when you are ready to print.
 
-.. |printbutton| image:: pics/printbutton.png
-
-When you are ready to print simply click the :guilabel:`Print Button`
-
-The :guilabel:`Options Button` |optionsbutton| gives you a series of ways to 
-customize the service order before printing.
-
-.. |optionsbutton| image:: pics/optionsbutton.png
+|optionbutton| gives you a series of ways to customize the service order
+before printing.
 
 .. image:: pics/printservice3.png
 
@@ -50,25 +44,42 @@ customize the service order before printing.
 *Include play length of media items*
   This option will print the length of any media items.
 
-The :guilabel:`Close Button` |closebutton| will close the print service window.
+|closebutton| will close the print service window.
 
-.. |closebutton| image:: pics/closebutton.png
+|copybutton|-Copy- to copy the text of the preview window to your clipboard.
+You can then paste the text into other documents or applications.
 
-Use the :guilabel:`Copy Button` |copybutton| to copy the text of the preview
-window to your clipboard. You can then paste the text into other documents or
-applications.
+|copybutton|-Copy HTML- will copy html code to your clipboard. You can then
+paste this in a text editor and save as .html. This can then be used to post
+your service details on a website or anywhere else that an html document can
+be used.
 
-.. |copybutton| image:: pics/copybutton.png
+|zoomin| zooms in on your preview
 
-The :guilabel:`Copy to HTML Button` |copyhtml| will copy html code to your 
-clipboard. You can then paste this in a text editor and save as .html. This can
-then be used to post your service details on a website or anywhere else that an
-html document can be used.
+|zoomout| zooms out to make more of your preview visible
 
-.. |copyhtml| image:: pics/copyhtmlbutton.png
+|zoomoriginal| restores the preview to its original size
 
-Use the :guilabel:`Zoom Buttons` |zoombuttons| to zoom in, zoom out, or restore
-the document to its original side.
+Customizing with CSS
+--------------------
 
-.. |zoombuttons| image:: pics/zoombutton.png
+It is possible to customize the printed service using CSS. To do this go to
+:menuselection:`Tools --> Open Data Folder` If you have a file named 
+servicePrint.css delete it. In the open folder create a file named 
+service_print.css containing your customizations.
 
+.. The following section defines the inline pics
+
+.. |printbutton| image:: pics/general_print.png
+
+.. |optionbutton| image:: pics/system_configure.png
+
+.. |closebutton| image:: pics/system_close.png
+
+.. |copybutton| image:: pics/system_edit_copy.png
+
+.. |zoomout|  image:: pics/general_zoom_out.png
+
+.. |zoomin|  image:: pics/general_zoom_in.png
+
+.. |zoomoriginal|  image:: pics/general_zoom_original.png

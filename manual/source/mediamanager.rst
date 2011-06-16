@@ -1,6 +1,5 @@
 .. _media-manager:
 
-=============
 Media Manager
 =============
 
@@ -18,8 +17,7 @@ Songs
 -----
 
 Clicking on *Songs* in the :ref:`g-media-manager` will display the songs media
-item. The songs media item shows a list of all the songs you have added to the
-songs database.
+item. The songs media item shows a list of all the songs in the songs database.
 
 .. image:: pics/mediamanager_songs.png
 
@@ -51,7 +49,7 @@ Toolbar
     Open the song maintenance dialog to add, edit or delete authors, topics or
     song books.
 
-**Note:** Right clicking on a song in the list will bring up some of the same
+**Note:** Right-clicking on a song in the list will display some of the same
 options.
 
 Search
@@ -83,9 +81,9 @@ in the song list.
 Bibles
 ------
 
-Clicking on Bibles in the :ref:`g-media-manager` will display the Bibles media
-item. The Bibles media item gives you the ability to search for Bible verses and
-add them to the :ref:`g-service-manager`.
+Clicking on *Bibles* in the :ref:`g-media-manager` will display the Bibles media
+item. The Bibles media item shows Bible verses and provides a search function
+to find Bible verses and add them to the :ref:`g-service-manager`.
 
 .. image:: pics/mediamanager_bibles.png
 
@@ -107,6 +105,9 @@ Toolbar
     Add the selected verses to the :ref:`g-service-manager`. Verses can also be
     added to the :ref:`g-service-manager` by means of drag and drop from the
     :ref:`g-media-manager`.
+
+**Note:** Right-clicking on a selection of verses will display some of the
+same options.
 
 Quick Search Tab
 ^^^^^^^^^^^^^^^^
@@ -196,159 +197,153 @@ in the verse list.
 Presentations
 -------------
 
+Clicking on *Presentations* in the :ref:`g-media-manager` will display the
+Presentations media item. The Presentations media item shows a list of imported
+presentations.
+
 .. image:: pics/mediamanager_presentations.png
 
-Using the buttons you can:
+Toolbar
+^^^^^^^
 
-.. image:: pics/mediamanager_presentations_buttons.png
+|buttons_open| **Load presentation**
+    Import a presentation. Presentations need to be imported in order to
+    control them from within OpenLP.
 
-|buttons_open| Load a new presentation
-    This brings up a dialog box to find your presentation and load it into
-    OpenLP.
+|buttons_delete| **Delete presentation**
+    Removes the selected presentation from the list. Note that this does not
+    delete the original presentation from the disk.
 
-|buttons_delete| Delete the selected presentation
-    This removes your presentation from the list.
+|buttons_preview| **Preview presentation**
+    Send the selected presentation to the :ref:`g-preview-slide-controller`.
 
-    *Please note*: this will not delete the presentation from your computer,
-    only from the OpenLP list.
+|buttons_live| **Send presentation live**
+    Send the selected presentation to the :ref:`g-live-slide-controller` to be
+    shown on the display screen.
 
-|buttons_preview| Preview the selected presentation
-    Sends your selected presentation to the preview window.
+|buttons_add| **Add presentation to service**
+    Add the selected presentation to the :ref:`g-service-manager`. Presentations
+    can also be added to the :ref:`g-service-manager` by means of drag and drop
+    from the :ref:`g-media-manager`.
 
-*Send the selected Presentation live:*
-  This option will immediately display your selected Presentation live.
-
-*Add the selected Presentation to the service:*
-  This will enter your Presentation into the Service Manager. You can also click
-  and drag your Presentation over to the Service Manager.
-
-Right clicking on a Presentation file will bring up some of the same options.
+**Note:** Right-clicking on a presentation will display some of the same options.
 
 Images
 ------
 
+Clicking on *Images* in the :ref:`g-media-manager` will display the Images
+media item. The Images media item shows a list of imported images.
+
 .. image:: pics/mediamanager_images.png
 
-Using the buttons you can:
+Toolbar
+^^^^^^^
 
-.. image:: pics/mediamanager_images_buttons.png
+|buttons_open| **Load image**
+    Import one or more images. Images need to be imported in order to be used
+    in OpenLP.
 
-*Load a new Image:*
-  This brings up a dialog box to find your Image and list it in OpenLP.
+|buttons_delete| **Delete images**
+    Removes the selected image(s) from the list. Note that this does not
+    delete the original image(s) from the disk.
 
-*Delete the selected Image:*
-  This removes your Image from the list. Please note: this will not delete the
-  Image from your computer, just the OpenLP list.
+|buttons_preview| **Preview image**
+    Send the selected image(s) to the :ref:`g-preview-slide-controller`.
 
-*Preview the selected Image:*
-  Sends your selected Image to the Preview window.
+|buttons_live| **Send image live**
+    Send the selected image(s) to the :ref:`g-live-slide-controller` to be
+    shown on the display screen.
 
-*Send the selected Image live:*
-  This option will immediately display your selected Image live.
+|buttons_add| **Add image to service**
+    Add the selected image(s) to the :ref:`g-service-manager`. Images can also
+    be added to the :ref:`g-service-manager` by means of drag and drop from the
+    :ref:`g-media-manager`.
 
-*Add the selected Image to the service:*
-  This will enter your Image into the Service Manager. You can also click and
-  drag your Image over to the Service Manager.
+|buttons_replace_live_background| **Replace live background**
+    Replace the current live theme background with the selected image. This
+    has effect until the theme changes, or the *Remove Backgound* button is
+    clicked.
 
-*Replace Live Background:*
-  With an Image selected, clicking this button will immediately replace the live
-  background being displayed with your selection. The Image will replace the theme
-  background until the theme changes or the "Remove Background" button is pressed.
-
-Right clicking on an Image file will bring up some of the same options.
+**Note:** Right-clicking on an image will display some of the same options.
 
 Media
 -----
-Media is an audio or video file. Generally if you can play or view your media
-on your computer without OpenLP, you can also play it in OpenLP.
+
+Clicking on *Media* in the :ref:`g-media-manager` will display the Media
+media item. The Media media item shows a list of imported audio or video files.
+
+**Note:** On some computers OpenLP has trouble displaying videos. Please read
+the `Frequently Asked Questions <http://wiki.openlp.org/faq>`_ for tips on how
+to resolve these issues.
 
 .. image:: pics/mediamanager_media.png
 
-Using the buttons you can:
+Toolbar
+^^^^^^^
 
-.. image:: pics/mediamanager_media_buttons.png
+|buttons_open| **Load media**
+    Import one or more media files. Media files need to be imported in order to
+    be used in OpenLP.
 
-*Load a new Media:*
-  This brings up a dialog box to find your Media and list it in OpenLP.
+|buttons_delete| **Delete media**
+    Removes the selected media file(s) from the list. Note that this does not
+    delete the original media file(s) from the disk.
 
-*Delete the selected Media:*
-  This removes your Media from the list. Please note: this will not delete the
-  Media from your computer, just the OpenLP list.
+|buttons_preview| **Preview media**
+    Send the selected media to the :ref:`g-preview-slide-controller`.
 
-*Preview the selected Media:*
-  Sends your selected Media to the Preview window.
+|buttons_live| **Send media live**
+    Send the selected media to the :ref:`g-live-slide-controller` to be shown
+    on the display screen.
 
-*Send the selected Media live:*
-  This option will immediately display your selected Media live.
+|buttons_add| **Add media to service**
+    Add the selected media to the :ref:`g-service-manager`. Media can also be
+    added to the :ref:`g-service-manager` by means of drag and drop from the
+    :ref:`g-media-manager`.
 
-*Add the selected Media to the service:*
-  This will enter your Media into the Service Manager. You can also click and
-  drag your Media over to the Service Manager.
+|buttons_replace_live_background| **Replace live background**
+    Replace the current live theme background with the selected media. This
+    has effect until the theme changes, or the *Remove Backgound* button is
+    clicked.
 
-*Replace Live Background:*
-  With a Media file selected, clicking this button will immediately replace the
-  live background being displayed with your selection.
-
-Right clicking on a Media file will bring up some of the same options.
+**Note:** Right-clicking on a media file will display some of the same options.
 
 Custom Slides
 -------------
-Custom Slides gives you the option of creating your own slide. This is useful
-for displaying readings, liturgy or any text that may not be found in songs or
-Bibles.
+
+Clicking on *Custom Slides* in the :ref:`g-media-manager` will display the
+Custom Slides media item. The Custom Slides media item shows a list of custom
+textual items. Custom slides are useful for creating unstructured text items,
+such as liturgy or prayers.
 
 .. image:: pics/mediamanager_custom.png
 
-Using the buttons you can:
+Toolbar
+^^^^^^^
 
-.. image:: pics/mediamanager_custom_buttons.png
+|buttons_new| **Add custom slide**
+    Open the song edit dialog to add a new custom slide.
 
-|buttons_new| *Add a new custom slide*
-    Brings up the dialog box to add a new custom slide.
+|buttons_edit| **Edit custom slide**
+    Open the song edit dialog to make changed to the selected new custom slide.
 
-|buttons_edit| *Edit the selected custom slide:*
-    Brings up the dialog box to make changes to the custom slide.
+|buttons_delete| **Delete custom slide**
+    Remove the selected custom slide(s) from the list.
 
-|buttons_delete| *Delete the selected custom slide*
-    Removes the custom slide from your list.
+|buttons_preview| **Preview custom slide**
+    Send the selected custom slide to the :ref:`g-preview-slide-controller`.
 
-|buttons_preview| *Preview the selected custom slide*
-    Sends your custom slide to the :ref:`g-preview-slide-controller` to
-    see what it will look like when live.
+|buttons_live| **Send custom slide live**
+    Send the selected custom slide to the :ref:`g-live-slide-controller` to be
+    shown on the display screen.
 
-|buttons_live| *Send the selected custom slide live*
-    Immediately display your custom slide live, sending it to the
-    :ref:`g-live-slide-controller`.
+|buttons_add| **Add custom slide to service**
+    Add the selected custom slide(s) to the :ref:`g-service-manager`. Custom
+    slides can also be added to the :ref:`g-service-manager` by means of drag
+    and drop from the :ref:`g-media-manager`.
 
-|buttons_add| *Add the selected custom slide to the service*
-    This will add your custom slide to the :ref:`g-service-manager`. You can
-    also drag your custom slide over to the :ref:`g-service-manager`.
-
-*Note:*
-    Right clicking on a custom slide will bring up some of the same options.
-
-When you Add a new custom slide a dialog box will appear.
-
-.. image:: pics/mediamanager_custom_edit.png
-
-*Title:*
-  Name of your custom slide.
-
-*Add:*
-  After clicking on Add you will enter your text you want to display in this box.
-  To create multiple slides, click the Split Slide button. When you have finished
-  adding your text, click on the Save button.
-
-*Theme:*
-  Select the theme you want to use for your Custom slide from this drop down box.
-
-*Credits:*
-  Anything typed in this box will be displayed in the footer information on the
-  display. When you are finished, click the :guilabel:`Save` button.
-
-To Edit your slide, click on :guilabel:`Edit` to edit part of it or
-:guilabel:`Edit All` if you need to make multiple changes. Use the Up and Down
-arrows to change the arrangement of your custom slide.
+**Note:** Right-clicking on a custom slide in the list will display some of the
+same options.
 
 .. These are all the image templates that are used in this page.
 
@@ -373,6 +368,8 @@ arrows to change the arrangement of your custom slide.
 .. |BUTTONS_KEEP_RESULTS| image:: pics/buttons_keep_results.png
 
 .. |BUTTONS_CLEAR_RESULTS| image:: pics/buttons_clear_results.png
+
+.. |BUTTONS_REPLACE_LIVE_BACKGROUND| image:: pics/buttons_replace_live_background.png
 
 .. |SEARCH_SONG| image:: pics/search_song.png
 

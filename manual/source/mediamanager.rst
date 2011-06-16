@@ -9,37 +9,21 @@ your Service Manager. This will all happen through the :ref:`g-media-manager`.
 The :ref:`g-media-manager` contains all the Bibles, Songs, Presentations, Media,
 and Custom Slides that you will project through OpenLP.
 
-Enabling the Plugins
---------------------
-
-You may need to enable the default plugins that are built in to OpenLP. As you
-can see below this is what the *Media Manager* looks like with all the plugins
-enabled.
-
 .. image:: pics/mediamanager_songs.png
 
-To enable the plugins navigate to :menuselection:`Settings --> Plugins` or
-press :kbd:`Alt+F7`. You will want to click on the plugin to the left that you
-would like to enable and select *Active* from the drop down box to the right.
-
-.. image:: pics/plugins.png
-
-
-You are now ready to add content for your service.
-
-Adding Media Content
---------------------
-
-This section will describe how to add the different types of media OpenLP is
-capable of displaying.
+If you don't see the "Songs", "Bibles" and other media items in the
+:ref:`g-media-manager`, then refer to :ref:`t-no-media-items` in the
+troubleshooting guide.
 
 Songs
-^^^^^
+-----
+
 Clicking on songs in the :ref:`g-media-manager` will display the songs media
 item. The songs media item shows a list of all the songs you have added to the
 songs database.
 
-.. image:: pics/mediamanager_songs.png
+Toolbar
+^^^^^^^
 
 Using the buttons in the toolbar you can:
 
@@ -69,7 +53,8 @@ Using the buttons in the toolbar you can:
 *Note:* Right clicking on a song in the list will bring up some of the same
 options.
 
-*Search:*
+Search
+^^^^^^
 
 Clicking on the icon in the Search box will display a list of options for you to
 search your song database.
@@ -78,34 +63,35 @@ search your song database.
 
 You have these options to search.
 
-*Entire Song*
+|search_song| Entire Song
     This option will search Titles, Lyrics and Comments.
 
-*Titles*
+|search_title| Titles
     This option will search Titles only.
 
-*Lyrics*
+|search_lyrics| Lyrics
     This option will search Lyrics only.
 
-*Authors*
+|search_author| Authors
     This option will search Authors only.
 
-*Themes*
+|search_theme| Themes
     This option will search for the assigned theme to the song.
 
-Use the :guilabel:`Search` button to display your results in the box below.
+Use the :guilabel:`Search` button to display your results in the song list.
 
 Bibles
-^^^^^^
+------
 Clicking on Bibles in the :ref:`g-media-manager` will display the Bibles media
 item. The Bibles media item gives you the ability to search for Bible verses and
 add them to the :ref:`g-service-manager`.
 
 .. image:: pics/mediamanager_bibles.png
 
-Using the buttons you can:
+Toolbar
+^^^^^^^
 
-.. image:: pics/mediamanager_bibles_buttons.png
+Using the buttons you can:
 
 |buttons_import| Import a Bible
     This is discussed in detail on the :ref:`bibles-import` page in the manual.
@@ -121,19 +107,22 @@ Using the buttons you can:
     This will enter your verses into the :ref:`g-service-manager`. You may also
     drag and drop your verses over to the :ref:`g-service-manager`.
 
-**Quick** tab
+Quick Tab
+^^^^^^^^^
 
 .. image:: pics/mediamanager_bibles_quick.png
 
 *Version*
     Once you have imported a Bible, it will be displayed in the **version**
     drop down box. Select the version of the Bible you want to use here.
+    
 *Second*
     If you have "Display second Bible verses" selected in Configure OpenLP,
     Bibles tab, this choice will be visible. This option is for displaying
     another version of the Bible for comparison. Both versions will be
     displayed. If there is not enough space on one slide, the Second verses
     will be displayed on the next slide.
+    
 *Search*
     Use the **Search** button to display your results in the box below.
 
@@ -196,7 +185,8 @@ the lock icon and continue your search for the next verse or verses. All
 searches will be shown and kept below. If you click the lock icon again, each
 new search clears the previous search from the list below.
 
-**Advanced** tab
+Advanced Tab
+^^^^^^^^^^^^
 
 .. image:: pics/mediamanager_bibles_advanced.png
 
@@ -228,7 +218,7 @@ Click the :guilabel:`Search` button to display your results in the box below.
 Each search you make will display your verses in the box below.
 
 Presentations
-^^^^^^^^^^^^^
+-------------
 
 .. image:: pics/mediamanager_presentations.png
 
@@ -259,7 +249,7 @@ Using the buttons you can:
 Right clicking on a Presentation file will bring up some of the same options.
 
 Images
-^^^^^^
+------
 
 .. image:: pics/mediamanager_images.png
 
@@ -292,7 +282,7 @@ Using the buttons you can:
 Right clicking on an Image file will bring up some of the same options.
 
 Media
-^^^^^
+-----
 Media is an audio or video file. Generally if you can play or view your media
 on your computer without OpenLP, you can also play it in OpenLP.
 
@@ -326,7 +316,7 @@ Using the buttons you can:
 Right clicking on a Media file will bring up some of the same options.
 
 Custom Slides
-^^^^^^^^^^^^^
+-------------
 Custom Slides gives you the option of creating your own slide. This is useful
 for displaying readings, liturgy or any text that may not be found in songs or
 Bibles.
@@ -407,3 +397,13 @@ arrows to change the arrangement of your custom slide.
 .. |BUTTONS_KEEP_RESULTS| image:: pics/buttons_keep_results.png
 
 .. |BUTTONS_CLEAR_RESULTS| image:: pics/buttons_clear_results.png
+
+.. |SEARCH_SONG| image:: pics/search_song.png
+
+.. |SEARCH_TITLE| image:: pics/search_title.png
+
+.. |SEARCH_LYRICS| image:: pics/search_lyrics.png
+
+.. |SEARCH_AUTHOR| image:: pics/search_author.png
+
+.. |SEARCH_THEME| image:: pics/search_theme.png

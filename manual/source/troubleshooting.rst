@@ -2,6 +2,8 @@
 Troubleshooting
 ===============
 
+.. _t-no-media:
+
 I can not play videos or other media
 ------------------------------------
 
@@ -105,6 +107,8 @@ install.
 
 Follow the tutorial `using the rpmfusion repository <http://www.linuxjournal.com/video/getting-mp3-support-fedora-using-rpmfusion-repositories>`_
 to enable extra audio and video formats on Fedora
+
+.. _t-no-media-items:
 
 The Media Manager appears to be missing some features
 -----------------------------------------------------

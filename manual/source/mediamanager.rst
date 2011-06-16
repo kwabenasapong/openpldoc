@@ -5,7 +5,7 @@ Media Manager
 =============
 
 Once you get your system set up for OpenLP you will be ready to add content to
-your Service Manager. This will all happen through the :ref:`g-media-manager`.
+your :ref:`g-service-manager`. This will all happen through the :ref:`g-media-manager`.
 The :ref:`g-media-manager` contains all the Bibles, Songs, Presentations, Media,
 and Custom Slides that you will project through OpenLP.
 
@@ -18,7 +18,7 @@ troubleshooting guide.
 Songs
 -----
 
-Clicking on songs in the :ref:`g-media-manager` will display the songs media
+Clicking on *Songs* in the :ref:`g-media-manager` will display the songs media
 item. The songs media item shows a list of all the songs you have added to the
 songs database.
 
@@ -69,7 +69,7 @@ You have these options to search.
 |search_title| Titles
     This option will search Titles only.
 
-|search_lyrics| Lyrics
+|search_text| Lyrics
     This option will search Lyrics only.
 
 |search_author| Authors
@@ -107,13 +107,15 @@ Using the buttons you can:
     This will enter your verses into the :ref:`g-service-manager`. You may also
     drag and drop your verses over to the :ref:`g-service-manager`.
 
-Quick Tab
-^^^^^^^^^
+Quick Search Tab
+^^^^^^^^^^^^^^^^
 
 .. image:: pics/mediamanager_bibles_quick.png
 
+The following options are available on the quick search tab:
+
 *Version*
-    Once you have imported a Bible, it will be displayed in the **version**
+    Once you have imported a Bible, it will be displayed in the *version*
     drop down box. Select the version of the Bible you want to use here.
     
 *Second*
@@ -124,7 +126,7 @@ Quick Tab
     will be displayed on the next slide.
     
 *Search*
-    Use the **Search** button to display your results in the box below.
+    Use the *Search* button to display your results in the box below.
 
 *Find*
     You will type your search query in this box for the following two searches.
@@ -132,7 +134,7 @@ Quick Tab
     Clicking the icon in the Find box will give you the choice of searching by
     *Scripture Reference* or *Text Search*.
 
-    *Scripture Reference*
+    |search_reference| Scripture Reference
         You may search for a specific verse using this format below.
 
         * Book Chapter
@@ -143,7 +145,7 @@ Quick Tab
         * Book Chapter:Verse-Verse, Chapter:Verse-Verse
         * Book Chapter:Verse-Chapter:Verse
 
-    *Text Search*
+    |search_text| Text Search
         You may also search by a keyword or words. The more words you use for
         the search, the more you will narrow down your results.
 
@@ -174,7 +176,7 @@ Click the :guilabel:`Search` button to display your results in the box below.
         through :menuselection:`Configure OpenLP --> Bibles` tab.
 
     *Note:* Changes to Layout Style do not affect verses already in the
-    :ref`g-service-manager`.
+    :ref:`g-service-manager`.
 
 Each search you make will display your verses in the box below.
 
@@ -402,8 +404,11 @@ arrows to change the arrangement of your custom slide.
 
 .. |SEARCH_TITLE| image:: pics/search_title.png
 
-.. |SEARCH_LYRICS| image:: pics/search_lyrics.png
-
 .. |SEARCH_AUTHOR| image:: pics/search_author.png
 
 .. |SEARCH_THEME| image:: pics/search_theme.png
+
+.. |SEARCH_REFERENCE| image:: pics/search_reference.png
+
+.. |SEARCH_TEXT| image:: pics/search_text.png
+

@@ -5,11 +5,10 @@ Media Manager
 =============
 
 Once you get your system set up for OpenLP you will be ready to add content to
-your :ref:`g-service-manager`. This will all happen through the :ref:`g-media-manager`.
-The :ref:`g-media-manager` contains all the Bibles, Songs, Presentations, Media,
-and Custom Slides that you will project through OpenLP.
-
-.. image:: pics/mediamanager_songs.png
+your :ref:`g-service-manager`. This will all happen through the
+:ref:`g-media-manager`. The :ref:`g-media-manager` contains all the Bibles,
+Songs, Presentations, Media, and Custom Slides that you will project through
+OpenLP.
 
 If you don't see the "Songs", "Bibles" and other media items in the
 :ref:`g-media-manager`, then refer to :ref:`t-no-media-items` in the
@@ -22,66 +21,68 @@ Clicking on *Songs* in the :ref:`g-media-manager` will display the songs media
 item. The songs media item shows a list of all the songs you have added to the
 songs database.
 
+.. image:: pics/mediamanager_songs.png
+
 Toolbar
 ^^^^^^^
 
-Using the buttons in the toolbar you can:
+|buttons_new| **Add song**
+    Open the song edit dialog to add a new song.
 
-|buttons_new| Add a song
-    Brings up the dialog box to add a new song.
+|buttons_edit| **Edit song**
+    Open the song edit dialog to make changes to the selected song.
 
-|buttons_edit| Edit the selected song
-    Brings up the dialog box to make changes to the song.
+|buttons_delete| **Delete song**
+    Remove the selected song(s) from the song list.
 
-|buttons_delete| Delete the selected song
-    Removes the song from your song list.
+|buttons_preview| **Preview song**
+    Send the selected song to the :ref:`g-preview-slide-controller`.
 
-|buttons_preview| Preview the selected song
-    Lets you see what your song will look like displayed live.
+|buttons_live| **Send song live**
+    Send the selected song to the :ref:`g-live-slide-controller` to be shown on
+    the display screen.
 
-|buttons_live| Send the selected song live
-    This option will immediately display your song live.
+|buttons_add| **Add song to service**
+    Add the selected song(s) to the :ref:`g-service-manager`. Songs can also be
+    added to the :ref:`g-service-manager` by means of drag and drop from the
+    :ref:`g-media-manager`.
 
-|buttons_add| Add the selected song to the service
-    This will enter your song in the :ref:`g-service-manager`. You can also drag
-    your song over to the :ref:`g-service-manager`.
+|buttons_db| **Maintain authors, topics and books**
+    Open the song maintenance dialog to add, edit or delete authors, topics or
+    song books.
 
-|buttons_db| Maintain the list of authors, topics and books
-    Brings up a dialog box to edit authors, topics or song books.
-    over to the Service Manager.
-
-*Note:* Right clicking on a song in the list will bring up some of the same
+**Note:** Right clicking on a song in the list will bring up some of the same
 options.
 
 Search
 ^^^^^^
 
-Clicking on the icon in the Search box will display a list of options for you to
-search your song database.
-
 .. image:: pics/mediamanager_songs_search.png
 
-You have these options to search.
+Clicking on the icon in the search box displays a list of search options. The
+following options are available:
 
-|search_song| Entire Song
-    This option will search Titles, Lyrics and Comments.
+|search_song| **Entire Song**
+    Search the title, lyrics and comments fields.
 
-|search_title| Titles
-    This option will search Titles only.
+|search_title| **Titles**
+    Search the title field only.
 
-|search_text| Lyrics
-    This option will search Lyrics only.
+|search_text| **Lyrics**
+    Search the lyrics field only.
 
-|search_author| Authors
-    This option will search Authors only.
+|search_author| **Authors**
+    Search the associated authors.
 
-|search_theme| Themes
-    This option will search for the assigned theme to the song.
+|search_theme| **Themes**
+    Search the assigned themes.
 
-Use the :guilabel:`Search` button to display your results in the song list.
+Click the :guilabel:`Search` button to perform a search and display the results
+in the song list.
 
 Bibles
 ------
+
 Clicking on Bibles in the :ref:`g-media-manager` will display the Bibles media
 item. The Bibles media item gives you the ability to search for Bible verses and
 add them to the :ref:`g-service-manager`.
@@ -91,21 +92,21 @@ add them to the :ref:`g-service-manager`.
 Toolbar
 ^^^^^^^
 
-Using the buttons you can:
+|buttons_import| **Import Bible**
+    Import Bibles from a number of formats. This is discussed in detail on the
+    :ref:`bibles-import` page.
 
-|buttons_import| Import a Bible
-    This is discussed in detail on the :ref:`bibles-import` page in the manual.
+|buttons_preview| **Preview verses**
+    Send the selected verses to the :ref:`g-preview-slide-controller`.
 
-|buttons_preview| Preview the selected Bible
-    Sends your selected verses to the :ref:`g-preview-slide-controller`.
+|buttons_live| **Send verses live**
+    Send the selected verses to the :ref:`g-live-slide-controller` to be shown
+    on the display screen.
 
-|buttons_live| Send the selected Bible live
-    This option will immediately display your selected verses live, sending them
-    to the :ref:`g-live-slide-controller`.
-
-|buttons_add| Add the selected Bible to the service
-    This will enter your verses into the :ref:`g-service-manager`. You may also
-    drag and drop your verses over to the :ref:`g-service-manager`.
+|buttons_add| **Add verses to service**
+    Add the selected verses to the :ref:`g-service-manager`. Verses can also be
+    added to the :ref:`g-service-manager` by means of drag and drop from the
+    :ref:`g-media-manager`.
 
 Quick Search Tab
 ^^^^^^^^^^^^^^^^
@@ -114,28 +115,12 @@ Quick Search Tab
 
 The following options are available on the quick search tab:
 
-*Version*
-    Once you have imported a Bible, it will be displayed in the *version*
-    drop down box. Select the version of the Bible you want to use here.
-    
-*Second*
-    If you have "Display second Bible verses" selected in Configure OpenLP,
-    Bibles tab, this choice will be visible. This option is for displaying
-    another version of the Bible for comparison. Both versions will be
-    displayed. If there is not enough space on one slide, the Second verses
-    will be displayed on the next slide.
-    
-*Search*
-    Use the *Search* button to display your results in the box below.
+**Find**
+    Clicking the icon in the Find box displays a list of search options. The
+    following options are available:
 
-*Find*
-    You will type your search query in this box for the following two searches.
-
-    Clicking the icon in the Find box will give you the choice of searching by
-    *Scripture Reference* or *Text Search*.
-
-    |search_reference| Scripture Reference
-        You may search for a specific verse using this format below.
+    |search_reference| **Scripture Reference**
+        Search for a specific verse using a scripture reference format. The following formats are supported:
 
         * Book Chapter
         * Book Chapter-Chapter
@@ -145,79 +130,68 @@ The following options are available on the quick search tab:
         * Book Chapter:Verse-Verse, Chapter:Verse-Verse
         * Book Chapter:Verse-Chapter:Verse
 
-    |search_text| Text Search
-        You may also search by a keyword or words. The more words you use for
-        the search, the more you will narrow down your results.
+    |search_text| **Text Search**
+        Search by a keyword or words. Use more words to narrow down the list
+        of results.
 
-|buttons_clear_results| |buttons_keep_results| *Keep/Clear Results*
-    Normally, when you run a search, the old results are cleared. If you wish to
-    retain the previous set of verses, toggle this button.
+**Version**
+    Once a Bible has been imported, it will be displayed in the drop down box.
+    Select a version from the list of the Bibles.
+    
+**Second**
+    If :guilabel:`Display second Bible verses` has been selected in the Bibles
+    configuration, this option will be available. This is used to display
+    another version of the Bible for comparison. Both versions will be
+    displayed. If there is not enough space on one slide, the Second verses
+    will be displayed on the next slide.
+    
+**Layout Style**
+    The following options are available to set how Bible verses are displayed:
 
-If you have "Display second Bible verses" selected in
-:menuselection:`Configure OpenLP --> Bibles` tab, this choice will be visible.
-This option is for displaying another version of the Bible for comparison. Both
-versions will be displayed. If there is not enough space on one slide, the
-Second version will be displayed on the next slide.
+    **Verse Per Slide**
+        Display one verse per slide.
 
-Click the :guilabel:`Search` button to display your results in the box below.
+    **Verse Per Line**
+        Start each verse on a new line until the slide is full.
 
-*Layout style*
-    There are three options to determine how your Bible verses are displayed.
+    **Continuous**
+        Verses flow together, separated by verse number and chapter
+        if chapter is selected to show above.
 
-    *Verse Per Slide*
-        This will display one verse per slide.
+    This setting is also accessible in :menuselection:`Setttings --> Configure OpenLP`
+    on the *Bibles* tab.
 
-    *Verse Per Line*
-        This will start each verse on a new line until the slide is full.
-
-    *Continuous*
-        This will run all verses together separated by verse number and chapter
-        if chapter is selected to show above. This setting is also accessible
-        through :menuselection:`Configure OpenLP --> Bibles` tab.
-
-    *Note:* Changes to Layout Style do not affect verses already in the
+    **Note:** Changes to layout style do not affect verses already in the
     :ref:`g-service-manager`.
 
-Each search you make will display your verses in the box below.
+|buttons_clear_results| |buttons_keep_results| **Keep/Clear Results**
+    Normally, when a search is run, the previous verses are cleared. To retain
+    the previous set of verses, toggle this button.
 
-.. image:: pics/mediamanager_bibles_results.png
-
-If you would like to display verses that are out of sequence you can click on
-the lock icon and continue your search for the next verse or verses. All
-searches will be shown and kept below. If you click the lock icon again, each
-new search clears the previous search from the list below.
+Click the :guilabel:`Search` button to perform a search and display the results
+in the verse list.
 
 Advanced Tab
 ^^^^^^^^^^^^
 
 .. image:: pics/mediamanager_bibles_advanced.png
 
-The Advanced tab is convenient for selecting book, chapter and verse by name and
-number.
+The Advanced tab is convenient for selecting Bible verses by book, chapter and
+verse from a set of drop down boxes.
 
-*Book:*
-  Click on the drop down box and select the book you want to display.
+**Book**
+    Click on the drop down box and select a book from the list.
 
-*Chapter: Verse:*
-  Select your chapter From and To and Verse From and To.
+**Chapter/Verse**
+    Select the *From* chapter and verse, and the *To* chapter and verse.
 
-Version and Second are the same as in Quick tab above. Click on each box and
-select the version you wish to display and Second version if you wish to display
-an alternative version for comparison.
+*Version*, *Second* and *Layout Style* are the same as in the *Quick* search
+tab.
 
-**Layout style**
+Click the :guilabel:`Search` button to perform a search and display the results
+in the verse list.
 
-There are three options to determine how your Bible verses are displayed.
-
-* *Verse Per Slide* will display one verse per slide.
-* *Verse Per Line* will start each verse on a new line until the slide is full.
-* *Continuous* will run all verses together separated by verse number and chapter if chapter is selected to show above. This setting is also accessible through :menuselection:`Configure OpenLP --> Bibles` tab.
-
-*Note: Changes to Layout Style do not affect verses already in the Service Manager.*
-
-Click the :guilabel:`Search` button to display your results in the box below.
-
-Each search you make will display your verses in the box below.
+.. image:: pics/mediamanager_bibles_results.png
 
 Presentations
 -------------

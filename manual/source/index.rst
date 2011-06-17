@@ -24,6 +24,7 @@ Reference Manual
    configure
    dualmonitors
    mediamanager
+   print_service
    themes
    songs
    bibles

@@ -3,22 +3,22 @@
 Custom Slides
 =============
 
-When you Add a new custom slide a dialog box will appear.
+Adding a new custom slide displays the following dialog:
 
 .. image:: pics/mediamanager_custom_edit.png
 
-*Title:*
-  Name of your custom slide.
+**Title**
+    Name of your custom slide.
 
-*Add:*
-  After clicking on Add you will enter your text you want to display in this box.
-  To create multiple slides, click the Split Slide button. When you have finished
-  adding your text, click on the Save button.
+**Add**
+    After clicking on Add you will enter your text you want to display in this
+    box. To create multiple slides, click the Split Slide button. When you have
+    finished adding your text, click on the Save button.
 
-*Theme:*
+**Theme**
   Select the theme you want to use for your Custom slide from this drop down box.
 
-*Credits:*
+**Credits**
   Anything typed in this box will be displayed in the footer information on the
   display. When you are finished, click the :guilabel:`Save` button.
 

@@ -198,7 +198,7 @@ Presentations
 -------------
 
 Clicking on *Presentations* in the :ref:`g-media-manager` will display the
-Presentations media item. The Presentations media item shows a list of imported
+presentations media item. The presentations media item shows a list of imported
 presentations.
 
 .. image:: pics/mediamanager_presentations.png
@@ -231,8 +231,8 @@ Toolbar
 Images
 ------
 
-Clicking on *Images* in the :ref:`g-media-manager` will display the Images
-media item. The Images media item shows a list of imported images.
+Clicking on *Images* in the :ref:`g-media-manager` will display the images
+media item. The images media item shows a list of imported images.
 
 .. image:: pics/mediamanager_images.png
 
@@ -269,8 +269,8 @@ Toolbar
 Media
 -----
 
-Clicking on *Media* in the :ref:`g-media-manager` will display the Media
-media item. The Media media item shows a list of imported audio or video files.
+Clicking on *Media* in the :ref:`g-media-manager` will display the media item
+for media. The media item shows a list of imported audio or video files.
 
 **Note:** On some computers OpenLP has trouble displaying videos. Please read
 the `Frequently Asked Questions <http://wiki.openlp.org/faq>`_ for tips on how
@@ -312,7 +312,7 @@ Custom Slides
 -------------
 
 Clicking on *Custom Slides* in the :ref:`g-media-manager` will display the
-Custom Slides media item. The Custom Slides media item shows a list of custom
+custom slides media item. The custom slides media item shows a list of custom
 textual items. Custom slides are useful for creating unstructured text items,
 such as liturgy or prayers.
 

@@ -73,8 +73,8 @@ Service items are the **media items** that are in the **service manager**
 
 .. _g-service-manager:
 
-Service Manger
---------------
+Service Manager
+---------------
 
 The service manager contains the media items in your service file. This is the
 area where your media items go live. You can also save, open, and edit

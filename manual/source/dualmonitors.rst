@@ -28,11 +28,11 @@ monitors will have two of, or a combination of the two, connectors below.
 
 .. image:: pics/svideo.png
 
-A laptop computer setup only varies slightly. Generally you will need only one
-of the outputs pictured above since your laptop screen serves as one of the
-monitors. Sometimes with older laptops a key stroke generally involving the
-:kbd:`Fn` key and another key is required to enable the second monitor on
-laptops.
+A laptop computer setup varies slightly. Generally you will need only one of 
+the outputs pictured above since your laptop screen serves as one of the
+monitors. Some older laptops may require a key stroke generally involving the
+:kbd:`Fn` key and another key (labeled on the keybaord) to enable the second
+monitor.
 
 A typical OpenLP setup consist of your normal single monitor, with your
 projector hooked up to your computer as the second monitor. With the option of 
@@ -42,7 +42,7 @@ equivalent.
 **Special Note For Projectors Using USB Connections**
 
 Users have reported experiencing difficulties when using a projector with a USB
-connection, as third party software is often required to properly configure
+connection. Third party software is often required to properly configure
 dual monitors. If possible, it is best to use a direct output (VGA, DVI, HDMI,
 S-Video) from your machine's video card. If a USB connection is your only option
 please consult the manufacturer's manual for instructions on a proper setup.
@@ -51,8 +51,10 @@ Microsoft Windows
 -----------------
 
 Dual monitor setup is similar among all the currently supported Windows
-releases (XP, Vista, Windows 7), but does vary slightly from one release to the
-next.
+releases (:ref:`win7monitor`, :ref:`winvistamonitor`, :ref:`winxpmonitor`), but 
+does vary slightly from one release to the next.
+
+.. _win7monitor:
 
 Windows 7
 ^^^^^^^^^
@@ -73,6 +75,8 @@ displays` is :guilabel:`Extend these displays`.
 
 .. image:: pics/winsevenresolution.png
 
+.. _winvistamonitor:
+
 Windows Vista
 ^^^^^^^^^^^^^
 
@@ -86,6 +90,8 @@ Settings`. Click on the monitor that represents your projector and make sure
 you have checked :guilabel:`Extend the desktop onto this monitor`.
 
 .. image:: pics/vistadisplaysettings.png
+
+.. _winxpmonitor:
 
 Windows XP
 ^^^^^^^^^^

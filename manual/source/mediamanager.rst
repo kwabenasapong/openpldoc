@@ -1,355 +1,385 @@
-.. _mediamanager:
+.. _media-manager:
 
-=============
 Media Manager
 =============
 
 Once you get your system set up for OpenLP you will be ready to add content to
-your Service Manager. This will all happen through the **Media Manager**. The
-Media Manager contains all the Bibles, Songs, Presentations, Media, and Custom 
-Slides that you will project through OpenLP.
+your :ref:`g-service-manager`. This will all happen through the
+:ref:`g-media-manager`. The :ref:`g-media-manager` contains all the Bibles,
+Songs, Presentations, Media, and Custom Slides that you will project through
+OpenLP.
 
-Enabling the Plugins
---------------------
-
-You may need to enable the default plugins that are built in to OpenLP. As you 
-can see below this is what the *Media Manager* looks like with all the plugins 
-enabled.
-
-.. image:: pics/mediamanager_songs.png
-
-To enable the plugins navigate to :menuselection:`Settings --> Plugins` or
-press :kbd:`Alt+F7`. You will want to click on the plugin to the left that you
-would like to enable and select *Active* from the drop down box to the right.
-
-.. image:: pics/plugins.png
-
-
-You are now ready to add content for your service.
-
-Adding Media Content
---------------------
-
-This section will describe how to add the different types of media OpenLP is 
-capable of displaying.
+If you don't see the "Songs", "Bibles" and other media items in the
+:ref:`g-media-manager`, then refer to :ref:`t-no-media-items` in the
+troubleshooting guide.
 
 Songs
-^^^^^
-Clicking on Songs in the Media Manager will display all of the songs you have 
-added by Title and Author/Authors.
+-----
+
+Clicking on *Songs* in the :ref:`g-media-manager` will display the songs media
+item. The songs media item shows a list of all the songs in the songs database.
 
 .. image:: pics/mediamanager_songs.png
 
-Using the buttons you can: 
+Toolbar
+^^^^^^^
 
-.. image:: pics/mediamanager_songs_buttons.png
+|buttons_new| **Add song**
+    Open the song edit dialog to add a new song.
 
-*Add a song:*
-  Brings up the dialog box to add a new song
+|buttons_edit| **Edit song**
+    Open the song edit dialog to make changes to the selected song.
 
-*Edit the selected song:*
-  Brings up the dialog box to make changes to the song
+|buttons_delete| **Delete song**
+    Remove the selected song(s) from the song list.
 
-*Delete the selected song:*
-  Removes the song from your song list
+|buttons_preview| **Preview song**
+    Send the selected song to the :ref:`g-preview-slide-controller`.
 
-*Preview the selected song:*
-  Lets you see what your song will look like displayed live
+|buttons_live| **Send song live**
+    Send the selected song to the :ref:`g-live-slide-controller` to be shown on
+    the display screen.
 
-*Send the selected song live:*
-  This option will immediately display your song live.
+|buttons_add| **Add song to service**
+    Add the selected song(s) to the :ref:`g-service-manager`. Songs can also be
+    added to the :ref:`g-service-manager` by means of drag and drop from the
+    :ref:`g-media-manager`.
 
-*Add the selected Song to the service:*
-  This will enter your song in the Service Manager. You can also drag your song 
-  over to the Service Manager.
+|buttons_db| **Maintain authors, topics and books**
+    Open the song maintenance dialog to add, edit or delete authors, topics or
+    song books.
 
-*Maintain the list of authors, topics and books:*
-  Brings up a dialog box to edit Authors, Topics or Song Books. 
-  Note: Right clicking on a song file will bring up some of the same options.
+**Note:** Right-clicking on a song in the list will display some of the same
+options.
 
-*Search:*
-  Clicking on the icon in the Search box will display a list of options for you 
-  to search your song database.
+Search
+^^^^^^
 
 .. image:: pics/mediamanager_songs_search.png
 
-You have these options to search.
+Clicking on the icon in the search box displays a list of search options. The
+following options are available:
 
-* *Entire Song:* This option will search Titles, Lyrics and Comments.
-* *Titles:* This option will search Titles only.
-* *Lyrics:* This option will search Lyrics only. 
-* *Authors:* This option will search Authors only.
-* *Themes:* This option will search for the assigned theme to the song.
+|search_song| **Entire Song**
+    Search the title, lyrics and comments fields.
 
-Use the :guilabel:`Search` button to display your results in the box below.
+|search_title| **Titles**
+    Search the title field only.
+
+|search_text| **Lyrics**
+    Search the lyrics field only.
+
+|search_author| **Authors**
+    Search the associated authors.
+
+|search_theme| **Themes**
+    Search the assigned themes.
+
+Click the :guilabel:`Search` button to perform a search and display the results
+in the song list.
 
 Bibles
-^^^^^^
-Clicking on Bibles in the Media Manager will display your options for searching 
-and adding chapters and verses to the Service Manager.
+------
+
+Clicking on *Bibles* in the :ref:`g-media-manager` will display the Bibles media
+item. The Bibles media item shows Bible verses and provides a search function
+to find Bible verses and add them to the :ref:`g-service-manager`.
 
 .. image:: pics/mediamanager_bibles.png
 
-Using the buttons you can:
+Toolbar
+^^^^^^^
 
-.. image:: pics/mediamanager_bibles_buttons.png
+|buttons_import| **Import Bible**
+    Import Bibles from a number of formats. This is discussed in detail on the
+    :ref:`bibles-import` page.
 
-*Import a Bible:*
-  This is discussed in detail on the Bible Importer page in the manual. 
+|buttons_preview| **Preview verses**
+    Send the selected verses to the :ref:`g-preview-slide-controller`.
 
-*Preview the selected Bible:*
-  Sends your selected verses to the Preview window 
+|buttons_live| **Send verses live**
+    Send the selected verses to the :ref:`g-live-slide-controller` to be shown
+    on the display screen.
 
-*Send the selected Bible live:*
-  This option will immediately display your selected verses live.
+|buttons_add| **Add verses to service**
+    Add the selected verses to the :ref:`g-service-manager`. Verses can also be
+    added to the :ref:`g-service-manager` by means of drag and drop from the
+    :ref:`g-media-manager`.
 
-*Add the selected Bible to the service:*
-  This will enter your verses into the Service Manager. You can also click and 
-  drag your verses over to the Service Manager. 
+**Note:** Right-clicking on a selection of verses will display some of the
+same options.
 
-**Quick** tab
+Quick Search Tab
+^^^^^^^^^^^^^^^^
 
 .. image:: pics/mediamanager_bibles_quick.png
 
+The following options are available on the quick search tab:
+
 **Find**
-  
-You will type your search query in this box for the following two searches. 
-Clicking the icon in the Find box will give you the choice of searching by 
-Scripture Reference or Text Search.
+    Clicking the icon in the Find box displays a list of search options. The
+    following options are available:
 
-*Scripture Reference:*
-You can search for a specific verse using this format below. 
+    |search_reference| **Scripture Reference**
+        Search for a specific verse using a scripture reference format. The following formats are supported:
 
-* Book Chapter 
-* Book Chapter-Chapter
-* Book Chapter:Verse-Verse
-* Book Chapter:Verse-End (this will display verses to the end of the chapter)
-* Book Chapter:Verse-Verse, Verse-Verse
-* Book Chapter:Verse-Verse, Chapter:Verse-Verse
-* Book Chapter:Verse-Chapter:Verse
+        * Book Chapter
+        * Book Chapter-Chapter
+        * Book Chapter:Verse-Verse
+        * Book Chapter:Verse-End (this will display verses to the end of the chapter)
+        * Book Chapter:Verse-Verse, Verse-Verse
+        * Book Chapter:Verse-Verse, Chapter:Verse-Verse
+        * Book Chapter:Verse-Chapter:Verse
 
-*Text Search*
-  You can also search by a keyword or words. The more words you use for the 
-  search, the more you will narrow down your results.
+    |search_text| **Text Search**
+        Search by a keyword or words. Use more words to narrow down the list
+        of results.
 
-**Version** 
-
-Once you have imported a Bible, it will be displayed in the Version 
-drop down box. Select the version of the Bible you want to use here.
-
+**Version**
+    Once a Bible has been imported, it will be displayed in the drop down box.
+    Select a version from the list of the Bibles.
+    
 **Second**
+    If :guilabel:`Display second Bible verses` has been selected in the Bibles
+    configuration, this option will be available. This is used to display
+    another version of the Bible for comparison. Both versions will be
+    displayed. If there is not enough space on one slide, the Second verses
+    will be displayed on the next slide.
+    
+**Layout Style**
+    The following options are available to set how Bible verses are displayed:
 
-If you have “Display second Bible verses” selected in 
-:menuselection:`Configure OpenLP --> Bibles` tab, this choice will be visible. 
-This option is for displaying another version of the Bible for comparison. Both 
-versions will be displayed. If there is not enough space on one slide, the 
-Second version will be displayed on the next slide.
+    **Verse Per Slide**
+        Display one verse per slide.
 
-Click the :guilabel:`Search` button to display your results in the box below.
+    **Verse Per Line**
+        Start each verse on a new line until the slide is full.
 
+    **Continuous**
+        Verses flow together, separated by verse number and chapter
+        if chapter is selected to show above.
 
-**Layout style**
+    This setting is also accessible in :menuselection:`Setttings --> Configure OpenLP`
+    on the *Bibles* tab.
 
-There are three options to determine how your Bible verses are displayed. 
+    **Note:** Changes to layout style do not affect verses already in the
+    :ref:`g-service-manager`.
 
-* *Verse Per Slide* will display one verse per slide.
-* *Verse Per Line* will start each verse on a new line until the slide is full.
-* *Continuous* will run all verses together separated by verse number and chapter if chapter is selected to show above. This setting is also accessible through :menuselection:`Configure OpenLP --> Bibles` tab.
+|buttons_clear_results| |buttons_keep_results| **Keep/Clear Results**
+    Normally, when a search is run, the previous verses are cleared. To retain
+    the previous set of verses, toggle this button.
 
-*Note: Changes to Layout Style do not affect verses already in the Service Manager.*
+Click the :guilabel:`Search` button to perform a search and display the results
+in the verse list.
 
-Each search you make will display your verses in the box below.
-
-.. image:: pics/mediamanager_bibles_results.png
-
-Toggle lock to keep or clear the previous results.
-
-.. image:: pics/mediamanager_bibles_lock.png 
-.. image:: pics/mediamanager_bibles_unlock.png
-
-If you would like to display verses that are out of sequence you can click on 
-the lock icon and continue your search for the next verse or verses. All 
-searches will be shown and kept below. If you click the lock icon again, each 
-new search clears the previous search from the list below.
-
-**Advanced** tab
+Advanced Tab
+^^^^^^^^^^^^
 
 .. image:: pics/mediamanager_bibles_advanced.png
 
-The Advanced tab is convenient for selecting book, chapter and verse by name and 
-number.
+The Advanced tab is convenient for selecting Bible verses by book, chapter and
+verse from a set of drop down boxes.
 
-*Book:*
-  Click on the drop down box and select the book you want to display. 
+**Book**
+    Click on the drop down box and select a book from the list.
 
-*Chapter: Verse:*
-  Select your chapter From and To and Verse From and To.
+**Chapter/Verse**
+    Select the *From* chapter and verse, and the *To* chapter and verse.
 
-Version and Second are the same as in Quick tab above. Click on each box and 
-select the version you wish to display and Second version if you wish to display 
-an alternative version for comparison.
+*Version*, *Second* and *Layout Style* are the same as in the *Quick* search
+tab.
 
-**Layout style**
+Click the :guilabel:`Search` button to perform a search and display the results
+in the verse list.
 
-There are three options to determine how your Bible verses are displayed. 
-
-* *Verse Per Slide* will display one verse per slide.
-* *Verse Per Line* will start each verse on a new line until the slide is full.
-* *Continuous* will run all verses together separated by verse number and chapter if chapter is selected to show above. This setting is also accessible through :menuselection:`Configure OpenLP --> Bibles` tab.
-
-*Note: Changes to Layout Style do not affect verses already in the Service Manager.*
-
-Click the :guilabel:`Search` button to display your results in the box below.
-
-Each search you make will display your verses in the box below.
+.. image:: pics/mediamanager_bibles_results.png
 
 Presentations
-^^^^^^^^^^^^^
+-------------
+
+Clicking on *Presentations* in the :ref:`g-media-manager` will display the
+presentations media item. The presentations media item shows a list of imported
+presentations.
 
 .. image:: pics/mediamanager_presentations.png
 
-Using the buttons you can:
+Toolbar
+^^^^^^^
 
-.. image:: pics/mediamanager_presentations_buttons.png
+|buttons_open| **Load presentation**
+    Import a presentation. Presentations need to be imported in order to
+    control them from within OpenLP.
 
-*Load a new presentation:*
-  This brings up a dialog box to find your presentation and list it in OpenLP.
+|buttons_delete| **Delete presentation**
+    Removes the selected presentation from the list. Note that this does not
+    delete the original presentation from the disk.
 
-*Delete the selected Presentation:*
-  This removes your Presentation from the list. Please note: this will not delete 
-  the presentation from your computer, only from the OpenLP list.
+|buttons_preview| **Preview presentation**
+    Send the selected presentation to the :ref:`g-preview-slide-controller`.
 
-*Preview the selected Presentation:*
-  Sends your selected Presentation to the Preview window 
+|buttons_live| **Send presentation live**
+    Send the selected presentation to the :ref:`g-live-slide-controller` to be
+    shown on the display screen.
 
-*Send the selected Presentation live:*
-  This option will immediately display your selected Presentation live.
+|buttons_add| **Add presentation to service**
+    Add the selected presentation to the :ref:`g-service-manager`. Presentations
+    can also be added to the :ref:`g-service-manager` by means of drag and drop
+    from the :ref:`g-media-manager`.
 
-*Add the selected Presentation to the service:*
-  This will enter your Presentation into the Service Manager. You can also click 
-  and drag your Presentation over to the Service Manager. 
-
-Right clicking on a Presentation file will bring up some of the same options.
+**Note:** Right-clicking on a presentation will display some of the same options.
 
 Images
-^^^^^^
+------
+
+Clicking on *Images* in the :ref:`g-media-manager` will display the images
+media item. The images media item shows a list of imported images.
 
 .. image:: pics/mediamanager_images.png
 
-Using the buttons you can:
+Toolbar
+^^^^^^^
 
-.. image:: pics/mediamanager_images_buttons.png
+|buttons_open| **Load image**
+    Import one or more images. Images need to be imported in order to be used
+    in OpenLP.
 
-*Load a new Image:*
-  This brings up a dialog box to find your Image and list it in OpenLP.
+|buttons_delete| **Delete images**
+    Removes the selected image(s) from the list. Note that this does not
+    delete the original image(s) from the disk.
 
-*Delete the selected Image:*
-  This removes your Image from the list. Please note: this will not delete the 
-  Image from your computer, just the OpenLP list.
+|buttons_preview| **Preview image**
+    Send the selected image(s) to the :ref:`g-preview-slide-controller`.
 
-*Preview the selected Image:*
-  Sends your selected Image to the Preview window. 
+|buttons_live| **Send image live**
+    Send the selected image(s) to the :ref:`g-live-slide-controller` to be
+    shown on the display screen.
 
-*Send the selected Image live:*
-  This option will immediately display your selected Image live.
+|buttons_add| **Add image to service**
+    Add the selected image(s) to the :ref:`g-service-manager`. Images can also
+    be added to the :ref:`g-service-manager` by means of drag and drop from the
+    :ref:`g-media-manager`.
 
-*Add the selected Image to the service:*
-  This will enter your Image into the Service Manager. You can also click and 
-  drag your Image over to the Service Manager. 
+|buttons_replace_live_background| **Replace live background**
+    Replace the current live theme background with the selected image. This
+    has effect until the theme changes, or the *Remove Backgound* button is
+    clicked.
 
-*Replace Live Background:*
-  With an Image selected, clicking this button will immediately replace the live 
-  background being displayed with your selection. The Image will replace the theme 
-  background until the theme changes or the "Remove Background" button is pressed.
-
-Right clicking on an Image file will bring up some of the same options.
+**Note:** Right-clicking on an image will display some of the same options.
 
 Media
-^^^^^
-Media is an audio or video file. Generally if you can play or view your media 
-on your computer without OpenLP, you can also play it in OpenLP.
+-----
+
+Clicking on *Media* in the :ref:`g-media-manager` will display the media item
+for media. The media item shows a list of imported audio or video files.
+
+**Note:** On some computers OpenLP has trouble displaying videos. Please read
+the `Frequently Asked Questions <http://wiki.openlp.org/faq>`_ for tips on how
+to resolve these issues.
 
 .. image:: pics/mediamanager_media.png
 
-Using the buttons you can:
+Toolbar
+^^^^^^^
 
-.. image:: pics/mediamanager_media_buttons.png
+|buttons_open| **Load media**
+    Import one or more media files. Media files need to be imported in order to
+    be used in OpenLP.
 
-*Load a new Media:*
-  This brings up a dialog box to find your Media and list it in OpenLP.
+|buttons_delete| **Delete media**
+    Removes the selected media file(s) from the list. Note that this does not
+    delete the original media file(s) from the disk.
 
-*Delete the selected Media:*
-  This removes your Media from the list. Please note: this will not delete the 
-  Media from your computer, just the OpenLP list.
+|buttons_preview| **Preview media**
+    Send the selected media to the :ref:`g-preview-slide-controller`.
 
-*Preview the selected Media:*
-  Sends your selected Media to the Preview window. 
+|buttons_live| **Send media live**
+    Send the selected media to the :ref:`g-live-slide-controller` to be shown
+    on the display screen.
 
-*Send the selected Media live:*
-  This option will immediately display your selected Media live.
+|buttons_add| **Add media to service**
+    Add the selected media to the :ref:`g-service-manager`. Media can also be
+    added to the :ref:`g-service-manager` by means of drag and drop from the
+    :ref:`g-media-manager`.
 
-*Add the selected Media to the service:*
-  This will enter your Media into the Service Manager. You can also click and 
-  drag your Media over to the Service Manager. 
+|buttons_replace_live_background| **Replace live background**
+    Replace the current live theme background with the selected media. This
+    has effect until the theme changes, or the *Remove Backgound* button is
+    clicked.
 
-*Replace Live Background:*
-  With a Media file selected, clicking this button will immediately replace the 
-  live background being displayed with your selection.
-
-Right clicking on a Media file will bring up some of the same options.
+**Note:** Right-clicking on a media file will display some of the same options.
 
 Custom Slides
-^^^^^^^^^^^^^
-Custom Slides gives you the option of creating your own slide. This is useful 
-for displaying readings, liturgy or any text that may not be found in Songs or 
-Bibles.
+-------------
+
+Clicking on *Custom Slides* in the :ref:`g-media-manager` will display the
+custom slides media item. The custom slides media item shows a list of custom
+textual items. Custom slides are useful for creating unstructured text items,
+such as liturgy or prayers.
 
 .. image:: pics/mediamanager_custom.png
 
-Using the buttons you can:
+Toolbar
+^^^^^^^
 
-.. image:: pics/mediamanager_custom_buttons.png
+|buttons_new| **Add custom slide**
+    Open the song edit dialog to add a new custom slide.
 
-*Add a new custom slide:*
-  Brings up the dialog box to add a new Custom slide display. 
+|buttons_edit| **Edit custom slide**
+    Open the song edit dialog to make changed to the selected new custom slide.
 
-*Edit the selected custom slide:* 
-  Brings up the dialog box to make changes to the custom slide.
+|buttons_delete| **Delete custom slide**
+    Remove the selected custom slide(s) from the list.
 
-*Delete the selected custom slide:*
-  Removes the custom slide from your list.
+|buttons_preview| **Preview custom slide**
+    Send the selected custom slide to the :ref:`g-preview-slide-controller`.
 
-*Preview the selected custom slide:*
-  Lets you see what your Custom will look like displayed live.
+|buttons_live| **Send custom slide live**
+    Send the selected custom slide to the :ref:`g-live-slide-controller` to be
+    shown on the display screen.
 
-*Send the selected custom slide live:*
-  This option will immediately display your custom slide live.
+|buttons_add| **Add custom slide to service**
+    Add the selected custom slide(s) to the :ref:`g-service-manager`. Custom
+    slides can also be added to the :ref:`g-service-manager` by means of drag
+    and drop from the :ref:`g-media-manager`.
 
-*Add the selected custom slide to the service:*
-  This will enter your custom slide in the Service Manager. You can also drag 
-  your custom slide over to the Service Manager.
+**Note:** Right-clicking on a custom slide in the list will display some of the
+same options.
 
-Right clicking on a custom slide file will bring up some of the same options.
+.. These are all the image templates that are used in this page.
 
-When you Add a new custom slide a dialog box will appear. 
+.. |BUTTONS_NEW| image:: pics/buttons_new.png
 
-.. image:: pics/mediamanager_custom_edit.png
+.. |BUTTONS_EDIT| image:: pics/buttons_edit.png
 
-*Title:*
-  Name of your custom slide.
+.. |BUTTONS_DELETE| image:: pics/buttons_delete.png
 
-*Add:*
-  After clicking on Add you will enter your text you want to display in this box. 
-  To create multiple slides, click the Split Slide button. When you have finished 
-  adding your text, click on the Save button.
+.. |BUTTONS_PREVIEW| image:: pics/buttons_preview.png
 
-*Theme:*
-  Select the theme you want to use for your Custom slide from this drop down box.
+.. |BUTTONS_LIVE| image:: pics/buttons_live.png
 
-*Credits:*
-  Anything typed in this box will be displayed in the footer information on the 
-  display. When you are finished, click the :guilabel:`Save` button.
+.. |BUTTONS_ADD| image:: pics/buttons_add.png
 
-To Edit your slide, click on :guilabel:`Edit` to edit part of it or 
-:guilabel:`Edit All` if you need to make multiple changes. Use the Up and Down 
-arrows to change the arrangement of your custom slide.
+.. |BUTTONS_DB| image:: pics/buttons_db.png
+
+.. |BUTTONS_IMPORT| image:: pics/buttons_import.png
+
+.. |BUTTONS_OPEN| image:: pics/buttons_open.png
+
+.. |BUTTONS_KEEP_RESULTS| image:: pics/buttons_keep_results.png
+
+.. |BUTTONS_CLEAR_RESULTS| image:: pics/buttons_clear_results.png
+
+.. |BUTTONS_REPLACE_LIVE_BACKGROUND| image:: pics/buttons_replace_live_background.png
+
+.. |SEARCH_SONG| image:: pics/search_song.png
+
+.. |SEARCH_TITLE| image:: pics/search_title.png
+
+.. |SEARCH_AUTHOR| image:: pics/search_author.png
+
+.. |SEARCH_THEME| image:: pics/search_theme.png
+
+.. |SEARCH_REFERENCE| image:: pics/search_reference.png
+
+.. |SEARCH_TEXT| image:: pics/search_text.png
+

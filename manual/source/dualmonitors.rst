@@ -20,14 +20,19 @@ monitors will have two of, or a combination of the two, connectors below.
 
 .. image:: pics/dvi.png
 
+**HDMI**
+
+.. image:: pics/hdmi.png
+
+**S-Video**
+
+.. image:: pics/svideo.png
+
 A laptop computer setup only varies slightly. Generally you will need only one
 of the outputs pictured above since your laptop screen serves as one of the
 monitors. Sometimes with older laptops a key stroke generally involving the
 :kbd:`Fn` key and another key is required to enable the second monitor on
 laptops.
-
-Some computers also incorporate the use of :abbr:`S-Video (Separate Video)` or
-:abbr:`HDMI (High-Definition Multimedia Interface)` connections.
 
 A typical OpenLP setup consist of your normal single monitor, with your
 projector hooked up to your computer as the second monitor. With the option of 

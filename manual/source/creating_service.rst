@@ -5,8 +5,8 @@ Creating a service
 Now that you have OpenLP set up the way you want, it is time to put it to use.
 
 Everything you need to display will be in the left panel called the
-:ref`g-media-manager`, under their respective categories. Using the
-:ref`g-media-manager` you can add new media, songs, images, Bibles or create a
+:ref:`g-media-manager`, under their respective categories. Using the
+:ref:`g-media-manager` you can add new media, songs, images, Bibles or create a
 custom slide as discussed earlier in the :ref:`media-manager` section.
 
 .. image:: pics/mediamanager_songs.png

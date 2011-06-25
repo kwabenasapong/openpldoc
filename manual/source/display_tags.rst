@@ -66,3 +66,6 @@ complete adding new :ref:`g-display-tags`.
 To delete :ref:`g-display-tags` that you have entered click on the display tag
 from the list and click :guilabel:`Delete`.
 
+**Note** if a tag is deleted that is in use in a song or custom slide the slide
+will display the tags {} without any formatting.  The deleted tags will need to
+be manually deleted from the songs or custom slides.

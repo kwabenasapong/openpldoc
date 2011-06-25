@@ -58,7 +58,11 @@ Display Tags`
 .. image:: pics/configure_display_tags.png
 
 Click the :guilabel:`New` button to add new :ref:`g-display-tags`. Enter the 
-discription of the display tag followed by the tag. Finally, enter in the HTML
-or CSS for the tag and click :guilabel:`Save` to complete adding new
-:ref:`g-display-tags`.
+description of the display tag followed by the tag. The tag must be unique.
+Tags do not need to put the in braces {} here, only when using the tag.
+Finally, enter in the HTML or CSS for the tag and click :guilabel:`Save` to
+complete adding new :ref:`g-display-tags`.
+
+To delete :ref:`g-display-tags` that you have entered click on the display tag
+from the list and click :guilabel:`Delete`.
 

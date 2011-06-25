@@ -8,6 +8,14 @@ The developers of OpenLP have strived to make it a straightforward and easy to
 use application. However, it is good to be familiar with a few terms that will
 be used throughout this documentation, and when seeking support.
 
+.. _g-display-tags:
+
+Display Tags
+------------
+
+:ref:`display-tags` give you the ability to add additional text formatting to text in
+songs and custom slides.
+
 .. _g-main-window:
 
 Main Window

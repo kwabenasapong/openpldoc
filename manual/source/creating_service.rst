@@ -144,20 +144,37 @@ your item.
 If you need to change your Note or delete it, open it again, delete your text
 and click :guilabel:`Save`
 
-Using the Continuous Loop Timer
+Using the Service Timer
 -------------------------------
 
-Once you have a group of images you can easily cycle through them by using the
-*Live Controller Bar* timer in between the Live panes.
+The Service Timer is available for any media item with multiple slides.
+This includes Bible verses, Songs, or a group of images. The Service Timer is 
+accessed in the *Live Controller Bar* between the Live panes.
 
 .. image:: pics/service_timer.png
 
-Adjust the time delay for the seconds in between each image by adjusting the
-timer. This timer counter is in seconds. Immediately to the left of the timer is
-the button to start the images looping. Click it once to start the continuous
-loop and once to stop it. You can also use the keyboard shortcut :kbd:`L` to
-start and stop the continuous loop. The timer will also cycle through Bible
-verses and song lyrics.
+The time delay increment is in seconds. Use the up or down arrow on the right of 
+the timer to change the number of seconds or type in the number of seconds you 
+want to use. This number determines how many seconds will lapse before your 
+media item will automatically change to the next slide. 
+
+Immediately to the left of the second counter is a down arrow. Clicking on this 
+arrow will give you two options for the use of the timer.
+
+.. image:: pics/service_timer_select.png
+
+**Play Slides in Loop**
+    Selecting this option will continuously loop your slides from beginning to 
+    end, and back to the beginning again. The slide loop will continue until you 
+    click the timer start and stop button again or move to the next service item.
+
+**Play Slides to End**
+    Selecting this option will display your slides through once and stop at the 
+    end.
+
+|service_timer| **Timer start and stop**
+    Click this button to start or stop the timer function. You can also use the 
+    keyboard shortcut :kbd:`L` to start and stop the continuous loop.
 
 Using the "Blank to" Control
 ----------------------------
@@ -201,3 +218,7 @@ service, you will want to save your service file. OpenLP will remind you to do
 this when you close the program or you can click the save button at the top of
 your service file. Choose the location you want to save your file and click
 :guilabel:`Ok`.
+
+.. These are all the image templates that are used in this page.
+
+.. |SERVICE_TIMER| image:: pics/service_timer_start.png

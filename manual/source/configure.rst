@@ -304,7 +304,10 @@ or daycare to display an Alert message or, use it as an interface to control the
 whole service remotely by a visiting missionary or worship team leader. 
 
 Stage view gives you the opportunity to set up a remote computer, netbook or 
-smartphone to view the service in an easy to read display as shown below. 
+smartphone to view the service being displayed in an easy to read font and black
+background. This is a text only viewer. 
+
+.. image:: pics/configure_remotes_stage.png
 
 This will work in any web browser that has network access whether it is another 
 computer, a netbook or a smartphone. 

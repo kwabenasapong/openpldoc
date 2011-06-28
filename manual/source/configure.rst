@@ -298,18 +298,19 @@ Font
 Remote Tab
 ===========
 
-OpenLP gives you the ability to control your Service Manager or send an Alert 
+OpenLP gives you the ability to control the Service Manager or send an Alert 
 from a remote computer through a web browser. This could be useful for a nursery 
-or daycare to display an Alert message or use it as an interface to control the 
-whole service remotely. This will work in any web browser that has network access 
-whether it is another computer, a netbook or a smartphone.
+or daycare to display an Alert message or, use it as an interface to control the 
+whole service remotely by a visiting missionary or worship team leader. 
 
-An example of use for this would be if you have a missionary with a 
-PowerPoint presentation, it may be easier for that missionary to remotely 
-connect to your projection computer and change the slides when they want to.
+Stage view gives you the opportunity to set up a remote computer, netbook or 
+smartphone to view the service in an easy to read display as shown below. 
 
-To use this feature your computers will need to be on the same network, wired or 
-wireless.
+This will work in any web browser that has network access whether it is another 
+computer, a netbook or a smartphone. 
+
+**Note** To use either of these features, your computers will need to be on the 
+same network, wired or wireless. 
 
 Server Settings
 ^^^^^^^^^^^^^^^
@@ -329,6 +330,8 @@ Server Settings
 
 *Stage view URL:*
   This will show the address you will use in the remote computer for Stage view.
+
+.. image:: pics/configure_remotes_stage.png
 
 Finding your IP address
 ^^^^^^^^^^^^^^^^^^^^^^^

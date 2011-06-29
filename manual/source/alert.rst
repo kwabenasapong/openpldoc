@@ -20,8 +20,8 @@ quotations). Anywhere in the Alert text that you add these two symbols, <> side
 by side, will insert any text you have in the parameter box into the Alert 
 message.
 
-Examples of use
----------------
+Example of use
+--------------
  
 :guilabel:`Alert text:` The owner of the vehicle with license plate number <> 
 your lights are on.

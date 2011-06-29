@@ -32,14 +32,6 @@ These two settings will display like this:
 
 The owner of the vehicle with the license plate number HNN432 your lights are on.
 
-You could also reverse this example:
-
-:guilabel:`Alert text:` HNN432 <>
-
-:guilabel:`Parameter:` left their lights on.
-
-`Will display like this:` HNN432 left their lights on.
-
 If you use the same alerts on a regular basis, Save your Alert and you will have 
 access to the alert with a click of the mouse. You may also click on `New` to 
 make a new alert or `Delete` an alert you do not need.

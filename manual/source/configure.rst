@@ -312,7 +312,7 @@ background. This is a text only viewer.
 This will work in any web browser that has network access whether it is another 
 computer, a netbook or a smartphone. 
 
-**Note** To use either of these features, your computers will need to be on the 
+**Note:** To use either of these features, your computers will need to be on the 
 same network, wired or wireless. 
 
 Server Settings

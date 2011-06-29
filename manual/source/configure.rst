@@ -334,8 +334,6 @@ Server Settings
 *Stage view URL:*
   This will show the address you will use in the remote computer for Stage view.
 
-.. image:: pics/configure_remotes_stage.png
-
 Finding your IP address
 ^^^^^^^^^^^^^^^^^^^^^^^
 

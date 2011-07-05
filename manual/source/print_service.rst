@@ -27,9 +27,6 @@ Toolbar
   This gives you a series of ways to customize the service order before
   printing. See the section on :ref:`options` for more information.
 
-|closebutton| **Close**
-  Closes the print service window.
-
 |copybutton| **Copy** 
   Copy the text of the preview window to your clipboard. You can then paste the
   text into other documents or applications.
@@ -333,8 +330,6 @@ This service_print.css assumes the slide text will not be included.::
 .. |printbutton| image:: pics/general_print.png
 
 .. |optionbutton| image:: pics/system_configure.png
-
-.. |closebutton| image:: pics/system_close.png
 
 .. |copybutton| image:: pics/system_edit_copy.png
 

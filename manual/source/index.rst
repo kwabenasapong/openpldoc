@@ -26,6 +26,7 @@ Reference Manual
    mediamanager
    print_service
    display_tags
+   configure_shortcuts
    themes
    songs
    bibles

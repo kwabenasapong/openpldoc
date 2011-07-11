@@ -255,7 +255,7 @@ Click on OpenLP from the results then click :guilabel:`Install`.
 
 .. image:: pics/mint8.png
 
-After OpenLP is installed you can close the Software Manager and open OpenLP
+After OpenLP is installed you can close the Software Manager and start OpenLP
 from the *Sound and Video* section of the Mint Menu.
 
 .. _mint-command:

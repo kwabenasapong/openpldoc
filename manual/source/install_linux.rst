@@ -209,6 +209,78 @@ to run OpenLP from the command line type::
 
   user@fedora:~$ openlp
 
+Linux Mint
+^^^^^^^^^^
+
+The following instructions are for a standard Linux Mint install. These 
+instructions will not work with Linux Mint Debian Edition. If your are running
+Linux Mint without the standard desktop please see the :ref:`mint-command`
+install instructions.
+
+The administrator password will be required several times during the 
+installation. To install OpenLP open the Software Manager from the Mint Menu.
+
+.. image:: pics/mint1.png
+
+The OpenLP personal package archive (PPA) will need to be added. Click on 
+:menuselection:`Edit --> Software Sources`
+
+.. image:: pics/mint2.png
+
+Click on the :guilabel:`Other Software` tab.
+
+.. image:: pics/mint3.png
+
+Click on the :guilabel:`Add...` button to add the new software source.
+
+.. image:: pics/mint4.png
+
+Add the APT line::
+
+  ppa:openlp-core/release
+  
+Click :guilabel:`Add Source`.
+
+.. image:: pics/mint5.png
+
+Click :guilabel:`Reload` to reload your software sources.
+
+.. image:: pics/mint6.png
+
+Type OpenLP into the search box to locate the OpenLP package.
+
+.. image:: pics/mint7.png
+
+Click on OpenLP from the results then click :guilabel:`Install`.
+
+.. image:: pics/mint8.png
+
+After OpenLP is installed you can close the Software Manager and start OpenLP
+from the *Sound and Video* section of the Mint Menu.
+
+.. _mint-command:
+
+Linux Mint (command line)
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+You will need to add the Personal Package Archive (PPA) to Linux Mint's
+software sources. From a terminal type::
+
+  user@mint:~$ sudo add-apt-repository ppa:openlp-core/release
+  
+Now you need to refresh the package list::
+
+  user@mint:~$ sudo apt-get update
+  
+Install OpenLP::
+
+  user@mint:~$ sudo apt-get install openlp
+
+OpenLP should now be available in your desktop's menu system, but if you wish 
+to run OpenLP from the command line type::
+
+  user@mint:~$ openlp
+
 Arch Linux
 ^^^^^^^^^^
 

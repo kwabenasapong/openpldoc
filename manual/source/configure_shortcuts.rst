@@ -2,7 +2,7 @@
 Customize Shortcuts
 ===================
 
-OpenLP gives you the option to use keyboard shortcuts either by changing the 
+OpenLP gives you the ability to use keyboard shortcuts either by changing the 
 default primary ones already assigned or by adding an alternate shortcut that 
 will work alongside the primary shortcut.
 

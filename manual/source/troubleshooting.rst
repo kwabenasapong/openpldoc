@@ -161,8 +161,8 @@ This is a known issue on some Mac OS X 10.5 systems and on a few Windows XP
 systems. Currently the only solution is to convert your images into another
 format. We would suggest using PNG images when possible with OpenLP.
 
-I am running a Linux Distro and can not see the menus
------------------------------------------------------
+I am running a Linux Distro and can not see the menu icons
+----------------------------------------------------------
 
 This seems to be a problem with XFCE and some versions of Gnome too. To correct
 this problem, open  a terminal and type in the following commands::

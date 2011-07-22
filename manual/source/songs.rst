@@ -117,7 +117,7 @@ click :guilabel:`Add a new Song` in the `Media Manager`.
 
 **Title:** This is where you would name your song or edit a song name.
 
-**Alternate title:**Alternate Title was for songs with two names 
+**Alternate title:** Alternate Title was for songs with two names 
 "Lord the Light" - "Shine Jesus Shine". You can also add a name in this box that 
 will bring up the song in Titles search. **Example:** You could use an alternate 
 title of "hymn" on all your hymn song titles for grouping. When you search "hymn" 

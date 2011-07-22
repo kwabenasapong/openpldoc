@@ -142,6 +142,21 @@ display in the order seen in *Lyrics*.
 
 .. image:: pics/song_edit_verse_error.png
 
+**Clone:** OpenLP gives you the ability to clone a song. This could be useful if 
+you use a different version of the song with slightly different lyrics. Instead
+of typing in all the lyrics again, you can clone it which makes an identical 
+copy of the original song.
+
+To *Clone* a song right-click on the song you would like to duplicate and left-
+click :guilabel:`Clone`. 
+
+.. image:: pics/song_edit_clone.png
+
+After you click *Clone* you will see the copy of the song with <copy> in the 
+title.
+
+.. image:: pics/song_edit_copy.png
+
 Adding or editing the lyrics
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 

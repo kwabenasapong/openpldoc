@@ -56,6 +56,11 @@ it Live and you notice you don't have the correct theme for it, you can right
 click the item and mouseover :guilabel:`Change Item Theme` and select the theme
 you want to use.
 
+An easy way to check which theme you are using is to move your mouse cursor over
+an item in your service and you will see a popup with the theme being used.
+
+.. image:: pics/service_manager_theme.png
+
 Moving through a Service
 ------------------------
 

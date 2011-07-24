@@ -260,8 +260,8 @@ from the *Sound and Video* section of the Mint Menu.
 
 .. _mint-command:
 
-Linux Mint (command line)
-^^^^^^^^^^^^^^^^^^^^^^^^^
+Linux Mint Command Line Install
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 You will need to add the Personal Package Archive (PPA) to Linux Mint's
 software sources. From a terminal type::

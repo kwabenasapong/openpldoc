@@ -135,8 +135,9 @@ images.
 Adding a service Note
 ---------------------
 
-You have the option to leave yourself or the next tech a service note. This is
-done by right clicking on an item in your service and left clicking *Notes*.
+You have the ability to leave yourself or the next projector person a service 
+note. This is done by right clicking on an item in your service manager and left 
+clicking *Notes*.
 
 .. image:: pics/service_item_notes.png
 
@@ -145,6 +146,11 @@ mind you can click :guilabel:`Cancel`. Your note will appear as a yellow note on
 your item.
 
 .. image:: pics/service_note.png
+
+To view your note move your mouse cursor over the item in your service and you 
+will see a popup with the information you typed in your note.
+
+.. image:: pics/service_manager_noteview.png
 
 If you need to change your Note or delete it, open it again, delete your text
 and click :guilabel:`Save`

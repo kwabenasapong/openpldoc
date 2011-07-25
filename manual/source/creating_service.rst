@@ -135,9 +135,9 @@ images.
 Adding a service Note
 ---------------------
 
-You have the ability to leave yourself or the next tech a service note. This is
-done by right clicking on an item in your service manager and left clicking 
-*Notes*.
+You have the ability to leave yourself or the next projector person a service 
+note. This is done by right clicking on an item in your service manager and left 
+clicking *Notes*.
 
 .. image:: pics/service_item_notes.png
 

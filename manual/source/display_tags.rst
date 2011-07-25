@@ -21,14 +21,14 @@ by the text to be formatted. End the text to be formatted with an ending tag
 Example of use
 --------------
 
-To italicize a section of text you would do the following in a custom slide or
+To make a section of text bold you would do the following in a custom slide or
 song::
 
-  Amazing grace how {it} sweet {/it} the sound.
+  Amazing grace how {st}sweet{/st} the sound.
   
 This will yield the text as:
 
-  Amazing grace how *sweet* the sound.
+  Amazing grace how **sweet** the sound.
   
 Included display tags
 ---------------------

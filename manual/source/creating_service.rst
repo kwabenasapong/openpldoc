@@ -43,7 +43,7 @@ Any of these methods will display your item on
 the screen. When your item is displayed, it will appear in the Live windows just
 to the left of the Service Manager.
 
-.. image:: pics/service_live.png
+.. image:: pics/slidecontroller.png
 
 To Preview an item in the left *Preview* panes, right click the item and left
 click *Show Preview*.

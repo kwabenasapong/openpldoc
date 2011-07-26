@@ -19,14 +19,27 @@ Anything you want to display should be in the Service Manager and preferably in
 the order you want to display it. To add your media you can click on an item in
 the *Media Manager* hold and drag your selection from the Media Manager over to
 the *Service Manager* or, after clicking the media or verse you want to use,
-click the + sign icon above. This will add your media to the service side at the
-bottom. Once it is in the Service Manager you can click on your item and drag
-and drop it in the order you want or, click the item and use the arrow icons
-below to move it up or down in the order you want. Note: You always have the
-option to send any media live direct from the Media Manager. Please see the
-:ref:`media-manager` section for more details.
+click the |add_plus| sign icon above. This will add your media to the service 
+side at the bottom. Once it is in the Service Manager you can click on your item 
+and drag and drop it in the order you want or, click the item and use the arrow 
+icons below to move it up or down in the order you want. 
 
-.. image:: pics/service_arrows.png
+|service_top| Move item to the top of the service.
+
+|service_up| Move item up one position in the service.
+
+|service_down| Move item down one position in the service.
+
+|service_bottom| Move item to the end of the service.
+
+|service_expand| Expand all the service items.
+
+|service_collapse| Collapse all the service items.
+
+|live| Send the selected item to Live.
+
+**Note:** You always have the option to send any media live direct from the 
+Media Manager. Please see the :ref:`media-manager` section for more details.
 
 Displaying an Item
 ------------------
@@ -35,9 +48,7 @@ When you have all of your items needed for the service in your Service Manager
 there are a few ways to get them to display on the screen. You can double-click
 the item, click it once with the mouse and push the :kbd:`Enter` key on your
 keyboard, right click the item and left click *Show Live* or click it once with
-the mouse and click on the projector at the bottom of the Service Manager.
-
-.. image:: pics/service_send_live.png
+the mouse and click on the projector |live| at the bottom of the Service Manager.
 
 Any of these methods will display your item on
 the screen. When your item is displayed, it will appear in the Live windows just
@@ -82,7 +93,9 @@ in the bottom Live window. To change slides you can use your mouse to click on
 each slide in the top Live window, use the Left Arrow and Right Arrow icons
 under the top Live window.
 
-.. image:: pics/service_live_arrows.png
+|slide_next| Move to next.
+
+|slide_previous| Move to previous.
 
 You can also use the :kbd:`Down Arrow` key to move down through
 the song or verses. Using the :kbd:`Up Arrow` key will move you from bottom to
@@ -196,17 +209,17 @@ you your three options.
 
 .. image:: pics/service_blank.png
 
-**Blank Screen**
+|slide_blank| **Blank Screen**
     Choosing this option will blank your projector to black as if it were shut off.
     The shortcut for this option is :kbd:`.` (fullstop/period on your keyboard).
 
-**Blank to Theme**
+|slide_theme| **Blank to Theme**
     Choosing this option will show your blank theme only, without lyrics or verses.
     If you are blanking a song with an assigned theme it will blank to that theme.
     If no theme is assigned or you are blanking a presentation or image, it will
     blank to the global theme. The shortcut for this option is :kbd:`T`.
 
-**Blank to Desktop**
+|slide_desktop| **Show Desktop**
     Choosing this option will show your desktop wallpaper or a program that you have
     open on the extended monitor or projector. You can seamlessly switch between one
     program and OpenLP by Blank to Desktop. The shortcut for this option is :kbd:`D`.
@@ -217,12 +230,16 @@ You can change or add to the keyboard shortcuts here
 New, Open and Saving the service
 ---------------------------------
 
-.. image:: pics/service_save.png
+Three icons at the top of the *Service Manager* will do the following:
 
-These three icons at the top of the *Service Manager* will do the following:
-The first icon will create a New Service. The second icon will Open an already
-created service file. The third icon will Save the service you created, added to
-or rearranged.
+|service_new| **Create a new service.**
+    This first icon will create a New Service. 
+
+|service_open| **Load an existing service.**
+    This second icon will Open an already created service file. 
+
+|service_save| **Save this service.**
+    This icon will Save the service you created, added to, or rearranged.
 
 Now that you created your service, tested it and are ready for your worship
 service, you will want to save your service file. OpenLP will remind you to do
@@ -233,3 +250,20 @@ your service file. Choose the location you want to save your file and click
 .. These are all the image templates that are used in this page.
 
 .. |SERVICE_TIMER| image:: pics/service_timer_start.png
+.. |ADD_PLUS| image:: pics/general_add.png
+.. |LIVE| image:: pics/system_live.png
+.. |SERVICE_TOP| image:: pics/service_top.png
+.. |SERVICE_UP| image:: pics/service_up.png
+.. |SERVICE_BOTTOM| image:: pics/service_bottom.png
+.. |SERVICE_DOWN| image:: pics/service_down.png
+.. |SLIDE_NEXT| image:: pics/slide_next.png
+.. |SLIDE_PREVIOUS| image:: pics/slide_previous.png
+.. |SLIDE_BLANK| image:: pics/slide_blank.png
+.. |SLIDE_THEME| image:: pics/general_preview.png
+.. |SLIDE_DESKTOP| image:: pics/preferences-desktop-display.png
+.. |CUSTOM_DELETE| image:: pics/custom_delete.png
+.. |SERVICE_EXPAND| image:: pics/service_expand_all.png
+.. |SERVICE_COLLAPSE| image:: pics/service_collapse_all.png
+.. |SERVICE_NEW| image:: pics/service_new.png
+.. |SERVICE_OPEN| image:: pics/service_open.png
+.. |SERVICE_SAVE| image:: pics/service_save.png

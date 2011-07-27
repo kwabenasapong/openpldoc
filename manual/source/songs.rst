@@ -99,7 +99,7 @@ completed.
 Press :guilabel:`Finish` and OpenLP will be ready to use your songs imported
 from CCLI SongSelect.
 
-Creating or editing a song slide
+Creating or Editing a Song Slide
 ================================
 
 If you want to create a new song slide or, once you have a song imported, you 
@@ -157,7 +157,7 @@ title.
 
 .. image:: pics/song_edit_copy.png
 
-Adding or editing the lyrics
+Adding or Editing the Lyrics
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Add:** To Add a new verse, click on :guilabel:`Add`. The main window is where
@@ -223,7 +223,7 @@ the info that is already there.
 highlighted. Note: You cannot delete an author that is assigned to a song. 
 Authors names are displayed in the footer.
 
-Theme, Copyright info & Comments
+Theme, Copyright Info & Comments
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 On this tab you can assign a *Theme* to a song, enter the *Copyright information*

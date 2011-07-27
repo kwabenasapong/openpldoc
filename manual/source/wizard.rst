@@ -20,7 +20,7 @@ The "Welcome to the First Time Wizard" dialog box will appear next. Click
 
 .. image:: pics/002-first-time-wizard-welcome.png
 
-Activate required Plugins
+Activate Required Plugins
 -------------------------
 
 .. image:: pics/003-first-time-wizard-plugins.png

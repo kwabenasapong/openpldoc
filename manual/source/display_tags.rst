@@ -11,14 +11,14 @@ a shortcut to use HTML and CSS to format text.
 :ref:`g-display-tags` consist of two parts, a starting and an ending tag, each
 tag consists of brace, tag identifier, brace. 
 
-Using a display tag
+Using a Display Tag
 -------------------
 
 To use :ref:`g-display-tags` surround the text with a starting tag {} followed
 by the text to be formatted. End the text to be formatted with an ending tag
 {/}.
 
-Example of use
+Example of Use
 --------------
 
 To make a section of text bold you would do the following in a custom slide or
@@ -30,7 +30,7 @@ This will yield the text as:
 
   Amazing grace how **sweet** the sound.
   
-Included display tags
+Included Display Tags
 ---------------------
 
 The following tags are included with OpenLP
@@ -49,7 +49,7 @@ The following tags are included with OpenLP
 * **{st}** bold
 * **{it}** italics
 
-Configuring display tags
+Configuring Display Tags
 ------------------------
 
 To add new :ref:`g-display-tags` go to :menuselection:`Settings -> Configure 

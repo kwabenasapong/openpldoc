@@ -121,7 +121,8 @@ The following options are available on the quick search tab:
     following options are available:
 
     |search_reference| **Scripture Reference**
-        Search for a specific verse using a scripture reference format. The following formats are supported:
+        Search for a specific verse using a scripture reference format. The 
+        following formats are supported:
 
         * Book Chapter
         * Book Chapter-Chapter
@@ -133,7 +134,10 @@ The following options are available on the quick search tab:
 
     |search_text| **Text Search**
         Search by a keyword or words. Use more words to narrow down the list
-        of results.
+        of results. If you search for "Jesus God" (AND) it searches sentences 
+        which contain both words. If you search for "Jesus, God" (OR), separated
+        by a comma, it searches for sentences which contain at least one of the 
+        words.
 
 **Version**
     Once a Bible has been imported, it will be displayed in the drop down box.

@@ -295,6 +295,8 @@ Font
 **Preview:**
   Your choices will be displayed here.
 
+.. _remote_tab:
+  
 Remote Tab
 ===========
 

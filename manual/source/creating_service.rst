@@ -1,3 +1,5 @@
+.. _creating_service:
+
 ==================
 Creating a Service
 ==================
@@ -105,6 +107,8 @@ under the top Live window.
 You can also use the :kbd:`Down Arrow` key to move down through
 the song or verses. Using the :kbd:`Up Arrow` key will move you from bottom to
 top. :kbd:`Page Up` and :kbd:`Page Down` keys will do the same thing.
+
+.. _adding_images:
 
 Adding a Group of Images
 ------------------------

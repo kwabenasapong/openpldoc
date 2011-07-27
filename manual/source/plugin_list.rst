@@ -18,12 +18,12 @@ Plugin Details
 The left side shows you the list of plugins. Click on a plugin to check its 
 status.
 
-**Status:** This shows if your plugin is Active or Inactive. Click the box to 
+**Status:** Shows if your plugin is Active or Inactive. Click the box to 
 change the status and click  :kbd:`OK` to save your selection.
 
-**Version:** This is the version of the plugin. 
+**Version:** Is the version of the plugin. 
 
-**About:** This is the description of the plugin.
+**About:** Describes the use of the plugin.
 
 For a brief description of what each plugin does, please see below.
 

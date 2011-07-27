@@ -25,6 +25,7 @@ Reference Manual
    dualmonitors
    mediamanager
    print_service
+   plugin_list
    display_tags
    configure_shortcuts
    themes

@@ -7,7 +7,7 @@ OpenLP has many plugins you can activate. By default, all plugins are enabled,
 except the Remote Access plugin. A plugin adds features and functionality to 
 OpenLP.
 
-To see which plugins are enabled select :menuselection:`Setttings --> Plugin List`
+To see which plugins are enabled select :menuselection:`Settings --> Plugin List`
 or :kbd:`Alt+F7`
 
 .. image:: pics/plugin_list_main.png

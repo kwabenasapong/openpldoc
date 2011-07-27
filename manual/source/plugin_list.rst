@@ -35,7 +35,7 @@ For a brief description of what each plugin does, please see below.
     sources during the service.
 
 |presentations| **Presentation Plugin**
-    the presentation plugin provides the ability to show presentations using a 
+    The presentation plugin provides the ability to show presentations using a 
     number of different programs. The choice of available presentation programs
     is available to the user in a drop down box.
     **Note** Presentation plugin is disabled on MAC.

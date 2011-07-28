@@ -134,10 +134,10 @@ The following options are available on the quick search tab:
 
     |search_text| **Text Search**
         Search by a keyword or words. Use more words to narrow down the list
-        of results. If you search for "Jesus God" (AND) it searches sentences 
-        which contain both words. If you search for "Jesus, God" (OR), separated
-        by a comma, it searches for sentences which contain at least one of the 
-        words.
+        of results. If you search for "Jesus God" it searches sentences 
+        which contain both words, Jesus and God. If you search for "Jesus, God" 
+        separated by a comma, it searches for sentences which contain at least 
+        one of the words, Jesus or God.
 
 **Version**
     Once a Bible has been imported, it will be displayed in the drop down box.

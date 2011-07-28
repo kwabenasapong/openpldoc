@@ -202,7 +202,7 @@ have an author entered. You can add a blank space for the author name.
 **Authors:** Click the drop down arrow to view all authors or start typing a name
 in the box and a list will appear. If the authors name has not been added, type
 the authors name in the box and click :guilabel:`Add to Song`. The authors name
-will appear below and will also be added to your database. If you accidently add
+will appear below and will also be added to your database. If you accidentally add
 the wrong author you can click on the authors name and click :guilabel:`Remove`.
 
 :guilabel:`Manage Authors, Topics, Song Books`: Clicking this button will bring 
@@ -244,4 +244,4 @@ is displayed in the footer.
 of the song, not your contract number. This number is not displayed in the footer
 
 **Comments:** You can add comments in this box. This information is not 
-dispayed in the footer.
+displayed in the footer.

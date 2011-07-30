@@ -99,4 +99,4 @@ start.
 
 The main window.
 
-.. image:: pics/012-openlp-main-window.png
+.. image:: pics/mainwindow.png

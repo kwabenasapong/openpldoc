@@ -1,8 +1,8 @@
-================
-First Run Wizard
-================
+=================
+First Time Wizard
+=================
 
-When using OpenLP for the first time, the **First Run Wizard** will help you 
+When using OpenLP for the first time, the **First Time Wizard** will help you 
 with setting up your installation. This wizard is not intended to be a 
 comprehensive setup but will help you with the basics.
 
@@ -101,12 +101,12 @@ The main window.
 
 .. image:: pics/mainwindow.png
 
-Running the First Run Wizard After Installing OpenLP
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Re-run First Time Wizard
+------------------------
 
-If you have an error while installing OpenLP or wish to add items from the
-First Run Wizard at a later date it can be ran again. Start by going to 
-:menuselection:`Tools --> Re-run First Time Wizard` Select :guilabel:`Yes` to
+If you wish to add items from the First Time Wizard at a later date or had an 
+error while installing OpenLP you can run it again by going to 
+:menuselection:`Tools --> Re-run First Time Wizard`. Select :guilabel:`Yes` to
 run the First Run Wizard again.
 
 .. image:: pics/rerunwizard.png

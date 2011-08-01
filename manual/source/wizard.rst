@@ -100,3 +100,15 @@ start.
 The main window.
 
 .. image:: pics/mainwindow.png
+
+Running the First Run Wizard After Installing OpenLP
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+If you have an error while installing OpenLP or wish to add items from the
+First Run Wizard at a later date it can be ran again. Start by going to 
+:menuselection:`Tools --> Re-run First Time Wizard` Select :guilabel:`Yes` to
+run the First Run Wizard again.
+
+.. image:: pics/rerunwizard.png
+
+After selecting :guilabel:`Yes` the First Time Wizard will run again. 

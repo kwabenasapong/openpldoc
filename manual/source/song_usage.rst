@@ -46,6 +46,9 @@ file in. Click :guilabel:`OK` and click :guilabel:`OK` again or
 :guilabel:`Cancel` at any time. This saves your tracking log as \usage_detail_"start_date"_"end_date".txt. You can open this file in any text 
 viewer or your spread sheet application.
 
+The usage detailed report will be in the following format: Year, Month, Day,  
+Hour, Minute, Seconds, Micro-seconds, Song title, Copyright, CCLI number, Author.
+
 **Delete Extracted Data**
 
 When you do not need your previously saved data past a certain point in time, 

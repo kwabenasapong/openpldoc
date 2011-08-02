@@ -16,6 +16,14 @@ Display Tags
 :ref:`display-tags` give you the ability to add additional text formatting to text in
 songs and custom slides.
 
+.. _g-wizard:
+
+First Time Wizard
+-----------------
+
+The :ref:`wizard` gives you the ability to perform a basic setup before OpenLP
+starts for the first time.
+
 .. _g-main-window:
 
 Main Window

@@ -3,9 +3,8 @@
 Song Usage Tracking
 ===================
 
-OpenLP gives you the ability to track the songs you use in the 
-:ref:`creating_service`. Every time a song is displayed from the 
-:ref:`creating_service` it will be logged. This is useful for CCLI or any other
+OpenLP gives you the ability to track all the songs that are displayed. Every 
+time a song is displayed it will be logged. This is useful for CCLI or any other 
 church copyright license that may require tracking or for your own personal use 
 to know what songs you previously used. 
 

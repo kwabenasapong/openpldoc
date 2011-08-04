@@ -8,21 +8,13 @@ The developers of OpenLP have strived to make it a straightforward and easy to
 use application. However, it is good to be familiar with a few terms that will
 be used throughout this documentation, and when seeking support.
 
-.. _g-display-tags:
+.. _g-formatting-tags:
 
-Display Tags
-------------
+Formatting Tags
+---------------
 
-:ref:`display-tags` give you the ability to add additional text formatting to text in
+:ref:`formatting-tags` give you the ability to add additional text formatting to text in
 songs and custom slides.
-
-.. _g-wizard:
-
-First Time Wizard
------------------
-
-The :ref:`wizard` gives you the ability to perform a basic setup before OpenLP
-starts for the first time.
 
 .. _g-main-window:
 

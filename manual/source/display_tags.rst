@@ -8,6 +8,10 @@ OpenLP has the ability to add additional formatting to text in songs and custom
 slides through the use of :ref:`g-formatting-tags`. :ref:`g-formatting-tags` provide 
 a shortcut to use HTML and CSS to format text. 
 
+**Note:** :ref:`g-formatting-tags` provide a shortcut to using HTML and CSS,
+however, you can not directly enter HTML or CSS into OpenLP you must define it
+using :ref:`g-formatting-tags`
+
 :ref:`g-formatting-tags` consist of two parts, a starting and an ending tag, each
 tag consists of brace, tag identifier, brace. 
 
@@ -16,6 +20,9 @@ Using a Formatting Tag
 
 :ref:`g-formatting-tags` can be inserted by typing the tag into the text that 
 is being edited or by using the mouse to select and insert the tags.
+:ref:`g-formatting-tags` can not span across page breaks. If a tag begins with
+text on one side of a page break it cannot stretch across the break. Instead, 
+two sets of tags will need to be used on each side of the break.
 
 Adding Formatting Tags Using Text
 ---------------------------------

@@ -12,8 +12,7 @@ Getting Started With OpenLP
    install_windows_mac
    install_linux
    install_bsd
-   creating_service
-
+   
 Reference Manual
 ----------------
 
@@ -24,6 +23,7 @@ Reference Manual
    configure
    dualmonitors
    mediamanager
+   creating_service
    print_service
    plugin_list
    display_tags
@@ -32,6 +32,7 @@ Reference Manual
    songs
    bibles
    custom_slides
+   song_usage
    alert
    glossary
 

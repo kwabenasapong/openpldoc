@@ -11,8 +11,8 @@ a shortcut to use HTML and CSS to format text.
 :ref:`g-formatting-tags` consist of two parts, a starting and an ending tag, each
 tag consists of brace, tag identifier, brace. 
 
-**Note:** HTML or CSS cannnot be directly entered into OpenLP it must be defined
-through the use of :ref:`g-formatting-tags`
+**Note:** HTML or CSS cannnot be directly entered into OpenLP. They must be
+defined through the use of :ref:`g-formatting-tags`
 
 Using a Formatting Tag
 ======================

@@ -67,7 +67,7 @@ The formatting tags should now be inserted.
 .. image:: /pics/tags_inserted.png
 
 
-Included formatting tags
+Included Formatting Tags
 ------------------------
 
 The following tags are included with OpenLP
@@ -86,8 +86,8 @@ The following tags are included with OpenLP
 * **{st}** bold
 * **{it}** italics
 
-Configuring formatting tags
----------------------------
+Configuring Formatting Tags
+===========================
 
 To add new :ref:`g-formatting-tags` go to :menuselection:`Settings -> Configure 
 Formatting Tags`

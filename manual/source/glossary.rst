@@ -15,15 +15,15 @@ First Time Wizard
 
 The :ref:`wizard` gives you the ability to perform a basic setup of OpenLP. It 
 runs automatically before OpenLP starts for the first time. The :ref:`wizard`
-can also be used again if needed.
+can be :ref:`run again <wizard-run-again>` if needed.
 
 .. _g-formatting-tags:
 
 Formatting Tags
 ---------------
 
-:ref:`formatting-tags` give you the ability to add additional text formatting to text in
-songs and custom slides.
+:ref:`formatting-tags` give you the ability to add additional text formatting
+to text in songs and custom slides.
 
 .. _g-main-window:
 

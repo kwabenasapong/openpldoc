@@ -103,6 +103,8 @@ The main window.
 
 .. image:: pics/mainwindow.png
 
+.. _wizard-run-again:
+
 Re-run First Time Wizard
 ------------------------
 

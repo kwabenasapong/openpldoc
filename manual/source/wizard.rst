@@ -4,7 +4,7 @@
 First Time Wizard
 =================
 
-When using OpenLP for the first time, the :ref:`g-wizard` will help you 
+When using OpenLP for the first time, the :ref:`g-ftwizard` will help you 
 with setting up your installation. This wizard is not intended to be a 
 comprehensive setup but will help you with the basics.
 
@@ -103,14 +103,16 @@ The main window.
 
 .. image:: pics/mainwindow.png
 
+.. _wizard-run-again:
+
 Re-run First Time Wizard
 ------------------------
 
-If you wish to add items from the  :ref:`g-wizard` at a later date or had an 
+If you wish to add items from the  :ref:`g-ftwizard` at a later date or had an 
 error while installing OpenLP you can run it again by going to 
 :menuselection:`Tools --> Re-run First Time Wizard`. Select :guilabel:`Yes` to
-run the :ref:`g-wizard`.
+run the :ref:`g-ftwizard`.
 
 .. image:: pics/rerunwizard.png
 
-After selecting :guilabel:`Yes` the :ref:`g-wizard` will run again. 
+After selecting :guilabel:`Yes` the :ref:`g-ftwizard` will run again. 

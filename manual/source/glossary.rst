@@ -8,13 +8,22 @@ The developers of OpenLP have strived to make it a straightforward and easy to
 use application. However, it is good to be familiar with a few terms that will
 be used throughout this documentation, and when seeking support.
 
+.. _g-ftwizard:
+
+First Time Wizard
+-----------------
+
+The :ref:`wizard` gives you the ability to perform a basic setup of OpenLP. It 
+runs automatically before OpenLP starts for the first time. The :ref:`wizard`
+can be :ref:`run again <wizard-run-again>` if needed.
+
 .. _g-formatting-tags:
 
 Formatting Tags
 ---------------
 
-:ref:`formatting-tags` give you the ability to add additional text formatting to text in
-songs and custom slides.
+:ref:`formatting-tags` give you the ability to add additional text formatting
+to text in songs and custom slides.
 
 .. _g-main-window:
 
@@ -70,14 +79,14 @@ Service File
 ------------
 
 A service file is the file that is created when you save your service in OpenLP.
-The service file consist of **Service Items**
+The service file consist of :ref:`g-service-item`
 
 .. _g-service-item:
 
-Service Item
-------------
+Service Items
+-------------
 
-Service items are the **media items** that are in the **service manager**
+Service items are the :ref:`g-media-item` that are in the :ref:`g-service-manager`.
 
 .. _g-service-manager:
 
@@ -95,7 +104,7 @@ services files from here.
 Slide Controller
 ----------------
 
-The Slide Controller controls which slide from a **Service Item** is currently
+The Slide Controller controls which slide from a :ref:`g-service-item` is currently
 being displayed, and moving between the various slides.
 
 .. image:: pics/slidecontroller.png

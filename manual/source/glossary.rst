@@ -8,6 +8,14 @@ The developers of OpenLP have strived to make it a straightforward and easy to
 use application. However, it is good to be familiar with a few terms that will
 be used throughout this documentation, and when seeking support.
 
+.. _g-ftwizard:
+
+First Time Wizard
+-----------------
+
+The :ref:`wizard` gives you the ability to perform a basic setup before OpenLP 
+starts for the first time.
+
 .. _g-formatting-tags:
 
 Formatting Tags

@@ -111,7 +111,7 @@ Re-run First Time Wizard
 If you wish to add items from the  :ref:`g-ftwizard` at a later date or had an 
 error while installing OpenLP you can run it again by going to 
 :menuselection:`Tools --> Re-run First Time Wizard`. Select :guilabel:`Yes` to
-run the :ref:`g-wizard`.
+run the :ref:`g-ftwizard`.
 
 .. image:: pics/rerunwizard.png
 

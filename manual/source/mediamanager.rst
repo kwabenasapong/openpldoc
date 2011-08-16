@@ -232,7 +232,7 @@ Toolbar
 
 **Notes:** Right-clicking on a presentation will display some of the same options.
 
-Presentations items can be dragged from the desktop (or any folder) into the 
+Presentation items can be dragged from the desktop (or any folder) into the 
 Presentation media manager plugin. This allows the selected items to be loaded 
 more quickly. If a folder is selected, all the contacts of the folder will be 
 added. When the items are added, only items with the correct file suffix for the 

@@ -230,7 +230,14 @@ Toolbar
     can also be added to the :ref:`g-service-manager` by means of drag and drop
     from the :ref:`g-media-manager`.
 
-**Note:** Right-clicking on a presentation will display some of the same options.
+**Notes:** Right-clicking on a presentation will display some of the same options.
+
+Presentations items can be dragged from the desktop (or any folder) into the 
+Presentation media manager plugin. This allows the selected items to be loaded 
+more quickly. If a folder is selected, all the contacts of the folder will be 
+added. When the items are added, only items with the correct file suffix for the 
+plugin will be loaded. If you try to drop a presentation into the images folder, 
+an error message will be generated.
 
 Images
 ------
@@ -268,7 +275,14 @@ Toolbar
     has effect until the theme changes, or the *Remove Backgound* button is
     clicked.
 
-**Note:** Right-clicking on an image will display some of the same options.
+**Notes:** Right-clicking on an image will display some of the same options.
+
+Images can be dragged from the desktop (or any folder) into the Images manager 
+plugin. This allows the selected items to be loaded more quickly. If a folder is 
+selected, all the contacts of the folder will be added. When the items are added, 
+only items with the correct file suffix for the plugin will be loaded. If you 
+try to drop a presentation into the images folder, an error message will be 
+generated.
 
 Media
 -----
@@ -307,10 +321,17 @@ Toolbar
 
 |buttons_replace_live_background| **Replace live background**
     Replace the current live theme background with the selected media. This
-    has effect until the theme changes, or the *Remove Backgound* button is
+    has effect until the theme changes, or the *Remove Background* button is
     clicked.
 
-**Note:** Right-clicking on a media file will display some of the same options.
+**Notes:** Right-clicking on a media file will display some of the same options.
+
+Media items can be dragged from the desktop (or any folder) into the Media 
+manager plugin. This allows the selected items to be loaded more quickly. If a 
+folder is selected, all the contacts of the folder will be added. When the items 
+are added, only items with the correct file suffix for the plugin will be loaded. 
+If you try to drop a presentation into the images folder, an error message will 
+be generated.
 
 Custom Slides
 -------------

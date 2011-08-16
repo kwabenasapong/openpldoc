@@ -250,6 +250,9 @@ Three icons at the top of the *Service Manager* will do the following:
 |service_open| **Load an existing service.**
     This second icon will Open an already created service file. 
 
+**Note** You can drag saved services into the service manager. The service will 
+be opened up and the existing service replaced.
+
 |service_save| **Save this service.**
     This icon will Save the service you created, added to, or rearranged.
 

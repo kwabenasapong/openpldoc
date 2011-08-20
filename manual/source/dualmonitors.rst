@@ -113,6 +113,11 @@ assumes you have properly set up any proprietary drivers if needed. You
 should seek out your distributions documentation if this general guide does not
 work.
 
+**Note to Ubuntu 11.04 Users:** Ubuntu 11.04 uses the new Unity interface. It
+is recommended to use the *Classic Desktop* option. OpenLP and other 
+applications requiring dual monitors may not work well with Unity due to issues
+experienced by other users with the Unity interface.
+
 GNOME 2
 ^^^^^^^
 

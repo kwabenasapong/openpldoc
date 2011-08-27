@@ -42,7 +42,7 @@ then select the day.
 
 |file_open| Use this button to choose the folder you want to save your tracking
 file in. Click :guilabel:`OK` and click :guilabel:`OK` again or 
-:guilabel:`Cancel` at any time. This saves your tracking log as \usage_detail_"start_date"_"end_date".txt. 
+:guilabel:`Cancel` at any time. This saves your tracking log as "usage_detail_<start date>_<end date>.txt". 
 You can open this file in any text viewer or your spread sheet application.
 
 The usage detailed report will be in the following format: Year, Month, Day,  

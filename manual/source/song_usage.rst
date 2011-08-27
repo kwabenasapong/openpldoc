@@ -3,10 +3,10 @@
 Song Usage Tracking
 ===================
 
-OpenLP gives you the ability to track all the songs that are displayed live. 
-Every time a song is displayed live it will be logged. This is useful for CCLI 
-or any other church copyright license that may require tracking or for your own 
-personal use to know what songs you previously used. 
+OpenLP gives you the ability to track all the songs that are displayed live or 
+printed. Every time a song is displayed live or printed it will be logged. This 
+is useful for CCLI or any other church copyright license that may require 
+tracking or for your own personal use to know what songs you previously used. 
 
 Song Usage Tracking is listed under the menu item 
 :menuselection:`Tools --> Song Usage Tracking`
@@ -23,8 +23,8 @@ one of these buttons below :ref:`creating_service`.
 
 **Extract Tracking Data** 
 
-Now that you have tracked the songs that were displayed you will want to access 
-the information. Go to 
+Now that you have tracked the songs that were displayed or printed you will want 
+to access the information. Go to 
 :menuselection:`Tools --> Song Usage Tracking --> Extract Tracking Data` and you 
 will be presented with dual calendars.
 
@@ -42,11 +42,12 @@ then select the day.
 
 |file_open| Use this button to choose the folder you want to save your tracking
 file in. Click :guilabel:`OK` and click :guilabel:`OK` again or 
-:guilabel:`Cancel` at any time. This saves your tracking log as \usage_detail_"start_date"_"end_date".txt. You can open this file in any text 
-viewer or your spread sheet application.
+:guilabel:`Cancel` at any time. This saves your tracking log as \usage_detail_"start_date"_"end_date".txt. 
+You can open this file in any text viewer or your spread sheet application.
 
 The usage detailed report will be in the following format: Year, Month, Day,  
-Hour, Minute, Seconds, Micro-seconds, Song title, Copyright, CCLI number, Author.
+Hour, Minute, Seconds, Micro-seconds, Song title, Copyright, CCLI number, Author, 
+Song (meaning a song was tracked), and if your song was Displayed or Printed.
 
 **Delete Extracted Data**
 
@@ -63,10 +64,10 @@ tracking information prior to the date you selected will be deleted. Click
 
 **Tip**
 
-Every time you display a song, whether for practice or during a service, it will
-be logged if tracking is on. This could create a lot of duplicate songs being 
-logged. Toggle the tracking on and off, as needed, at the bottom right under 
-:ref:`themes` using these buttons.
+Every time you display or print a song, whether for practice or during a service, 
+it will be logged if tracking is on. This could create a lot of duplicate songs 
+being logged. Toggle the tracking on and off, as needed, at the bottom right 
+under :ref:`themes` using these buttons.
 
 |song_active| Song usage tracking is active.
 

@@ -9,38 +9,36 @@ The `Theme Manager` is where you can set backgrounds, fonts, and colors to the
 style you desire. From the theme manager you can create a new theme, Edit a 
 theme, Delete a theme, Import a theme, and Export a theme.
 
-.. image:: /pics/thememanager1.png
+.. image:: /pics/theme_manager_main.png
 
 Creating New Themes
 ===================
-Click the :guilabel:`Create Theme Icon` to Create a new theme   
-
-.. image:: /pics/createthemeicon.png 
+|theme_new| **Create a new theme.**   
 
 This will bring up the `Theme Wizard`
 
-.. image:: /pics/themewizardwelcome.png
+.. image:: /pics/theme_manager_wizard.png
 
 Click :guilabel:`Next`. You have 3 choices in the drop down menu for Background
 type: Solid Color, Gradient, or Image.
 
-.. image:: /pics/themewizard1.png 
+.. image:: /pics/theme_manager_background.png 
  
 Solid color: select solid color and click on the black button next to Color. 
 You will have the option of choosing among the colors you see or entering your
 own.
 
-.. image:: /pics/themewizard2.png
+.. image:: /pics/theme_manager_selectcolor.png
 
 Gradient: choose the two colors, First and Second, you want to fade together 
 and the Gradient drop down will let you determine the directions of the fade.
 
-.. image:: /pics/themewizard3.png
+.. image:: /pics/theme_manager_gradient.png
 
 Image: Click on the folder to find and select your image. OpenLP accepts a 
 variety of image types. 
 
-.. image:: /pics/themewizard4.png
+.. image:: /pics/theme_manager_image.png
 
 **Note:** If possible, try to use the same size image as your projector is
 displaying.
@@ -51,7 +49,7 @@ button.
 This is the area where you will select and define your font characteristics for 
 the Display text.
 
-.. image:: /pics/themewizard5.png
+.. image:: /pics/theme_manager_mainfont.png
 
 **Font:** Choose the font you would like to use from the drop down.
 
@@ -82,7 +80,7 @@ This page determines the Font, Font Color, and size of the font for the footer.
 The footer is where the Title of the song, Author or Authors, Copyright and 
 CCLI License are displayed.
 
-.. image:: /pics/themewizard6.png
+.. image:: /pics/theme_manager_footerfont.png
 
 When you are finished setting your footer font details, click :guilabel:`Next`.
 
@@ -91,11 +89,11 @@ When you are finished setting your footer font details, click :guilabel:`Next`.
 This page determines the alignment of the text on your slide and the transition 
 from one slide to the next. 
 
-.. image:: /pics/themewizard7.png
+.. image:: /pics/theme_manager_textalign.png
 
-**Horizontal Align** the text to the Left, Right or Center of the screen.
+**Horizontal Align:** the text to the Left, Right or Center of the screen.
 
-**Vertical Align** the text to the Top, Middle or bottom of the screen.
+**Vertical Align:** the text to the Top, Middle or bottom of the screen.
 
 **Transitions**
 
@@ -114,7 +112,7 @@ ie: If you have a temporary or permanent obstacle in one part of the viewing
 area, you can resize the Main or Footer area and use x and y positions to
 display in a different position on the screen.
 
-.. image:: /pics/themewizard8.png
+.. image:: /pics/theme_manager_outputlocation.png
 
 You can also change the Width and the Height of the Main Area of the Footer Area.
 
@@ -122,11 +120,11 @@ When you are finished setting your Output Area Locations, click :guilabel:`Next`
 
 Save and Preview
 
-.. image:: /pics/themewizard9.png
+.. image:: /pics/theme_manager_save.png
 
 **Theme Name:** Enter your theme name here.
 
-**Preview** 
+**Preview:** 
 The Preview shows the choices you made when setting up the previous pages plus, 
 shows all the edit effects possible so you can see what the impact is on all 
 possible font colors and characteristics.
@@ -140,7 +138,7 @@ Now that you created your theme, and you show it on the projector and there is
 something you don't like, you can easily Edit your theme either by clicking the
 Theme Edit Button:
 
-.. image:: /pics/themeeditbutton.png
+|theme_edit|
 
 Or by right-clicking your theme and selecting the appropriate action.
 
@@ -149,7 +147,7 @@ Deleting Themes
 
 The Delete Button:
 
-.. image:: /pics/songs17.png
+|theme_delete|
 
 will delete a selected theme or by right-clicking your theme and selecting 
 the appropriate action.
@@ -162,7 +160,7 @@ Exporting Themes
 If you would like to transfer a theme from one computer to another, click on 
 the theme you want to Export, click the last button in the Theme Manager:
 
-.. image:: /pics/themeimportexport.png
+|theme_export|
 
 choose the folder you want to save your theme and click the OK button.
 
@@ -171,7 +169,7 @@ Importing Themes
 
 The fourth button in the Theme Manager:
 
-.. image:: /pics/themeimportexport.png
+|theme_import|
 
 will allow you to Import an Exported theme. Click the Import button, select the
 folder and the theme file, and click OK. Your imported theme will be in the 
@@ -195,4 +193,17 @@ Set as Global default
 =====================
 
 If you right-click your theme, you have the option to set the theme as Global
-default. This option is covered in greater detail under “Configure OpenLP. 
+default. This option is covered in greater detail under “Configure OpenLP". 
+
+
+.. These are all the image templates that are used in this page.
+
+.. |THEME_DELETE| image:: pics/theme_delete.png
+
+.. |THEME_EDIT| image:: pics/theme_edit.png
+
+.. |THEME_EXPORT| image:: pics/theme_export.png
+
+.. |THEME_IMPORT| image:: pics/theme_import.png
+
+.. |THEME_NEW| image:: pics/theme_new.png

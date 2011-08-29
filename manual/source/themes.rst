@@ -161,18 +161,17 @@ Exporting Themes
 ================
 
 If you would like to transfer a theme from one computer to another, click on 
-the theme you want to Export, click the last button in the Theme Manager
-|theme_export| and choose the folder you want to save your theme and click 
-:guilabel:`OK`.
+the theme you want to export, click |theme_export| and choose the folder you 
+want to save your theme in and click :guilabel:`OK`.
 
 Importing Themes
 ================
 
-To Import an Exported theme, click the Import button, |theme_import| and select 
-the folder and the theme file, and click :guilabel:`OK`. Your imported theme 
-will be in the Theme Manager. *Import Theme* will also handle version 1 Exports. 
-You will need to check your imported theme since many of the values will have 
-been defaulted.
+To import a theme that has been previously exported, click the import button 
+|theme_import| and select the folder and the theme file, and click :guilabel:`OK`. 
+Your imported theme will be entered in the Theme Manager. *Import Theme* will 
+also handle version 1 Exports. You will need to check your imported theme since 
+many of the values will have been defaulted.
 
 Rename Theme
 ============

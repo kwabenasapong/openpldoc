@@ -5,7 +5,7 @@ Themes
 ======
 
 
-The `Theme Manager` is where you can set backgrounds, fonts, and colors to the 
+The *Theme Manager* is where you can set backgrounds, fonts, and colors to the 
 style you desire. From the theme manager you can create a new theme, Edit a 
 theme, Delete a theme, Import a theme, and Export a theme.
 
@@ -13,9 +13,7 @@ theme, Delete a theme, Import a theme, and Export a theme.
 
 Creating New Themes
 ===================
-|theme_new| **Create a new theme.**   
-
-This will bring up the `Theme Wizard`
+|theme_new| **Create a new theme:** This will bring up the *Theme Wizard*
 
 .. image:: /pics/theme_manager_wizard.png
 
@@ -24,27 +22,35 @@ type: Solid Color, Gradient, or Image.
 
 .. image:: /pics/theme_manager_background.png 
  
-Solid color: select solid color and click on the black button next to Color. 
-You will have the option of choosing among the colors you see or entering your
+**Solid color:** Select solid color and click on the black button next to Color. 
+You have the option of choosing among the colors you see or entering your
 own.
 
 .. image:: /pics/theme_manager_selectcolor.png
 
-Gradient: choose the two colors, First and Second, you want to fade together 
+**Gradient:** Choose the two colors, First and Second, you want to fade together 
 and the Gradient drop down will let you determine the directions of the fade.
 
 .. image:: /pics/theme_manager_gradient.png
 
-Image: Click on the folder to find and select your image. OpenLP accepts a 
-variety of image types. 
+**Image:** You have the ability to use an image for your background. OpenLP 
+accepts a variety of image types.  
 
 .. image:: /pics/theme_manager_image.png
 
-**Note:** If possible, try to use the same size image as your projector is
-displaying.
+**Background color:** Choose the color that will appear on the borders if your
+image is smaller than your projector display setting.
+
+**Image:** Click |buttons_open| to find and select your image.
+
+**Note:** When possible, try to use the same size image as your projector is
+displaying unless you want a background color for a border.
 
 When finished with your selection for background, click the :guilabel:`Next`
 button. 
+
+Main Area Font Details
+----------------------
 
 This is the area where you will select and define your font characteristics for 
 the Display text.
@@ -67,14 +73,15 @@ choose your color and size of the outline.
 **Shadow:** If you desire a shadow around your font, select the Shadow box and 
 choose your color and size of the shadow.  
 
-**Bold Display:** select the box for Bold font
+**Bold Display:** Select the box for Bold font
 
-**Italic Display:** select the box for Italic font
+**Italic Display:** Select the box for Italic font
 
 When you are finished selecting your font details click the :guilabel:`Next`
 button.
 
-**Footer Area Font Details**
+Footer Area Font Details
+------------------------
 
 This page determines the Font, Font Color, and size of the font for the footer.
 The footer is where the Title of the song, Author or Authors, Copyright and 
@@ -84,7 +91,8 @@ CCLI License are displayed.
 
 When you are finished setting your footer font details, click :guilabel:`Next`.
 
-**Text Formatting Details**
+Text Formatting Details
+-----------------------
 
 This page determines the alignment of the text on your slide and the transition 
 from one slide to the next. 
@@ -95,21 +103,21 @@ from one slide to the next.
 
 **Vertical Align:** the text to the Top, Middle or bottom of the screen.
 
-**Transitions**
-
-When this box is selected, switching slides will fade out from one and fade in 
-to the next. When the box is not selected, slide changing will be instant.
+**Transitions:** When this box is selected, switching slides will fade out from 
+one and fade in to the next. When the box is not selected, slide changing will 
+be instant.
 
 When you are finished setting your Text Formatting Details, click :guilabel:`Next`.
 
-**Output Area Locations**
+Output Area Locations
+---------------------
 
 This page gives you the ability to position your Main area or Footer area to a
 specific area of the screen using the x and y positions. ie: if you do not want
 your footer on the bottom left, you can make the adjustment here. 
-You can resize the Width and the Height of the Main Area and the Footer Area.
+You can re-size the Width and the Height of the Main Area and the Footer Area.
 ie: If you have a temporary or permanent obstacle in one part of the viewing
-area, you can resize the Main or Footer area and use x and y positions to
+area, you can re-size the Main or Footer area and use x and y positions to
 display in a different position on the screen.
 
 .. image:: /pics/theme_manager_outputlocation.png
@@ -119,62 +127,52 @@ You can also change the Width and the Height of the Main Area of the Footer Area
 When you are finished setting your Output Area Locations, click :guilabel:`Next`.
 
 Save and Preview
+----------------
 
 .. image:: /pics/theme_manager_save.png
 
 **Theme Name:** Enter your theme name here.
 
-**Preview:** 
-The Preview shows the choices you made when setting up the previous pages plus, 
-shows all the edit effects possible so you can see what the impact is on all 
-possible font colors and characteristics.
+**Preview:** The Preview shows the choices you made when setting up the previous 
+pages plus, shows all the edit effects possible so you can see what the impact 
+is on all possible font colors and characteristics.
 
-If you are satisfied with your selections, click :guilabel:`Finish`. If you 
+When you are satisfied with your selections, click :guilabel:`Finish`. If you 
 want to make a change, use the :guilabel:`Back` button.
 
 Editing Themes
 ==============
-Now that you created your theme, and you show it on the projector and there is
-something you don't like, you can easily Edit your theme either by clicking the
-Theme Edit Button:
 
-|theme_edit|
-
-Or by right-clicking your theme and selecting the appropriate action.
+Now that you created your theme and you display it on the projector and there is
+something you don't like, you can easily *Edit* your theme either by clicking 
+the |theme_edit| Theme Edit Button or by right-clicking your theme and selecting 
+the appropriate action.
 
 Deleting Themes
 ===============
 
-The Delete Button:
+|theme_delete| Delete a selected theme or you can right-click your theme and 
+select :guilabel:`Delete`.
 
-|theme_delete|
-
-will delete a selected theme or by right-clicking your theme and selecting 
-the appropriate action.
-
-**Note:** deleting the currently selected global theme or the 
+**Note:** Deleting the currently selected global theme or the 
 default theme is not possible.
 
 Exporting Themes
 ================
+
 If you would like to transfer a theme from one computer to another, click on 
-the theme you want to Export, click the last button in the Theme Manager:
-
-|theme_export|
-
-choose the folder you want to save your theme and click the OK button.
+the theme you want to Export, click the last button in the Theme Manager
+|theme_export| and choose the folder you want to save your theme and click 
+:guilabel:`OK`.
 
 Importing Themes
 ================
 
-The fourth button in the Theme Manager:
-
-|theme_import|
-
-will allow you to Import an Exported theme. Click the Import button, select the
-folder and the theme file, and click OK. Your imported theme will be in the 
-Theme Manager. Import Theme will also handle version 1 Exports. You will need to
-check your imported theme since many of the values will have been defaulted.
+To Import an Exported theme, click the Import button, |theme_import| and select 
+the folder and the theme file, and click :guilabel:`OK`. Your imported theme 
+will be in the Theme Manager. *Import Theme* will also handle version 1 Exports. 
+You will need to check your imported theme since many of the values will have 
+been defaulted.
 
 Rename Theme
 ============
@@ -193,7 +191,7 @@ Set as Global default
 =====================
 
 If you right-click your theme, you have the option to set the theme as Global
-default. This option is covered in greater detail under “Configure OpenLP". 
+default. This option is covered in greater detail under :ref:`configure`. 
 
 
 .. These are all the image templates that are used in this page.
@@ -207,3 +205,5 @@ default. This option is covered in greater detail under “Configure OpenLP".
 .. |THEME_IMPORT| image:: pics/theme_import.png
 
 .. |THEME_NEW| image:: pics/theme_new.png
+
+.. |BUTTONS_OPEN| image:: pics/buttons_open.png

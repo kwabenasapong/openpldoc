@@ -239,6 +239,8 @@ you your three options.
 You can change or add to the keyboard shortcuts here
 :menuselection:`Settings --> Configure Shortcuts`.
 
+.. new_creating_service:
+
 New, Open and Saving the Service
 ---------------------------------
 

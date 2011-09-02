@@ -20,6 +20,7 @@ Reference Manual
    :maxdepth: 2
 
    wizard
+   menu_items
    configure
    dualmonitors
    mediamanager

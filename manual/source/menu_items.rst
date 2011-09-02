@@ -4,112 +4,112 @@ Menu Items
 ==========
 
 The following is a list of menu items that are listed across the top of OpenLP.
-There will be a brief description or link for their intended purpose.
+There is a brief description or link for their intended purpose.
 
 File
 ----
 
-|buttons_new| New
+|buttons_new| **New:** Creates a new service. :ref:`new_creating_service`
 
-|buttons_open| Open
+|buttons_open| **Open:** Load an existing service. :ref:`new_creating_service`
 
-|buttons_save| Save
+|buttons_save| **Save:** Saves your existing loaded service.
 
-Save As
+**Save As:** Saves your newly created service.
 
-Recent Files
+**Recent Files:** Displays your last files opened configurable here. :ref:`configure_ui`
 
-  Clear List
+  **Clear List**
 
-Import
+**Import**
 
-  Settings
+  **Settings**
 
-  Theme
+  **Theme**
 
-  Song
+  **Song**
 
-  Bible
+  **Bible**
 
-Export
+**Export**
 
-  Settings
+  **Settings**
 
-  Theme
+  **Theme**
 
-  Song
+  **Song**
 
-Print Service
+**Print Service**
 
-|buttons_exit| Exit
+|buttons_exit| **Exit**
 
 View
 ----
 
-Mode
+**Mode**
 
-  Default
+  **Default**
 
-  Setup
+  **Setup**
 
-  Live
+  **Live**
 
-|button_mediamanager| Media Manager
+|button_mediamanager| **Media Manager**
 
-|button_servicemanager| Service Manager
+|button_servicemanager| **Service Manager**
 
-|theme_new| Theme Manager
+|theme_new| **Theme Manager**
 
-Preview Panel
+**Preview Panel**
 
-Live Panel
+**Live Panel**
 
-Lock Panels
+**Lock Panels**
 
 Tools
 -----
 
-|buttons_open| Open Data Folder
+|buttons_open| **Open Data Folder**
 
-|button_rerun| Re-run First Time Wizard
+|button_rerun| **Re-run First Time Wizard**
 
-Update Theme Images
+**Update Theme Images**
 
-|plugin_songs| Re-index Songs
+|plugin_songs| **Re-index Songs**
 
-Song Usage Tracking
+**Song Usage Tracking**
 
-  Toggle Tracking
+  **Toggle Tracking**
 
-  Extract Tracking Data
+  **Extract Tracking Data**
 
-  Delete Tracking Data  
+  **Delete Tracking Data**  
 
-|plugin_alerts| Alert
+|plugin_alerts| **Alert**
 
 Settings
 --------
 
-|plugin_list| Plugin List
+|plugin_list| **Plugin List**
 
-Language
+**Language**
 
-  Autodetect
+  **Autodetect**
 
-|button_tag| Configure Formatting Tags
+|button_tag| **Configure Formatting Tags**
 
-|button_settings| Configure Shortcuts
+|button_settings| **Configure Shortcuts**
 
-|button_configure| Configure OpenLP
+|button_configure| **Configure OpenLP**
 
 Help
 ----
 
-Online Help
+**Online Help**
 
-Web Site
+**Web Site**
 
-About
+**About**
 
 
 .. These are all the image templates that are used in this page.

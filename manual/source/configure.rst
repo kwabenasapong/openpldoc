@@ -12,8 +12,8 @@ To configure OpenLP, click on :menuselection:`Settings --> Configure OpenLP...`
 The plugins you have activated will have configure options. If all the plugins
 are activated there will be 10 items down the left side you can configure.
 
-General Tab
-===========
+General
+=======
 
 .. image:: pics/configuregeneral.png
 
@@ -88,8 +88,8 @@ option also comes in handy when you have the "Display if a single screen" box
 selected. You can make the display smaller so it does not cover your whole 
 screen.
 
-Themes Tab
-==========
+Themes
+======
 
 .. image:: pics/configurethemes.png
 
@@ -120,18 +120,19 @@ Choose from one of three options for the default use of your theme.
   With this level selected, all songs and verses will use the theme selected on
   the left in the Global Theme drop down.
 
-Advanced Tab
-============
+Advanced
+========
 
 .. image:: pics/configureadvanced.png
 
+.. _configure_ui:
 
 UI Settings (user interface)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Number of recent files to display:**
   Set this number for OpenLP to remember your last files open. These will show 
-  under File.
+  under :menuselection:`File --> Recent Files`.
 
 **Remember active media manager tab on startup:**
   With this box selected OpenLP media manager will open on the same tab that it
@@ -147,8 +148,8 @@ UI Settings (user interface)
   When you open OpenLP, everything will automatically be expanded in the Service
   Manager.
 
-Songs Tab
-=========
+Songs
+=====
 
 .. image:: pics/configuresongs.png
 
@@ -177,8 +178,8 @@ Songs Mode
   checked, the song is available in the service but will not be added to the 
   Media Manager.
 
-Bibles Tab
-==========
+Bibles
+======
 
 .. image:: pics/configurebibles.png
 
@@ -216,9 +217,8 @@ Verse Display
 
 **Note:** Changes do not affect verses already in the service.
 
-
-Presentations Tab
-=================
+Presentations
+=============
 
 .. image:: pics/configurepresentations.png
 
@@ -240,8 +240,20 @@ Advanced
   box on the Presentations toolbar  in Media Manager which gives you the option 
   to select the presentation program you want to use.
 
-Media Tab
-=========
+Images
+======
+
+Provides border where an image is not the correct dimensions for the screen when 
+it is resized.
+
+.. image:: pics/configureimages.png
+
+**Default Color:** 
+  Click on the black button next to Default Color. You have the option of 
+  choosing among the colors you see or entering your own.
+
+Media
+=====
 
 .. image:: pics/configuremedia.png
 
@@ -251,8 +263,8 @@ Media Display
 **Use Phonon for video playback**
   If you are having trouble displaying media, selecting this box could help.
 
-Custom Tab
-==========
+Custom
+======
 
 .. image:: pics/configurecustom.png
 
@@ -266,8 +278,8 @@ Custom Display
 **Note:** If you have an entry in the Credits box of your custom slide, title and
 credits will always be displayed.
 
-Alerts Tab
-==========
+Alerts
+======
 
 .. image:: pics/configurealerts.png
 
@@ -299,8 +311,8 @@ Font
 
 .. _remote_tab:
   
-Remote Tab
-===========
+Remote
+======
 
 OpenLP gives you the ability to control the Service Manager or send an Alert 
 from a remote computer through a web browser. This could be useful for a nursery 

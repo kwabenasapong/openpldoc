@@ -1,9 +1,13 @@
+.. _songs:
+
 =====
 Songs 
 =====
 
 Managing your songs in OpenLP is a relatively simple process. There are also 
 converters provided to get data from other formats into OpenLP.
+
+.. _import_songs:
 
 Song Importer
 =============

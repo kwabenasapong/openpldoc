@@ -3,15 +3,15 @@
 Menu Items
 ==========
 
-The following is a list of menu items that are listed across the top of OpenLP.
+The following are the menu items that are listed across the top of OpenLP.
 There is a brief description or link for their intended purpose.
 
 File
 ----
 
-|buttons_new| **New:** Creates a new service. :ref:`new_creating_service`
+|buttons_new| **New:** Creates a new service. :ref:`new_service`
 
-|buttons_open| **Open:** Load an existing service. :ref:`new_creating_service`
+|buttons_open| **Open:** Load an existing service. :ref:`new_service`
 
 |buttons_save| **Save:** Saves your existing loaded service.
 
@@ -19,97 +19,115 @@ File
 
 **Recent Files:** Displays your last files opened configurable here. :ref:`configure_ui`
 
-  **Clear List**
+  **Clear List:** Clears your recent files list.
 
-**Import**
+**Import:** This provides the items you can import.
 
-  **Settings**
+  **Settings:** Import your configurable settings from another computer.
 
-  **Theme**
+  **Theme:** Import a theme that has been previously exported. :ref:`import_themes`
 
-  **Song**
+  **Song:** Import your songs previously exported. :ref:`import_songs`
 
-  **Bible**
+  **Bible:** Import Bibles from another program, the internet or a previously 
+  exported Bible from OpenLP. :ref:`import_bibles`
 
-**Export**
+**Export:** Provides the items you can export.
 
-  **Settings**
+  **Settings:** Export your configurable settings to a file to import to another
+  computer.
 
-  **Theme**
+  **Theme:** Export your theme. :ref:`export_themes`
 
-  **Song**
+  **Song:**
 
-**Print Service**
+**Print Service:** Gives you the ability to print your service. :ref:`print_service`
 
-|buttons_exit| **Exit**
+|buttons_exit| **Exit:** Closes OpenLP. If there is an open service that has not 
+  been saved you will be prompted to do so.
 
 View
 ----
 
-**Mode**
+**Mode:** These three settings are optimized for setup and live display.
 
-  **Default**
+  **Default:** Displays all of the panels of OpenLP. 
 
-  **Setup**
+  **Setup:** Displays Preview, :ref:`media-manager` and :ref:`creating_service`.
 
-  **Live**
+  **Live:** Displays the live panel and :ref:`creating_service`
 
-|button_mediamanager| **Media Manager**
+Clicking on any of the next items will hide or show its respective panel.
 
-|button_servicemanager| **Service Manager**
+|button_mediamanager| **Media Manager:** Hide or show :ref:`media-manager`.
 
-|theme_new| **Theme Manager**
+|button_servicemanager| **Service Manager:** Hide or show :ref:`creating_service`.
 
-**Preview Panel**
+|theme_new| **Theme Manager:** Hide or show :ref:`themes`.
 
-**Live Panel**
+**Preview Panel:** Hide or show the preview panel.
 
-**Lock Panels**
+**Live Panel:** Hide or show the live panel.
+
+**Lock Panels:** Using this lock will keep all your panel settings the way they 
+  are when clicked, whether hidden or showing. Click this again to unlock the 
+  panels.
 
 Tools
 -----
 
-|buttons_open| **Open Data Folder**
+|buttons_open| **Open Data Folder:** You can access your OpenLP data here. 
+  Your Bibles, songs, themes and other items are stored here. 
+  
+**Note:** It is possible to delete a Bible, theme or another resource you need. 
+If anything is deleted in this folder it is not recoverable through OpenLP.
 
-|button_rerun| **Re-run First Time Wizard**
+|button_rerun| **Re-run First Time Wizard:** This will bring up the dialog box 
+  to run the first time wizard again. :ref:`wizard`
 
-**Update Theme Images**
+**Update Theme Images:** Changing screen resolution can have an affect on theme
+  images. Use this to correct the images. 
 
-|plugin_songs| **Re-index Songs**
+|plugin_songs| **Re-index Songs:** This rebuilds the internal song indexes to 
+  make them work following code corrections. You would generally use this after 
+  a software upgrade.
 
-**Song Usage Tracking**
+**Song Usage Tracking:** Configure your song usage tracking. :ref:`song_usage`
 
-  **Toggle Tracking**
+  **Toggle Tracking:** Provides the means to turn song usage tracking on or off. 
+  There will be a visible check mark if song usage tracking is on.
 
-  **Extract Tracking Data**
+  **Extract Tracking Data:** Brings up a dialog box to extract song usage data.
 
-  **Delete Tracking Data**  
+  **Delete Tracking Data:** Brings up a dialog box to delete song usage data.
 
-|plugin_alerts| **Alert**
+|plugin_alerts| **Alert:** Configure an alert. :ref:`alerts`
 
 Settings
 --------
 
-|plugin_list| **Plugin List**
+|plugin_list| **Plugin List:** Provides the configurable settings to control 
+  your plugin's. :ref:`plugin_list` 
 
-**Language**
+**Language:** You can choose another language here or leave it on Autodetect.
 
-  **Autodetect**
+|button_tag| **Configure Formatting Tags:** Provides the configurable settings 
+  for formatting tags. :ref:`formatting-tags`
 
-|button_tag| **Configure Formatting Tags**
+|button_settings| **Configure Shortcuts:** Provides the configurable settings 
+  for shortcuts. :ref:`shortcuts`
 
-|button_settings| **Configure Shortcuts**
-
-|button_configure| **Configure OpenLP**
+|button_configure| **Configure OpenLP:** Provides the configurable   settings 
+  for OpenLP. :ref:`configure`
 
 Help
 ----
 
-**Online Help**
+**Online Help:** This is a direct link to OpenLP's operating manual.
 
-**Web Site**
+**Web Site:** This is a direct link to OpenLP's web site.
 
-**About**
+**About:** Provides information, credits and license for OpenLP.
 
 
 .. These are all the image templates that are used in this page.

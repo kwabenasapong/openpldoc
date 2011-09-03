@@ -1,3 +1,5 @@
+.. _print_service:
+
 =============
 Print Service 
 =============

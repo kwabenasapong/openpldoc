@@ -1,3 +1,5 @@
+.. _bibles:
+
 ======
 Bibles
 ======
@@ -5,7 +7,7 @@ Bibles
 Managing Bibles in OpenLP is a relatively simple process. There are also
 converters provided to get data from other formats into OpenLP.
 
-.. _bibles-import:
+.. _import_bibles:
 
 Bible Import Wizard
 ===================

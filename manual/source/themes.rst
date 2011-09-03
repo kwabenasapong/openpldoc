@@ -157,12 +157,16 @@ select :guilabel:`Delete`.
 **Note:** Deleting the currently selected global theme or the 
 default theme is not possible.
 
+.. _export_themes:
+
 Exporting Themes
 ================
 
 If you would like to transfer a theme from one computer to another, click on 
 the theme you want to export, click |theme_export| and choose the folder you 
 want to save your theme in and click :guilabel:`OK`.
+
+.. _import_themes:
 
 Importing Themes
 ================

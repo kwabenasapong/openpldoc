@@ -39,7 +39,7 @@ File
 
   **Theme:** Export your theme. :ref:`export_themes`
 
-  **Song:**
+  **Song:** Export your songs. :ref:`export_songs`
 
 **Print Service:** Gives you the ability to print your service. :ref:`print_service`
 

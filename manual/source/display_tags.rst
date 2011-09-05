@@ -21,7 +21,7 @@ Using a Formatting Tag
 is being edited or by using the mouse to select and insert the tags.
 :ref:`g-formatting-tags` can not span across page breaks. If a tag begins with
 text on one side of a page break it cannot stretch across the break. Instead, 
-two sets of tags will need to be used one set on each side of the break.
+two sets of tags will need to be used, one set on each side of the break.
 
 Adding Formatting Tags Using Text
 ---------------------------------

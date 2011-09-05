@@ -178,7 +178,7 @@ Due to copyright restrictions OpenLP cannot download an entire Bible. It can
 only download the section you search for. If you do not have an internet
 connection where you intend to use OpenLP you will need another scripture
 source. For more information about acquiring Bibles please see the section on
-the :ref:`bibles-import`.
+the :ref:`import_bibles`.
 
 OpenLP is using a large amount of RAM when showing a presentation
 -----------------------------------------------------------------

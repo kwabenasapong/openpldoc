@@ -92,7 +92,7 @@ Toolbar
 
 |buttons_import| **Import Bible**
     Import Bibles from a number of formats. This is discussed in detail on the
-    :ref:`bibles-import` page.
+    :ref:`import_bibles` page.
 
 |buttons_preview| **Preview verses**
     Send the selected verses to the :ref:`g-preview-slide-controller`.

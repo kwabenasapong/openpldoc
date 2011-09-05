@@ -33,6 +33,7 @@ Reference Manual
    songs
    bibles
    custom_slides
+   export_songs
    song_usage
    alert
    glossary

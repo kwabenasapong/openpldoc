@@ -55,7 +55,7 @@ Importing from OpenSong
 Converting from OpenSong, you will need to locate your songs database. In the 
 later versions of OpenSong you are asked to define the location of this. The 
 songs will be located in a folder named :guilabel:`Songs`. This folder will
-contain files with all your songs in them, without a file extension. (file.xxx).
+contain files with all your songs in them, without a file extension (file.xxx).
 When you have located this folder you will need to select the songs from
 the folder.
 

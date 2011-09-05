@@ -20,7 +20,7 @@ You may also enter the Bible Importer by clicking the :guilabel:`Import Icon:`
 |importicon| Import Bibles
     Click on the :guilabel:`Import Bibles` icon to start the Bible import wizard.
 
-.. |IMPORTICON| image:: pics/themeimportexport.png
+.. |IMPORTICON| image:: pics/theme_import.png
 
 You will see the Bible Importer window, click :guilabel:`Next`.
 
@@ -41,8 +41,11 @@ copyright notice. Click :guilabel:`Next` to continue.
 
 .. image:: pics/bibleimportdetails1.png
 
-After filling in the copyright details, OpenLP will start to import your Bible.
+After entering the copyright details, OpenLP will start to import your Bible.
 It may take some time to import your Bible so please be patient.
+
+**Note:** You can use one blank space using the space bar in the copyright field 
+to continue without entering anything.
 
 .. image:: pics/bibleimportfinished1.png
 

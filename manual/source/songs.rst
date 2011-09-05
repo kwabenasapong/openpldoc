@@ -75,8 +75,8 @@ Importing from CCLI Song Select
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 To import from CCLI Song Select you must be a CCLI Subscriber and also a 
-subscriber of the Song Select service. For more info check out the `CCLI website.
-<http://www.ccli.com>`_ 
+subscriber of the Song Select service. For more information check out the 
+`CCLI website. <http://www.ccli.com>`_ 
 
 The first step for importing from CCLI Song Select is to log into your account.
 Then search for your desired song. For this example we will be adding the song
@@ -112,10 +112,10 @@ assign a Theme, or edit Copyright Info & Comments, you will do this through the
 `Song Editor`. 
 
 **Edit:** To edit an existing song you can either click on a song in the 
-`Media Manager` and then click the button to :guilabel:`Edit the selected song` 
-or right click a song from either the `Media Manager` or additionally from the 
-`Service Manager` and click :guilabel:`Edit item`. If you are adding a new song 
-click :guilabel:`Add a new Song` in the `Media Manager`.
+:ref:`media-manager` and then click the button to :guilabel:`Edit the selected song` 
+or right click a song from either the :ref:`media-manager` or additionally from 
+the :ref:`creating_service` and click :guilabel:`Edit item`. If you are adding a 
+new song click :guilabel:`Add a new Song` in the :ref:`media-manager`.
 
 .. image:: pics/song_edit_lyrics.png
 
@@ -175,14 +175,15 @@ and the format tags will be entered with your lyrics. These tags are not visible
 when displayed. To remove the format, delete the tag on each end of the word or 
 sentence. 
 
-**Edit:** To edit an existing verse, click on the verse you wish to *Edit* then click on 
-:guilabel:`Edit`, make your changes and click :guilabel:`Save`. 
+**Edit:** To edit an existing verse, click on the verse you wish to *Edit* then 
+click on :guilabel:`Edit`, make your changes and click :guilabel:`Save`. 
 
 **Edit All:** To edit the whole song at once, click on :guilabel:`Edit All`.
  
 **Delete:** To delete a verse, click on the verse you want to delete and it will
 highlight, click on the :guilabel:`Delete` button and it will be deleted.
-**Warning:**, once you click the :guilabel:`Delete` button, you will not be
+
+**Warning:** Once you click the :guilabel:`Delete` button, you will not be
 asked again, it will be deleted immediately.
 
 .. image:: pics/song_edit_verse_type.png
@@ -206,8 +207,8 @@ have an author entered. You can add a blank space for the author name.
 **Authors:** Click the drop down arrow to view all authors or start typing a name
 in the box and a list will appear. If the authors name has not been added, type
 the authors name in the box and click :guilabel:`Add to Song`. The authors name
-will appear below and will also be added to your database. If you accidentally add
-the wrong author you can click on the authors name and click :guilabel:`Remove`.
+will appear below and will also be added to your database. If you accidentally 
+add the wrong author you can click on the authors name and click :guilabel:`Remove`.
 
 :guilabel:`Manage Authors, Topics, Song Books`: Clicking this button will bring 
 up your complete list of authors.
@@ -244,8 +245,10 @@ new theme by clicking the :guilabel:`New Theme` button.
 you would like to use the © symbol click :guilabel:`©` button. This information
 is displayed in the footer.
 
-**CCLI number:** Enter the CCLI number in this box. Note: this is the CCLI number
-of the song, not your contract number. This number is not displayed in the footer
+**CCLI number:** Enter the CCLI number in this box. 
+
+**Note:** this is the CCLI number of the song, not your contract number. This 
+number is not displayed in the footer.
 
 **Comments:** You can add comments in this box. This information is not 
 displayed in the footer.

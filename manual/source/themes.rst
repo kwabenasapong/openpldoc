@@ -28,8 +28,9 @@ own.
 
 .. image:: /pics/theme_manager_selectcolor.png
 
-**Gradient:** Choose the two colors, First and Second, you want to fade together 
-and the Gradient drop down will let you determine the directions of the fade.
+**Gradient:** Choose the two colors, *Starting* and *Ending* that you want to 
+fade together and the Gradient drop down will let you determine the directions 
+of the fade.
 
 .. image:: /pics/theme_manager_gradient.png
 
@@ -122,7 +123,7 @@ display in a different position on the screen.
 
 .. image:: /pics/theme_manager_outputlocation.png
 
-You can also change the Width and the Height of the Main Area of the Footer Area.
+You can also change the Width and the Height of the Main Area and the Footer Area.
 
 When you are finished setting your Output Area Locations, click :guilabel:`Next`.
 

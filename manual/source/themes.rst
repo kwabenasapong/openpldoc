@@ -28,8 +28,9 @@ own.
 
 .. image:: /pics/theme_manager_selectcolor.png
 
-**Gradient:** Choose the two colors, First and Second, you want to fade together 
-and the Gradient drop down will let you determine the directions of the fade.
+**Gradient:** Choose the two colors, *Starting* and *Ending* that you want to 
+fade together and the Gradient drop down will let you determine the directions 
+of the fade.
 
 .. image:: /pics/theme_manager_gradient.png
 
@@ -122,7 +123,7 @@ display in a different position on the screen.
 
 .. image:: /pics/theme_manager_outputlocation.png
 
-You can also change the Width and the Height of the Main Area of the Footer Area.
+You can also change the Width and the Height of the Main Area and the Footer Area.
 
 When you are finished setting your Output Area Locations, click :guilabel:`Next`.
 
@@ -157,12 +158,16 @@ select :guilabel:`Delete`.
 **Note:** Deleting the currently selected global theme or the 
 default theme is not possible.
 
+.. _export_themes:
+
 Exporting Themes
 ================
 
 If you would like to transfer a theme from one computer to another, click on 
 the theme you want to export, click |theme_export| and choose the folder you 
 want to save your theme in and click :guilabel:`OK`.
+
+.. _import_themes:
 
 Importing Themes
 ================

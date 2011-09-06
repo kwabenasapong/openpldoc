@@ -239,8 +239,10 @@ you your three options.
 You can change or add to the keyboard shortcuts here
 :menuselection:`Settings --> Configure Shortcuts`.
 
+.. _new_service:
+
 New, Open and Saving the Service
----------------------------------
+--------------------------------
 
 Three icons at the top of the *Service Manager* will do the following:
 

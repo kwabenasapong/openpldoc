@@ -20,6 +20,7 @@ Reference Manual
    :maxdepth: 2
 
    wizard
+   menu_items
    configure
    dualmonitors
    mediamanager
@@ -32,6 +33,7 @@ Reference Manual
    songs
    bibles
    custom_slides
+   export_songs
    song_usage
    alert
    glossary

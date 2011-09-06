@@ -239,6 +239,15 @@ you your three options.
 You can change or add to the keyboard shortcuts here
 :menuselection:`Settings --> Configure Shortcuts`.
 
+.. _linked-audio:
+
+Linked Audio Control
+--------------------
+
+|audio_pause| You can stop or start the audio playing on your :ref:`songs_linked`
+by using this button. This button becomes available when you have linked an 
+audio file to a song and it is in use.
+
 .. _new_service:
 
 New, Open and Saving the Service
@@ -285,3 +294,4 @@ your service file. Choose the location you want to save your file and click
 .. |SERVICE_NEW| image:: pics/service_new.png
 .. |SERVICE_OPEN| image:: pics/service_open.png
 .. |SERVICE_SAVE| image:: pics/service_save.png
+.. |AUDIO_PAUSE| image:: pics/media_playback_pause.png

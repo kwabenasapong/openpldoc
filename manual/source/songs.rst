@@ -4,8 +4,8 @@
 Songs 
 =====
 
-Managing your songs in OpenLP is a relatively simple process. There are also 
-converters provided to get data from other formats into OpenLP.
+This section describes the use of the various converters built into OpenLP for 
+managing and importing song files from other formats.
 
 .. _import_songs:
 

@@ -106,7 +106,7 @@ from CCLI SongSelect.
 Creating or Editing a Song Slide
 ================================
 
-If you want to create a new song slide or, once you have a song imported, you 
+When you want to create a new song slide or, once you have a song imported, you 
 want to edit and rearrange the Title & Lyrics, Author, Topics & Song Book, 
 assign a Theme, or edit Copyright Info & Comments, you will do this through the 
 `Song Editor`. 
@@ -231,9 +231,9 @@ Authors names are displayed in the footer.
 Theme, Copyright Info & Comments
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-On this tab you can assign a *Theme* to a song, enter the *Copyright information*
-and add the *CCLI number*. If you imported a song from SongSelect this 
-information will usually be entered.
+You can assign a :ref:`themes` to a song, enter the *Copyright information*
+and add the *CCLI number* to the song. If you imported a song from SongSelect 
+this information will usually be entered.
 
 .. image:: pics/song_edit_theme_copyright.png
 
@@ -252,3 +252,45 @@ number is not displayed in the footer.
 
 **Comments:** You can add comments in this box. This information is not 
 displayed in the footer.
+
+.. _songs_linked:
+
+Linked Audio
+^^^^^^^^^^^^
+
+OpenLP gives you the ability to play an audio file or multiple audio files when 
+the song is displayed live.
+
+.. image:: pics/song_edit_linked.png
+
+**Add File(s):** Add an audio file from a folder on your computer by clicking 
+  :guilabel:`Add File(s)`.
+
+**Add Media:** Add an audio file that is already in the :ref:`media-manager` by 
+  clicking :guilabel:`Add Media`.
+
+**Remove:** Click on a file you want to remove and click :guilabel:`Remove`.
+
+**Remove All:** Click on :guilabel:`Remove All` to remove all audio files linked 
+  to the song.
+
+If you added multiple audio files, they will play in the order listed. You can 
+change their position in the order by clicking on an audio file and using the 
+arrows. 
+
+|move_up| Move selection up one position.
+
+|move_down| Move selection down one position.
+
+When you are done, click :guilabel:`Save` to save your choices. You can click 
+:guilabel:`Cancel` at anytime if you change your mind.
+
+|audio_pause| This button will appear in the :ref:`linked-audio` when an 
+audio file is being played with a song. You can stop or start the audio playing 
+by using this button. 
+
+.. These are all the image templates that are used in this page.
+
+.. |MOVE_UP| image:: pics/service_up.png
+.. |MOVE_DOWN| image:: pics/service_down.png
+.. |AUDIO_PAUSE| image:: pics/media_playback_pause.png

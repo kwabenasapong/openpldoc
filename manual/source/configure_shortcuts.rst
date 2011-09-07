@@ -16,28 +16,28 @@ The image below shows a partial list of shortcuts you can customize.
 
 Across the top of the list are Action, Shortcut and Alternate. 
 
-**Action**
+**Action:**
   This is the name of the of the shortcut you can change. It could be part of 
   the menu selection or a toolbar item.
 
-**Shortcut**
+**Shortcut:**
   This is the keyboard shortcut assigned to the action beside it.
 
-**Alternate**
+**Alternate:**
   This is the alternate shortcut you can assign to the action. Each Action can 
   have two different shortcuts assigned to it. 
 
 Changing a Shortcut
 -------------------
 
-|configshortcut| **Capture shortcut.**
+|configshortcut| **Capture shortcut:**
   To change a shortcut click on an Action in the list that you would like to 
   modify. Click on the left |configshortcut| to add or modify the default 
   shortcut   and the right |configshortcut| to modify or add an alternate 
   shortcut. After you   click on one of the boxes you can type in the key or 
   combination of keys you want to use for your shortcut. 
 
-|clearshortcut| **Restore the default shortcut of this action.**
+|clearshortcut| **Restore the default shortcut of this action:**
   If you are not happy with your shortcut selection you can restore it to its 
   default value by clicking the |clearshortcut| icon next to the shortcut. This
   will set the shortcut to its original state. 

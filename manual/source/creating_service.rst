@@ -199,16 +199,16 @@ arrow will give you two options for the use of the timer.
 
 .. image:: pics/service_timer_select.png
 
-**Play Slides in Loop**
+**Play Slides in Loop:**
     Selecting this option will continuously loop your slides from beginning to 
     end, and back to the beginning again. The slide loop will continue until you 
     click the timer start and stop button again or move to the next service item.
 
-**Play Slides to End**
+**Play Slides to End:**
     Selecting this option will display your slides through once and stop at the 
     end.
 
-|service_timer| **Timer start and stop**
+|service_timer| **Timer start and stop:**
     Click this button to start or stop the timer function. You can also use the 
     keyboard shortcut :kbd:`L` to start and stop the continuous loop.
 
@@ -221,17 +221,17 @@ you your three options.
 
 .. image:: pics/service_blank.png
 
-|slide_blank| **Blank Screen**
+|slide_blank| **Blank Screen:**
     Choosing this option will blank your projector to black as if it were shut off.
     The shortcut for this option is :kbd:`.` (fullstop/period on your keyboard).
 
-|slide_theme| **Blank to Theme**
+|slide_theme| **Blank to Theme:**
     Choosing this option will show your blank theme only, without lyrics or verses.
     If you are blanking a song with an assigned theme it will blank to that theme.
     If no theme is assigned or you are blanking a presentation or image, it will
     blank to the global theme. The shortcut for this option is :kbd:`T`.
 
-|slide_desktop| **Show Desktop**
+|slide_desktop| **Show Desktop:**
     Choosing this option will show your desktop wallpaper or a program that you have
     open on the extended monitor or projector. You can seamlessly switch between one
     program and OpenLP by Blank to Desktop. The shortcut for this option is :kbd:`D`.
@@ -255,17 +255,17 @@ New, Open and Saving the Service
 
 Three icons at the top of the *Service Manager* will do the following:
 
-|service_new| **Create a new service.**
+|service_new| **Create a new service:**
     This first icon will create a New Service. 
 
-|service_open| **Load an existing service.**
+|service_open| **Load an existing service:**
     This second icon will Open an already created service file. 
 
 **Note:** You can open a saved service by dragging it into the service manager. 
 The service will be opened and the existing service replaced. You will first 
 be prompted to save your previous service if changes were made. 
 
-|service_save| **Save this service.**
+|service_save| **Save this service:**
     This icon will Save the service you created, added to, or rearranged.
 
 Now that you created your service, tested it and are ready for your worship

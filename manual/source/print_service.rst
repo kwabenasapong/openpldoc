@@ -21,30 +21,30 @@ This will bring up a window with the service order for review and printing.
 Toolbar
 -------
 
-|printbutton| **Print**
+|printbutton| **Print:**
   This will print the service bringing up the system's print options. Use
   this when you are ready to print.
 
-|optionbutton| **Options** 
+|optionbutton| **Options:** 
   This gives you a series of ways to customize the service order before
   printing. See the section on :ref:`options` for more information.
 
-|copybutton| **Copy** 
+|copybutton| **Copy:** 
   Copy the text of the preview window to your clipboard. You can then paste the
   text into other documents or applications.
 
-|copybutton| **Copy HTML** 
+|copybutton| **Copy HTML:** 
   Copy html code to your clipboard. You can then paste this in a text editor
   and save as .html. This can then be used to post your service details on a 
   website or anywhere an html document can be used.
 
-|zoomin| **Zoom in**
+|zoomin| **Zoom in:**
   Zooms in on your preview.
 
-|zoomout| **Zoom out**
+|zoomout| **Zoom out:**
   Zooms out to make more of your preview visible.
 
-|zoomoriginal| **Zoom to original**
+|zoomoriginal| **Zoom to original:**
   Restores the preview to its original size.
 
 .. _options:
@@ -62,18 +62,18 @@ Options
 
 **Other Options**
 
-**Include slide text if available**
+**Include slide text if available:**
   Check this to include all the text from songs or scripture.
 
-**Add page break before each text item**
+**Add page break before each text item:**
   If you have checked *include slide text if available* you can select this
   option to put each text item (songs, custom slides, scripture) on a
   separate page.
 
-**Include service item notes**
+**Include service item notes:**
   This option will include any notes you have added to the service items.
 
-**Include play length of media items**
+**Include play length of media items:**
   This option will print the length of media items in the service.
 
 Customizing with CSS (Advanced)
@@ -306,11 +306,12 @@ The HTML layout should look something like this::
 	</html>
 
 Edit the CSS file to produce the required style.
+
 **Note:** not all CSS properties are supported. See
 `Qt4 CSS subset <http://doc.trolltech.com/4.7/richtext-html-subset.html#css-properties>`_
 for more information.
 
-**Example: Item titles with notes on right hand side**
+**Example:** Item titles with notes on right hand side.
 
 This service_print.css assumes the slide text will not be included.::
 

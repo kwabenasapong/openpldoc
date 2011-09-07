@@ -4,7 +4,7 @@
 Bibles
 ======
 
-Managing your songs in OpenLP is easily accomplished using the converters 
+Managing your Bibles in OpenLP is easily accomplished using the converters 
 provided to get data from other formats into OpenLP.
 
 .. _import_bibles:

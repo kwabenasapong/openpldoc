@@ -90,8 +90,8 @@ Then install the following packages::
 
 Fedora Linux
 ^^^^^^^^^^^^
-You will need to set up Fedora to play most media formats. This is easily 
-accomplished using the rpmfusion repository.
+You will need to set up Fedora to play most media formats. This is accomplished 
+using the rpmfusion repository.
 
 **Note** the following commands will enable a third party repository to your
 system. Please check out `the RPM Fusion site <http://rpmfusion.org>`_ for more information.

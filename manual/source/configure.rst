@@ -45,7 +45,7 @@ Application Startup
   The OpenLP logo is displayed while OpenLP loads when this checkbox is checked.
   This is useful to give some indication that the program is loading.
 
-**Check for updates to OpenLP**
+**Check for updates to OpenLP:**
   OpenLP will check to see if there is a newer version available on a regular 
   basis when this checkbox is checked. Please note that this requires Internet 
   access.
@@ -53,21 +53,21 @@ Application Startup
 Application Settings
 ^^^^^^^^^^^^^^^^^^^^
 
-**Prompt to save before starting a new service**
+**Prompt to save before starting a new service:**
   When this box is selected, OpenLP will prompt you to save the service you are
   working on before starting a new service.
 
-**Automatically preview next item in service**
+**Automatically preview next item in service:**
   When this box is selected, the next item in the Service Manager will show in the
   Preview pane.
 
-**Unblank display when adding new live item**
+**Unblank display when adding new live item:**
   When using the :guilabel:`blank to` button with this checkbox checked, on going 
   live with the next item, the screen will be automatically re-enabled. If this 
   checkbox is not checked you will need to click the :guilabel:`blank to` button 
   again to reverse the action.
 
-**Slide loop delay**
+**Slide loop delay:**
   This setting is the time delay in seconds if you want to continuously loop
   images, verses, or lyrics. This control timer is also accessible on the "live 
   toolbar.
@@ -75,7 +75,7 @@ Application Settings
 CCLI Details
 ^^^^^^^^^^^^
 
-**CCLI number**
+**CCLI number:**
   If you subscribe to CCLI, this box is for your License number. This number is
   also displayed in the Song Footer box.
 
@@ -199,9 +199,9 @@ Verse Display
 **Layout style:**
   There are three options to determine how your Bible verses are displayed. 
 
-* **Verse Per Slide** will display one verse per slide.
-* **Verse Per Line** will start each verse on a new line until the slide is full.
-* **Continuous** will run all verses together separated by verse number and chapter if chapter is selected to show above.
+* **Verse Per Slide:** will display one verse per slide.
+* **Verse Per Line:** will start each verse on a new line until the slide is full.
+* **Continuous:** will run all verses together separated by verse number and chapter if chapter is selected to show above.
 
 **Note:** Changes do not affect verses already in the service.
 
@@ -235,7 +235,7 @@ the presentation. You may select your default controllers here in this tab.
 Advanced
 ^^^^^^^^
 
-**Allow presentation application to be overridden**
+**Allow presentation application to be overridden:**
   With this option selected, you will see `Present using` area with a dropdown 
   box on the Presentations toolbar  in Media Manager which gives you the option 
   to select the presentation program you want to use.
@@ -260,7 +260,7 @@ Media
 Media Display
 ^^^^^^^^^^^^^
 
-**Use Phonon for video playback**
+**Use Phonon for video playback:**
   If you are having trouble displaying media, selecting this box could help.
 
 Custom
@@ -271,7 +271,7 @@ Custom
 Custom Display
 ^^^^^^^^^^^^^^
 
-**Display Footer**
+**Display Footer:**
   With this option selected, your Custom slide Title will be displayed in the
   footer. 
 

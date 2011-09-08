@@ -19,21 +19,25 @@ Click :guilabel:`Next` to continue or :guilabel:`Cancel` if you change your mind
 You can select the songs you want to export by clicking on each song you want to 
 export. 
 
-**Search:** Searches for a song title or keyword in a title. 
+**Search:** 
+    Searches for a song title or keyword in a title. 
 
-**Uncheck All:** If you are not sure of your selections click :guilabel:`Uncheck All` 
-and start over.
+**Uncheck All:** 
+    If you are not sure of your selections click :guilabel:`Uncheck All` and 
+    start over.
 
-**Check All:** Click :guilabel:`Check All` selects all of the songs for export. 
+**Check All:** 
+    Click :guilabel:`Check All` selects all of the songs for export. 
 
 When you are finished with your selection click :guilabel:`Next`.
 
 .. image:: pics/export_song_directory.png
 
-**Select Directory** Select the directory where you want the songs to be saved. 
-The list of songs to be exported are shown below. 
+**Select Directory:** 
+    Select the directory where you want the songs to be saved. The list of songs 
+    to be exported are shown below. 
 
-**Note** Exporting songs will create a file for each song, If you export one 
+**Note:** Exporting songs will create a file for each song, If you export one 
 hundred songs, you will have have one hundred individual files.
 
 .. image:: pics/export_song_process.png

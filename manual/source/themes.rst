@@ -13,7 +13,8 @@ theme, Delete a theme, Import a theme, and Export a theme.
 
 Creating New Themes
 ===================
-|theme_new| **Create a new theme:** This will bring up the *Theme Wizard*
+|theme_new| **Create a new theme:** 
+    This will bring up the *Theme Wizard*
 
 .. image:: /pics/theme_manager_wizard.png
 
@@ -22,27 +23,31 @@ type: Solid Color, Gradient, or Image.
 
 .. image:: /pics/theme_manager_background.png 
  
-**Solid color:** Select solid color and click on the black button next to Color. 
-You have the option of choosing among the colors you see or entering your
-own.
+**Solid color:** 
+    Select solid color and click on the black button next to Color. You have the 
+    option of choosing among the colors you see or entering your own.
 
 .. image:: /pics/theme_manager_selectcolor.png
 
-**Gradient:** Choose the two colors, *Starting* and *Ending* that you want to 
-fade together and the Gradient drop down will let you determine the directions 
-of the fade.
+**Gradient:** 
+    Choose the two colors, *Starting* and *Ending* that you want to fade 
+    together and the Gradient drop down will let you determine the directions 
+    of the fade.
 
 .. image:: /pics/theme_manager_gradient.png
 
-**Image:** You have the ability to use an image for your background. OpenLP 
-accepts a variety of image types.  
+**Image:** 
+    You have the ability to use an image for your background. OpenLP accepts a 
+    variety of image types.  
 
 .. image:: /pics/theme_manager_image.png
 
-**Background color:** Choose the color that will appear on the borders if your
-image is smaller than your projector display setting.
+**Background color:** 
+    Choose the color that will appear on the borders if your image is smaller 
+    than your projector display setting.
 
-**Image:** Click |buttons_open| to find and select your image.
+**Image:** 
+    Click |buttons_open| to find and select your image.
 
 **Note:** When possible, try to use the same size image as your projector is
 displaying unless you want a background color for a border.
@@ -58,25 +63,33 @@ the Display text.
 
 .. image:: /pics/theme_manager_mainfont.png
 
-**Font:** Choose the font you would like to use from the drop down.
+**Font:** 
+    Choose the font you would like to use from the drop down.
 
-**Color:** Choose the color of your font.
+**Color:** 
+    Choose the color of your font.
 
-**Size:** The size of your font determines how many lines are shown per slide.
-As you change the font size, the lines per slide will change.
+**Size:** 
+    The size of your font determines how many lines are shown per slide.
+    As you change the font size, the lines per slide will change.
 
-**Line Spacing:** This setting determines how much space you want between
-lines. This setting will also change the lines per slide. 
+**Line Spacing:** 
+    This setting determines how much space you want between lines. This setting 
+    will also change the lines per slide. 
 
-**Outline:** If you desire an outline around your font, select the Outline box,
-choose your color and size of the outline.
+**Outline:** 
+    If you desire an outline around your font, select the Outline box, choose 
+    your color and size of the outline.
 
-**Shadow:** If you desire a shadow around your font, select the Shadow box and 
-choose your color and size of the shadow.  
+**Shadow:** 
+    If you desire a shadow around your font, select the Shadow box and choose 
+    your color and size of the shadow.  
 
-**Bold Display:** Select the box for Bold font
+**Bold Display:** 
+    Select the box for Bold font
 
-**Italic Display:** Select the box for Italic font
+**Italic Display:** 
+    Select the box for Italic font
 
 When you are finished selecting your font details click the :guilabel:`Next`
 button.
@@ -100,13 +113,15 @@ from one slide to the next.
 
 .. image:: /pics/theme_manager_textalign.png
 
-**Horizontal Align:** the text to the Left, Right or Center of the screen.
+**Horizontal Align:** 
+    This moves the text to the Left, Right or Center of the screen.
 
-**Vertical Align:** the text to the Top, Middle or bottom of the screen.
+**Vertical Align:** 
+    This moves the text to the Top, Middle or bottom of the screen.
 
-**Transitions:** When this box is selected, switching slides will fade out from 
-one and fade in to the next. When the box is not selected, slide changing will 
-be instant.
+**Transitions:** 
+    When this box is selected, switching slides will fade out from one and fade 
+    in to the next. When the box is not selected, slide changing will be instant.
 
 When you are finished setting your Text Formatting Details, click :guilabel:`Next`.
 
@@ -132,11 +147,13 @@ Save and Preview
 
 .. image:: /pics/theme_manager_save.png
 
-**Theme Name:** Enter your theme name here.
+**Theme Name:** 
+    Enter your theme name here.
 
-**Preview:** The Preview shows the choices you made when setting up the previous 
-pages plus, shows all the edit effects possible so you can see what the impact 
-is on all possible font colors and characteristics.
+**Preview:** 
+    The Preview shows the choices you made when setting up the previous pages 
+    plus, shows all the edit effects possible so you can see what the impact 
+    is on all possible font colors and characteristics.
 
 When you are satisfied with your selections, click :guilabel:`Finish`. If you 
 want to make a change, use the :guilabel:`Back` button.
@@ -152,11 +169,12 @@ the appropriate action.
 Deleting Themes
 ===============
 
-|theme_delete| Delete a selected theme or you can right-click your theme and 
-select :guilabel:`Delete`.
+|theme_delete| **Delete a theme:**
+    Delete a selected theme or you can right-click your theme and select 
+    :guilabel:`Delete`.
 
-**Note:** Deleting the currently selected global theme or the 
-default theme is not possible.
+**Note:** Deleting the currently selected global theme or the default theme is 
+not possible.
 
 .. _export_themes:
 

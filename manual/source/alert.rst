@@ -12,10 +12,11 @@ which is accessible from the top Menu under :menuselection:`Tools --> Alert`.
 
 .. image:: pics/alert.png
 
-:guilabel:`Alert text:` Enter the message you want displayed in this box.
+**Alert text:** 
+    Enter the message you want displayed in this box.
 
-:guilabel:`Parameter:` This box is used for words you want to insert into the 
-alert text.
+**Parameter:** 
+    This box is used for words you want to insert into the alert text.
  
 You will add the Parameter text into the alert text using “<>” (without 
 quotations). Anywhere in the Alert text that you add these two symbols, <> side 

@@ -24,28 +24,28 @@ item. The songs media item shows a list of all the songs in the songs database.
 Toolbar
 ^^^^^^^
 
-|buttons_new| **Add song**
+|buttons_new| **Add song:**
     Open the song edit dialog to add a new song.
 
-|buttons_edit| **Edit song**
+|buttons_edit| **Edit song:**
     Open the song edit dialog to make changes to the selected song.
 
-|buttons_delete| **Delete song**
+|buttons_delete| **Delete song:**
     Remove the selected song(s) from the song list.
 
-|buttons_preview| **Preview song**
+|buttons_preview| **Preview song:**
     Send the selected song to the :ref:`g-preview-slide-controller`.
 
-|buttons_live| **Send song live**
+|buttons_live| **Send song live:**
     Send the selected song to the :ref:`g-live-slide-controller` to be shown on
     the display screen.
 
-|buttons_add| **Add song to service**
+|buttons_add| **Add song to service:**
     Add the selected song(s) to the :ref:`g-service-manager`. Songs can also be
     added to the :ref:`g-service-manager` by means of drag and drop from the
     :ref:`g-media-manager`.
 
-|buttons_db| **Maintain authors, topics and books**
+|buttons_db| **Maintain authors, topics and books:**
     Open the song maintenance dialog to add, edit or delete authors, topics or
     song books.
 
@@ -60,19 +60,19 @@ Search
 Clicking on the icon in the search box displays a list of search options. The
 following options are available:
 
-|search_song| **Entire Song**
+|search_song| **Entire Song:**
     Search the title, lyrics and comments fields.
 
-|search_title| **Titles**
+|search_title| **Titles:**
     Search the title field only.
 
-|search_text| **Lyrics**
+|search_text| **Lyrics:**
     Search the lyrics field only.
 
-|search_author| **Authors**
+|search_author| **Authors:**
     Search the associated authors.
 
-|search_theme| **Themes**
+|search_theme| **Themes:**
     Search the assigned themes.
 
 Click the :guilabel:`Search` button to perform a search and display the results
@@ -90,18 +90,18 @@ to find Bible verses and add them to the :ref:`g-service-manager`.
 Toolbar
 ^^^^^^^
 
-|buttons_import| **Import Bible**
+|buttons_import| **Import Bible:**
     Import Bibles from a number of formats. This is discussed in detail on the
     :ref:`import_bibles` page.
 
-|buttons_preview| **Preview verses**
+|buttons_preview| **Preview verses:**
     Send the selected verses to the :ref:`g-preview-slide-controller`.
 
-|buttons_live| **Send verses live**
+|buttons_live| **Send verses live:**
     Send the selected verses to the :ref:`g-live-slide-controller` to be shown
     on the display screen.
 
-|buttons_add| **Add verses to service**
+|buttons_add| **Add verses to service:**
     Add the selected verses to the :ref:`g-service-manager`. Verses can also be
     added to the :ref:`g-service-manager` by means of drag and drop from the
     :ref:`g-media-manager`.
@@ -116,11 +116,11 @@ Quick Search Tab
 
 The following options are available on the quick search tab:
 
-**Find**
+**Find:**
     Clicking the icon in the Find box displays a list of search options. The
     following options are available:
 
-    |search_reference| **Scripture Reference**
+    |search_reference| **Scripture Reference:**
         Search for a specific verse using a scripture reference format. The 
         following formats are supported:
 
@@ -132,34 +132,34 @@ The following options are available on the quick search tab:
         * Book Chapter:Verse-Verse, Chapter:Verse-Verse
         * Book Chapter:Verse-Chapter:Verse
 
-    |search_text| **Text Search**
+    |search_text| **Text Search:**
         Search by a keyword or words. Use more words to narrow down the list
         of results. If you search for "Jesus God" it searches sentences 
         which contain both words, Jesus and God. If you search for "Jesus, God" 
         separated by a comma, it searches for sentences which contain at least 
         one of the words, Jesus or God.
 
-**Version**
+**Version:**
     Once a Bible has been imported, it will be displayed in the drop down box.
     Select a version from the list of the Bibles.
     
-**Second**
+**Second:**
     If :guilabel:`Display second Bible verses` has been selected in the Bibles
     configuration, this option will be available. This is used to display
     another version of the Bible for comparison. Both versions will be
     displayed. If there is not enough space on one slide, the Second verses
     will be displayed on the next slide.
     
-**Layout Style**
+**Layout Style:**
     The following options are available to set how Bible verses are displayed:
 
-    **Verse Per Slide**
+    **Verse Per Slide:**
         Display one verse per slide.
 
-    **Verse Per Line**
+    **Verse Per Line:**
         Start each verse on a new line until the slide is full.
 
-    **Continuous**
+    **Continuous:**
         Verses flow together, separated by verse number and chapter
         if chapter is selected to show above.
 
@@ -169,7 +169,7 @@ The following options are available on the quick search tab:
     **Note:** Changes to layout style do not affect verses already in the
     :ref:`g-service-manager`.
 
-|buttons_clear_results| |buttons_keep_results| **Keep/Clear Results**
+|buttons_clear_results| |buttons_keep_results| **Keep/Clear Results:**
     Normally, when a search is run, the previous verses are cleared. To retain
     the previous set of verses, toggle this button.
 
@@ -184,14 +184,14 @@ Advanced Tab
 The Advanced tab is convenient for selecting Bible verses by book, chapter and
 verse from a set of drop down boxes.
 
-**Book**
+**Book:**
     Click on the drop down box and select a book from the list.
 
-**Chapter/Verse**
+**Chapter/Verse:**
     Select the *From* chapter and verse, and the *To* chapter and verse.
 
-*Version*, *Second* and *Layout Style* are the same as in the *Quick* search
-tab.
+**Note** *Version*, *Second* and *Layout Style* are the same as in the *Quick* 
+search tab.
 
 Click the :guilabel:`Search` button to perform a search and display the results
 in the verse list.
@@ -210,22 +210,22 @@ presentations.
 Toolbar
 ^^^^^^^
 
-|buttons_open| **Load presentation**
+|buttons_open| **Load presentation:**
     Import a presentation. Presentations need to be imported in order to
     control them from within OpenLP.
 
-|buttons_delete| **Delete presentation**
+|buttons_delete| **Delete presentation:**
     Removes the selected presentation from the list. Note that this does not
     delete the original presentation from the disk.
 
-|buttons_preview| **Preview presentation**
+|buttons_preview| **Preview presentation:**
     Send the selected presentation to the :ref:`g-preview-slide-controller`.
 
-|buttons_live| **Send presentation live**
+|buttons_live| **Send presentation live:**
     Send the selected presentation to the :ref:`g-live-slide-controller` to be
     shown on the display screen.
 
-|buttons_add| **Add presentation to service**
+|buttons_add| **Add presentation to service:**
     Add the selected presentation to the :ref:`g-service-manager`. Presentations
     can also be added to the :ref:`g-service-manager` by means of drag and drop
     from the :ref:`g-media-manager`.
@@ -250,27 +250,27 @@ media item. The images media item shows a list of imported images.
 Toolbar
 ^^^^^^^
 
-|buttons_open| **Load image**
+|buttons_open| **Load image:**
     Import one or more images. Images need to be imported in order to be used
     in OpenLP.
 
-|buttons_delete| **Delete images**
+|buttons_delete| **Delete images:**
     Removes the selected image(s) from the list. Note that this does not
     delete the original image(s) from the disk.
 
-|buttons_preview| **Preview image**
+|buttons_preview| **Preview image:**
     Send the selected image(s) to the :ref:`g-preview-slide-controller`.
 
-|buttons_live| **Send image live**
+|buttons_live| **Send image live:**
     Send the selected image(s) to the :ref:`g-live-slide-controller` to be
     shown on the display screen.
 
-|buttons_add| **Add image to service**
+|buttons_add| **Add image to service:**
     Add the selected image(s) to the :ref:`g-service-manager`. Images can also
     be added to the :ref:`g-service-manager` by means of drag and drop from the
     :ref:`g-media-manager`.
 
-|buttons_replace_live_background| **Replace live background**
+|buttons_replace_live_background| **Replace live background:**
     Replace the current live theme background with the selected image. This
     has effect until the theme changes, or the *Remove Backgound* button is
     clicked.
@@ -299,27 +299,27 @@ to resolve these issues.
 Toolbar
 ^^^^^^^
 
-|buttons_open| **Load media**
+|buttons_open| **Load media:**
     Import one or more media files. Media files need to be imported in order to
     be used in OpenLP.
 
-|buttons_delete| **Delete media**
+|buttons_delete| **Delete media:**
     Removes the selected media file(s) from the list. Note that this does not
     delete the original media file(s) from the disk.
 
-|buttons_preview| **Preview media**
+|buttons_preview| **Preview media:**
     Send the selected media to the :ref:`g-preview-slide-controller`.
 
-|buttons_live| **Send media live**
+|buttons_live| **Send media live:**
     Send the selected media to the :ref:`g-live-slide-controller` to be shown
     on the display screen.
 
-|buttons_add| **Add media to service**
+|buttons_add| **Add media to service:**
     Add the selected media to the :ref:`g-service-manager`. Media can also be
     added to the :ref:`g-service-manager` by means of drag and drop from the
     :ref:`g-media-manager`.
 
-|buttons_replace_live_background| **Replace live background**
+|buttons_replace_live_background| **Replace live background:**
     Replace the current live theme background with the selected media. This
     has effect until the theme changes, or the *Remove Background* button is
     clicked.
@@ -346,23 +346,23 @@ such as liturgy or prayers.
 Toolbar
 ^^^^^^^
 
-|buttons_new| **Add custom slide**
+|buttons_new| **Add custom slide:**
     Open the song edit dialog to add a new custom slide.
 
-|buttons_edit| **Edit custom slide**
+|buttons_edit| **Edit custom slide:**
     Open the song edit dialog to make changed to the selected new custom slide.
 
-|buttons_delete| **Delete custom slide**
+|buttons_delete| **Delete custom slide:**
     Remove the selected custom slide(s) from the list.
 
-|buttons_preview| **Preview custom slide**
+|buttons_preview| **Preview custom slide:**
     Send the selected custom slide to the :ref:`g-preview-slide-controller`.
 
-|buttons_live| **Send custom slide live**
+|buttons_live| **Send custom slide live:**
     Send the selected custom slide to the :ref:`g-live-slide-controller` to be
     shown on the display screen.
 
-|buttons_add| **Add custom slide to service**
+|buttons_add| **Add custom slide to service:**
     Add the selected custom slide(s) to the :ref:`g-service-manager`. Custom
     slides can also be added to the :ref:`g-service-manager` by means of drag
     and drop from the :ref:`g-media-manager`.

@@ -161,6 +161,9 @@ This is a known issue on some Mac OS X 10.5 systems and on a few Windows XP
 systems. Currently the only solution is to convert your images into another
 format. We would suggest using PNG images when possible with OpenLP.
 
+**Note:** This issue has been fixed in version 1.9.7. If you are having this
+issue please upgrade your version of OpenLP.
+
 I am running a Linux Distro and cannot see the menu icons
 ---------------------------------------------------------
 

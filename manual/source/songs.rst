@@ -49,6 +49,9 @@ After clicking :guilabel:`Next` your conversion will be complete.
 Press :guilabel:`Finish` and you will now be ready to use your OpenLP 
 version 1 songs.
 
+**Note:** To retain a theme assigned to a song, you must import your themes
+first.
+
 Importing from OpenSong
 ^^^^^^^^^^^^^^^^^^^^^^^
 

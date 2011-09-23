@@ -88,6 +88,15 @@ option also comes in handy when you have the "Display if a single screen" box
 selected. You can make the display smaller so it does not cover your whole 
 screen.
 
+Background Audio
+^^^^^^^^^^^^^^^^
+
+**Start background audio paused:**
+  If you have a :ref:`songs_linked` assigned to a song, with this box selected
+  and when the song is displayed live, the audio will be paused until you start 
+  it using :ref:`linked-audio`. If this box is not selected the audio will play 
+  immediately when the song is displayed live.
+
 Themes
 ======
 

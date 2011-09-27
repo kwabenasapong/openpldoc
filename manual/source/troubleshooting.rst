@@ -201,5 +201,13 @@ OpenLP is not displaying correctly, or is not on the correct screen
 Please read the documentation on :ref:`dualmonitors`. It is very important to
 have dual monitors setup properly for OpenLP to function as expected.
 
+Previews are slow to load when using a theme with an image background
+---------------------------------------------------------------------
+
+If you are using a JPG formatted image for your background try converting it 
+to another format. There is a notable performance difference between JPG and 
+a format such as PNG. Other formats wrok in OpenLP but PNG is the preferred 
+image format and yields the best performance.
+
 
 

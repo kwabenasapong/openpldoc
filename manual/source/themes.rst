@@ -114,10 +114,13 @@ from one slide to the next.
 .. image:: /pics/theme_manager_textalign.png
 
 **Horizontal Align:** 
-    This moves the text to the Left, Right or Center of the screen.
+    This moves the text to the Left, Right, Center or Justify on the screen.
+    
+    **Note:** Text is only justified when the text does not fit on one line, 
+    (only when a line is wrapped).
 
 **Vertical Align:** 
-    This moves the text to the Top, Middle or bottom of the screen.
+    This moves the text to the Top, Middle or Bottom of the screen.
 
 **Transitions:** 
     When this box is selected, switching slides will fade out from one and fade 

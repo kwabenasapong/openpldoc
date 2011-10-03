@@ -39,13 +39,13 @@ Bible you are importing. Remember to check what information you need to display
 for your Bible's translation, as some of them have strict rules around the
 copyright notice. Click :guilabel:`Next` to continue.
 
+**Note:** You can use one blank space using the space bar in the copyright field 
+to continue if you do not have or need copyright information.
+
 .. image:: pics/bibleimportdetails1.png
 
-After entering the copyright details, OpenLP will start to import your Bible.
+After entering the license details, OpenLP will start to import your Bible.
 It may take some time to import your Bible so please be patient.
-
-**Note:** You can use one blank space using the space bar in the copyright field 
-to continue without entering anything.
 
 .. image:: pics/bibleimportfinished1.png
 

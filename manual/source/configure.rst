@@ -349,15 +349,25 @@ Server Settings
   Put your projection computer's IP address here or use 0.0.0.0 which will 
   display your IP address links below. 
 
+**Display stage time in 12h format:**
+  This setting displays the time in stage view in 12h or 24h format.
+
 **Port Number:**
-  You can use the default port number or change it to another number. If you don't 
-  understand this setting, you can leave it as is.
+  You can use the default port number or change it to another number. If you 
+  do not understand this setting you should leave it as is.
 
 **Remote URL:**
-  This will show the address you will use in the remote computer web browser.
+  Using the remote URL, you have the ability to control the live service from 
+  another computer, netbook or smartphone that has a browser. 
+
+**Note:** This URL and port number are also used to map the value for OpenLP's 
+Android app.
 
 **Stage view URL:**
-  This will show the address you will use in the remote computer for Stage view.
+  Using stage view gives you the ability, using a remote computer, netbook or 
+  smartphone, to view the live service display in a basic black and white 
+  format. This URL shows the address you will use in the remote browser for 
+  stage view.
 
 Finding your IP address
 ^^^^^^^^^^^^^^^^^^^^^^^

@@ -354,13 +354,14 @@ Server Settings
 
 **Port Number:**
   You can use the default port number or change it to another number. If you 
-  do not understand this setting, you should leave it as is.
+  do not understand this setting you should leave it as is.
 
 **Remote URL:**
-  Using the remote URL you have the ability to control the live service from 
+  Using the remote URL, you have the ability to control the live service from 
   another computer, netbook or smartphone that has a browser. 
 
-**Note:** This URL is also used to map the value for OpenLP's Android app.
+**Note:** This URL and port number are also used to map the value for OpenLP's 
+Android app.
 
 **Stage view URL:**
   Using stage view gives you the ability, using a remote computer, netbook or 

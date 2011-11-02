@@ -208,8 +208,6 @@ If you are using a JPG formatted image for your background try converting it
 to another format. There is a notable performance difference between JPG and 
 a format such as PNG. Other formats work in OpenLP but PNG is the preferred 
 image format and yields the best performance. Images should also be sized to
-the size of your output. If your ouput screen is 1024x768 you should size your
-background image to that size since OpenLP does not scale images.
-
-
-
+the size of your output. For example, if your output screen is 1024x768 you 
+should size your background image to 1024x768 also. OpenLP does not scale
+images.

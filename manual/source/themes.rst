@@ -38,7 +38,9 @@ type: Solid Color, Gradient, or Image.
 
 **Image:** 
     You have the ability to use an image for your background. OpenLP accepts a 
-    variety of image types.  
+    variety of image types. JPG is the most common format of images but can 
+    cause previews to be slow. If you experience this you may want to convert
+    your image to PNG as it previews quicker than other formats.	
 
 .. image:: /pics/theme_manager_image.png
 

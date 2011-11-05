@@ -93,23 +93,44 @@ move down through your service. Pressing the :kbd:`Left Arrow` key will move up
 through the service. Every time you press the :kbd:`Left Arrow` or
 :kbd:`Right Arrow` key the next item in your Service will be displayed.
 
-Moving Through a Song or Bible Verses
--------------------------------------
+Moving Through a Song, Bible Verses or Images
+---------------------------------------------
 
 When you display a song or Bible verse with multiple verses you will need to
 move through them. When a song or verse is being displayed you will see the
 lyrics in the top Live window and how it actually appears on your display
-in the bottom Live window. To change slides you can use your mouse to click on
-each slide in the top Live window, use the Left Arrow and Right Arrow icons
-under the top Live window.
+in the bottom Live window. 
+
+To change slides you can use your mouse to click on each slide in the top Live 
+window, use the Left Arrow and Right Arrow icons under the top Live window.
 
 |slide_next| Move to next.
 
 |slide_previous| Move to previous.
 
-You can also use the :kbd:`Down Arrow` key to move down through
+You can use the :kbd:`Down Arrow` key to move down through
 the song or verses. Using the :kbd:`Up Arrow` key will move you from bottom to
 top. :kbd:`Page Up` and :kbd:`Page Down` keys will do the same thing.
+
+There is shortcut support for the Live Controller in OpenLP. This allows you to 
+navigate through, and jump between, your slides in the Live Controller using only 
+your keyboard. This works for any type of slides, e.g. songs, Bible verses and 
+images.
+
+How does it work?
+If you want to jump to verse 3 using the keyboard you press :kbd:`v' and within 
+a time frame of 350ms you press :kbd:`3`. Keep in mind to be quick and you will 
+be successful.
+
+The available keyboard shortcuts are:
+Verse: v
+Chorus: c
+Bridge: b
+Pre-Chorus: p
+Intro: i
+Ending: e
+Other: o
+and the numbers from 0-9
 
 .. _adding_images:
 

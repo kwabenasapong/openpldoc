@@ -117,20 +117,22 @@ navigate through, and jump between, your slides in the Live Controller using onl
 your keyboard. This works for any type of slides, e.g. songs, Bible verses and 
 images.
 
-How does it work?
-If you want to jump to verse 3 using the keyboard you press :kbd:`v' and within 
+**How does it work?**
+
+If you want to jump to verse 3 using the keyboard you press :kbd:`v` and within 
 a time frame of 350ms you press :kbd:`3`. Keep in mind to be quick and you will 
 be successful.
 
 The available keyboard shortcuts are:
-Verse: v
-Chorus: c
-Bridge: b
-Pre-Chorus: p
-Intro: i
-Ending: e
-Other: o
-and the numbers from 0-9
+
+* Verse: v
+* Chorus: c
+* Bridge: b
+* Pre-Chorus: p
+* Intro: i
+* Ending: e
+* Other: o
+* and the numbers from 0-9
 
 .. _adding_images:
 

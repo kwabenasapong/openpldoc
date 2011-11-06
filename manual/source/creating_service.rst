@@ -144,9 +144,9 @@ pictures from a youth group adventure, bulletin announcements, or some other
 reason. Once you add your images to the :ref:`media-manager` hold the :kbd:`Ctrl` 
 key on your keyboard and click each image you want to add as a group. As you 
 click the images they will remain highlighted. When you are done with your 
-selections you can either click the + icon above the images or, click on one of 
-the highlighted images, hold the mouse button and drag them over to the Service
-Manager side and place them where you need them.
+selections you can either click the |buttons_add| icon above the images or, 
+click on one of the highlighted images, hold the mouse button and drag them over 
+to the Service Manager side and place them where you need them.
 
 .. image:: pics/service_images.png
 
@@ -318,3 +318,4 @@ your service file. Choose the location you want to save your file and click
 .. |SERVICE_OPEN| image:: pics/service_open.png
 .. |SERVICE_SAVE| image:: pics/service_save.png
 .. |AUDIO_PAUSE| image:: pics/media_playback_pause.png
+.. |BUTTONS_ADD| image:: pics/buttons_add.png

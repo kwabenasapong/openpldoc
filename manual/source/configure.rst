@@ -68,12 +68,12 @@ Application Settings
   displayed in the Preview pane.
 
 **Enable slide wrap-around:**
-  When this box is selected the lyrics or Bible verses will wrap-around. When you 
-  reach the last slide of a song or verse and :kbd:`Down Arrow` you will be back 
-  on the first slide. Likewise if you are on the first slide and :kbd:`Up Arrow` 
-  you will wrap-around to the last slide of the song or Bible verses. If this 
-  box is not checked it will not wrap-around to the beginning or end of the song 
-  or verse.
+  When this box is selected the lyrics, images or Bible verses will wrap-around. 
+  When you reach the last slide of a song or verse and :kbd:`Down Arrow` you 
+  will be back on the first slide. Likewise if you are on the first slide and 
+  :kbd:`Up Arrow` you will wrap-around to the last slide of the song, images or 
+  Bible verses. If this box is not checked it will not wrap-around to the 
+  beginning or end of the song or verse.
 
 **Timed slide interval:**
   This setting is the time delay in seconds if you want to continuously loop

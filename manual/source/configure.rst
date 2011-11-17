@@ -57,20 +57,26 @@ Application Settings
   When this box is selected, OpenLP will prompt you to save the service you are
   working on before starting a new service.
 
-**Automatically preview next item in service:**
-  When this box is selected, the next item in the Service Manager will show in the
-  Preview pane.
-
 **Unblank display when adding new live item:**
   When using the :guilabel:`blank to` button with this checkbox checked, on going 
   live with the next item, the screen will be automatically re-enabled. If this 
   checkbox is not checked you will need to click the :guilabel:`blank to` button 
   again to reverse the action.
 
-**Slide loop delay:**
+**Automatically preview next item in service:**
+  When this box is selected, the next item in the Service Manager will show in 
+  the Preview pane.
+
+**Enable slide wrap-around:**
+  When you get to the end of a slide and this box is selected, the next press of
+  the :kbd:`Down Arrow` will take you back to the first verse of the song. If 
+  the box is not checked it will not wrap-around to the beginning of the song or
+  verse.
+
+**Timed slide interval:**
   This setting is the time delay in seconds if you want to continuously loop
-  images, verses, or lyrics. This control timer is also accessible on the "live 
-  toolbar.
+  images, verses, or lyrics. This control timer is also accessible on the 
+  :ref:`using_timer`
 
 CCLI Details
 ^^^^^^^^^^^^

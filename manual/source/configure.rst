@@ -64,14 +64,16 @@ Application Settings
   again to reverse the action.
 
 **Automatically preview next item in service:**
-  When this box is selected, the next item in the Service Manager will show in 
-  the Preview pane.
+  When this box is selected, the next item in the Service Manager will be 
+  displayed in the Preview pane.
 
 **Enable slide wrap-around:**
-  When you get to the end of a slide and this box is selected, the next press of
-  the :kbd:`Down Arrow` will take you back to the first verse of the song. If 
-  the box is not checked it will not wrap-around to the beginning of the song or
-  verse.
+  When this box is selected the lyrics or Bible verses will wrap-around. When you 
+  reach the last slide of a song or verse and :kbd:`Down Arrow` you will be back 
+  on the first slide. Likewise if you are on the first slide and :kbd:`Up Arrow` 
+  you will wrap-around to the last slide of the song or Bible verses. If this 
+  box is not checked it will not wrap-around to the beginning or end of the song 
+  or verse.
 
 **Timed slide interval:**
   This setting is the time delay in seconds if you want to continuously loop

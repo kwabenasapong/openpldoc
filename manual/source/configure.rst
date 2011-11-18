@@ -193,7 +193,7 @@ Mouse Cursor
 
 **Hide mouse cursor when over display window:**
   With this box selected your mouse cursor will not be visible if you move it 
-  from Display 1 and onto Display 2. 
+  from Display 1 onto Display 2. 
 
 Songs
 =====
@@ -363,9 +363,9 @@ Remote
 
 OpenLP gives you the ability to control the :ref:`creating_service` or send an 
 :ref:`alerts` from a remote computer through a web browser. This could be useful 
-for a nursery or daycare to display an Alert message or, use it as an interface 
-to control the whole service remotely by a visiting missionary or worship team 
-leader. 
+for a nursery or daycare to display an :ref:`alerts` message or, use it as an 
+interface to control the whole service remotely by a visiting missionary or 
+worship team leader. 
 
 Stage view gives you the opportunity to set up a remote computer, netbook or 
 smartphone to view the service being displayed in an easy to read font and black

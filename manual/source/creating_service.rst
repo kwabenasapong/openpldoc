@@ -203,6 +203,8 @@ will see a popup with the information you typed in your note.
 If you need to change your Note or delete it, open it again, delete your text
 and click :guilabel:`Save`
 
+.. _using_timer:
+
 Using the Service Timer
 -------------------------------
 

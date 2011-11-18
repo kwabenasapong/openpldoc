@@ -291,7 +291,7 @@ Images
 ======
 
 Provides border where an image is not the correct dimensions for the screen when 
-it is re-sized.
+it is resized.
 
 .. image:: pics/configureimages.png
 

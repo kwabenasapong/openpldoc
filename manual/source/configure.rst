@@ -64,8 +64,8 @@ Application Settings
   again to reverse the action.
 
 **Automatically preview next item in service:**
-  When this box is selected, the next item in the Service Manager will be 
-  displayed in the Preview pane.
+  When this box is selected, the next item in the :ref:`creating_service` will 
+  be displayed in the Preview pane.
 
 **Enable slide wrap-around:**
   When this box is selected the lyrics, images or Bible verses will wrap-around. 
@@ -126,12 +126,12 @@ Choose from one of three options for the default use of your theme.
   With this level selected, your theme is associated with the song. The theme is
   controlled by adding or editing a song in the Song editor and  your song theme
   takes priority. If your song does not have a theme associated with it, OpenLP
-  will use the theme set in the Service Manager.
+  will use the theme set in the :ref:`creating_service`.
 
 **Service Level:**
-  With this level selected, your theme is controlled at the top of the Service
-  Manager. Select your default service theme there. This setting will override
-  your Song theme. 
+  With this level selected, your theme is controlled at the top of the 
+  :ref:`creating_service`. Select your default service theme there. This setting 
+  will override your Song theme. 
 
 **Global Level:**
   With this level selected, all songs and verses will use the theme selected on
@@ -152,18 +152,48 @@ UI Settings (user interface)
   under :menuselection:`File --> Recent Files`.
 
 **Remember active media manager tab on startup:**
-  With this box selected OpenLP media manager will open on the same tab that it
-  was closed on.
+  With this box selected OpenLP :ref:`media-manager` will open on the same tab 
+  that it was closed on.
 
 **Double-click to send items straight to live:**
-  With this box selected, double-clicking on anything in the Media Manager will
-  immediately send it live instead of to Preview.
+  With this box selected, double-clicking on anything in the :ref:`media-manager` 
+  will immediately send it live instead of to Preview.
+
+**Preview items when clicked in Media Manager:**
+  With this box selected, clicking any item in the :ref:`media-manager` will 
+  immediately display it in the Preview pane.
 
 **Expand new service items on creation:**
-  With this box selected, everything you add to the Service Manager will be
-  expanded so you can see all the verses, lyrics and presentations, line by line.
-  When you open OpenLP, everything will automatically be expanded in the Service
-  Manager.
+  With this box selected, everything you add to the :ref:`creating_service` will 
+  be expanded so you can see all the verses, lyrics and presentations, line by 
+  line. When you open OpenLP, everything will automatically be expanded in the 
+  :ref:`creating_service`.
+
+**Enable application exit confirmation:**
+  With this box selected, on closing OpenLP you will be presented with a dialog
+  box to confirm closing the program.
+
+Default Images
+^^^^^^^^^^^^^^
+
+**Background color:**
+  You can choose the background color that will be displayed when you start 
+  OpenLP.
+
+**Image file:**
+  Select an image file to be displayed when OpenLP is started. Using an image 
+  file will override a background color.
+
+|buttons_open| **Browse for an image file to display**
+
+|buttons_revert| **Revert to the default OpenLP logo**
+
+Mouse Cursor
+^^^^^^^^^^^^
+
+**Hide mouse cursor when over display window:**
+  With this box selected your mouse cursor will not be visible if you move it 
+  from Display 1 onto Display 2. 
 
 Songs
 =====
@@ -183,17 +213,17 @@ Songs Mode
   to select any part of the verse type you want displayed live. 
 
 **Update service from song edit:**
-  With this box selected and you edit a song in the media manager, the results
-  will also change the song if it is added to the Service Manager. If this box
-  is not selected, your song edit changes will only be available in the Service
-  Manager if you add it again.
+  With this box selected and you edit a song in the :ref:`media-manager`, the 
+  results will also change the song if it is added to the :ref:`creating_service`. 
+  If this box is not selected, your song edit changes will only be available in 
+  the :ref:`creating_service` if you add it again.
 
 **Add missing songs when opening service:**
   With this box selected, when you open an order of service created on another
-  computer, or if one of the songs are no longer in your Media Manager, it will
-  automatically enter the song in your Songs Media Manager. If this box is not 
-  checked, the song is available in the service but will not be added to the 
-  Media Manager.
+  computer, or if one of the songs are no longer in your :ref:`media-manager`, 
+  it will automatically enter the song in your Songs Media Manager. If this box 
+  is not checked, the song is available in the service but will not be added to 
+  the :ref:`media-manager`.
 
 Bibles
 ======
@@ -254,8 +284,8 @@ Advanced
 
 **Allow presentation application to be overridden:**
   With this option selected, you will see `Present using` area with a dropdown 
-  box on the Presentations toolbar  in Media Manager which gives you the option 
-  to select the presentation program you want to use.
+  box on the Presentations toolbar in :ref:`media-manager` which gives you the 
+  option to select the presentation program you want to use.
 
 Images
 ======
@@ -316,8 +346,8 @@ Font
   This will adjust the size of the font.
 
 **Alert timeout:**
-  This setting will determine how long your Alert will be displayed on the screen,
-  in seconds.
+  This setting will determine how long your :ref:`alerts` will be displayed on 
+  the screen, in seconds.
 
 **Location:**
   Choose the location where you want the alert displayed on the
@@ -331,10 +361,11 @@ Font
 Remote
 ======
 
-OpenLP gives you the ability to control the Service Manager or send an Alert 
-from a remote computer through a web browser. This could be useful for a nursery 
-or daycare to display an Alert message or, use it as an interface to control the 
-whole service remotely by a visiting missionary or worship team leader. 
+OpenLP gives you the ability to control the :ref:`creating_service` or send an 
+:ref:`alerts` from a remote computer through a web browser. This could be useful 
+for a nursery or daycare to display an :ref:`alerts` message or, use it as an 
+interface to control the whole service remotely by a visiting missionary or 
+worship team leader. 
 
 Stage view gives you the opportunity to set up a remote computer, netbook or 
 smartphone to view the service being displayed in an easy to read font and black
@@ -416,3 +447,9 @@ and enter the IP address followed by a colon and then the port number, ie:
 192.168.1.104:4316  then press enter. You should now have access to the OpenLP
 Controller. If it does not come up, you either entered the wrong IP address, 
 port number or one or both computers are not connected to the network.
+
+.. These are all the image templates that are used in this page.
+
+.. |BUTTONS_OPEN| image:: pics/buttons_open.png
+
+.. |BUTTONS_REVERT| image:: pics/button_rerun.png

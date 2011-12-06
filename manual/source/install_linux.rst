@@ -281,6 +281,49 @@ to run OpenLP from the command line type::
 
   user@mint:~$ openlp
 
+openSUSE
+^^^^^^^^
+
+OpenLP is available using 1-Click Install on the openSUSE Build Service
+website. Go to the `openSUSE Build Service site <http://software.opensuse.org>`_
+and type :kbd:`openlp` into the search box.
+
+.. image:: pics/suse1.png
+
+Then click :guilabel:`1-Click Install`
+
+.. image:: pics/suse2.png
+
+Select open with YaST then click :guilabel:`OK`
+
+.. image:: pics/suse3.png
+
+Additional repositories may need to be enabled. This will be performed
+automatically. Accept the default options by clicking :guilabel:`Next`
+
+.. image:: pics/suse5.png
+
+Confirm you want to install OpenLP and click :guilabel:`Next`
+
+.. image:: pics/suse6.png
+
+Before the installation takes place confirm adding the repositories and
+installing the software again. Click :guilabel:`Next` to continue.
+
+.. image:: pics/suse7.png
+
+Since this is a third party application the software key will have to be 
+accepted. Click :guilabel:`Trust` to accept the software key.
+
+.. image:: pics/suse8.png
+
+OpenLP will now be installed. When the install process is completed click
+:guilabel:`Finish`.
+
+.. image:: pics/suse9.png
+
+OpenLP will now be available for use.
+
 Arch Linux
 ^^^^^^^^^^
 

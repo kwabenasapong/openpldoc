@@ -296,7 +296,7 @@ Then click :guilabel:`1-Click Install`
 
 .. image:: pics/suse2.png
 
-Select open with YaST then click :guilabel:`OK`
+Select :guilabel:`Open with YaST 1-Click Install` then click :guilabel:`OK`
 
 .. image:: pics/suse3.png
 

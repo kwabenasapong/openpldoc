@@ -319,8 +319,7 @@ changed by selecting one of the available players and using the
 Advanced
 ^^^^^^^^
 
-**Allow media player to be overridden**
-
+**Allow media player to be overridden:**
   With this option selected, you will see `Use Player:` area with a dropdown box
   on the Media tool bar in the :ref:`media-manager` which gives you the option 
   to select the media player you want to use.

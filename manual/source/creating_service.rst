@@ -237,6 +237,45 @@ arrow will give you two options for the use of the timer.
     Click this button to start or stop the timer function. You can also use the 
     keyboard shortcut :kbd:`L` to start and stop the continuous loop.
 
+Using the Media Timer
+---------------------
+
+The media timer is used when you have a media file in your service manager and you 
+would like it to start and/or stop at a specified time. The media timer is only 
+available when you are using Phonon as your default player. Please check your 
+media configuration here :menuselection:`Settings --> Configure OpenLP --> Media`. 
+Configure your player using Phonon with these instructions. :ref:`media_configure`.
+
+After adding your media file to the :ref:`creating_service` you can mouseover 
+your file and the popup will show you the play time "Length" in hours, minutes 
+and seconds. 
+
+.. image:: pics/service_media_timer.png
+
+Right click on your media file and left click 
+|service_timer| :guilabel:`Start Time`.
+
+.. image:: pics/service_media_timer_start.png
+
+**Item Start and Finish Time**
+    The start and stop time default to the beginning and end of the video.
+
+.. image:: pics/service_media_timer_config.png
+
+Change the hours, minutes and seconds to the times you want your video to begin 
+and end. When you are finished click :guilabel:`Ok` to save your changes or 
+:guilabel:`Cancel` to leave the times as they were originally. When you display 
+your media live it will start and stop with the times you configured.
+
+.. image:: pics/service_media_timer_configend.png
+
+After your changes have been saved you can check your start and stop times by 
+putting your mouse cursor over the media file. 
+
+.. image:: pics/service_media_timerend.png
+
+**Note:** This does not work with some media files.
+
 Using the "Blank to" Control
 ----------------------------
 

@@ -299,6 +299,8 @@ it is resized.
   Click on the black button next to Default Color. You have the option of 
   choosing among the colors you see or entering your own.
 
+.. _media_configure:
+
 Media
 =====
 

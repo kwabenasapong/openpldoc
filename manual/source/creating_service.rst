@@ -241,7 +241,7 @@ Using the Media Timer
 ---------------------
 
 **Note:** The media timer is only available when you are using Phonon as your 
-default player. Please check your media configuration here 
+default player. Please check your media configuration here: 
 :menuselection:`Settings --> Configure OpenLP --> Media`. Configure your player 
 using Phonon with these instructions. :ref:`media_configure`.
 

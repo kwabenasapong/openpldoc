@@ -274,7 +274,7 @@ putting your mouse cursor over the media file.
 
 .. image:: pics/service_media_timerend.png
 
-**Note:** This does not work with some media files.
+**Note:** The media timer is not available with some media file types.
 
 Using the "Blank to" Control
 ----------------------------

@@ -248,7 +248,9 @@ Configure your player using Phonon with these instructions. :ref:`media_configur
 
 After adding your media file to the :ref:`creating_service` you can mouseover 
 your file and the popup will show you the play time "Length" in hours, minutes 
-and seconds. 
+and seconds.
+
+**Note:** The media timer is not available with some media file types. 
 
 .. image:: pics/service_media_timer.png
 
@@ -273,8 +275,6 @@ After your changes have been saved you can check your start and stop times by
 putting your mouse cursor over the media file. 
 
 .. image:: pics/service_media_timerend.png
-
-**Note:** The media timer is not available with some media file types.
 
 Using the "Blank to" Control
 ----------------------------

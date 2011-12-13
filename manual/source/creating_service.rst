@@ -250,7 +250,8 @@ After adding your media file to the :ref:`creating_service` you can mouseover
 your file and the popup will show you the play time "Length" in hours, minutes 
 and seconds.
 
-**Note:** The media timer is not available with some media file types. 
+**Note:** The media timer is not available using webkit and with some media file 
+types. 
 
 .. image:: pics/service_media_timer.png
 

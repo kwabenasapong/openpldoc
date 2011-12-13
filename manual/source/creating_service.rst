@@ -240,13 +240,13 @@ arrow will give you two options for the use of the timer.
 Using the Media Timer
 ---------------------
 
-The media timer is used when you have a media file in your service manager and 
-you would like it to start and/or stop at a specified time. 
-
 **Note:** The media timer is only available when you are using Phonon as your 
 default player. Please check your media configuration here 
 :menuselection:`Settings --> Configure OpenLP --> Media`. Configure your player 
 using Phonon with these instructions. :ref:`media_configure`.
+
+The media timer is used when you have a media file in your service manager and 
+you would like it to start and/or stop at a specified time. 
 
 After adding your media file to the :ref:`creating_service` you can mouseover 
 your file and the popup will show you the play time "Length" in hours, minutes 

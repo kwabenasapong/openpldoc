@@ -112,15 +112,17 @@ same options.
 Quick Search Tab
 ^^^^^^^^^^^^^^^^
 
-.. image:: pics/mediamanager_bibles_quick.png
-
 The following options are available on the quick search tab:
 
-.. image:: pics/mediamanager_bibles_find.png
+.. image:: pics/mediamanager_bibles_quick.png
 
 **Find:**
     Clicking the icon in the Find box displays a list of search options. The
     following options are available:
+
+.. image:: pics/mediamanager_bibles_find.png
+
+\
 
     |search_reference| **Scripture Reference:**
         Search for a specific verse using a scripture reference format. The 

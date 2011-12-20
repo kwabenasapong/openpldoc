@@ -16,18 +16,65 @@ custom slide as discussed earlier in the :ref:`media-manager` section.
 
 .. image:: pics/mediamanager_songs.png
 
-On the right side of your screen at the top is the Service Manager.
+On the right side of your screen at the top is the Service Manager. Everything 
+you want to display should be in the Service Manager and preferably in the order 
+you want to display it.
 
 .. image:: pics/service_manager.png
 
-Anything you want to display should be in the Service Manager and preferably in
-the order you want to display it. To add your media you can click on an item in
-the :ref:`media-manager` hold and drag your selection from the :ref:`media-manager` 
-over to the *Service Manager* or, after clicking the media or verse you want to 
-use, click the |add_plus|. This will add your media to the service side at the 
-bottom. Once it is in the Service Manager you can click on your item and drag 
-and drop it in the order you want or, click the item and use the icons shown 
-below to move it up or down in the order you want. 
+.. _new_service:
+
+New, Open and Saving the Service
+--------------------------------
+
+Three icons at the top of the *Service Manager* will do the following:
+
+|service_new| **Create a new service:**
+    This first icon will create a New Service. 
+
+|service_open| **Load an existing service:**
+    This second icon will open an already created service file. Use this icon to 
+    to find the location of your file or you can open a saved service by 
+    dragging and dropping it into the service manager. The service will be 
+    opened and the existing service replaced. You will first be prompted to save 
+    your previous service if changes were made. 
+
+|service_save| **Save this service:**
+    This icon will Save the service you created, added to, or rearranged. The 
+    order of service, songs, images, Bible verses, service notes, and custom 
+    slides are all saved in the file.
+
+Editing Songs in the Service
+----------------------------
+
+You can create your service file on a different computer than the projection 
+computer. If a song is not in the projection computer database when you open the
+saved file OpenLP will automatically import the song into the song database with 
+this option checked here :ref:`config_songs` "Add missing songs when opening 
+service." If this option is not selected, and the song is not in your database, 
+you will see a popup when you mouseover the song in the service manager.
+
+.. image:: pics/service_manager_edit.png
+
+You always have the ability to edit the song in the service manager by right 
+clicking on the song and choosing :menuselection:`Edit Item` from the context 
+menu. Follow the directions here :ref:`songs_create_edit` to make changes to 
+your song. 
+
+**Note:** Editing a song in :ref:`creating_service` will be applied to 
+the :ref:`media-manager` song database. Editing a song in the :ref:`media-manager` 
+will be applied to the song in your :ref:`creating_service`.  
+
+Adding Media
+------------
+
+To add your media you can click on an item in the :ref:`media-manager` hold and 
+drag your selection from the :ref:`media-manager` over to the *Service Manager* 
+or, after clicking the media or verse you want to use, click the |add_plus|. 
+This will add your media to the service side at the bottom. Once it is in the 
+Service Manager you can click on your item and drag and drop it in the order you 
+want or, click the item and use the icons shown below to move it up or down in 
+the order you want. 
 
 |service_top| Move item to the top of the service.
 
@@ -312,31 +359,17 @@ Linked Audio Control
 by using this button. This button becomes available when you have linked an 
 audio file to a song and it is in use.
 
-.. _new_service:
-
-New, Open and Saving the Service
---------------------------------
-
-Three icons at the top of the *Service Manager* will do the following:
-
-|service_new| **Create a new service:**
-    This first icon will create a New Service. 
-
-|service_open| **Load an existing service:**
-    This second icon will Open an already created service file. 
-
-**Note:** You can open a saved service by dragging it into the service manager. 
-The service will be opened and the existing service replaced. You will first 
-be prompted to save your previous service if changes were made. 
+Saving the Service
+------------------
 
 |service_save| **Save this service:**
     This icon will Save the service you created, added to, or rearranged.
 
 Now that you created your service, tested it and are ready for your worship
 service, you will want to save your service file. OpenLP will remind you to do
-this when you close the program or you can click the save button at the top of
-your service file. Choose the location you want to save your file and click
-:guilabel:`Ok`.
+this when you close the program or you can click the save button 
+:ref:`new_service` at the top of your service file. Choose the location you 
+want to save your file and click :guilabel:`Ok`.
 
 .. These are all the image templates that are used in this page.
 

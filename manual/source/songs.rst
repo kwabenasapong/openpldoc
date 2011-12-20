@@ -106,6 +106,8 @@ completed.
 Press :guilabel:`Finish` and OpenLP will be ready to use your songs imported
 from CCLI SongSelect.
 
+.. _songs_create_edit:
+
 Creating or Editing a Song Slide
 ================================
 

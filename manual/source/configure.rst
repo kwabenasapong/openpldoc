@@ -195,6 +195,8 @@ Mouse Cursor
   With this box selected your mouse cursor will not be visible if you move it 
   from Display 1 onto Display 2. 
 
+.. _config_songs:
+
 Songs
 =====
 

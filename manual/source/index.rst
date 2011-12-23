@@ -36,6 +36,7 @@ Reference Manual
    export_songs
    song_usage
    alert
+   web_remote
    glossary
 
 Questions and Troubleshooting

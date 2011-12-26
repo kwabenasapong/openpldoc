@@ -77,6 +77,19 @@ displayed immediately when clicked on in the service manager.
 Alerts
 ------
 
+You can send an alert to the screen by entering your text in the box and clicking
+on :guilabel:`Show Alert`. Your alert will be displayed as you have it configured 
+in :ref:`configure_alerts`.
+
+.. image:: pics/web_remote_alert.png
+
+Search
+------
+
+
+
+
+
 
 
 

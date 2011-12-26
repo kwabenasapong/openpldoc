@@ -343,6 +343,8 @@ Custom Display
 **Note:** If you have an entry in the Credits box of your custom slide, title and
 credits will always be displayed.
 
+.. _configure_alerts:
+
 Alerts
 ======
 

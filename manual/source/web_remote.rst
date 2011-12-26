@@ -11,7 +11,7 @@ worship team leader.
 
 The first step is to make sure the Remote plugin is activated. You can accomplish
 this here: :ref:`plugin_list`. The second step is to configure the settings you 
-will use with your web browser. You can find these instructions and settings 
+will use with the web browser. You can find these instructions and settings 
 here: :ref:`remote_tab`.
 
 Open your favorite web browser and type in the Remote URL you found in 
@@ -24,14 +24,15 @@ OpenLP Remote.
 Service Manager
 ---------------
 
-Clicking on Service Manager will display your service item list in the 
+Clicking on Service Manager will display the service item list in the 
 :ref:`creating_service`.
 
 .. image:: pics/web_remote_service.png
 
-You will find the following buttons throughout the web remote interface. 
 Clicking on any item in the Service Manager will immediately take you to the 
-slide controller.
+Slide Controller. 
+
+You will find the following buttons throughout the web remote interface. 
 
     |web_remote_home| The home button is found on most of the pages in the top 
     left hand corner of the remote interface and clicking it will take you back 
@@ -44,8 +45,8 @@ slide controller.
     projector screen. Clicking on an item in the Service Manager will 
     automatically show the item on the screen.
 
-    |web_remote_show| If your screen is blanked, clicking on this button will
-    unblank your display.
+    |web_remote_show| If the screen is blanked, clicking on this button will
+    unblank the display.
 
     |web_remote_previous| This button will move you upward in the Service 
     Manager and Slide Controller.
@@ -64,9 +65,9 @@ Controller interface.
 
 .. image:: pics/web_remote_slide.png
 
-You will find your verses displayed as they appear in the live view and the 
+You will find the verses displayed as they appear in the live view and the 
 first verse will be displayed on the projection screen. You can use the 
-:guilabel:`Prev`, :guilabel:`Next` or click on each verse using your mouse to 
+:guilabel:`Prev`, :guilabel:`Next` or click on each verse using the mouse to 
 display them. 
 
 **Note:** The remote interface replicates the OpenLP software. Clicking on a 
@@ -77,8 +78,8 @@ displayed immediately when clicked on in the service manager.
 Alerts
 ------
 
-You can send an alert to the screen by entering your text in the box and clicking
-on :guilabel:`Show Alert`. Your alert will be displayed as you have it configured 
+You can send an alert to the screen by entering the text in the box and clicking
+on :guilabel:`Show Alert`. The alert will be displayed as you have it configured 
 in :ref:`configure_alerts`.
 
 .. image:: pics/web_remote_alert.png

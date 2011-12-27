@@ -78,9 +78,9 @@ displayed immediately when clicked on in the service manager.
 Alerts
 ------
 
-You can send an alert to the screen by entering the text in the box and clicking
-on :guilabel:`Show Alert`. The alert will be displayed as you have it configured 
-in :ref:`configure_alerts`.
+You can send an alert to the projection screen by entering the text in the box 
+and clicking on :guilabel:`Show Alert`. The alert will be displayed as you have 
+it configured in :ref:`configure_alerts`.
 
 .. image:: pics/web_remote_alert.png
 
@@ -100,7 +100,8 @@ Search
 
 
 
-
+Stage View
+----------
 
 Stage view gives you the opportunity to set up a remote computer, netbook or 
 smartphone to view the service being displayed in an easy to read font on a  

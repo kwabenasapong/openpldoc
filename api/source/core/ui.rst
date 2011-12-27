@@ -17,6 +17,9 @@ Main Windows
 Managers
 --------
 
+.. autoclass:: openlp.core.ui.slidecontroller.SlideController
+   :members:
+
 .. autoclass:: openlp.core.ui.servicemanager.ServiceManager
    :members:
 

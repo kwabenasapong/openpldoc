@@ -3,7 +3,7 @@
 The Web Remote
 ==============
 
-OpenLP gives you the ability to control the :ref:`creating_service`, You also 
+OpenLP gives you the ability to control the :ref:`creating_service`. You also 
 have the ability to search for and add or display media from the your 
 :ref:`media-manager` or send an :ref:`alerts`, using a remote computer, netbook 
 or smartphone and a web browser. You can use the web remote as an interface to 

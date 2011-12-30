@@ -111,7 +111,7 @@ chapter, verse or verses. Searching :guilabel:`Songs` will search titles and
 lyrics with the text used.
 
 For this example we are searching "Songs" and the word "Jesus". The results will 
-be displayed under the search button.
+be displayed below the search button.
 
 .. image:: pics/web_remote_search_complete.png
 
@@ -123,29 +123,6 @@ next screen.
 Click on :guilabel:`Go Live` to immediately display your media on the projection 
 screen. Click on :guilabel:`Add to Service` to add your media to the bottom of 
 the :ref:`creating_service`.
-
-Stage View
-----------
-
-Stage view gives you the opportunity to set up a remote computer, netbook or 
-smartphone to view the :ref:`creating_service` being displayed in an easy to 
-read font on a black background. This is a text only viewer. 
-
-.. image:: pics/web_remote_stage.png
-
-At the top right hand side you will see the time of day. This can be changed 
-from 12 hour to 24 hour format in :ref:`remote_tab`. If you added a note to the 
-the song it will be the next line under the time. See :ref:`adding_note` 
-for adding notes. Under the note will be the Bible or song verse numbers and one 
-of those will be highlighted. The lyrics or verses highlighted below the verse 
-numbers correspond to the highlighted verse number. 
-
-If there is an image, presentation or media being displayed you will see the 
-title of the displayed item. Under the title will show the next item to be 
-displayed in the :ref:`creating_service`.
-
-.. image:: pics/web_remote_stage_other.png
-
 
 .. These are all the image templates that are used in this page.
 

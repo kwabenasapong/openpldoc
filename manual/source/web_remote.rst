@@ -16,9 +16,9 @@ this here: :ref:`plugin_list`. The second step is to configure the settings you
 will use with the web browser. You can find these instructions and settings 
 here: :ref:`remote_tab`.
 
-Open your favorite web browser and type in the Remote URL you found in 
-:ref:`remote_tab`. For this example we will use \http://192.168.0.101:4316 and 
-then press the :kbd:`Enter` key. You will be presented with the home page of the
+Open a web browser, type in the Remote URL you found in :ref:`remote_tab` and 
+press the :kbd:`Enter` key. For this example we will use 
+\http://192.168.0.101:4316. You will then be presented with the home page of the
 OpenLP Remote.
 
 .. image:: pics/web_remote_start.png
@@ -96,12 +96,12 @@ add it to the service or display it immediately.
 .. image:: pics/web_remote_search.png
 
 Clicking on :guilabel:`Songs` will display your media options to search through. 
-Click on the media you want to search. 
+Click on the media type you want to search. 
 
 .. image:: pics/web_remote_search_choice.png
 
 Enter the text you want to search for. You can click :guilabel:`Search` or press 
-:kbd:`Enter` on your keyboard. If you do not enter any text to search for, you 
+:kbd:`Enter` on the keyboard. If you do not enter any text to search for, you 
 will be presented with your entire list of media for the selected media. 
 
 **Note:** When searching :guilabel:`Bibles` media you must enter the exact name, 

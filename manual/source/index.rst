@@ -36,6 +36,8 @@ Reference Manual
    export_songs
    song_usage
    alert
+   web_remote
+   stage_view
    glossary
 
 Questions and Troubleshooting

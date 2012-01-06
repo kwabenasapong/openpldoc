@@ -6,6 +6,12 @@ Object Library
 .. automodule:: openlp.core.lib
    :members:
 
+:mod:`Manager`
+--------------------
+
+.. autoclass:: openlp.core.lib.db.Manager
+   :members:
+
 :mod:`EventReceiver`
 --------------------
 
@@ -42,10 +48,10 @@ Object Library
 .. autoclass:: openlp.core.lib.renderer.Renderer
    :members:
 
-:mod:`RenderManager`
+:mod:`SearchEdit`
 --------------------
 
-.. autoclass:: openlp.core.lib.rendermanager.RenderManager
+.. autoclass:: openlp.core.lib.searchedit.SearchEdit
    :members:
 
 :mod:`ServiceItem`
@@ -64,4 +70,10 @@ Object Library
 --------------------
 
 .. autoclass:: openlp.core.lib.toolbar.OpenLPToolbar
+   :members:
+
+:mod:`UiStrings`
+--------------------
+
+.. autoclass:: openlp.core.lib.ui.UiStrings
    :members:

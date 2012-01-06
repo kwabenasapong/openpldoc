@@ -8,9 +8,9 @@ smartphone to view the live service being displayed on the projection screen in
 an easy to read font on a black background. This is a text only viewer.
 
 The first step is to make sure the Remote plugin is activated. You can accomplish
-this here: :ref:`plugin_list`. The second step is to configure the settings you 
-will use with the web browser. You can find these instructions and settings 
-here: :ref:`remote_tab`.
+this by following the instructions in the :ref:`plugin_list`. The second step is to 
+configure the settings you will use with the web browser. You can find these 
+instructions and settings in :ref:`remote_tab`.
 
 Open a web browser, type in the Stage View URL you found in :ref:`remote_tab` 
 and press the :kbd:`Enter` key. For this example we will use 

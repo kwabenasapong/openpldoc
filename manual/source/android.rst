@@ -215,7 +215,7 @@ Click on :guilabel:`Add to Service` to add your media to the bottom of the
 :ref:`creating_service`. Click on :guilabel:`Send Live` to immediately display 
 your media on the projection screen.
 
-..image:: pics/droid_found_add1.png
+.. image:: pics/droid_found_add1.png
 
 When you have completed your search you must press the back button on your phone 
 to return to the main screen.

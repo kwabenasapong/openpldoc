@@ -38,6 +38,7 @@ Reference Manual
    alert
    web_remote
    stage_view
+   android
    glossary
 
 Questions and Troubleshooting

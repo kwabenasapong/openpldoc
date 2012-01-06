@@ -325,6 +325,8 @@ putting your mouse cursor over the media file.
 
 .. image:: pics/service_media_timerend.png
 
+.. _blank_control:
+
 Using the "Blank to" Control
 ----------------------------
 

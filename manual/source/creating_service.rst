@@ -227,6 +227,8 @@ group of images as another item at the bottom of the Service. If you click
 :guilabel:`Add to Selected Item` your image will be added to your group of
 images.
 
+.. _adding_note:
+
 Adding a Service Note
 ---------------------
 

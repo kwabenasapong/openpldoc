@@ -343,6 +343,8 @@ Custom Display
 **Note:** If you have an entry in the Credits box of your custom slide, title and
 credits will always be displayed.
 
+.. _configure_alerts:
+
 Alerts
 ======
 
@@ -386,13 +388,12 @@ interface to control the whole service remotely by a visiting missionary or
 worship team leader. 
 
 Stage view gives you the opportunity to set up a remote computer, netbook or 
-smartphone to view the service being displayed in an easy to read font and black
-background. This is a text only viewer. 
+smartphone to view the service being displayed in an easy to read font with a 
+black background. Stage view is a text only viewer. 
 
-.. image:: pics/configure_remotes_stage.png
-
-This will work in any web browser that has network access whether it is another 
-computer, a netbook or a smartphone. 
+The remote feature will work in any web browser that has network access whether 
+it is another computer, a netbook or a smartphone. You can find more information 
+about this feature here: :ref:`web_remote`.
 
 **Note:** To use either of these features, your computers will need to be on the 
 same network, wired or wireless. 

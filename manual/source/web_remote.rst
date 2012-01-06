@@ -57,7 +57,7 @@ You will find the following buttons throughout the web remote interface.
     Manager and Slide Controller.
 
 **Note:** The buttons Blank, Show, Prev and Next are conveniently located on 
-the top and the bottom of the remote interace to help eliminate scrolling.
+the top and the bottom of the remote interface to help eliminate scrolling.
 
 Slide Controller
 ----------------
@@ -96,7 +96,7 @@ add it to the service or display it immediately.
 .. image:: pics/web_remote_search.png
 
 Clicking on :guilabel:`Songs` will display your media options to search through. 
-Click on the media type you want to search. 
+Click on the media type that you want to search. 
 
 .. image:: pics/web_remote_search_choice.png
 

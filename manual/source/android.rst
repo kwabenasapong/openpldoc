@@ -55,10 +55,11 @@ you will need to enter the setup information.
 .. image:: pics/droid_configure.png
 
 The first step is to configure the server settings you will use with your phone.  
-You can find these instructions and settings here: :ref:`remote_tab`.
+You can find these instructions and settings in the OpenLP desktop application 
+under :ref:`remote_tab`.
 
 **Note:** To use the Android application you will need to be on the same 
-wireless network as the main computer.
+network as the main computer.
 
 Select the :guilabel:`Server` button and enter the :guilabel:`Serve on IP address`
 found in :ref:`remote_tab`. After entering the IP address in the box select 
@@ -109,6 +110,8 @@ button on your phone while OpenLP is running and selecting :guilabel:`Settings`
 and it will take you back to the configuration screen.
 
 .. image:: pics/droid_settings_return1.png
+
+.. _droid_blank:
 
 Display Blank Type
 ^^^^^^^^^^^^^^^^^^
@@ -163,8 +166,8 @@ Misc
 ^^^^
 
 Selecting the :guilabel:`Misc` button at the top will give you the ability to 
-blank and unblank your projection screen from your chosen method above or send 
-an Alert message.
+blank and unblank your projection screen from your chosen method 
+:ref:`above <droid_blank>` or send an Alert message.
 
 .. image:: pics/droid_misc.png
 
@@ -187,9 +190,8 @@ Search
 Using the search function gives you the ability to search for a particular media, 
 add it to the service or display it immediately.
 
-To use search press your menu button (as described above) on your phone while 
-OpenLP is running and select :guilabel:`Search` and it will take you to the 
-search screen.
+To use search, press the hardware menu button or magnifying glass on your phone 
+and then select :guilabel:`Search` and you will be taken to the search screen.
 
 .. image:: pics/droid_search_all1.png
 
@@ -198,7 +200,7 @@ example we are using the search word "Jesus". You can click the magnifying glass
 next to the text box or press the return on your phone keyboard. You will be 
 presented with a list of media in which your search word was found. 
 
-**Note:** When searching Bibles media you must enter the exact name, chapter, 
+**Note:** When searching the Bible you must enter the exact name, chapter, 
 verse or verses. Searching songs will search titles and lyrics with the text 
 used.
 

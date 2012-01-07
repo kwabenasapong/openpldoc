@@ -46,9 +46,6 @@ OpenLP for use. You will also find the OpenLP icon in your application menu.
 Android application settings
 ----------------------------
 
-Server
-^^^^^^
-
 After the installation is complete and you open the OpenLP Android application 
 you will need to configure your preferences and settings. 
 
@@ -77,6 +74,9 @@ operates on the main computer at :ref:`blank_control`.
     Choosing this option will show your desktop wallpaper or a program that you 
     have open on the extended monitor or projector. You can seamlessly switch 
     between the desktop wallpaper or a program and OpenLP by Blank to Desktop.
+
+Server
+^^^^^^
 
 You will need to configure the server settings you will use with your phone.  
 You can find these instructions and settings in the OpenLP desktop application 

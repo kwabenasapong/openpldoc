@@ -6,10 +6,10 @@ Android App
 Installation
 ------------
 
-OpenLP gives you the ability to control your service from an Android based smart 
-phone. The following tutorial will describe how to download, install and use the 
-application. For this example we will be using the HTC Incredible. Other Android 
-phones may vary slightly in appearance and installation.
+OpenLP gives you the ability to control your service from an Android based 
+smartphone. The following tutorial will describe how to download, install and 
+use the application. For this example we will be using the HTC Incredible. Other 
+Android phones may vary slightly in appearance and installation.
 
 Click the screen button on the phone to bring up the start menu for "All apps" 
 and scroll to and select :guilabel:`Market`. 
@@ -50,11 +50,35 @@ Server
 ^^^^^^
 
 After the installation is complete and you open the OpenLP Android application 
-you will need to enter the setup information. 
+you will need to configure your preferences and settings. 
 
 .. image:: pics/droid_configure.png
 
-The first step is to configure the server settings you will use with your phone.  
+.. _droid_blank:
+
+Display Blank Type
+^^^^^^^^^^^^^^^^^^
+
+Using the display blank type gives you the ability to blank your screen to the 
+methods described below. You can find out more about this feature and how it 
+operates on the main computer at :ref:`blank_control`.
+
+**Screen:**
+    Choosing this option will blank your projector to black as if it were shut 
+    off.
+
+**Theme:**
+    Choosing this option will show your blank theme only, without lyrics or 
+    verses. If you are blanking a song with an assigned theme it will blank to 
+    that theme. If no theme is assigned or you are blanking a presentation or 
+    image, it will blank to the global theme.
+
+**Desktop:**
+    Choosing this option will show your desktop wallpaper or a program that you 
+    have open on the extended monitor or projector. You can seamlessly switch 
+    between the desktop wallpaper or a program and OpenLP by Blank to Desktop.
+
+You will need to configure the server settings you will use with your phone.  
 You can find these instructions and settings in the OpenLP desktop application 
 under :ref:`remote_tab`.
 
@@ -105,35 +129,11 @@ When you are happy with your settings you can press the back button on your
 phone to check for connection. Make sure OpenLP is running on the main computer. 
 If you were successful in your setup you will see the OpenLP application running.
 
-If you need to change or adjust your settings you can always press your menu 
-button on your phone while OpenLP is running and selecting :guilabel:`Settings` 
-and it will take you back to the configuration screen.
+If you need to change or adjust your settings you can always press your hardware 
+menu button on your phone while OpenLP is running and selecting 
+:guilabel:`Settings` and it will take you back to the configuration screen.
 
 .. image:: pics/droid_settings_return1.png
-
-.. _droid_blank:
-
-Display Blank Type
-^^^^^^^^^^^^^^^^^^
-
-Using the display blank type gives you the ability to blank your screen to the 
-methods described below. You can find out more about this feature and how it 
-operates on the main computer at :ref:`blank_control`.
-
-**Screen:**
-    Choosing this option will blank your projector to black as if it were shut 
-    off.
-
-**Theme:**
-    Choosing this option will show your blank theme only, without lyrics or 
-    verses. If you are blanking a song with an assigned theme it will blank to 
-    that theme. If no theme is assigned or you are blanking a presentation or 
-    image, it will blank to the global theme.
-
-**Desktop:**
-    Choosing this option will show your desktop wallpaper or a program that you 
-    have open on the extended monitor or projector. You can seamlessly switch 
-    between one program and OpenLP by Blank to Desktop.
 
 Using OpenLP Android Application
 --------------------------------
@@ -190,8 +190,9 @@ Search
 Using the search function gives you the ability to search for a particular media, 
 add it to the service or display it immediately.
 
-To use search, press the hardware menu button or magnifying glass on your phone 
-and then select :guilabel:`Search` and you will be taken to the search screen.
+To use search, press the hardware magnifying glass button on your phone or you 
+can press the hardware menu button and then select :guilabel:`Search` and you 
+will be taken to the search screen.
 
 .. image:: pics/droid_search_all1.png
 

@@ -133,19 +133,34 @@ When you are finished setting your Text Formatting Details, click :guilabel:`Nex
 Output Area Locations
 ---------------------
 
-This page gives you the ability to position your Main area or Footer area to a
-specific area of the screen using the x and y positions. ie: if you do not want
-your footer on the bottom left, you can make the adjustment here. 
-You can re-size the Width and the Height of the Main Area and the Footer Area.
-ie: If you have a temporary or permanent obstacle in one part of the viewing
-area, you can re-size the Main or Footer area and use x and y positions to
-display in a different position on the screen.
+This page gives you the ability to change the position of your main area and 
+footer area to a specific location on the screen using the X and Y positions or 
+a specific size using width and height. (e.g. if you do not want your lyrics to 
+the edge of the screen or if you do not want your footer on the bottom left, you 
+can make the adjustments here).
 
 .. image:: /pics/theme_manager_outputlocation.png
 
-You can also change the Width and the Height of the Main Area and the Footer Area.
+To view your main and footer layout positions click :guilabel:`Layout Preview`. 
+The blue outlined area shows the position of the main window and the red 
+outlined area is the position of the footer area. To go back to the previous 
+window click :guilabel:`OK`
 
-When you are finished setting your Output Area Locations, click :guilabel:`Next`.
+.. image:: /pics/theme_manager_layout.png
+
+To change the default locations or sizes of the main and footer area toggle off 
+the :guilabel:`Use default location` on the main area or footer area by clicking 
+on the checkmark. This will unlock the X and Y positions and the width and 
+height. You will now be able to change the settings.
+
+.. image:: /pics/theme_manager_outputchanged.png
+
+Click :guilabel:`Layout Preview` to view the changes made.
+
+.. image:: /pics/theme_manager_layoutchanged.png
+
+When you are satisfied with the settings of your Output Area Locations, click 
+:guilabel:`Next`.
 
 Save and Preview
 ----------------

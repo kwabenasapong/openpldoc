@@ -135,9 +135,10 @@ Output Area Locations
 
 This page gives you the ability to change the position of your main area and 
 footer area to a specific location on the screen using the X and Y positions or 
-a specific size using width and height. (e.g. if you do not want your lyrics to 
-the edge of the screen or if you do not want your footer on the bottom left, you 
-can make the adjustments here).
+a specific size using width and height. (e.g. if you have a theme image with a 
+border around it and do not want your lyrics to be displayed over top of the 
+border or if you do not want your footer displayed on the bottom left, you can 
+make the adjustments here).
 
 .. image:: /pics/theme_manager_outputlocation.png
 

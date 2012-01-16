@@ -195,6 +195,19 @@ Mouse Cursor
   With this box selected your mouse cursor will not be visible if you move it 
   from Display 1 onto Display 2. 
 
+X11
+^^^
+
+**Bypass X11 Window Manager:**
+  Linux and other X users may need to try toggling this flag if the main display 
+  window is causing them problems. For example with this unset, then KDE users 
+  may find the main display window disappears if they switch windows. Gnome 
+  Unity users may find the main screen is corrupted if set. Gnome Shell users 
+  may find the window doesn't fill the whole screen if unset. As it appears to 
+  affect different versions and distributions differently, this setting has been 
+  added, rather than try and work it out programmatically.
+
+
 .. _config_songs:
 
 Songs

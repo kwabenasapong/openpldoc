@@ -346,6 +346,8 @@ Custom
 
 .. image:: pics/configurecustom.png
 
+.. _configure_custom:
+
 Custom Display
 ^^^^^^^^^^^^^^
 

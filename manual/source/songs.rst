@@ -126,7 +126,10 @@ assign a Theme, or edit Copyright Info & Comments, you will do this through the
 .. image:: pics/song_edit_lyrics.png
 
 **Title:** 
-    This is where you would name your song or edit a song name.
+    This is where you would name the song or edit a song name.
+
+**Note:** Anything typed in the title name between these brackets <> will not be 
+displayed in the screen title. See *Clone* below.
 
 **Alternate title:** 
     Alternate Title was for songs with two names "Lord the Light" - 
@@ -168,7 +171,10 @@ click :guilabel:`Clone`.
 .. image:: pics/song_edit_clone.png
 
 After you click *Clone* you will see the copy of the song with <copy> in the 
-title.
+title. 
+
+**Note:** Anything typed in the title name between these brackets <> will not be 
+displayed in the screen title.
 
 .. image:: pics/song_edit_copy.png
 

@@ -10,6 +10,10 @@ Adding a new custom slide displays the following dialog:
 **Title:** 
     Name of your custom slide.
 
+**Note:** Anything typed in the title name between these brackets <> will not be 
+displayed in the screen title. The option to show titles can be configured using 
+:ref:`configure_custom`.
+
 **Add:** 
     After clicking on Add you will enter your text you want to display in 
     this box. To create multiple slides, click the Split Slide button. When you 

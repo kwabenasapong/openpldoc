@@ -22,6 +22,7 @@ Reference Manual
    wizard
    menu_items
    configure
+   backing_up
    dualmonitors
    mediamanager
    creating_service

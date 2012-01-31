@@ -442,6 +442,13 @@ Android app.
   format. This URL shows the address you will use in the remote browser for 
   stage view.
 
+Android App
+^^^^^^^^^^^
+
+You can quickly find and download the OpenLP Android application using your 
+Android device barcode scanner or by clicking on the :guilabel:`download` link. 
+More details on the OpenLP Android application can be found at :ref:`android`.
+
 Finding your IP address
 ^^^^^^^^^^^^^^^^^^^^^^^
 

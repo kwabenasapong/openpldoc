@@ -1,5 +1,6 @@
 .. _menu_items:
 
+==========
 Menu Items
 ==========
 
@@ -31,7 +32,8 @@ File
   This provides the items you can import.
 
   **Settings:** 
-    Import your configurable settings from another computer.
+    Import your configurable settings from another computer. Learn more about 
+    :ref:`backing_up`.
 
   **Theme:** 
     Import a theme that has been previously exported. :ref:`import_themes`
@@ -47,7 +49,8 @@ File
   Provides the items you can export.
 
   **Settings:** 
-    Export your configurable settings to a file to import to another computer.
+    Export your configurable settings to a file to import to another computer. 
+    Learn more about :ref:`backing_up`.
 
   **Theme:** 
     Export your theme. :ref:`export_themes`

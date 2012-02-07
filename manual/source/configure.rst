@@ -261,10 +261,13 @@ Verse Display
 **Layout style:**
   There are three options to determine how your Bible verses are displayed. 
 
-* **Verse Per Slide:** will display one verse per slide.
-* **Verse Per Line:** will start each verse on a new line until the slide is full.
-* **Continuous:** will run all verses together separated by verse number and 
-    chapter if chapter is selected to show above.
+**Verse Per Slide:** 
+  Will display one verse per slide.
+**Verse Per Line:** 
+  Will start each verse on a new line until the slide is full.
+**Continuous:** 
+  Will run all verses together separated by verse number and 
+  chapter if chapter is selected to show above.
 
 **Note:** Changes do not affect verses already in the service.
 
@@ -328,12 +331,15 @@ Available Media Players
 Select the media players you want to be available for use. As a general rule the 
 players control the following:
 
-* **phonon:** Uses system codecs.
-* **webkit:** Makes text over video possible.
-* **vlc:** Uses a wide variety of formats your system might not have.
+**Phonon:** 
+  Uses system codecs.
+**Webkit:** 
+  Makes text over video possible.
+**VLC:** 
+  Uses a wide variety of formats your system might not have.
 
 **Note:** You must have `VLC <http://www.videolan.org/vlc/>`_ installed for the 
-vlc option to be available.
+VLC option to be available.
 
 Player Order
 ^^^^^^^^^^^^

@@ -324,7 +324,16 @@ Media
 Available Media Players
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-Select the media players you want to be available for use.
+Select the media players you want to be available for use. As a general rule the 
+players control the following:
+
+* **Phonon:** Uses system codecs.
+* **Webkit:** Makes text over video possible.
+* **VLC:** Uses a wide variety of formats your system might not have.
+
+**Note:** You must have `VLC <http://www.videolan.org/vlc/>`_ installed for this 
+option to be available.
+
 
 Player Order
 ^^^^^^^^^^^^

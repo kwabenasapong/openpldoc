@@ -263,7 +263,8 @@ Verse Display
 
 * **Verse Per Slide:** will display one verse per slide.
 * **Verse Per Line:** will start each verse on a new line until the slide is full.
-* **Continuous:** will run all verses together separated by verse number and chapter if chapter is selected to show above.
+* **Continuous:** will run all verses together separated by verse number and 
+    chapter if chapter is selected to show above.
 
 **Note:** Changes do not affect verses already in the service.
 
@@ -275,7 +276,7 @@ Verse Display
 
 **Bible theme:**
   You may select your default Bible theme from this drop down box. This selected
-  theme will only be used if your `Theme Level` is set at `Song Level`.
+  theme will only be used if your *Theme Level* is set at *Song Level*.
 
 **Note:** Changes do not affect verses already in the service.
 
@@ -298,7 +299,7 @@ Advanced
 ^^^^^^^^
 
 **Allow presentation application to be overridden:**
-  With this option selected, you will see `Present using` area with a dropdown 
+  With this option selected, you will see *Present using* area with a dropdown 
   box on the Presentations toolbar in :ref:`media-manager` which gives you the 
   option to select the presentation program you want to use.
 
@@ -327,13 +328,12 @@ Available Media Players
 Select the media players you want to be available for use. As a general rule the 
 players control the following:
 
-* **Phonon:** Uses system codecs.
-* **Webkit:** Makes text over video possible.
-* **VLC:** Uses a wide variety of formats your system might not have.
+* **phonon:** Uses system codecs.
+* **webkit:** Makes text over video possible.
+* **vlc:** Uses a wide variety of formats your system might not have.
 
 **Note:** You must have `VLC <http://www.videolan.org/vlc/>`_ installed for the 
-VLC option to be available.
-
+vlc option to be available.
 
 Player Order
 ^^^^^^^^^^^^
@@ -346,9 +346,9 @@ Advanced
 ^^^^^^^^
 
 **Allow media player to be overridden:**
-  With this option selected, you will see `Use Player:` area with a dropdown box
-  on the Media tool bar in the :ref:`media-manager` which gives you the option 
-  to select the media player you want to use.
+  With this option selected, you will see :guilabel:`Use Player:` area with a 
+  dropdown box   on the Media tool bar in the :ref:`media-manager` which gives 
+  you the option to select the media player you want to use.
   
 Custom
 ======

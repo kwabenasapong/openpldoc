@@ -268,7 +268,7 @@ Verse Display
 **Continuous:** 
    Will run all verses together, separated by verse number and chapter, if 
    chapter is selected to show above. This will only add the next verse if it 
-   wholly fits on the slide.
+   wholly fits on the slide. If it does not fit, it will begin a new slide.
 
 **Note:** Changes do not affect verses already in the service.
 

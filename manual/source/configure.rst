@@ -331,8 +331,8 @@ players control the following:
 * **Webkit:** Makes text over video possible.
 * **VLC:** Uses a wide variety of formats your system might not have.
 
-**Note:** You must have `VLC <http://www.videolan.org/vlc/>`_ installed for this 
-option to be available.
+**Note:** You must have `VLC <http://www.videolan.org/vlc/>`_ installed for the 
+VLC option to be available.
 
 
 Player Order

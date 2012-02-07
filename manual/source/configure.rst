@@ -339,7 +339,7 @@ players control the following:
    Makes text over video possible.
 
 **VLC:**
-   Uses a wide variety of formats your system might not have.
+   Has a wide variety of codecs that can be used if you have VLC installed.
 
 **Note:** You must have `VLC <http://www.videolan.org/vlc/>`_ installed for the 
 VLC option to be available.

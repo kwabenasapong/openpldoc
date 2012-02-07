@@ -333,13 +333,15 @@ Select the media players you want to be available for use. As a general rule the
 players control the following:
 
 **Phonon:**
-   Uses system codecs.
+   Phonon is an internal media player which uses your operating system's
+   built-in media player capabilities.
 
 **Webkit:** 
-   Makes text over video possible.
+   WebKit is another internal media player, which adds text-over-video to OpenLP.
 
 **VLC:**
-   Has a wide variety of codecs that can be used if you have VLC installed.
+   This uses the well-known VLC media player to show videos. VLC has a
+   reputation of being able to handle almost any video or audio format.
 
 **Note:** You must have `VLC <http://www.videolan.org/vlc/>`_ installed for the 
 VLC option to be available.

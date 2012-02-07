@@ -76,9 +76,9 @@ Application Settings
   beginning or end of the song or verse.
 
 **Timed slide interval:**
-  This setting is the time delay in seconds if you want to continuously loop
-  images, verses, or lyrics. This control timer is also accessible on the 
-  :ref:`using_timer`
+  This setting is the time delay in seconds. This is used to continuously loop 
+  a group of images, verses, or the lyrics in a song. This control timer is 
+  also accessible on the :ref:`using_timer`
 
 CCLI Details
 ^^^^^^^^^^^^
@@ -266,8 +266,9 @@ Verse Display
 **Verse Per Line:** 
    Will start each verse on a new line until the slide is full.
 **Continuous:** 
-   Will run all verses together separated by verse number and 
-   chapter if chapter is selected to show above.
+   Will run all verses together, separated by verse number and chapter, if 
+   chapter is selected to show above. This will only add the next verse if it 
+   wholly fits on the slide.
 
 **Note:** Changes do not affect verses already in the service.
 

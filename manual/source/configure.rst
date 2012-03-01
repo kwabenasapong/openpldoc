@@ -76,9 +76,9 @@ Application Settings
   beginning or end of the song or verse.
 
 **Timed slide interval:**
-  This setting is the time delay in seconds if you want to continuously loop
-  images, verses, or lyrics. This control timer is also accessible on the 
-  :ref:`using_timer`
+  This setting is the time delay in seconds. This is used to continuously loop 
+  a group of images, verses, or the lyrics in a song. This control timer is 
+  also accessible on the :ref:`using_timer`
 
 CCLI Details
 ^^^^^^^^^^^^
@@ -261,9 +261,14 @@ Verse Display
 **Layout style:**
   There are three options to determine how your Bible verses are displayed. 
 
-* **Verse Per Slide:** will display one verse per slide.
-* **Verse Per Line:** will start each verse on a new line until the slide is full.
-* **Continuous:** will run all verses together separated by verse number and chapter if chapter is selected to show above.
+**Verse Per Slide:** 
+   Will display one verse per slide.
+**Verse Per Line:** 
+   Will start each verse on a new line until the slide is full.
+**Continuous:** 
+   Will run all verses together, separated by verse number and chapter, if 
+   chapter is selected to show above. This will only add the next verse if it 
+   wholly fits on the slide. If it does not fit, it will begin a new slide.
 
 **Note:** Changes do not affect verses already in the service.
 
@@ -275,7 +280,7 @@ Verse Display
 
 **Bible theme:**
   You may select your default Bible theme from this drop down box. This selected
-  theme will only be used if your `Theme Level` is set at `Song Level`.
+  theme will only be used if your *Theme Level* is set at *Song Level*.
 
 **Note:** Changes do not affect verses already in the service.
 
@@ -298,7 +303,7 @@ Advanced
 ^^^^^^^^
 
 **Allow presentation application to be overridden:**
-  With this option selected, you will see `Present using` area with a dropdown 
+  With this option selected, you will see *Present using* area with a dropdown 
   box on the Presentations toolbar in :ref:`media-manager` which gives you the 
   option to select the presentation program you want to use.
 
@@ -324,7 +329,22 @@ Media
 Available Media Players
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-Select the media players you want to be available for use.
+Select the media players you want to be available for use. As a general rule the 
+players control the following:
+
+**Phonon:**
+   Phonon is an internal media player which uses your operating system's
+   built-in media player capabilities.
+
+**Webkit:** 
+   WebKit is another internal media player, which adds text-over-video to OpenLP.
+
+**VLC:**
+   This uses the well-known VLC media player to show videos. VLC has a
+   reputation of being able to handle almost any video or audio format.
+
+**Note:** You must have `VLC <http://www.videolan.org/vlc/>`_ installed for the 
+VLC option to be available.
 
 Player Order
 ^^^^^^^^^^^^
@@ -337,9 +357,9 @@ Advanced
 ^^^^^^^^
 
 **Allow media player to be overridden:**
-  With this option selected, you will see `Use Player:` area with a dropdown box
-  on the Media tool bar in the :ref:`media-manager` which gives you the option 
-  to select the media player you want to use.
+  With this option selected, you will see :guilabel:`Use Player:` area with a 
+  dropdown box on the Media tool bar in the :ref:`media-manager` which gives 
+  you the option to select the media player you want to use.
   
 Custom
 ======

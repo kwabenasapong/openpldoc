@@ -225,7 +225,9 @@ Service Item Slide Limits
 These three settings control 
 
 **End Slide:**
-  Up and down arrow keys stop at the top and bottom slides of each Service item.
+  Up and down arrow keys stop at the top and bottom slides of each Service item. 
+  You will need to use the :kbd:`Right Arrow` key or the mouse to move to the 
+  next Service Item.
 
 **Wrap Slide:**
   Up and down arrow keys wrap around at the top and bottom slides of each 
@@ -235,7 +237,11 @@ These three settings control
   the song, images or Bible verses.
 
 **Next Slide:**
-  Up and down arrow keys advance to the 
+  Up and down arrow keys advance to the next or previous Service Item from the 
+  top and bottom slides of each Service Item. As long as you have your songs and 
+  verses in order, you can use the :kbd:`Down Arrow` to move through your 
+  service from start to finish. Using this setting makes it possible to use a 
+  presentation remote controller. 
 
 X11
 ^^^

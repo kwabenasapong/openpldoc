@@ -67,14 +67,6 @@ Application Settings
   When this box is selected, the next item in the :ref:`creating_service` will 
   be displayed in the Preview pane.
 
-**Enable slide wrap-around:**
-  When this box is selected the lyrics, images or Bible verses will wrap-around. 
-  When you reach the last slide of a song or verse and :kbd:`Down Arrow` you 
-  will be back on the first slide. Likewise if you are on the first slide and 
-  :kbd:`Up Arrow` you will wrap-around to the last slide of the song, images or 
-  Bible verses. If this box is not checked it will not wrap-around to the 
-  beginning or end of the song or verse.
-
 **Timed slide interval:**
   This setting is the time delay in seconds. This is used to continuously loop 
   a group of images, verses, or the lyrics in a song. This control timer is 
@@ -173,6 +165,38 @@ UI Settings (user interface)
   With this box selected, on closing OpenLP you will be presented with a dialog
   box to confirm closing the program.
 
+Default Service Name
+^^^^^^^^^^^^^^^^^^^^
+
+The default service name gives you the ability to have a preset name, date and 
+time when saving your service file.
+
+**Enable default service name:**
+  Checking this box will activate the use of the default service name.
+
+**Date and Time:**
+  You can choose the regular day of the week and time of the service or choose 
+  :guilabel:`Now` from the dropdown for the immediate date and time to save your 
+  service file.
+
+**Name:**
+  You can change "Service" to a default name of your choosing. The year, month 
+  day, hour and minute will default to what you have set for 
+  :guilabel:`Date and Time` above or if you chose :guilabel:`Now` the saved file 
+  will have the time and date that you save it.
+
+|buttons_revert| **Revert:**
+  Clicking this button will erase your changes and revert to the default service name. 
+
+**Example:**
+  The example shows how the name, date and time will be displayed for the file 
+  name when saving the file.
+
+**Note:** If the date and time format does not suit your needs and you are 
+technically inclined, there is more information at 
+`Python.org <http://docs.python.org/library/datetime.html#strftime-strptime-behavior>`_.
+
+
 Default Images
 ^^^^^^^^^^^^^^
 
@@ -194,6 +218,24 @@ Mouse Cursor
 **Hide mouse cursor when over display window:**
   With this box selected your mouse cursor will not be visible if you move it 
   from Display 1 onto Display 2. 
+
+Service Item Slide Limits
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+These three settings control 
+
+**End Slide:**
+  Up and down arrow keys stop at the top and bottom slides of each Service item.
+
+**Wrap Slide:**
+  Up and down arrow keys wrap around at the top and bottom slides of each 
+  Service item, eg: When you reach the last slide of a song or verse and 
+  :kbd:`Down Arrow` you will be back on the first slide. Likewise if you are on 
+  the first slide and :kbd:`Up Arrow` you will wrap-around to the last slide of 
+  the song, images or Bible verses.
+
+**Next Slide:**
+  Up and down arrow keys advance to the 
 
 X11
 ^^^
@@ -489,7 +531,11 @@ where x is one to three digits long.
 
 Open *Terminal* and type::
 
-  linux@user:~$ifconfig 
+  linux@user:~$ifconfig
+
+Some Linux systems will require the full path::
+
+  linux@user:~$/sbin/ifconfig 
 
 Press the :kbd:`Enter` key. This will display a fair amount of technical 
 information about your network cards. On most computers, the network card is 

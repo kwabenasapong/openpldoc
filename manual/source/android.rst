@@ -151,13 +151,12 @@ Using OpenLP Android Application
 Service
 ^^^^^^^
 
-After you have completed the setup you will be on the main page with a series of
-six buttons. Selecting the :guilabel:`Service` button will take you to the 
-Service Manager. Selecting an item with a long press in the service will 
-immediately take it live on the projection screen. You can also move up and down 
-through the service items using the :guilabel:`Previous` and :guilabel:`Next` 
-buttons as shown below. Use your hardware back button to take you back to the 
-main screen.
+After you have completed the setup you will be on the main page with six buttons. 
+Selecting the :guilabel:`Service` button will take you to the Service Manager. 
+Selecting an item with a long press in the service will immediately take it live 
+on the projection screen. You can also move up and down through the service 
+items using the :guilabel:`Previous` and :guilabel:`Next` buttons as shown below. 
+Use your hardware back button to take you back to the main screen.
 
 .. image:: pics/droid_service.png
 
@@ -175,7 +174,7 @@ Live
 ^^^^
 
 Selecting the :guilabel:`Live` button will display what ever is live at the time 
-from the OpenLP software to your Android device. Use your hardware back button 
+from to your Android device. Use your hardware back button 
 to take you back to the main screen.
 
 Display

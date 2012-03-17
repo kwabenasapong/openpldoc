@@ -146,17 +146,21 @@ menu button on your phone while OpenLP is running and selecting
 Using OpenLP Android Application
 --------------------------------
 
+After you have completed the setup you will be on the main page with six buttons.
+
 .. image:: pics/droid_settings_return1.png
 
 Service
 ^^^^^^^
 
-After you have completed the setup you will be on the main page with six buttons. 
 Selecting the :guilabel:`Service` button will take you to the Service Manager. 
-Selecting an item with a long press in the service will immediately take it live 
-on the projection screen. You can also move up and down through the service 
-items using the :guilabel:`Previous` and :guilabel:`Next` buttons as shown below. 
-Use your hardware back button to take you back to the main screen.
+Selecting an item with a short press in the service will immediately take it 
+live on the projection screen and you will stay on the service screen on your 
+device. Selecting an item with a long press in the service will immediately take 
+it live on the projection screen and to the live display on your device. You can 
+also move up and down through the service items using the :guilabel:`Previous` 
+and :guilabel:`Next` buttons as shown below. Use your hardware back button to 
+take you back to the main screen.
 
 .. image:: pics/droid_service.png
 

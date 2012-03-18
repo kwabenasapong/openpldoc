@@ -12,16 +12,21 @@ use the application. For this example we will be using the HTC Incredible. Other
 Android phones may vary slightly in appearance and installation.
 
 Click the screen button on the phone to bring up the start menu for "All apps" 
-and scroll to and select :guilabel:`Market`. 
+and scroll to and select :guilabel:`Play Store` seen at the top right of the 
+image. 
 
 .. image:: pics/droid_all_apps.png
 
-Once selected you will be taken to the Market main screen. Click on the 
-magnifying glass on the top right and type in :kbd:`openlp` and select it.
+Once selected you will be taken to the Google Play main screen. 
+
+.. image:: pics/droid_play.png
+
+Click on the hardware magnifying glass or the magnifying glass on the top right 
+and type in :kbd:`openlp` and select it.
 
 .. image:: pics/droid_find.png
 
-Once selected this screen will appear and you will select OpenLP.
+Once selected, this screen will appear and you will select OpenLP.
 
 .. image:: pics/droid_free.png
 
@@ -51,6 +56,14 @@ you will need to configure your preferences and settings.
 
 .. image:: pics/droid_configure.png
 
+Text Size Type
+^^^^^^^^^^^^^^
+
+Clicking on :guilabel:`Text Size Type` will bring up a selection to choose your 
+desired font size for the application display.
+
+.. image:: pics/droid_text.png
+
 .. _droid_blank:
 
 Display Blank Type
@@ -74,6 +87,8 @@ operates on the main computer at :ref:`blank_control`.
     Choosing this option will show your desktop wallpaper or a program that you 
     have open on the extended monitor or projector. You can seamlessly switch 
     between the desktop wallpaper or a program and OpenLP by Blank to Desktop.
+
+.. image:: pics/droid_blank_type.png
 
 Server
 ^^^^^^
@@ -133,43 +148,51 @@ If you need to change or adjust your settings you can always press your hardware
 menu button on your phone while OpenLP is running and selecting 
 :guilabel:`Settings` and it will take you back to the configuration screen.
 
-.. image:: pics/droid_settings_return1.png
-
 Using OpenLP Android Application
 --------------------------------
+
+After you have completed the setup you will be on the main page with six buttons.
+
+.. image:: pics/droid_settings_return1.png
 
 Service
 ^^^^^^^
 
-After you have completed the setup you will be on the main page with the 
-:guilabel:`Service` button highlighted on top and your service items showing 
-below it. Selecting any item in the service will immediately take it live onto 
-the projection screen. You can also move up and down through the service items 
-using the :guilabel:`Previous` and :guilabel:`Next` buttons as shown below.
+Selecting the :guilabel:`Service` button will take you to the Service Manager. 
+Selecting an item with a short press in the service will immediately take it 
+live on the projection screen and you will stay on the service screen on your 
+device. Selecting an item with a long press in the service will immediately take 
+it live on the projection screen and to the live display on your device. You can 
+also move up and down through the service items using the :guilabel:`Previous` 
+and :guilabel:`Next` buttons as shown below. Use your hardware back button to 
+take you back to the main screen.
 
 .. image:: pics/droid_service.png
 
 Slide
 ^^^^^
 
-If you selected a service item with multiple verses or images you must select 
-:guilabel:`Slide` at the top to change them. You can change verses or images by 
-either selecting them with your finger or using the :guilabel:`Previous` and 
-:guilabel:`Next` buttons. 
+If you selected a service item with multiple verses or images you can change 
+verses or images by either selecting them with your finger or using the 
+:guilabel:`Previous` and :guilabel:`Next` buttons. Use your hardware back button 
+to take you back to the main screen.
 
 .. image:: pics/droid_slide.png
 
-When you are finished with your verses you must click on :guilabel:`Service` to 
-select the next item you want to display.
-
-Misc
+Live
 ^^^^
 
-Selecting the :guilabel:`Misc` button at the top will give you the ability to 
-blank and unblank your projection screen from your chosen method 
-:ref:`above <droid_blank>` or send an Alert message.
+Selecting the :guilabel:`Live` button will display what ever is live at the time 
+from to your Android device. Use your hardware back button 
+to take you back to the main screen.
 
-.. image:: pics/droid_misc.png
+Display
+^^^^^^^
+
+Selecting the :guilabel:`Display` button will give you the ability to blank and 
+unblank your projection screen from your chosen method :ref:`above <droid_blank>`.
+
+.. image:: pics/droid_blank_button.png
 
 The title :guilabel:`Blank display to` means your display is live. Touching the 
 :guilabel:`Blank display to` will blank the projection screen to the chosen 
@@ -177,12 +200,24 @@ method defined in Settings and the button will change to
 :guilabel:`Reset display from`. Touching it again will cycle back to 
 :guilabel:`Blank display to` unblanking the screen for the live display.
 
+Stage
+^^^^^
+
+Selecting the :guilabel:`Stage` button will display the stage view on your 
+Android device. See the :ref:`stage_view` section in the manual for a detailed 
+description. Use your hardware back button to take you back to the main screen.
+
+.. image:: pics/droid_stage.png
+
 Alert
 ^^^^^
 
 You can send an alert to the projection screen by entering the text in the box 
 and clicking on :guilabel:`Send`. The alert will be displayed as you have 
-it configured in :ref:`configure_alerts`.
+it configured in :ref:`configure_alerts`. Use your hardware back button to take 
+you back to the main screen.
+
+.. image:: pics/droid_alert.png
 
 Search
 ------

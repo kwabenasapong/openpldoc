@@ -12,16 +12,21 @@ use the application. For this example we will be using the HTC Incredible. Other
 Android phones may vary slightly in appearance and installation.
 
 Click the screen button on the phone to bring up the start menu for "All apps" 
-and scroll to and select :guilabel:`Market`. 
+and scroll to and select :guilabel:`Play Store` seen at the top right of the 
+image. 
 
 .. image:: pics/droid_all_apps.png
 
-Once selected you will be taken to the Market main screen. Click on the 
-magnifying glass on the top right and type in :kbd:`openlp` and select it.
+Once selected you will be taken to the Google Play main screen. 
+
+.. image:: pics/droid_play.png
+
+Click on the hardware magnifying glass or the magnifying glass on the top right 
+and type in :kbd:`openlp` and select it.
 
 .. image:: pics/droid_find.png
 
-Once selected this screen will appear and you will select OpenLP.
+Once selected, this screen will appear and you will select OpenLP.
 
 .. image:: pics/droid_free.png
 

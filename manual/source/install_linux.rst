@@ -284,8 +284,6 @@ to run OpenLP from the command line type::
 openSUSE
 ^^^^^^^^
 
-**Note:** OpenLP is currently only supported in openSUSE 12.1
-
 OpenLP is available using 1-Click Install on the openSUSE Build Service
 website. Go to the `openSUSE Build Service site <http://software.opensuse.org>`_
 and type :kbd:`openlp` into the search box.

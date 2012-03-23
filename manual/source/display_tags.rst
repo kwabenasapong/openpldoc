@@ -81,10 +81,13 @@ The following tags are included with OpenLP
 * **{o}** orange text
 * **{pp}** purple text
 * **{w}** white text
+* **{su)** superscript text
 * **{sb}** subscript text
 * **{p}** paragraph
 * **{st}** bold
 * **{it}** italics
+* **{u}** underline
+* **{br}** break
 
 Configuring Formatting Tags
 ===========================

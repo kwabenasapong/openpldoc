@@ -36,12 +36,15 @@ Monitors
 
 **Override display position:**
 
-  This setting defaults to your computer monitor. If your projector display is 
-  different, select the :guilabel:`Override display position` and make the 
-  changes here to match your projector display. This option also comes in handy 
-  when you have the :guilabel:`Display if a single screen` box selected. This 
-  gives you the ability to make the display smaller so it does not cover your 
-  whole screen.
+  If your projector display is different from your monitor display you can
+  select the :guilabel:`Override display position` and change these settings to 
+  match your projector display. 
+
+**Note:** 
+  This option can also be use when you have the 
+  :guilabel:`Display if a single screen` box selected. This gives you the 
+  ability to make the display window smaller and place it in a desired location 
+  so it does not cover your monitor screen.
 	
 CCLI Details
 ^^^^^^^^^^^^

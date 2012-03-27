@@ -19,16 +19,53 @@ General
 
 Monitors
 ^^^^^^^^
-To select the monitor you want to display OpenLP on, click the drop-down box 
-and choose. 
 
-Display if a single screen
-^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+**Select monitor for output display:** 
+  
+  Click the drop-down box to choose the monitor that you want to display OpenLP 
+  on.
 
-When this box is selected, you will be able to see your display on a separate 
-window on the monitor you are using. Click the display and push the Esc key
-on your keyboard to close the display window.
+**Note:** This option is not available when using 
+:guilabel:`Override display position:`.
+
+**Display if a single screen:**
+
+  With this box is selected, you will be able to see your display on a separate 
+  window on the monitor you are using. Click the display and push the Esc key
+  on your keyboard to close the display window.
+
+**Override display position:**
+
+  If your projector display is different from your monitor display you can
+  select the :guilabel:`Override display position` and change these settings to 
+  match your projector display. 
+
+**Note:** 
+  This option can also be use when you have the 
+  :guilabel:`Display if a single screen` box selected. This gives you the 
+  ability to make the display window smaller and place it in a desired location 
+  so it does not cover your monitor screen.
 	
+CCLI Details
+^^^^^^^^^^^^
+
+**CCLI number:**
+  If you subscribe to CCLI, this box is for your License number. This number is
+  also displayed in the Song Footer box.
+
+Background Audio
+^^^^^^^^^^^^^^^^
+
+**Start background audio paused:**
+  If you have a :ref:`songs_linked` assigned to a song, with this box selected
+  and when the song is displayed live, the audio will be paused until you start 
+  it using :ref:`linked-audio`. If this box is not selected the audio will play 
+  immediately when the song is displayed live.
+
+**Repeat track list:**
+  With this option selected and you are using background audio, the tracks will 
+  repeat when it reaches the end of the list (even if there is only one item).
+
 Application Startup
 ^^^^^^^^^^^^^^^^^^^
 
@@ -71,31 +108,6 @@ Application Settings
   This setting is the time delay in seconds. This is used to continuously loop 
   a group of images, verses, or the lyrics in a song. This control timer is 
   also accessible on the :ref:`using_timer`
-
-CCLI Details
-^^^^^^^^^^^^
-
-**CCLI number:**
-  If you subscribe to CCLI, this box is for your License number. This number is
-  also displayed in the Song Footer box.
-
-Display Position
-^^^^^^^^^^^^^^^^
-This setting will default to your computer monitor. It will override the output 
-display combo box.  If your projector display is different, select the Override 
-display position and make the changes here to match your projector display. This 
-option also comes in handy when you have the "Display if a single screen" box 
-selected. You can make the display smaller so it does not cover your whole 
-screen.
-
-Background Audio
-^^^^^^^^^^^^^^^^
-
-**Start background audio paused:**
-  If you have a :ref:`songs_linked` assigned to a song, with this box selected
-  and when the song is displayed live, the audio will be paused until you start 
-  it using :ref:`linked-audio`. If this box is not selected the audio will play 
-  immediately when the song is displayed live.
 
 Themes
 ======
@@ -222,7 +234,7 @@ Mouse Cursor
 Service Item Slide Limits
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-These three settings control 
+These three settings control: 
 
 **End Slide:**
   Up and down arrow keys stop at the top and bottom slides of each Service item. 
@@ -341,11 +353,12 @@ Available Controllers
 ^^^^^^^^^^^^^^^^^^^^^
 
 OpenLP has the ability to import OpenOffice Impress or Microsoft PowerPoint
-presentations, and use Impress, PowerPoint, or PowerPoint Viewer to display
-them and they are controlled from within OpenLP. Please remember that in order
-to use this function, you must have Impress, PowerPoint or PowerPoint Viewer
-installed on your computer because OpenLP uses these programs to open and run
-the presentation. You may select your default controllers here in this tab. 
+presentations and use Impress, PowerPoint, or PowerPoint Viewer to display
+them. You can then control your presentation from within OpenLP. Keep in mind 
+that in order to use this function, you must have Impress, PowerPoint or 
+PowerPoint Viewer installed on your computer since OpenLP uses these programs to 
+open and run the presentation. You may select your default controllers here in 
+this tab. 
 
 Advanced
 ^^^^^^^^
@@ -399,7 +412,8 @@ Player Order
 
 Determines the preference order of the selected media players. The order is 
 changed by selecting one of the available players and using the 
-:guilabel:`Down` or :guilabel:`Up` button to change the position of the player.
+|service_up| :guilabel:`Up` |service_down| :guilabel:`Down` or button to change 
+the position of the player.
 
 Advanced
 ^^^^^^^^
@@ -566,3 +580,7 @@ port number or one or both computers are not connected to the network.
 .. |BUTTONS_OPEN| image:: pics/buttons_open.png
 
 .. |BUTTONS_REVERT| image:: pics/button_rerun.png
+
+.. |SERVICE_UP| image:: pics/service_up.png
+
+.. |SERVICE_DOWN| image:: pics/service_down.png

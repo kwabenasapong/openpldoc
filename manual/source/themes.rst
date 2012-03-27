@@ -4,7 +4,6 @@
 Themes
 ======
 
-
 The *Theme Manager* is where you can set backgrounds, fonts, and colors to the 
 style you desire. From the theme manager you can create a new theme, Edit a 
 theme, Delete a theme, Import a theme, and Export a theme.
@@ -18,8 +17,8 @@ Creating New Themes
 
 .. image:: /pics/theme_manager_wizard.png
 
-Click :guilabel:`Next`. You have 3 choices in the drop down menu for Background
-type: Solid Color, Gradient, or Image.
+Click :guilabel:`Next`. You have 4 choices in the drop down menu for Background
+type: Solid Color, Gradient, Image or Transparent.
 
 .. image:: /pics/theme_manager_background.png 
  
@@ -30,9 +29,9 @@ type: Solid Color, Gradient, or Image.
 .. image:: /pics/theme_manager_selectcolor.png
 
 **Gradient:** 
-    Choose the two colors, *Starting* and *Ending* that you want to fade 
-    together and the Gradient drop down will let you determine the directions 
-    of the fade.
+    Choose the two colors, :guilabel:`Starting color` and :guilabel:`Ending color` 
+    that you want to fade together and the Gradient drop down will let you 
+    determine the directions of the fade.
 
 .. image:: /pics/theme_manager_gradient.png
 
@@ -53,6 +52,10 @@ type: Solid Color, Gradient, or Image.
 
 **Note:** When possible, try to use the same size image as your projector is
 displaying unless you want a background color for a border.
+
+**Transparent:**
+    Using the transparent theme will use whatever wallpaper or background color 
+    that your desktop is using for the theme background.
 
 When finished with your selection for background, click the :guilabel:`Next`
 button. 

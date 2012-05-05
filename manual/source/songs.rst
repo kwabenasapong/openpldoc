@@ -159,6 +159,12 @@ displayed in the screen title. See *Clone* below.
 
 .. image:: pics/song_edit_verse_error.png
 
+If you forgot to add a verse or intentionally left a verse out of your order you 
+will see the notification at the bottom left of the window saying "**Warning:** 
+Not all of the verses are in use."
+
+.. image:: pics/song_edit_verse_in_use.png 
+
 **Clone:** 
     OpenLP gives you the ability to clone a song. This could be useful if you 
     use a different version of the song with slightly different lyrics. Instead

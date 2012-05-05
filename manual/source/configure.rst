@@ -22,12 +22,37 @@ Monitors
 To select the monitor you want to display OpenLP on, click the drop-down box 
 and choose. 
 
+Override Display Position
+^^^^^^^^^^^^^^^^^^^^^^^^^
+This setting will default to your computer monitor. It will override the output 
+display combo box.  If your projector display is different, select the Override 
+display position and make the changes here to match your projector display. This 
+option also comes in handy when you have the "Display if a single screen" box 
+selected. You can make the display smaller so it does not cover your whole 
+screen.
+
 Display if a single screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^ 
 
 When this box is selected, you will be able to see your display on a separate 
 window on the monitor you are using. Click the display and push the Esc key
 on your keyboard to close the display window.
+
+CCLI Details
+^^^^^^^^^^^^
+
+**CCLI number:**
+  If you subscribe to CCLI, this box is for your License number. This number is
+  also displayed in the Song Footer box.
+
+Background Audio
+^^^^^^^^^^^^^^^^
+
+**Start background audio paused:**
+  If you have a :ref:`songs_linked` assigned to a song, with this box selected
+  and when the song is displayed live, the audio will be paused until you start 
+  it using :ref:`linked-audio`. If this box is not selected the audio will play 
+  immediately when the song is displayed live.
 	
 Application Startup
 ^^^^^^^^^^^^^^^^^^^
@@ -71,31 +96,6 @@ Application Settings
   This setting is the time delay in seconds. This is used to continuously loop 
   a group of images, verses, or the lyrics in a song. This control timer is 
   also accessible on the :ref:`using_timer`
-
-CCLI Details
-^^^^^^^^^^^^
-
-**CCLI number:**
-  If you subscribe to CCLI, this box is for your License number. This number is
-  also displayed in the Song Footer box.
-
-Display Position
-^^^^^^^^^^^^^^^^
-This setting will default to your computer monitor. It will override the output 
-display combo box.  If your projector display is different, select the Override 
-display position and make the changes here to match your projector display. This 
-option also comes in handy when you have the "Display if a single screen" box 
-selected. You can make the display smaller so it does not cover your whole 
-screen.
-
-Background Audio
-^^^^^^^^^^^^^^^^
-
-**Start background audio paused:**
-  If you have a :ref:`songs_linked` assigned to a song, with this box selected
-  and when the song is displayed live, the audio will be paused until you start 
-  it using :ref:`linked-audio`. If this box is not selected the audio will play 
-  immediately when the song is displayed live.
 
 Themes
 ======

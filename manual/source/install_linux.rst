@@ -405,7 +405,7 @@ OpenLP will now be available for use.
 Arch Linux
 ----------
 
-OpenLP is availabe on Arch Linux through the Arch User Repository, or AUR. Info
+OpenLP is available on Arch Linux through the Arch User Repository, or AUR. Info
 on the AUR can be found `at the Arch wiki <https://wiki.archlinux.org/index.php/Arch_User_Repository>`_.
 
 There are a variety of tools and methods to install from the AUR. For this

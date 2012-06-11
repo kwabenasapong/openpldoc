@@ -20,8 +20,29 @@ and select the Software Center from the bottom of the menu. You will need to
 be the administrator of the system to install OpenLP and will be asked for the
 administrator password several times through this process.
 
-First you will need to add the OpenLP Personal Package Archive (PPA) to
-your system. Go to :menuselection:`Edit --> Software Sources`
+If you are using Ubuntu 12.04 or a more recent version then OpenLP is
+included in the standard distribution. When you have the Software Center running
+simply search for OpenLP and click :guilabel:`Install`.
+
+.. image:: pics/4searchopenlp.png
+
+You will see the install progress as OpenLP and the dependencies required for
+it to run are downloaded.
+
+.. image:: pics/5installprogressubuntu.png
+
+After installation you should see that OpenLP is installed.
+
+.. image:: pics/6installcompleteubuntu.png
+
+You can now run OpenLP by either searching for it in the *Dash*, or clicking on
+the category *Media Apps* in Unity. If you are running the Classic Desktop you 
+will have OpenLP available by clicking 
+:menuselection:`Applications --> Sound and Video --> OpenLP`
+
+If you are using an older version of Ubuntu then first you will need to add the 
+OpenLP Personal Package Archive (PPA) to your system. Go to 
+:menuselection:`Edit --> Software Sources`
 
 .. image:: pics/1softwaresources.png
 
@@ -117,9 +138,20 @@ menu.
 Ubuntu Command Line Install
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The following install procedure should work across all Ubuntu variants. You
-will need to add the Personal Package Archive (PPA) to Ubuntu's software 
-sources. From a terminal type::
+If you are using Ubuntu 12.04 or a more recent version then OpenLP is included
+in the standard distribution. To Install OpenLP open a terminal and type::
+
+  user@ubuntu:~$ sudo apt-get install openlp
+
+OpenLP should now be available in your desktop's menu system, but if you wish 
+to run OpenLP from the command line type::
+
+  user@ubuntu:~$ openlp
+
+If you are using an older Ubuntu that does not include OpenLP in the standard
+distribution then the following install procedure should work across all Ubuntu 
+variants. First you will need to add the Personal Package Archive (PPA) to 
+Ubuntu's software sources. From a terminal type::
 
   user@ubuntu:~$ sudo add-apt-repository ppa:openlp-core/release
   

@@ -13,11 +13,13 @@ Installation of OpenLP on Ubuntu can either be done through the Software Center
 or the command line. Command line instructions will be included at the end of
 this section on Ubuntu and its variants.
 
-Ubuntu 12.10 or later
+Ubuntu 12.04 or later
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If you are using Ubuntu 12.10 or a more recent version then OpenLP is
-included in the standard distribution.
+included in the standard distribution. If you are using Ubuntu 12.04 then 
+OpenLP has been added to the backports packages and so is available
+with the appropriate setting below.
 
 Open up the software center by clicking on the :guilabel:`Software Center` icon
 in the Launcher if you are using the Unity desktop, or if you are using an 
@@ -26,46 +28,15 @@ and select the Software Center from the bottom of the menu. You will need to
 be the administrator of the system to install OpenLP and will be asked for the
 administrator password several times through this process.
 
-When you have the Software Center running simply search for OpenLP and click 
-:guilabel:`Install`.
-
-.. image:: pics/4searchopenlp.png
-
-You will see the install progress as OpenLP and the dependencies required for
-it to run are downloaded.
-
-.. image:: pics/5installprogressubuntu.png
-
-After installation you should see that OpenLP is installed.
-
-.. image:: pics/6installcompleteubuntu.png
-
-You can now run OpenLP by either searching for it in the *Dash*, or clicking on
-the category *Media Apps* in Unity. If you are running the Classic Desktop you 
-will have OpenLP available by clicking 
-:menuselection:`Applications --> Sound and Video --> OpenLP`
-
-Ubuntu 12.04
-^^^^^^^^^^^^^^
-
-If you are using Ubuntu 12.04 then OpenLLP has been added to the backports 
-packages.
-
-Open up the software center by clicking on the :guilabel:`Software Center` icon
-in the Launcher if you are using the Unity desktop, or if you are using an 
-older version of Ubuntu, or the Classic Desktop go to :menuselection:`Applications`
-and select the Software Center from the bottom of the menu. You will need to 
-be the administrator of the system to install OpenLP and will be asked for the
-administrator password several times through this process.
-
-When you have the Software Center running you need to turn on support for 
-backports. From the menu choose Edit/Software Sources and then the "Updates"
-tab. Now make sure that "Unsupported Updates (precise-backports) is ticked. Then
-click close
+If using Ubuntu 12.04 then when you have the Software Center running you need to
+turn on support for backports. From the menu choose Edit/Software Sources and 
+then the "Updates" tab. Now make sure that "Unsupported Updates 
+(precise-backports) is ticked. Then click close
 
 .. image:: pics/ubuntu-backports.png
 
-Now simply search for OpenLP and click :guilabel:`Install`.
+Next in any of these versions simply search for OpenLP in the Software Center 
+and click :guilabel:`Install`.
 
 .. image:: pics/4searchopenlp.png
 

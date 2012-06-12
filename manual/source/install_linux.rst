@@ -128,7 +128,7 @@ will have OpenLP available by clicking
 Kubuntu
 -------
 
-From the KickOff Menu click :guilabel:`System Settings` Then click on 
+From the Kickoff Menu click :guilabel:`System Settings` Then click on 
 :guilabel:`Software Management`.
 
 .. image:: pics/kubuntusystemsettings.png
@@ -176,7 +176,7 @@ You should now see the progress of the download.
 .. image:: pics/kubuntudownloadprogress.png
 
 Once completed you may have the option to start OpenLP from the window pictured
-below. If this feature is not enabled, you can start OpenLP from the KickOff
+below. If this feature is not enabled, you can start OpenLP from the Kickoff
 menu.
 
 .. image:: pics/kubuntuopenlplaunch.png
@@ -256,7 +256,7 @@ Fedora (KDE)
 **Note** when installing OpenLP you will need to have administrator privileges.
 You will be asked for the administrator password to install.
 
-From the KickOff open *Software Management*. Type OpenLP into the search
+From the Kickoff open *Software Management*. Type OpenLP into the search
 box. Then click :guilabel:`Find by name` or press :kbd:`Enter`.
 
 .. image:: pics/1fedoragetremove.png 
@@ -271,7 +271,7 @@ clicking :guilabel:`Continue`
 .. image:: pics/3fedoraadditionalchanges.png
 
 Once completed you can run OpenLP by clicking on its logo in the completed 
-install notification, or from the KickOff menu.
+install notification, or from the Kickoff menu.
 
 .. image:: pics/4fedoracompleted.png
 

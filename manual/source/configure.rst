@@ -19,24 +19,29 @@ General
 
 Monitors
 ^^^^^^^^
-To select the monitor you want to display OpenLP on, click the drop-down box 
-and choose. 
+
+To choose which monitor you want OpenLP's out display on, click the drop-down
+box and select the appropriate monitor.
 
 Override Display Position
 ^^^^^^^^^^^^^^^^^^^^^^^^^
-This setting will default to your computer monitor. It will override the output 
-display combo box.  If your projector display is different, select the Override 
-display position and make the changes here to match your projector display. This 
-option also comes in handy when you have the "Display if a single screen" box 
-selected. You can make the display smaller so it does not cover your whole 
-screen.
+
+This setting overrides the exact position on your screen where the display
+output appears. If you have a custom projector setup, click the
+:guilabel:`Override display position` checkbox, and manually set the position
+of the display output using the :guilabel:`X`, :guilabel:`Y`, :guilabel:`Width`
+and :guilabel:`Height` values.
+
+This setting often comes in useful when you only have a single display, and you
+want to be able to make the display smaller so that it doesn't cover your
+entire screen.
 
 Display if a single screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^ 
 
-When this box is selected, you will be able to see your display on a separate 
-window on the monitor you are using. Click the display and push the Esc key
-on your keyboard to close the display window.
+Checking this checkbox will show the display output in a separate window when
+you only have a single monitor. To close the display window, click on it and
+press the :kbd:`Esc` key.
 
 CCLI Details
 ^^^^^^^^^^^^
@@ -341,11 +346,11 @@ Available Controllers
 ^^^^^^^^^^^^^^^^^^^^^
 
 OpenLP has the ability to import OpenOffice Impress or Microsoft PowerPoint
-presentations, and use Impress, PowerPoint, or PowerPoint Viewer to display
-them and they are controlled from within OpenLP. Please remember that in order
-to use this function, you must have Impress, PowerPoint or PowerPoint Viewer
-installed on your computer because OpenLP uses these programs to open and run
-the presentation. You may select your default controllers here in this tab. 
+presentations, and use Impress, PowerPoint, or PowerPoint Viewer to display and
+control them from within OpenLP. Please remember that in order to use this
+feature you will need to have one of the above-mentioned applications installed,
+due to the fact that OpenLP uses these application to open and run the
+presentation.
 
 Advanced
 ^^^^^^^^

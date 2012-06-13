@@ -7,11 +7,19 @@ package managers. It should be possible to get OpenLP running on
 nearly any Linux distribution.
 
 Ubuntu
-^^^^^^
+----------------
 
 Installation of OpenLP on Ubuntu can either be done through the Software Center
 or the command line. Command line instructions will be included at the end of
 this section on Ubuntu and its variants.
+
+Ubuntu 12.04 or later
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+If you are using Ubuntu 12.10 or a more recent version then OpenLP is
+included in the standard distribution. If you are using Ubuntu 12.04 then 
+OpenLP has been added to the backports packages and so is available
+with the appropriate setting below.
 
 Open up the software center by clicking on the :guilabel:`Software Center` icon
 in the Launcher if you are using the Unity desktop, or if you are using an 
@@ -20,8 +28,45 @@ and select the Software Center from the bottom of the menu. You will need to
 be the administrator of the system to install OpenLP and will be asked for the
 administrator password several times through this process.
 
-First you will need to add the OpenLP Personal Package Archive (PPA) to
-your system. Go to :menuselection:`Edit --> Software Sources`
+If using Ubuntu 12.04 then when you have the Software Center running you need to
+turn on support for backports. From the menu choose Edit/Software Sources and 
+then the "Updates" tab. Now make sure that "Unsupported Updates 
+(precise-backports) is ticked. Then click :guilabel:`close`.
+
+.. image:: pics/ubuntu-backports.png
+
+Next in any of these versions simply search for OpenLP in the Software Center 
+and click :guilabel:`Install`.
+
+.. image:: pics/4searchopenlp.png
+
+You will see the install progress as OpenLP and the dependencies required for
+it to run are downloaded.
+
+.. image:: pics/5installprogressubuntu.png
+
+After installation you should see that OpenLP is installed.
+
+.. image:: pics/6installcompleteubuntu.png
+
+You can now run OpenLP by either searching for it in the *Dash*, or clicking on
+the category *Media Apps* in Unity. If you are running the Classic Desktop you 
+will have OpenLP available by clicking 
+:menuselection:`Applications --> Sound and Video --> OpenLP`
+
+Ubuntu older than 12.04
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+In older versions of Ubuntu you will first need to add the 
+OpenLP Personal Package Archive (PPA) to your system. 
+
+Open up the software center using :menuselection:`Applications`
+and select the Software Center from the bottom of the menu. You will need to 
+be the administrator of the system to install OpenLP and will be asked for the
+administrator password several times through this process.
+
+
+Then go to :menuselection:`Edit --> Software Sources`
 
 .. image:: pics/1softwaresources.png
 
@@ -59,9 +104,9 @@ will have OpenLP available by clicking
 :menuselection:`Applications --> Sound and Video --> OpenLP`
 
 Kubuntu
-^^^^^^^
+-------
 
-From the KickOff Menu click :guilabel:`System Settings` Then click on 
+From the Kickoff Menu click :guilabel:`System Settings` Then click on 
 :guilabel:`Software Management`.
 
 .. image:: pics/kubuntusystemsettings.png
@@ -109,17 +154,28 @@ You should now see the progress of the download.
 .. image:: pics/kubuntudownloadprogress.png
 
 Once completed you may have the option to start OpenLP from the window pictured
-below. If this feature is not enabled, you can start OpenLP from the KickOff
+below. If this feature is not enabled, you can start OpenLP from the Kickoff
 menu.
 
 .. image:: pics/kubuntuopenlplaunch.png
 
 Ubuntu Command Line Install
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+---------------------------
 
-The following install procedure should work across all Ubuntu variants. You
-will need to add the Personal Package Archive (PPA) to Ubuntu's software 
-sources. From a terminal type::
+If you are using Ubuntu 12.10 or a more recent version then OpenLP is included
+in the standard distribution. To Install OpenLP open a terminal and type::
+
+  user@ubuntu:~$ sudo apt-get install openlp
+
+OpenLP should now be available in your desktop's menu system, but if you wish 
+to run OpenLP from the command line type::
+
+  user@ubuntu:~$ openlp
+
+If you are using an older Ubuntu that does not include OpenLP in the standard
+distribution then the following install procedure should work across all Ubuntu 
+variants. First you will need to add the Personal Package Archive (PPA) to 
+Ubuntu's software sources. From a terminal type::
 
   user@ubuntu:~$ sudo add-apt-repository ppa:openlp-core/release
   
@@ -137,7 +193,7 @@ to run OpenLP from the command line type::
   user@ubuntu:~$ openlp
 
 Fedora (GNOME)
-^^^^^^^^^^^^^^
+--------------
 
 **Note** When installing OpenLP you will need to have administrator privileges.
 You will be asked for the administrator password to install.
@@ -173,12 +229,12 @@ later.
 OpenLP will be available in :menuselection:`Applications --> Sound & Video --> OpenLP`
 
 Fedora (KDE)
-^^^^^^^^^^^^
+------------
 
 **Note** when installing OpenLP you will need to have administrator privileges.
 You will be asked for the administrator password to install.
 
-From the KickOff open *Software Management*. Type OpenLP into the search
+From the Kickoff open *Software Management*. Type OpenLP into the search
 box. Then click :guilabel:`Find by name` or press :kbd:`Enter`.
 
 .. image:: pics/1fedoragetremove.png 
@@ -193,12 +249,12 @@ clicking :guilabel:`Continue`
 .. image:: pics/3fedoraadditionalchanges.png
 
 Once completed you can run OpenLP by clicking on its logo in the completed 
-install notification, or from the KickOff menu.
+install notification, or from the Kickoff menu.
 
 .. image:: pics/4fedoracompleted.png
 
 Fedora Command Line Install
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+---------------------------
 
 To install OpenLP from the command line type::
 
@@ -210,7 +266,7 @@ to run OpenLP from the command line type::
   user@fedora:~$ openlp
 
 Linux Mint
-^^^^^^^^^^
+----------
 
 The following instructions are for a standard Linux Mint install. These 
 instructions will not work with Linux Mint Debian Edition. If your are running
@@ -261,7 +317,7 @@ from the *Sound and Video* section of the Mint Menu.
 .. _mint-command:
 
 Linux Mint Command Line Install
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------------------------
 
 You will need to add the Personal Package Archive (PPA) to Linux Mint's
 software sources. From a terminal type::
@@ -282,7 +338,7 @@ to run OpenLP from the command line type::
   user@mint:~$ openlp
 
 openSUSE
-^^^^^^^^
+--------
 
 OpenLP is available using 1-Click Install on the openSUSE Build Service
 website. Go to the `openSUSE Build Service site <http://software.opensuse.org>`_
@@ -325,9 +381,9 @@ OpenLP will now be installed. When the install process is completed click
 OpenLP will now be available for use.
 
 Arch Linux
-^^^^^^^^^^
+----------
 
-OpenLP is availabe on Arch Linux through the Arch User Repository, or AUR. Info
+OpenLP is available on Arch Linux through the Arch User Repository, or AUR. Info
 on the AUR can be found `at the Arch wiki <https://wiki.archlinux.org/index.php/Arch_User_Repository>`_.
 
 There are a variety of tools and methods to install from the AUR. For this

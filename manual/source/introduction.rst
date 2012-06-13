@@ -5,7 +5,7 @@ Introduction
 About
 -----
 
-OpenLP stands for "Open Source Lyrics Projection" and is presentation software
+OpenLP stands for "Open Lyrics Projection" and is presentation software
 developed for churches to provide a single easy to use interface for the
 projection needs of a typical worship service. First created in 2004, it has
 steadily grown in features and maturity such that it is now a mainstay in

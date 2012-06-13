@@ -31,7 +31,7 @@ administrator password several times through this process.
 If using Ubuntu 12.04 then when you have the Software Center running you need to
 turn on support for backports. From the menu choose Edit/Software Sources and 
 then the "Updates" tab. Now make sure that "Unsupported Updates 
-(precise-backports) is ticked. Then click close
+(precise-backports) is ticked. Then click :guilabel:`close`.
 
 .. image:: pics/ubuntu-backports.png
 
@@ -57,9 +57,16 @@ will have OpenLP available by clicking
 Ubuntu older than 12.04
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-In older versions of Ubuntu then first you will need to add the 
-OpenLP Personal Package Archive (PPA) to your system. Go to 
-:menuselection:`Edit --> Software Sources`
+In older versions of Ubuntu you will first need to add the 
+OpenLP Personal Package Archive (PPA) to your system. 
+
+Open up the software center using :menuselection:`Applications`
+and select the Software Center from the bottom of the menu. You will need to 
+be the administrator of the system to install OpenLP and will be asked for the
+administrator password several times through this process.
+
+
+Then go to :menuselection:`Edit --> Software Sources`
 
 .. image:: pics/1softwaresources.png
 

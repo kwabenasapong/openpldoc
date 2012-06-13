@@ -20,8 +20,8 @@ General
 Monitors
 ^^^^^^^^
 
-To choose which monitor you want OpenLP's out display on, click the drop-down
-box and select the appropriate monitor.
+To choose which monitor you want OpenLP's output display on, click the 
+drop-down box and select the appropriate monitor.
 
 Override Display Position
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -33,7 +33,7 @@ of the display output using the :guilabel:`X`, :guilabel:`Y`, :guilabel:`Width`
 and :guilabel:`Height` values.
 
 This setting often comes in useful when you only have a single display, and you
-want to be able to make the display smaller so that it doesn't cover your
+want to be able to make the display smaller so that it does not cover your
 entire screen.
 
 Display if a single screen
@@ -58,6 +58,10 @@ Background Audio
   and when the song is displayed live, the audio will be paused until you start 
   it using :ref:`linked-audio`. If this box is not selected the audio will play 
   immediately when the song is displayed live.
+  
+**Repeat track list:**
+  With this option selected and you are using background audio, the tracks will
+  repeat when it reaches the end of the list (even if there is only one item).
 	
 Application Startup
 ^^^^^^^^^^^^^^^^^^^

@@ -1,5 +1,7 @@
 .. _alerts:
 
+.. index:: alerts
+
 =====
 Alert
 =====

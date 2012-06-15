@@ -17,7 +17,9 @@ import sys
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
-sys.path.insert(0, os.path.abspath(os.path.join('..', '..', '..')))
+path_to_code = os.path.abspath(os.path.join(os.path.split(__file__)[0],
+    '..', '..', '..', '..', 'OpenLP', 'trunk'))
+sys.path.insert(0, path_to_code)
 
 # -- General configuration -----------------------------------------------------
 
@@ -39,7 +41,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'OpenLP'
-copyright = u'2004-2011, Raoul Snyman'
+copyright = u'2004-2012, Raoul Snyman'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the

@@ -1,10 +1,10 @@
 .. _core-index:
 
-:mod:`core` Module
-==================
+Core Application
+================
 
-.. automodule:: openlp.core
-   :members:
+This is the core of the OpenLP application. Anything that is not a plugin is
+stored in the :mod:`~openlp.core` module.
 
 .. toctree::
    :maxdepth: 2
@@ -13,3 +13,6 @@
    theme
    ui
    utils
+
+.. automodule:: openlp.core
+   :members:

@@ -1,5 +1,6 @@
 .. _custom-slides:
 
+
 Custom Slides
 =============
 
@@ -30,3 +31,4 @@ displayed in the screen title. The option to show titles can be configured using
 To Edit your slide, click on :guilabel:`Edit` to edit part of it or
 :guilabel:`Edit All` if you need to make multiple changes. Use the Up and Down
 arrows to change the arrangement of your custom slide.
+

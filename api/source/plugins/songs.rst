@@ -48,9 +48,6 @@ Helper Classes & Functions
 .. automodule:: openlp.plugins.songs.lib.db
    :members:
 
-.. automodule:: openlp.plugins.songs.lib.importer
-   :members:
-
 .. automodule:: openlp.plugins.songs.lib.mediaitem
    :members:
 
@@ -61,6 +58,9 @@ Helper Classes & Functions
    :members:
 
 .. automodule:: openlp.plugins.songs.lib.xml
+   :members:
+
+.. automodule:: openlp.plugins.songs.lib.upgrade
    :members:
 
 Song Importers

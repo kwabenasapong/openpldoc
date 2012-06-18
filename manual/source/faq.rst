@@ -50,8 +50,8 @@ quicker, and also allows more developers to contribute with the project.
 
 Which written languages does OpenLP support?
 --------------------------------------------
-
-The beta now has support for a few languages which can be seen on the 
+                            
+OpenLP has support for multiple languages which can be seen on the 
 :menuselection:`Settings -->Translate` menu. However some of these translations 
 are incomplete. If you would like to help complete or start to translate OpenLP 
 into your language then see the `Getting started page <http://wiki.openlp.org/Translation:Getting_Started>`_. 

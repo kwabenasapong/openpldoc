@@ -114,59 +114,64 @@ Importing from ZionWorx
 ZionWorx (version 2.5/2.6) stores your songs in a proprietary database format
 which OpenLP is unable to access directly. Thus you will first need to convert 
 it to a CSV text file, which OpenLP and other tools (such as spreadsheet 
-applications) are able to access. This can be achieved via a free 3rd-party 
+applications) are able to access. This can be achieved via a free third-party 
 utility called "TurboDB Data Exchange".
 
-1. Locate your ZionWorx songs database. ZionWorx lets you define the location in
-   :guilabel:`File > Preferences`. The database folder will contain a collection
-   of files such as Data.tdbd and MainTable.dat
-   
-   Default location on Windows XP::
-   
-       C:\Documents and Settings\All Users\ZionWorx\2.6\Data
-   
-   Default location on Windows Vista / Windows 7:: 
-   
-       C:\ProgramData\ZionWorx\2.6\Data
+First, locate your ZionWorx songs database. ZionWorx lets you define the 
+location in :guilabel:`File > Preferences`. The database folder will contain a 
+collection of files such as Data.tdbd and MainTable.dat
 
-2. `Download TurboDB Data Exchange 
-   <http://www.dataweb.de/en/support/downloads.html>`_ from dataWeb. The utility
-   will be downloaded as an archive file:
-   
-   Windows::
-   
-       tdbdataX.zip
-       
-   Linux::
-       
-       tdbdatax.tar.gz
-       
-3. Extract the single executable file contained in the archive file and copy it
-   into your ZionWorx database folder.
-4. Open a command-line:
-       
-   Windows:
-   
-       1. Press the keyboard combination :kbd:`Windows key + R` to open the 
-          :guilabel:`Run` window.
-       2. Type ``cmd`` and click :guilabel:`OK`.
-       3. In the command prompt window that opens, type this command (replacing 
-          ``database-folder`` with your actual location) and press 
-          :kbd:`Enter`::
-          
-              cd "database-folder"
+    Default location on Windows XP::
 
-   Linux:
-   
-       Open a terminal and ``cd`` to your ZionWorx database folder.          
-    
-5. Run this command at the command-line::
+        C:\Documents and Settings\All Users\ZionWorx\2.6\Data
 
-       tdbdatax MainTable.dat songstable.csv -fsdf -s, -qd
-       
-   You should see some feedback indicating success, such as::
+    Default location on Windows Vista / Windows 7:: 
+
+        C:\ProgramData\ZionWorx\2.6\Data
+
+Download `TurboDB Data Exchange 
+<http://www.dataweb.de/en/support/downloads.html>`_ from dataWeb. The utility
+will be downloaded as an archive file:
    
-       Batch move has moved 1223 records.
+    **Windows**:
+
+        Open ``tdbdataX.zip`` and copy ``TdbDataX.exe`` into your ZionWorx 
+        database folder.
+        
+        Press the keyboard combination :kbd:`Windows key + R` to open the 
+        :guilabel:`Run` window.
+        
+        Type ``cmd`` and click :guilabel:`OK`.
+        
+        In the command prompt window that opens, type these commands (replacing 
+        ``database-folder`` with your actual location), followed by 
+        :kbd:`Enter`::
+
+            cd "database-folder"
+            tdbdatax MainTable.dat songstable.csv -fsdf -s, -qd
+     
+    **Linux**:
+     
+        Right click on ``tdbdatax.tar.gz`` and select :guilabel:`Unpack` or 
+        :guilabel:`Extract`. Then right click on ``tdbdatax``, select 
+        :guilabel:`Properties`, and make sure the :guilabel:`executable` option 
+        is checked.
+        
+        Alternatively, in the terminal::
+        
+            tar xvzf tdbdatax.tar.gz
+            chmod u+x tdbdatax
+            
+        Copy ``tdbdatax`` into your ZionWorx database folder.
+        
+        Finally, open a terminal and ``cd`` to your ZionWorx database folder.
+        Type this command and press :kbd:`Enter`::
+        
+            ./tdbdatax MainTable.dat songstable.csv -fsdf -s, -qd
+
+You should see some feedback indicating success, such as::
+   
+    Batch move has moved 408 records.
        
 Your ZionWorx songs database has now been converted to a CSV text file. Run the
 Song Importer in OpenLP, select :guilabel:`ZionWorx (CSV)`, and locate the
@@ -174,8 +179,7 @@ Song Importer in OpenLP, select :guilabel:`ZionWorx (CSV)`, and locate the
 
 .. image:: pics/songimporter_zionworx.png
 
-After clicking :guilabel:`Next` your import will be complete. Then press :guilabel:`Finish` and OpenLP will be ready to use the songs that you have 
-imported from ZionWorx.
+After clicking :guilabel:`Next` your import will be complete.
 
 Creating or Editing a Song Slide
 ================================

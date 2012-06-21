@@ -25,8 +25,8 @@ software that OpenLP will convert songs from.
 .. image:: pics/songimporterchoices.png
 
 Click on the file folder icon to choose the file of the song database you
-want to import. See the following sections for information on the different 
-formats that OpenLP will import.
+want to import. See the following sections for information on some of the 
+different formats that OpenLP will import.
 
 Importing from OpenLP Version 1
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -107,6 +107,73 @@ Press :guilabel:`Finish` and OpenLP will be ready to use your songs imported
 from CCLI SongSelect.
 
 .. _songs_create_edit:
+
+Importing from ZionWorx
+^^^^^^^^^^^^^^^^^^^^^^^
+
+ZionWorx (version 2.5/2.6) stores your songs in a proprietary database format
+which OpenLP is unable to access directly. Thus you will first need to convert 
+it to a CSV text file, which OpenLP and other tools (such as spreadsheet applications) are able to access. This can be achieved via a free 3rd-party 
+utility called "TurboDB Data Exchange".
+
+1. Locate your ZionWorx songs database. ZionWorx lets you define the location in
+   :guilabel:`File > Preferences`. The database folder will contain a collection
+   of files such as Data.tdbd and MainTable.dat
+   
+   Default location on Windows XP::
+   
+       C:\Documents and Settings\All Users\ZionWorx\2.6\Data
+   
+   Default location on Windows Vista / Windows 7:: 
+   
+       C:\ProgramData\ZionWorx\2.6\Data
+
+2. `Download TurboDB Data Exchange 
+   <http://www.dataweb.de/en/support/downloads.html>`_ from dataWeb. The utility
+   will be downloaded as an archive file:
+   
+   Windows::
+   
+       tdbdataX.zip
+       
+   Linux::
+       
+       tdbdatax.tar.gz
+       
+3. Extract the single executable file contained in the archive file and copy it
+   into your ZionWorx database folder.
+4. Open a command-line:
+       
+   Windows:
+   
+       1. Press the keyboard combination *Windows key + R* to open the 
+          :guilabel:`Run` window.
+       2. Type ``cmd`` and click :guilabel:`OK`.
+       3. In the command prompt window that opens, type this command (replacing 
+          ``database-folder`` with your actual location) and press *Enter*::
+          
+              cd "database-folder"
+
+   Linux:
+   
+       Open a terminal and ``cd`` to your ZionWorx database folder.          
+    
+5. Run this command at the command-line::
+
+       tdbdatax MainTable.dat songstable.csv -fsdf -s, -qd
+       
+   You should see some feedback indicating success, such as::
+   
+       Batch move has moved 1223 records.
+       
+Your ZionWorx songs database has now been converted to a CSV text file. Run the
+Song Importer in OpenLP, select :guilabel:`ZionWorx (CSV)`, and locate the
+``songstable.csv`` file you have just created. 
+
+.. image:: pics/songimporter_zionworx.png
+
+After clicking :guilabel:`Next` your import will be complete. Then press :guilabel:`Finish` and OpenLP will be ready to use the songs that you have 
+imported from ZionWorx.
 
 Creating or Editing a Song Slide
 ================================

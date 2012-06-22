@@ -134,7 +134,7 @@ Download `TurboDB Data Exchange
 <http://www.dataweb.de/en/support/downloads.html>`_ from dataWeb. The utility
 will be downloaded as an archive file:
    
-    **Windows**:
+    **Windows:**
 
         Open :file:`tdbdataX.zip` and copy :file:`TdbDataX.exe` into your 
         ZionWorx database folder.
@@ -151,7 +151,7 @@ will be downloaded as an archive file:
             cd "database-folder"
             tdbdatax MainTable.dat songstable.csv -fsdf -s, -qd
      
-    **Linux**:
+    **Linux:**
      
         Right click on :file:`tdbdatax.tar.gz` and select :guilabel:`Unpack` or 
         :guilabel:`Extract`. Then right click on :file:`tdbdatax`, select 

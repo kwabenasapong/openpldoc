@@ -118,8 +118,8 @@ applications) are able to access. This can be achieved via a free third-party
 utility called "TurboDB Data Exchange".
 
 First, locate your ZionWorx songs database. ZionWorx lets you define the 
-location in :guilabel:`File > Preferences`. The database folder will contain a 
-collection of files such as Data.tdbd and MainTable.dat
+location in :menuselection:`File --> Preferences`. The database folder will 
+contain a collection of files such as Data.tdbd and MainTable.dat.
 
     Default location on Windows XP::
 

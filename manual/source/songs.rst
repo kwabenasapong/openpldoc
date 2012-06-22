@@ -112,10 +112,10 @@ Importing from ZionWorx
 ^^^^^^^^^^^^^^^^^^^^^^^
 
 ZionWorx (version 2.5/2.6) stores your songs in a proprietary database format
-which OpenLP is unable to access directly. Thus you will first need to convert 
-it to a CSV text file, which OpenLP and other tools (such as spreadsheet 
-applications) are able to access. This can be achieved via a free third-party 
-utility called "TurboDB Data Exchange".
+which OpenLP is unable to access directly. You will first need to convert it to
+a CSV text file, which OpenLP and other tools (such as spreadsheet applications)
+are able to access. This can be achieved via a free third-party utility called 
+"TurboDB Data Exchange".
 
 First, locate your ZionWorx songs database. ZionWorx lets you define the 
 location in :menuselection:`File --> Preferences`. The database folder will 
@@ -175,7 +175,7 @@ You should see some feedback indicating success, such as::
        
 Your ZionWorx songs database has now been converted to a CSV text file. Run the
 Song Importer in OpenLP, select :guilabel:`ZionWorx (CSV)`, and locate the
-``songstable.csv`` file you have just created. 
+``songstable.csv`` file you just created. 
 
 .. image:: pics/songimporter_zionworx.png
 

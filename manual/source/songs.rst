@@ -119,13 +119,14 @@ are able to access. This can be achieved via a free third-party utility called
 
 First, locate your ZionWorx songs database. ZionWorx lets you define the 
 location in :menuselection:`File --> Preferences`. The database folder will 
-contain a collection of files such as Data.tdbd and MainTable.dat.
+contain a collection of files such as :file:`Data.tdbd` and 
+:file:`MainTable.dat`.
 
-    Default location on Windows XP::
+    Default location for ZionWorx 2.6 on Windows XP::
 
         C:\Documents and Settings\All Users\ZionWorx\2.6\Data
 
-    Default location on Windows Vista / Windows 7:: 
+    Default location for ZionWorx 2.6 on Windows Vista / Windows 7:: 
 
         C:\ProgramData\ZionWorx\2.6\Data
 
@@ -135,13 +136,13 @@ will be downloaded as an archive file:
    
     **Windows**:
 
-        Open ``tdbdataX.zip`` and copy ``TdbDataX.exe`` into your ZionWorx 
-        database folder.
+        Open :file:`tdbdataX.zip` and copy :file:`TdbDataX.exe` into your 
+        ZionWorx database folder.
         
         Press the keyboard combination :kbd:`Windows key + R` to open the 
         :guilabel:`Run` window.
         
-        Type ``cmd`` and click :guilabel:`OK`.
+        Type :command:`cmd` and click :guilabel:`OK`.
         
         In the command prompt window that opens, type these commands (replacing 
         ``database-folder`` with your actual location), followed by 
@@ -152,8 +153,8 @@ will be downloaded as an archive file:
      
     **Linux**:
      
-        Right click on ``tdbdatax.tar.gz`` and select :guilabel:`Unpack` or 
-        :guilabel:`Extract`. Then right click on ``tdbdatax``, select 
+        Right click on :file:`tdbdatax.tar.gz` and select :guilabel:`Unpack` or 
+        :guilabel:`Extract`. Then right click on :file:`tdbdatax`, select 
         :guilabel:`Properties`, and make sure the :guilabel:`executable` option 
         is checked.
         
@@ -162,10 +163,10 @@ will be downloaded as an archive file:
             tar xvzf tdbdatax.tar.gz
             chmod u+x tdbdatax
             
-        Copy ``tdbdatax`` into your ZionWorx database folder.
+        Copy :file:`tdbdatax` into your ZionWorx database folder.
         
-        Finally, open a terminal and ``cd`` to your ZionWorx database folder.
-        Type this command and press :kbd:`Enter`::
+        Finally, open a terminal and :command:`cd` to your ZionWorx database 
+        folder. Type this command and press :kbd:`Enter`::
         
             ./tdbdatax MainTable.dat songstable.csv -fsdf -s, -qd
 
@@ -175,7 +176,7 @@ You should see some feedback indicating success, such as::
        
 Your ZionWorx songs database has now been converted to a CSV text file. Run the
 Song Importer in OpenLP, select :guilabel:`ZionWorx (CSV)`, and locate the
-``songstable.csv`` file you just created. 
+:file:`songstable.csv` file you just created. 
 
 .. image:: pics/songimporter_zionworx.png
 

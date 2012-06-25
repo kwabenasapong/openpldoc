@@ -106,8 +106,6 @@ completed.
 Press :guilabel:`Finish` and OpenLP will be ready to use your songs imported
 from CCLI SongSelect.
 
-.. _songs_create_edit:
-
 Importing from ZionWorx
 ^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -181,6 +179,8 @@ Song Importer in OpenLP, select :guilabel:`ZionWorx (CSV)`, and locate the
 .. image:: pics/songimporter_zionworx.png
 
 After clicking :guilabel:`Next` your import will be complete.
+
+.. _songs_create_edit:
 
 Creating or Editing a Song Slide
 ================================

@@ -83,13 +83,13 @@ subscriber of the Song Select service. For more information go to the
 
 The first step for importing from CCLI Song Select is to log into your account.
 Once you have logged in search for your desired song. For this example we will 
-be searching and adding the song "Amazing Grace". 
+be searching for and adding the song "Amazing Grace". 
 
 .. image:: pics/songselectsongsearch.png
 
-You will be presented with a list of songs relating to your search. Click the 
-*LYRICS* button and it will take you to the lyrics page displaying the lyrics 
-and copyright information for your song.
+You will be presented with the results of your search. Click the *LYRICS* button 
+and it will take you to the lyrics page displaying the lyrics and copyright 
+information for your song.
 
 .. image:: pics/songselectlyrics.png
 

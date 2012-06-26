@@ -78,28 +78,32 @@ Importing from CCLI Song Select
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 To import from CCLI Song Select you must be a CCLI Subscriber and also a 
-subscriber of the Song Select service. For more information check out the 
+subscriber of the Song Select service. For more information go to the 
 `CCLI website. <http://www.ccli.com>`_ 
 
 The first step for importing from CCLI Song Select is to log into your account.
-Then search for your desired song. For this example we will be adding the song
-"Amazing Grace". 
+Once you have logged in search for your desired song. For this example we will 
+be searching and adding the song "Amazing Grace". 
 
 .. image:: pics/songselectsongsearch.png
 
-For the song you are searching for, select `lyrics` This will take you to a 
-page displaying the lyrics and copyright information for your song.
+You will be presented with a list of songs relating to your search. Click the 
+*LYRICS* button and it will take you to the lyrics page displaying the lyrics 
+and copyright information for your song.
 
 .. image:: pics/songselectlyrics.png
 
-Next, hover over the :guilabel:`Lyrics` menu from the upper right corner.
-Choose either the .txt or .usr file. You will be asked to chose a download
-location if your browser does not automatically select that for you. Select 
-this file from the OpenLP import window and then click :guilabel:`Next` You can
-also select multiple songs for import at once on most operating systems by 
-selecting the first item in the list then holding the shift key and select the
-last item in the list. When finished, you will see that your import has 
-completed.
+Next, hover the mouse over the :guilabel:`Download` button from the upper right 
+corner and choose either the .txt or .usr file. 
+
+.. image:: pics/songselectlyricsdownload.png
+
+You will be asked to choose a download location if your browser does not 
+automatically select that for you. Select this file from the OpenLP import 
+window and then click :guilabel:`Next`. You can also select multiple songs for 
+import at once on most operating systems by selecting the first item in the list 
+then holding the shift key and select the last item in the list. When finished, 
+you will see that your import has completed.
 
 .. image:: pics/finishedimport.png
 

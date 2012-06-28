@@ -99,11 +99,14 @@ corner and choose either the .txt or .usr file.
 .. image:: pics/songselectlyricsdownload.png
 
 You will be asked to choose a download location if your browser does not 
-automatically select that for you. Select this file from the OpenLP import 
-window and then click :guilabel:`Next`. You can also select multiple songs for 
-import at once on most operating systems by selecting the first item in the list 
-then holding the shift key and select the last item in the list. When finished, 
-you will see that your import has completed.
+automatically select one for you. Select the downloaded file from the OpenLP 
+import window and then click :guilabel:`Next`. When import is finished, you will 
+find your song in the :ref:`g-media-manager`.
+
+**Note:** Most operating systems allow you to select multiple songs for import 
+by selecting the first item in the list and then holding the :kbd:`Shift` and 
+selecting the last item in the list or holding the :kbd:`Ctrl` and selecting the 
+files individually.
 
 .. image:: pics/finishedimport.png
 

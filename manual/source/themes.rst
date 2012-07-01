@@ -197,8 +197,7 @@ Deleting Themes
     Delete a selected theme or you can right-click your theme and select 
     :guilabel:`Delete`.
 
-**Note:** You cannot delete the currently selected global theme or the default 
-theme.
+**Note:** You cannot delete the theme currently selected as global or default.
 
 .. _export_themes:
 
@@ -226,8 +225,7 @@ Rename Theme
 If you created a theme and want to change the name of it, right-click your
 theme and click Rename theme and enter the new name.
 
-**Note:** You cannot rename the currently selected global theme or the default 
-theme.
+**Note:** You cannot rename the theme currently selected as global or default.
 
 Copy Theme
 ==========

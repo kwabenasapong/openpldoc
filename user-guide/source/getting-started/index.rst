@@ -2,23 +2,20 @@
 
 Getting Started
 ===============
-In this section we'll  be taking you through the first steps to getting OpenLP up and running on your computer.
+In this section we'll  be taking you through the first steps to getting OpenLP
+up and running on your computer.
 
 Downloading & Installing
 ------------------------
-So, you've come to the side, and you want to get this awesome software. How do you do it?
+Follow the instructions below to download and install OpenLP on your operating
+system.
 
-Windows
-*******
-Download the Windows Installer. Run it.
+.. toctree::
+   windows
+   mac-os-x
+   ubuntu
+   :maxdepth: 2
 
-Mac OS X
-********
-Download the Mac OS X disk image. Mount it. Copy OpenLP into your Applications folder.
-
-Ubuntu
-******
-Open your package manager. Search for OpenLP. Click Install.
 
 Fedora
 ******

@@ -257,7 +257,7 @@ texinfo_documents = [
 # regardless of the global pdf_compressed setting.
 
 pdf_documents = [
-    ('index', u'OpenLP', u'OpenLP User Guide', u'OpenLP Team'),
+    ('index', u'OpenLP-User-Guide', u'OpenLP User Guide', u'OpenLP Team'),
 ]
 
 # A comma-separated list of custom stylesheets. Example:

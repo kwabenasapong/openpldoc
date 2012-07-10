@@ -9,10 +9,10 @@ Welcome to the OpenLP 2.0 User Guide
 Contents:
 
 .. toctree::
-    getting-started
-    adding-content
-    getting-more
-    :maxdepth: 2
+   getting-started/index
+   adding-content
+   getting-more
+   :maxdepth: 2
 
 
 Indices and tables

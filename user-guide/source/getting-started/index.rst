@@ -5,8 +5,8 @@ Getting Started
 In this section we'll  be taking you through the first steps to getting OpenLP
 up and running on your computer.
 
-Downloading & Installing
-------------------------
+Installing
+----------
 Follow the instructions below to download and install OpenLP on your operating
 system.
 
@@ -14,12 +14,8 @@ system.
    windows
    mac-os-x
    ubuntu
+   fedora
    :maxdepth: 2
-
-
-Fedora
-******
-Open your package manager. Enable extras. Search for OpenLP. Click Install.
 
 Running for the First Time
 --------------------------

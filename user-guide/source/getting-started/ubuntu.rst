@@ -46,7 +46,10 @@ Then click on the :guilabel:`Updates` tab and make sure the checkbox next to
 :guilabel:`Backports` is checked. Click OK and then close and open *Software
 Center* to refresh the software list.
 
+.. image:: ../screenshots/install/ubuntu/5-updates-backports.png
+
 Other Ubuntu Releases
 ---------------------
 For information on how to install OpenLP in older Ubuntu releases, and in
-Ubuntu derivatives like Kubuntu and Xubuntu, please see the Reference Manual.
+Ubuntu derivatives like Kubuntu and Xubuntu, please see the relevaant section
+in the `Reference Manual <http://manual.openlp.org/>`_.

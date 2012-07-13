@@ -14,3 +14,4 @@ the language you will be using OpenLP in, it is simply the language you will
 be using to install OpenLP.
 
 .. image:: ../screenshots/install/macosx/1-copy-to-applications.png
+   :width: 547px

@@ -17,6 +17,9 @@ system.
    fedora
    :maxdepth: 2
 
+For more information on installing OpenLP on other platforms, please see the
+`Reference Manual <http://manual.openlp.org/>`_
+
 Running for the First Time
 --------------------------
 When OpenLP starts up for the first time, it may take a little while to get started due to the fact that it needs to perform some initial setup.

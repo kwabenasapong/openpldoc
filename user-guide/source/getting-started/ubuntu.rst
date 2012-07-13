@@ -17,15 +17,18 @@ When you have the Software Center running simply search for OpenLP and click
 :guilabel:`Install`.
 
 .. image:: ../screenshots/install/ubuntu/1-search-openlp.png
+   :width: 892px
 
 You will see the install progress as OpenLP and the dependencies required for
 it to run are downloaded.
 
 .. image:: ../screenshots/install/ubuntu/2-install-progress.png
+   :width: 892px
 
 After installation you should see that OpenLP is installed.
 
 .. image:: ../screenshots/install/ubuntu/3-install-complete.png
+   :width: 892px
 
 You can now run OpenLP by either searching for it in the *Dash*, or clicking on
 the category *Media Apps* in Unity. If you are running the Classic Desktop you
@@ -41,12 +44,14 @@ of newer versions of software already available in Ubuntu.
 With *Software Center* openlp, go to :menuselection:`Edit --> Software Sources`
 
 .. image:: ../screenshots/install/ubuntu/4-software-sources.png
+   :width: 892px
 
 Then click on the :guilabel:`Updates` tab and make sure the checkbox next to
 :guilabel:`Backports` is checked. Click OK and then close and open *Software
 Center* to refresh the software list.
 
 .. image:: ../screenshots/install/ubuntu/5-updates-backports.png
+   :width: 588px
 
 Other Ubuntu Releases
 ---------------------

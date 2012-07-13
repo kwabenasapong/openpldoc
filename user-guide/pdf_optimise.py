@@ -7,8 +7,19 @@ import shutil
 
 IMAGE_WIDTH = re.compile(r'^   :width: ([\d]+)px', re.UNICODE)
 
+def copy_files(source_dir, temp_dir):
+    for root, dirs, files in os.walk(source_dir):
+        curr_dir = root[len(source_dir):]
+        full_dir = os.path.join(temp_dir, curr_dir)
+        for name in files:
+            if name.endswith(u'.rst'):
+                if not os.path.exists(full_dir):
+                    os.makedirs(full_dir)
+                shutil.copy2(os.path.join(root, name),
+                    os.path.join(full_dir, name))
+
 def restore_files(temp_dir, restore_dir):
-    shutil.copytree(
+    copy_files(temp_dir, restore_dir)
     shutil.rmtree(temp_dir)
 
 def adjust_image(match):
@@ -26,8 +37,8 @@ def process_images(filename):
     fd.write(contents)
     fd.close()
 
-def find_files(base_dir):
-    for root, dirs, files in os.walk(top, topdown=False):
+def process_files(base_dir):
+    for root, dirs, files in os.walk(base_dir):
         for name in files:
             if name.endswith(u'.rst'):
                 process_images(os.path.join(root, name))
@@ -35,12 +46,15 @@ def find_files(base_dir):
 def main():
     here = os.path.abspath(os.path.split(__file__)[0])
     if len(sys.argv) > 1 and sys.argv[1] == 'restore':
+        print 'Restoring...',
         temp_dir = os.path.abspath(sys.argv[2])
         restore_files(temp_dir, here)
-        return
-    temp_dir = mkdtemp()
-    shutile.copytree(here, temp_dir)
-    find_files(here)
+        print 'done.'
+    else:
+        temp_dir = mkdtemp()
+        print temp_dir
+        copy_files(here, temp_dir)
+        process_files(here)
 
 if __name__ == '__main__':
     main()

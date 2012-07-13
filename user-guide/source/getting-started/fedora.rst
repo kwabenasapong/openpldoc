@@ -10,7 +10,7 @@ From the KickOff open *Software Management*. Type OpenLP into the search
 box. Then click :guilabel:`Find by name` or press :kbd:`Enter`.
 
 .. image:: ../screenshots/install/fedora/1-software-management.png
-   :width: 1995px
+   :width: 831px
 
 Select OpenLP from the search results. Next, click :guilabel:`Apply`
 

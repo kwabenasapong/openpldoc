@@ -5,11 +5,11 @@ from tempfile import mkdtemp
 import re
 import shutil
 
-IMAGE_WIDTH = re.compile(r'^   :width: ([\d]+)px', re.UNICODE)
+IMAGE_WIDTH = re.compile(r':width: ([\d]+)px', re.UNICODE)
 
 def copy_files(source_dir, temp_dir):
     for root, dirs, files in os.walk(source_dir):
-        curr_dir = root[len(source_dir):]
+        curr_dir = root[len(source_dir) + 1:]
         full_dir = os.path.join(temp_dir, curr_dir)
         for name in files:
             if name.endswith(u'.rst'):
@@ -31,7 +31,9 @@ def adjust_image(match):
         return match.group(1)
 
 def process_images(filename):
-    contents = open(filename, 'rb').read()
+    fd = open(filename, 'rb')
+    contents = fd.read()
+    fd.close()
     contents = IMAGE_WIDTH.sub(adjust_image, contents)
     fd = open(filename, 'wb')
     fd.write(contents)
@@ -46,10 +48,8 @@ def process_files(base_dir):
 def main():
     here = os.path.abspath(os.path.split(__file__)[0])
     if len(sys.argv) > 1 and sys.argv[1] == 'restore':
-        print 'Restoring...',
         temp_dir = os.path.abspath(sys.argv[2])
         restore_files(temp_dir, here)
-        print 'done.'
     else:
         temp_dir = mkdtemp()
         print temp_dir

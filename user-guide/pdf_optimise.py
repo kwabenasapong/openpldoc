@@ -26,9 +26,9 @@ def adjust_image(match):
     try:
         width = int(match.group(1))
         width = int(round(width * 2.4))
-        return str(width)
+        return ':width: %spx' % width
     except:
-        return match.group(1)
+        return match.group(0)
 
 def process_images(filename):
     fd = open(filename, 'rb')

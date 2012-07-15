@@ -22,11 +22,12 @@ For more information on installing OpenLP on other platforms, please see the
 
 Running for the First Time
 --------------------------
-When OpenLP starts up for the first time, it may take a little while to get started due to the fact that it needs to perform some initial setup.
+When OpenLP starts up for the first time, it may take a little while to get
+started due to the fact that it needs to perform some initial setup.
 
-First Time Wizard
-*****************
-When you run OpenLP for the first time, it will run the First Time Wizard to help you get a few things into OpenLP to make it more usable.
+.. toctree::
+   first-time-wizard
+   :maxdepth: 2
 
 Adding Songs
 ************

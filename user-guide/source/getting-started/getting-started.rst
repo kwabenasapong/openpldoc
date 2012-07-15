@@ -27,11 +27,8 @@ started due to the fact that it needs to perform some initial setup.
 
 .. toctree::
    first-time-wizard
+   adding-songs
    :maxdepth: 2
-
-Adding Songs
-************
-Once you've got OpenLP configured, you can start adding songs.
 
 Creating a Service
 ******************

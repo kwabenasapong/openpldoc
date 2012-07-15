@@ -153,8 +153,6 @@ doctest:
 	      "results in $(BUILDDIR)/doctest/output.txt."
 
 pdf:
-	TEMP_DIR := $(python pdf_optimise.py)
 	$(SPHINXBUILD) -b pdf $(ALLSPHINXOPTS) build/pdf
-	python pdf_optimise.py restore $(TEMP_DIR)
 	@echo
 	@echo "Build finished. The PDF files are in build/pdf."

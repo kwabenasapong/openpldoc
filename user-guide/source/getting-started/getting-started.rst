@@ -11,12 +11,12 @@ Follow the instructions below to download and install OpenLP on your operating
 system.
 
 .. toctree::
+   :maxdepth: 2
 
    windows
    mac-os-x
    ubuntu
    fedora
-   :maxdepth: 2
 
 For more information on installing OpenLP on other platforms, please see the
 `Reference Manual <http://manual.openlp.org/>`_
@@ -27,10 +27,10 @@ When OpenLP starts up for the first time, it may take a little while to get
 started due to the fact that it needs to perform some initial setup.
 
 .. toctree::
+   :maxdepth: 2
 
    first-time-wizard
    adding-songs
-   :maxdepth: 2
 
 Creating a Service
 ******************

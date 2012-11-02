@@ -9,6 +9,7 @@ Welcome to the OpenLP 2.0 User Guide
 Contents:
 
 .. toctree::
+
    getting-started/getting-started
    adding-content
    getting-more

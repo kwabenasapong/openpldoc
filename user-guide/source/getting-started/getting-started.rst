@@ -11,6 +11,7 @@ Follow the instructions below to download and install OpenLP on your operating
 system.
 
 .. toctree::
+
    windows
    mac-os-x
    ubuntu
@@ -26,6 +27,7 @@ When OpenLP starts up for the first time, it may take a little while to get
 started due to the fact that it needs to perform some initial setup.
 
 .. toctree::
+
    first-time-wizard
    adding-songs
    :maxdepth: 2

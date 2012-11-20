@@ -27,7 +27,10 @@ When OpenLP starts up for the first time, it may take a little while to get
 started due to the fact that it needs to perform some initial setup.
 
 .. toctree::
+<<<<<<< TREE
    :maxdepth: 2
+=======
+>>>>>>> MERGE-SOURCE
 
    first-time-wizard
    adding-songs

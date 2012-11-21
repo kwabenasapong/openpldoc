@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
-# OpenLP documentation build configuration file, created by
-# sphinx-quickstart on Thu Sep 30 21:24:54 2010.
+# OpenLP User Guide documentation build configuration file, created by
+# sphinx-quickstart on Wed Jul  4 23:35:21 2012.
 #
 # This file is execfile()d with the current directory set to its containing dir.
 #
@@ -11,8 +11,7 @@
 # All configuration values have a default; values that are commented out
 # serve to show the default.
 
-import sys
-import os
+import sys, os
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -26,7 +25,7 @@ import os
 
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
-extensions = []
+extensions = ['rst2pdf.pdfbuilder']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -41,8 +40,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'OpenLP'
-copyright = u'2004 - 2012, Raoul Snyman'
+project = u'OpenLP User Guide'
+copyright = u'2012, OpenLP Team'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -65,13 +64,13 @@ release = '2.0'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-exclude_patterns = ['_build']
+exclude_patterns = []
 
 # The reST default role (used for this markup: `text`) to use for all documents.
 #default_role = None
 
 # If true, '()' will be appended to :func: etc. cross-reference text.
-#add_function_parentheses = True
+add_function_parentheses = True
 
 # If true, the current module name will be prepended to all description
 # unit titles (such as .. function::).
@@ -115,7 +114,7 @@ html_theme_path = [os.path.abspath(os.path.join('..', '..', 'common', 'themes'))
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-html_title = u'OpenLP 2.0 Reference Manual'
+html_title = 'OpenLP 2.0 User Guide'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #html_short_title = None
@@ -136,7 +135,7 @@ html_static_path = ['_static']
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.
-html_last_updated_fmt = '%b %d, %Y'
+#html_last_updated_fmt = '%b %d, %Y'
 
 # If true, SmartyPants will be used to convert quotes and dashes to
 # typographically correct entities.
@@ -176,22 +175,27 @@ html_last_updated_fmt = '%b %d, %Y'
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'OpenLP'
+htmlhelp_basename = 'openlp-user-guide'
 
 
 # -- Options for LaTeX output --------------------------------------------------
 
-# The paper size ('letter' or 'a4').
-#latex_paper_size = 'letter'
+latex_elements = {
+# The paper size ('letterpaper' or 'a4paper').
+#'papersize': 'letterpaper',
 
 # The font size ('10pt', '11pt' or '12pt').
-#latex_font_size = '10pt'
+#'pointsize': '10pt',
+
+# Additional stuff for the LaTeX preamble.
+#'preamble': '',
+}
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'OpenLP.tex', u'OpenLP Reference Manual',
-   u'Wesley Stout', 'manual'),
+  ('index', 'OpenLP-User-Guide.tex', u'OpenLP User Guide',
+   u'OpenLP Team', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -208,9 +212,6 @@ latex_documents = [
 # If true, show URL addresses after external links.
 #latex_show_urls = False
 
-# Additional stuff for the LaTeX preamble.
-#latex_preamble = ''
-
 # Documents to append as an appendix to all manuals.
 #latex_appendices = []
 
@@ -223,6 +224,127 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'openlp', u'OpenLP Reference Manual',
-     [u'Wesley Stout'], 1)
+    ('index', 'openlp-user-guide', u'OpenLP User Guide',
+     [u'OpenLP Team'], 1)
 ]
+
+# If true, show URL addresses after external links.
+#man_show_urls = False
+
+
+# -- Options for Texinfo output ------------------------------------------------
+
+# Grouping the document tree into Texinfo files. List of tuples
+# (source start file, target name, title, author,
+#  dir menu entry, description, category)
+texinfo_documents = [
+  ('index', 'OpenLP-User-Guide', u'OpenLP User Guide',
+   u'OpenLP Team', 'OpenLP-User-Guide', 'One line description of project.',
+   'Miscellaneous'),
+]
+
+# Documents to append as an appendix to all manuals.
+#texinfo_appendices = []
+
+# If false, no module index is generated.
+#texinfo_domain_indices = True
+
+# How to display URL addresses: 'footnote', 'no', or 'inline'.
+#texinfo_show_urls = 'footnote'
+
+# -- Options for PDF output --------------------------------------------------
+# Grouping the document tree into PDF files. List of tuples
+# (source start file, target name, title, author, options).
+#
+# If there is more than one author, separate them with \\.
+# For example: r'Guido van Rossum\\Fred L. Drake, Jr., editor'
+#
+# The options element is a dictionary that lets you override
+# this config per-document.
+# For example,
+# ('index', u'MyProject', u'My Project', u'Author Name',
+# dict(pdf_compressed = True))
+# would mean that specific document would be compressed
+# regardless of the global pdf_compressed setting.
+
+pdf_documents = [
+    ('index', u'OpenLP-User-Guide', u'OpenLP User Guide', u'OpenLP Team'),
+]
+
+# A comma-separated list of custom stylesheets. Example:
+pdf_stylesheets = ['sphinx','kerning','a4']
+
+# A list of folders to search for stylesheets. Example:
+pdf_style_path = ['.', '_styles']
+
+# Create a compressed PDF
+# Use True/False or 1/0
+# Example: compressed=True
+pdf_compressed = True
+
+# A colon-separated list of folders to search for fonts. Example:
+# pdf_font_path = ['/usr/share/fonts', '/usr/share/texmf-dist/fonts/']
+# Language to be used for hyphenation support
+#pdf_language = "en_US"
+
+# Mode for literal blocks wider than the frame. Can be
+# overflow, shrink or truncate
+#pdf_fit_mode = "shrink"
+
+# Section level that forces a break page.
+# For example: 1 means top-level sections start in a new page
+# 0 means disabled
+#pdf_break_level = 0
+
+# When a section starts in a new page, force it to be 'even', 'odd',
+# or just use 'any'
+#pdf_breakside = 'any'
+
+# Insert footnotes where they are defined instead of
+# at the end.
+#pdf_inline_footnotes = True
+
+# verbosity level. 0 1 or 2
+#pdf_verbosity = 0
+
+# If false, no index is generated.
+#pdf_use_index = True
+
+# If false, no modindex is generated.
+#pdf_use_modindex = True
+
+# If false, no coverpage is generated.
+#pdf_use_coverpage = True
+
+# Name of the cover page template to use
+#pdf_cover_template = 'sphinxcover.tmpl'
+
+# Documents to append as an appendix to all manuals.
+#pdf_appendices = []
+
+# Enable experimental feature to split table cells. Use it
+
+# if you get "DelayedTable too big" errors
+#pdf_splittables = False
+
+# Set the default DPI for images
+#pdf_default_dpi = 72
+
+# Enable rst2pdf extension modules (default is only vectorpdf)
+# you need vectorpdf if you want to use sphinx's graphviz support
+#pdf_extensions = ['vectorpdf']
+
+# Page template name for "regular" pages
+#pdf_page_template = 'cutePage'
+
+# Show Table Of Contents at the beginning?
+#pdf_use_toc = True
+
+# How many levels deep should the table of contents be?
+pdf_toc_depth = 9999
+
+# Add section number to section references
+pdf_use_numbered_links = False
+
+# Background images fitting mode
+pdf_fit_background_mode = 'scale'

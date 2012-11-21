@@ -49,6 +49,11 @@ making your selection click :guilabel:`Finish`
 Installing OpenLP on Mac OS X
 =============================
 
+.. _macinstall:
+
+Version 10.6 (Snow Leopard) to 10.7 (Lion)
+------------------------------------------
+
 Installing OpenLP on OS X is very simple. After downloading the correct file
 from the OpenLP `download page <http://www.openlp.org/en/download.html>`_ 
 double click on the .dmg file. Drag the OpenLP icon over to the Applications
@@ -56,3 +61,27 @@ folder and you will be ready to use OpenLP. OpenLP will be available in your
 Applications folder.
 
 .. image:: pics/osxinstall.png
+
+Version 10.8 (Mountain Lion) and Newer
+--------------------------------------
+
+With the release of version 10.8 applications not downloaded throught the Mac
+App Store will not run by default. A setting must be changed in the Security &
+Privacy Settings to run OpenLP.
+
+Click the Apple icon and open System Preferences
+
+.. image:: pics/gatekeeper1.png
+
+Open the Security & Privacy settings
+
+.. image:: pics/gatekeeper2.png
+
+Change the setting from Mac App Store to Anywhere. If the settings are grayed
+out click on the lock in the lower lefthand corner of the settings window to  
+enable editing.
+
+.. image:: pics/gatekeeper3.png
+
+Now you can install OpenLP with the instructions for Mac :ref:`macinstall`.
+

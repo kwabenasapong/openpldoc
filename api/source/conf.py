@@ -19,6 +19,10 @@ import sys
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 path_to_code = os.path.abspath(os.path.join(os.path.split(__file__)[0],
     '..', '..', '..', '..', 'OpenLP', 'trunk'))
+if not os.path.exists(path_to_code):
+    print 'Incorrect path to code, expecting "%s"' % path_to_code
+    sys.exit(1)
+
 sys.path.insert(0, path_to_code)
 
 # -- General configuration -----------------------------------------------------

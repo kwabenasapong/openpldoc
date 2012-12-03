@@ -12,7 +12,7 @@ system.
 
 .. toctree::
    :maxdepth: 2
-
+   
    windows
    mac-os-x
    ubuntu

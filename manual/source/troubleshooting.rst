@@ -154,16 +154,6 @@ I have PowerPoint installed but it does not show as a presentation option
 Installing the `Visual C++ Runtime Redistributable. <http://www.microsoft.com/downloads/en/details.aspx?FamilyID=9b2da534-3e03-4391-8a4d-074b9f2bc1bf&displaylang=en>`_
 has fixed this problem according to some of our users.
 
-I have JPG images and they will not work on my system
------------------------------------------------------
-
-This is a known issue on some Mac OS X 10.5 systems and on a few Windows XP
-systems. Currently the only solution is to convert your images into another
-format. We would suggest using PNG images when possible with OpenLP.
-
-**Note:** This issue has been fixed in version 1.9.7. If you are having this
-issue please upgrade your version of OpenLP.
-
 I am running a Linux Distro and cannot see the menu icons
 ---------------------------------------------------------
 

@@ -264,6 +264,37 @@ X11
   appears to affect different versions and distributions differently, this 
   setting has been added, rather than try and work it out programmatically.
 
+Players
+=======
+
+.. image:: pics/configuremedia.png
+  
+Available Media Players
+^^^^^^^^^^^^^^^^^^^^^^^
+
+Select the media players you want to be available for use. As a general rule the 
+players control the following:
+
+**Phonon:**
+   Phonon is an internal media player which uses your operating system's
+   built-in media player capabilities.
+
+**Webkit:** 
+   WebKit is another internal media player, which adds text-over-video to OpenLP.
+
+**VLC:**
+   This uses the well-known VLC media player to show videos. VLC has a
+   reputation of being able to handle almost any video or audio format.
+
+**Note:** You must have `VLC <http://www.videolan.org/vlc/>`_ installed for the 
+VLC option to be available.
+
+Player Order
+^^^^^^^^^^^^
+
+Determines the preference order of the selected media players. The order is 
+changed by selecting one of the available players and using the 
+:guilabel:`Down` or :guilabel:`Up` button to change the position of the player.
 
 .. _config_songs:
 
@@ -378,37 +409,9 @@ it is resized.
 
 .. _media_configure:
 
+
 Media
 =====
-
-.. image:: pics/configuremedia.png
-  
-Available Media Players
-^^^^^^^^^^^^^^^^^^^^^^^
-
-Select the media players you want to be available for use. As a general rule the 
-players control the following:
-
-**Phonon:**
-   Phonon is an internal media player which uses your operating system's
-   built-in media player capabilities.
-
-**Webkit:** 
-   WebKit is another internal media player, which adds text-over-video to OpenLP.
-
-**VLC:**
-   This uses the well-known VLC media player to show videos. VLC has a
-   reputation of being able to handle almost any video or audio format.
-
-**Note:** You must have `VLC <http://www.videolan.org/vlc/>`_ installed for the 
-VLC option to be available.
-
-Player Order
-^^^^^^^^^^^^
-
-Determines the preference order of the selected media players. The order is 
-changed by selecting one of the available players and using the 
-:guilabel:`Down` or :guilabel:`Up` button to change the position of the player.
 
 Advanced
 ^^^^^^^^
@@ -490,8 +493,10 @@ about this feature here: :ref:`web_remote`.
 **Note:** To use either of these features, your computers will need to be on the 
 same network, wired or wireless. 
 
-Server Settings
-^^^^^^^^^^^^^^^
+.. _non_secure:
+
+Server Settings- Non Secure
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: pics/configureremotes.png
 
@@ -518,6 +523,20 @@ Android app.
   smartphone, to view the live service display in a basic black and white 
   format. This URL shows the address you will use in the remote browser for 
   stage view.
+  
+Server Settings- Secure
+^^^^^^^^^^^^^^^^^^^^^^^
+These options are identical in meaning to the ones documented in non_secure_.
+The only difference is these require an SSL cetificate to provide the security.
+Instructions for creating and installing a certificate are documented at
+`Generate SSL certificate <http://wiki.openlp.org/Authentication_and_SSL>_.
+*Changing from a Secure to Non Secure setup requires a restart of OpenLP.*
+
+User Authentication 
+^^^^^^^^^^^^^^^^^^^
+This option allows the additional security for update functions via the web or
+android interfaces. Once the userid and password have been accepted then updates
+will be possible for duration of the web session. 
 
 Android App
 ^^^^^^^^^^^

@@ -380,6 +380,13 @@ When the projector is cooling down, you will see the following menu:
 .. image:: pics/projector_item_connected_cooldown.png
    :alt: Projector Connected and Cooldown Mode menu
 
+Video Source Options
+--------------------
+
+The video source options allow you to tell the projector to change it's video
+source input, as well as allowing you to personalize what the video settings
+options.
+
 Video Source Input Select Options
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

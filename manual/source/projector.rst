@@ -8,14 +8,15 @@ The Projector Manager allows you to remotely control a network-connected
 projector that conforms to the Japan Business Machine and Information System
 Association (JBMIA) PJLink specification. Available in OpenLP v2.2.
 
+.. _projector_settings:
+
 Projector Settings
 ------------------
 
 The available projector options can be changed using the main settings menu by
 going to Settings -> Configure OpenLP -> Projectors tab.
 
-.. image:: pics/projector_settings_tab.png
-   :alt: Projector Settings Tab image
+|projector_settings_tab|
 
 The options available are:
 
@@ -26,8 +27,9 @@ The options available are:
     Available options are 2 to 10 seconds.
 
     Poll timeout (seconds): How often to poll the projector for status information.
-    Available options are 2 to 60 seconds. NOTE: PJLink specifications call for
-    automatic disconnect after 30 seconds of inactivity.
+    Available options are 2 to 60 seconds. For quicker response on the status icons,
+    set to a lower value. If you have network congestion, you may need to use a higher
+    value.
 
     Source select dialog interface: Select whether you want all video source options
     on one dialog page or to use tabs to consolidate the inputs based on video group.
@@ -35,155 +37,92 @@ The options available are:
 Once you are satisfied with the settings, click on the "OK" button, otherwise click
 on the "Cancel" button to ignore changes and close the dialog.
 
+.. _projector_manager:
+
 Projector Manager
 -----------------
 
 The Projector Manager is the interface to controlling your projector(s). It is
 located on the bottom-right corner of OpenLP just below the Theme Manager.
 
-.. image:: pics/projector_manager.png
-   :alt: Projector Manager
+|projector_manager|
 
 The icons on the Projector Manager tab will depend on projector entries as well
 as how many projectors are selected at once.
 
 A list of possible projector icons are:
 
-.. image:: pics/projector_new.png
-   :height: 100
-   :width: 100
-   :scale: 50
-   :alt: New projector icon
+|projector_new| **New Projector:**
+    Choosing this option will open the "Create New Projector" dialog so you can enter
+    a new projector item.
 
-Add a new projector
+|projector_edit| **Edit Projector:**
+    When you have selected a projector item, this option will open the "Edit Projector"
+    dialog so you can make changes to that projector item.
 
-.. image:: pics/general_edit.png
-   :height: 100
-   :width: 100
-   :scale: 50
-   :alt: Edit projector icon
+|projector_source| **Select Projector Input:**
+    When you have selected a projector item and it is connected and power is ON, this
+    option will give you a dialog that allows you to select the video source the
+    projector will use.
 
-Edit selected projector
+|projector_delete| **Delete Projector:**
+    When you have selected a projector item, this option will allow you to delete
+    the projector item from the Projector manager list.
 
-.. image:: pics/projector_hdmi.png
-   :height: 100
-   :width: 100
-   :scale: 50
-   :alt: Select video source of selected projector icon
 
-Select the video source of the selected projector
+|projector_info| **Projector Information:**
+    When you have selected a projector item and it is connected to the projector, this
+    option will give you an information box with extra information about the projector.
 
-.. image:: pics/custom_delete.png
-   :height: 100
-   :width: 100
-   :scale: 50
-   :alt: Delete the selected projector icon
+|projector_connect| **Connect to Projector:**
+    When you have selected a projector item, this option will allow you to connect to
+    the projector.
 
-Delete the selected projector
+|projector_connect_tiled| **Connect to Multiple Projectors:**
+    When you have multiple projector items selected, this option will allow to to
+    connect to multiple projectors at once.
 
-.. image:: pics/system_about.png
-   :height: 100
-   :width: 100
-   :scale: 50
-   :alt: Show information about selected projector icon
+|projector_disconnect| **Disconnect from Projector:**
+    When you have a projector item selected, this option will allow you to disconnect
+    from the projector.
 
-Show information about the selected projector
+|projector_disconnect_tiled| **Disconnect from Multiple Projectors:**
+    When you have multiple projector items selected, this option will allow to to
+    disconnect from multiple projectors at once.
 
-.. image:: pics/projector_connect.png
-   :height: 100
-   :width: 100
-   :scale: 50
-   :alt: Connect to selected projector icon
+|projector_power_on| **Power On Projector:**
+    When you have selected a projector item and it is connected, this option will allow
+    you to turn the projector to  "Power ON".
 
-Connect to selected projector
+|projector_power_on_tiled| **Power On Multiple Projectors:**
+    When you have selected multiple projector items and they are connected, this option will allow
+    you to turn the projectors to  "Power ON".
 
-.. image:: pics/projector_connect_tiled.png
-   :height: 100
-   :width: 100
-   :scale: 50
-   :alt: Connect to multiple selected projectors icon
+|projector_power_off| **Power Off Projector:**
+    When you have selected a projector item and it is connected, this option will allow
+    you to turn the projector to  "Power STANDBY".
 
-Connect to multiple selected projectors
+|projector_power_off_tiled| **Power Off Multiple Projectors:**
+    When you have selected multiple projector items and they are connected, this option will allow
+    you to turn the projectors to  "Power STANDBY".
 
-.. image:: pics/projector_disconnect.png
-   :height: 100
-   :width: 100
-   :scale: 50
-   :alt: Disconnect selected projector icon
+|projector_blank| **Blank Projector Screen:**
+    When you have a projector item selected and it is powered ON, this option will allow
+    you to blank the projector screen so no video is shown.
 
-Disconnect from selected projector
+|projector_blank_tiled| **Blank All Projector Screens:**
+    When you have multiple projector items selected and they are powered ON, this option will allow
+    you to blank the projector screens so no video is shown.
 
-.. image:: pics/projector_disconnect_tiled.png
-   :height: 100
-   :width: 100
-   :scale: 50
-   :alt: Disconnect from multiple selected projectors icon
+|projector_show| **Show Projector Screen:**
+    When you have a projector item selected and it is powered ON, this option will allow
+    you to unblank the projector screen so video is shown.
 
-Disconnect from multiple selected projectors
+|projector_show_tiled| **Show All Projector Screens:**
+    When you have multiple projector items selected and they are powered ON, this option will allow
+    you to unblank the projector screens so video is shown.
 
-.. image:: pics/projector_power_on.png
-   :height: 100
-   :width: 100
-   :scale: 50
-   :alt: Power on selected projector icon
-
-Power on selected projector
-
-.. image:: pics/projector_power_on_tiled.png
-   :height: 100
-   :width: 100
-   :scale: 50
-   :alt: Power on multiple selected projectors icon
-
-Power on multiple selected projectors
-
-.. image:: pics/projector_power_off.png
-   :height: 100
-   :width: 100
-   :scale: 50
-   :alt: Power off selected projector icon
-
-Power Off (standby) selected projector
-
-.. image:: pics/projector_power_off_tiled.png
-   :height: 100
-   :width: 100
-   :scale: 50
-   :alt: Power off multiple selected projectors icon
-
-Power Off (standby) multiple selected projectors
-
-.. image:: pics/projector_blank.png
-   :height: 100
-   :width: 100
-   :scale: 50
-   :alt: Blank screen selected projector icon
-
-Blank screen - Close the shutter on selected projector
-
-.. image:: pics/projector_blank_tiled.png
-   :height: 100
-   :width: 100
-   :scale: 50
-   :alt: Blank screen multiple selected projectors icon
-
-Blank screen - Close the shutter on multiple selected projector
-
-.. image:: pics/projector_show.png
-   :height: 100
-   :width: 100
-   :scale: 50
-   :alt: Show Screen selected projector icon
-
-Show screen - Open the shutter on selected projector
-
-.. image:: pics/projector_show_tiled.png
-   :height: 100
-   :width: 100
-   :scale: 50
-   :alt: Show screen multiple selected icon
-
-Show screen - Open the shutter on multiple selected projectors
+.. _projector_add:
 
 Adding a Projector
 ------------------
@@ -191,8 +130,7 @@ Adding a Projector
 To add a new projector, click on the "Add new projector" icon on the Projector
 Manager tab bar. You will be given an input dialog box like the below image.
 
-.. image:: pics/projector_add_new.png
-   :alt: Add new projector image
+|projector_add_new|
 
 The required information are "IP Address", "Port Number", and "Name" entries.
 The port number is already set with the default PJLink port.
@@ -208,17 +146,29 @@ Once you are done entering the new information, click on "Save" to save the entr
 and add it to the projector manager list. Congratulations, you now have your first
 projector entry in the list and ready for control.
 
-.. image:: pics/projector_manager_list.png
-   :alt:  Projector manager with one entry image
+|projector_manager_list|
 
 When you have multiple projector entries selected, the projector manager toolbar
 will change to the following:
 
-.. image:: pics/projector_multiple_selection.png
-   :alt:  Projector manager with multiple entries image
+|projector_item_multiple_selection|
 
 Once you select a projector, the icons will also change based on the status of
 the projector.
+
+.. _projector_view:
+
+View Projector Information
+--------------------------
+
+After you have a projector item added and it's connected, you can view the current status of the projector
+by clicking on the |projector_info| "View Projector Information" icon. You will see a pop-up box that looks
+similar to the following: (NOTE: Example information only - the information you see will depend on the projector
+that you are connected to)
+
+|projector_item_view|
+
+.. _projector_status:
 
 Projector Status Icons
 ----------------------
@@ -228,114 +178,32 @@ quick visual status of the projector.
 
 The icons you will see for the projector are:
 
-.. image:: pics/projector_item_disconnect.png
-   :height: 100
-   :width: 100
-   :scale: 50
-   :alt: Projector disconnected icon
+|projector_item_disconnect| Projector is disconnected
 
-Projector is disconnected
+|projector_item_connect| Attempting to connect to projector
 
-.. image:: pics/projector_item_connect.png
-   :height: 100
-   :width: 100
-   :scale: 50
-   :alt: Projector off icon
+|projector_not_connected_error| There was an error connecting to projector
 
-Attempting to connect to projector
+|projector_item_off| The projector power is OFF (Standby)
 
-.. image:: pics/projector_not_connected_error.png
-   :height: 100
-   :width: 100
-   :scale: 50
-   :alt: Projector connection error icon
+|projector_item_warmup| The projector is warming up
 
-There was an error connecting to projector
+|projector_item_on| The projector is on
 
-.. image:: pics/projector_off.png
-   :height: 100
-   :width: 100
-   :scale: 50
-   :alt: Projector off icon
+|projector_item_cooldown| The projector is cooling down before power off (standby)
 
-Projector is off (standby)
+|projector_item_error| The projector is reporting an error
 
-.. image:: pics/projector_warmup.png
-   :height: 100
-   :width: 100
-   :scale: 50
-   :alt: Projector warmup icon
 
-Projector is in warmup mode
-
-.. image:: pics/projector_on.png
-   :height: 100
-   :width: 100
-   :scale: 50
-   :alt: Projector on icon
-
-Projector is on
-
-.. image:: pics/projector_cooldown.png
-   :height: 100
-   :width: 100
-   :scale: 50
-   :alt: Projector cooldown icon
-
-Projector is in cooldown mode in preparation for power off/standby mode
-
-.. image:: pics/projector_error.png
-   :height: 100
-   :width: 100
-   :scale: 50
-   :alt: Projector error icon
-
-Projector is reporting some kind of error
+.. _projector_menu:
 
 Projector Menus
 ---------------
 
-These are the descriptions of the menu items you may see. Note that the menu
-entries you see will vary depending on the status of the projector. The list
-of all menu options in alphabetical order are:
+The projector menu items will vary depending on what the status is of the selected projector.  The icons/options
+available are the same as described above in the icon description section.
 
-    Blank Screen : Close shutter so screen is blank. NOTE: This entry is replaced
-    with the "Show Screen" entry when the shutter is open.
-
-    Connect Projector : Connect to this projector. NOTE: This entry is replaced
-    with the "Disconnect Projector" entry when the projector is connected.
-
-    Delete Projector : Delete this entry from the database.
-
-    Disconnect Projector : Disconnect from this projector. NOTE: This entry is
-    replaced with the "Connect Projector" entry when the projector is connected.
-
-    Edit Projector : This will allow you to edit the information on this entry and
-    save changes to the database.
-
-    Edit Input Source : This will allow you to customize the look of the source
-    input select screen with text that is meaningful for you. NOTE: This entry is
-    only available when the projector is connected and powered on.
-
-    Power Off Projector : Tell the projector to enter standby. NOTE: This entry
-    is replaced with the "Power On" entry when the projector is in standby.
-
-    Power On Projector : Tell the projector to power on. NOTE: This entry is
-    replaced with the "Power Off" entry when the projector is on.
-
-    Select Input : Select the projector video source the projector will use.
-    NOTE: This entry is only available when the projector is connected and
-    power is on.
-
-    Show Screen : Open shutter so you can see the picture. NOTE: This entry is
-    replaced with the "Blank Screen" entry when the projector shutter is closed.
-
-    View Projector Information : This will show you the saved information on this
-    entry in the database as well as the extra information about the projector
-    once it's connected and talking. NOTE: This entry is only visible when the
-    projector is connected and power is either on or in cooldown mode.
-
-You will see the following menu items when you right-click on a projector item.
+.. _projector_menu_initial:
 
 Initial Menu
 ~~~~~~~~~~~~
@@ -343,9 +211,9 @@ Initial Menu
 When you first enter a projector or when you first start OpenLP, you will select
 from the following menu items:
 
-.. image:: pics/projector_item_not_connected.png
-   :alt: Projector not connected menu
+|projector_item_not_connected_menu|
 
+.. _projector_menu_connected_standby:
 
 Projector Connected in Standby Mode
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -353,32 +221,36 @@ Projector Connected in Standby Mode
 Once the projector has been connected, and if the projector is not powered on,
 you get the below menu list:
 
-.. image:: pics/projector_item_connected_off.png
-   :alt: Projector Connected Power Off Menu image
+|projector_item_connected_off|
+
+.. _projector_menu_connected_warmup:
 
 Projector Connected in Warmup Mode
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Once the projector is in warming up, you will see the following menu:
 
-.. image:: pics/projector_item_connected_warmup.png
-   :alt: Projector Connected and Warmup Mode image
+|projector_item_connected_warmup_menu|
+
+.. _projector_menu_connected_on:
 
 Projector Connected and Power On
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Once the projector is on, you will see the following menu:
 
-.. image:: pics/projector_item_power_on.png
-   :alt: Projector Connected and Power On menu
+|projector_item_power_on_menu|
+
+.. _projector_menu_connected_cooldown:
 
 Projector Connected and in Cooldown Mode
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 When the projector is cooling down, you will see the following menu:
 
-.. image:: pics/projector_item_connected_cooldown.png
-   :alt: Projector Connected and Cooldown Mode menu
+|projector_item_cooldown_menu|
+
+.. _projector_video_source:
 
 Video Source Options
 --------------------
@@ -387,11 +259,13 @@ The video source options allow you to tell the projector to change it's video
 source input, as well as allowing you to personalize what the video settings
 options.
 
+.. _projector_video_source_select:
+
 Video Source Input Select Options
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If you want to change the video source the projector uses, click on the
-"Select Source" option, then select from the pop-up window which video source
+|projector_source| "Select Source" option, then select from the pop-up window which video source
 you want to use.
 
 You have an option of setting two different styles for selecting the video source.
@@ -403,25 +277,22 @@ interface" option.
 NOTE: These images is an example only - what options you will have will vary
 depending on the projector you have. These images show the default PJLink text.
 
-"Single dialog box" will give you the following menu dialog:
+|projector_source_select_single|    |projector_source_select_tabbed|
 
-.. image:: pics/projector_source_select_single.png
-   :alt: Source select dialog single menu image
 
-"Tabbed dialog box" will give you the following menu dialog:
-
-.. image:: pics/projector_source_select_tabbed.png
-   :alt: Source select dialog tabbed menu image
+.. _projector_video_source_edit:
 
 Video Source Input Edit Options
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-When you want to customize how the video source select text looks, you will see
-a dialog box that looks like the following (NOTE: this is the single dialog
-box - the tabbed dialog box will have similar options available):
+When you want to customize how the video source select text looks, click on the
+|projector_edit| "Edit Input Source" icon in the right-click menu. This will
+bring up the source edit dialog box.
 
-.. image:: pics/projector_source_edit_single.png
-   :alt: Source edit dialog single menu image
+NOTE: These images is an example only - what options you will have will vary
+depending on the projector you have. These images show the default PJLink text.
+
+|projector_source_edit_single|    |projector_source_edit_tabbed|
 
 Once you are satisfied, you can click on the "OK" button to save the changes,
 or click on the "Cancel" button to discard these changes and continue to use
@@ -436,3 +307,45 @@ If you _really_ don't like the text, you can select the "Discard" button and
 remove all entries from the database. WARNING: This will delete _all_ of the
 user-defined entries for this projector in the database and return them to the
 PJLink defaults.
+
+.. These are all the image templates that are used in this page.
+.. |PROJECTOR_ADD_NEW| image:: pics/projector_add_new.png
+.. |PROJECTOR_BLANK| image:: pics/projector_blank.png
+.. |PROJECTOR_BLANK_TILED| image:: pics/projector_blank_tiled.png
+.. |PROJECTOR_CONNECT| image:: pics/projector_connect.png
+.. |PROJECTOR_CONNECT_TILED| image:: pics/projector_connect_tiled.png
+.. |PROJECTOR_DELETE| image:: pics/custom_delete.png
+.. |PROJECTOR_DISCONNECT| image:: pics/projector_disconnect.png
+.. |PROJECTOR_DISCONNECT_TILED| image:: pics/projector_disconnect_tiled.png
+.. |PROJECTOR_EDIT| image:: pics/general_edit.png
+.. |PROJECTOR_INFO| image:: pics/system_about.png
+.. |PROJECTOR_ITEM_CONNECTED_OFF| image:: pics/projector_item_connected_off.png
+.. |PROJECTOR_ITEM_CONNECTED_WARMUP_MENU| image:: pics/projector_item_connected_warmup.png
+.. |PROJECTOR_ITEM_CONNECT| image:: pics/projector_item_connect.png
+.. |PROJECTOR_ITEM_COOLDOWN| image:: pics/projector_cooldown.png
+.. |PROJECTOR_ITEM_COOLDOWN_MENU| image:: pics/projector_item_connected_cooldown.png
+.. |PROJECTOR_ITEM_DISCONNECT| image:: pics/projector_item_disconnect.png
+.. |PROJECTOR_ITEM_ERROR| image:: pics/projector_error.png
+.. |PROJECTOR_ITEM_MULTIPLE_SELECTION| image:: pics/projector_multiple_selection.png
+.. |PROJECTOR_ITEM_NOT_CONNECTED_MENU| image:: pics/projector_item_not_connected.png
+.. |PROJECTOR_ITEM_OFF| image:: pics/projector_off.png
+.. |PROJECTOR_ITEM_ON| image:: pics/projector_on.png
+.. |PROJECTOR_ITEM_POWER_ON_MENU| image:: pics/projector_item_power_on.png
+.. |PROJECTOR_ITEM_VIEW| image:: pics/projector_item_view.png
+.. |PROJECTOR_ITEM_WARMUP| image:: pics/projector_warmup.png
+.. |PROJECTOR_MANAGER| image:: pics/projector_manager.png
+.. |PROJECTOR_MANAGER_LIST| image:: pics/projector_manager_list.png
+.. |PROJECTOR_NEW| image:: pics/projector_new.png
+.. |PROJECTOR_NOT_CONNECTED_ERROR| image:: pics/projector_not_connected_error.png
+.. |PROJECTOR_POWER_OFF| image:: pics/projector_power_off.png
+.. |PROJECTOR_POWER_OFF_TILED| image:: pics/projector_power_off_tiled.png
+.. |PROJECTOR_POWER_ON| image:: pics/projector_power_on.png
+.. |PROJECTOR_POWER_ON_TILED| image:: pics/projector_power_on_tiled.png
+.. |PROJECTOR_SETTINGS_TAB| image:: pics/projector_settings_tab.png
+.. |PROJECTOR_SHOW| image:: pics/projector_show.png
+.. |PROJECTOR_SHOW_TILED| image:: pics/projector_show_tiled.png
+.. |PROJECTOR_SOURCE_EDIT_SINGLE| image:: pics/projector_source_edit_single.png
+.. |PROJECTOR_SOURCE_EDIT_TABBED| image:: pics/projector_source_edit_tabbed.png
+.. |PROJECTOR_SOURCE| image:: pics/projector_hdmi.png
+.. |PROJECTOR_SOURCE_SELECT_SINGLE| image:: pics/projector_source_select_single.png
+.. |PROJECTOR_SOURCE_SELECT_TABBED| image:: pics/projector_source_select_tabbed.png

@@ -87,7 +87,7 @@ A list of possible projector icons are:
     from the projector.
 
 |projector_disconnect_tiled| **Disconnect from Multiple Projectors:**
-    When you have multiple projector items selected, this option will allow to to
+    When you have multiple projector items selected, this option will allow to
     disconnect from multiple projectors at once.
 
 |projector_power_on| **Power On Projector:**
@@ -127,7 +127,7 @@ A list of possible projector icons are:
 Adding a Projector
 ------------------
 
-To add a new projector, click on the "Add new projector" icon on the Projector
+To add a new projector, click on the :guilabel:`Add New Projector` icon on the Projector
 Manager tab bar. You will be given an input dialog box like the below image.
 
 |projector_add_new|
@@ -142,9 +142,14 @@ for any HTML access name/password settings (if the projector has HTML webpage
 access). The PIN setting here is ONLY used if the projector has a "PJLink access
 code" or "PJLink PIN" setting.
 
-Once you are done entering the new information, click on "Save" to save the entry
-and add it to the projector manager list. Congratulations, you now have your first
-projector entry in the list and ready for control.
+For information on what the fields are, you can click on :guilabel:`Help` button for some information
+about what is expected for each field.
+
+Once you are done entering the new information, click on :guilabel:`Save` to save the entry
+and add it to the projector manager list. If you decide to not add a new entry, click the
+:guilabel:`Cancel` button to close the dialog without saving.
+
+Congratulations, you now have your first projector entry in the list and ready for control.
 
 |projector_manager_list|
 
@@ -162,9 +167,9 @@ View Projector Information
 --------------------------
 
 After you have a projector item added and it's connected, you can view the current status of the projector
-by clicking on the |projector_info| "View Projector Information" icon. You will see a pop-up box that looks
-similar to the following: (NOTE: Example information only - the information you see will depend on the projector
-that you are connected to)
+by clicking on the :guilabel:`View Projector Information` icon. You will see a pop-up box that looks
+similar to the following: (NOTE: Example information only - the information you see will depend on the
+projector that you are connected to)
 
 |projector_item_view|
 
@@ -200,8 +205,8 @@ The icons you will see for the projector are:
 Projector Menus
 ---------------
 
-The projector menu items will vary depending on what the status is of the selected projector. The icons/options
-available are the same as described above in the icon description section.
+The projector menu items will vary depending on what the status is of the selected projector.
+The icons/options available are the same as described above in the icon description section.
 
 .. _projector_menu_initial:
 
@@ -265,14 +270,15 @@ Video Source Input Select Options
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If you want to change the video source the projector uses, click on the
-|projector_source| "Select Source" option, then select from the pop-up window which video source
-you want to use.
+:guilabel:`Select Source` option, then select from the pop-up window which video source
+you want to use. You can access the :guilabel:`Select Source` option from either the
+projector manager toolbar or from the right-click pop-up menu.
 
-You have an option of setting two different styles for selecting the video source.
-The default option is all entries on one radio button dialog. The Other option
+You have an option of setting two different styles for the video source window.
+The default option is all entries on one radio button dialog. The other option
 is to have the selections grouped by type. This option is available in the
-Settings -> Configure OpenLP -> Projectors tab under the "Source Select dialog
-interface" option.
+:guilabel:`Settings` -> :guilabel:`Configure OpenLP` -> :guilabel:`Projectors` tab under
+the "Source Select dialog interface" option.
 
 NOTE: These images are examples only - what options you will have will vary
 depending on the projector you have. These images show the default PJLink text.
@@ -286,24 +292,24 @@ Video Source Input Edit Options
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 When you want to customize how the video source select text looks, click on the
-|projector_edit| "Edit Input Source" icon in the right-click menu. This will
+:guilabel:`Edit Input Source` icon in the right-click menu. This will
 bring up the source edit dialog box.
 
-NOTE: These images is an example only - what options you will have will vary
+NOTE: These images are examples only - what options you will have will vary
 depending on the projector you have. These images show the default PJLink text.
 
 |projector_source_edit_single|    |projector_source_edit_tabbed|
 
-Once you are satisfied, you can click on the "OK" button to save the changes,
-or click on the "Cancel" button to discard these changes and continue to use
+Once you are satisfied, you can click on the :guilabel:`OK`button to save the changes,
+or click on the :guilabel:`Cancel` button to discard these changes and continue to use
 the previously saved user-defined text (or the PJLink defaults if you have no
 previously saved user-defined text).
 
-If you don't like the changes, the "Reset" button will reset the text back to
+If you don't like the changes, the :guilabel:`Reset` button will reset the text back to
 the previously saved text (or PJLink defaults if you have no previously saved
 user-defined text) and allow you to continue editing.
 
-If you _really_ don't like the text, you can select the "Discard" button and
+If you _really_ don't like the text, you can select the :guilabel:`Discard` button and
 remove all entries from the database. WARNING: This will delete _all_ of the
 user-defined entries for this projector in the database and return them to the
 PJLink defaults.

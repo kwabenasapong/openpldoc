@@ -14,7 +14,7 @@ Projector Settings
 ------------------
 
 The available projector options can be changed using the main settings menu by
-going to Settings -> Configure OpenLP -> Projectors tab.
+going to :guilabel:`Settings` -> :guilabel:`Configure OpenLP` -> :guilabel:`Projectors` tab.
 
 |projector_settings_tab|
 
@@ -34,8 +34,8 @@ The options available are:
     Source select dialog interface: Select whether you want all video source options
     on one dialog page or to use tabs to consolidate the inputs based on video group.
 
-Once you are satisfied with the settings, click on the "OK" button, otherwise click
-on the "Cancel" button to ignore changes and close the dialog.
+Once you are satisfied with the settings, click on the :guilabel:`OK` button, otherwise click
+on the :guilabel:`Cancel` button to ignore changes and close the dialog.
 
 .. _projector_manager:
 

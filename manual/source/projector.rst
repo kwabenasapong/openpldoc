@@ -200,7 +200,7 @@ The icons you will see for the projector are:
 Projector Menus
 ---------------
 
-The projector menu items will vary depending on what the status is of the selected projector.  The icons/options
+The projector menu items will vary depending on what the status is of the selected projector. The icons/options
 available are the same as described above in the icon description section.
 
 .. _projector_menu_initial:
@@ -274,7 +274,7 @@ is to have the selections grouped by type. This option is available in the
 Settings -> Configure OpenLP -> Projectors tab under the "Source Select dialog
 interface" option.
 
-NOTE: These images is an example only - what options you will have will vary
+NOTE: These images are examples only - what options you will have will vary
 depending on the projector you have. These images show the default PJLink text.
 
 |projector_source_select_single|    |projector_source_select_tabbed|

@@ -300,7 +300,7 @@ depending on the projector you have. These images show the default PJLink text.
 
 |projector_source_edit_single|    |projector_source_edit_tabbed|
 
-Once you are satisfied, you can click on the :guilabel:`OK`button to save the changes,
+Once you are satisfied, you can click on the :guilabel:`OK` button to save the changes,
 or click on the :guilabel:`Cancel` button to discard these changes and continue to use
 the previously saved user-defined text (or the PJLink defaults if you have no
 previously saved user-defined text).

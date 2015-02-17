@@ -12,7 +12,7 @@ Getting Started With OpenLP
    install_windows_mac
    install_linux
    install_bsd
-   
+
 Reference Manual
 ----------------
 
@@ -27,6 +27,7 @@ Reference Manual
    mediamanager
    creating_service
    print_service
+   projector
    plugin_list
    display_tags
    configure_shortcuts

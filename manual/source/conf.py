@@ -95,7 +95,7 @@ pygments_style = 'sphinx'
 if sys.argv[2] == 'qthelp' or sys.argv[2] == 'htmlhelp':
     html_theme = 'openlp_qthelp'
 else:
-    html_theme = 'default'
+    html_theme = 'classic'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -226,3 +226,7 @@ man_pages = [
     ('index', 'openlp', u'OpenLP Reference Manual',
      [u'Wesley Stout'], 1)
 ]
+
+# -- Options for apple help output --------------------------------------------
+
+applehelp_bundle_id = 'org.openlp.OpenLP.help'

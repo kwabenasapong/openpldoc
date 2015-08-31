@@ -526,17 +526,72 @@ Android app.
   
 Server Settings- Secure
 ^^^^^^^^^^^^^^^^^^^^^^^
-These options are identical in meaning to the ones documented in non_secure_.
+These options are identical in meaning to the ones documented in :ref:`non_secure`.
 The only difference is these require an SSL cetificate to provide the security.
-Instructions for creating and installing a certificate are documented at
-`Generate SSL certificate <http://wiki.openlp.org/Authentication_and_SSL>`_.
+Instructions for creating and installing a certificate are documented in
+Generate SSL certificate :ref:`ssl_config`.
+
 *Changing from a Secure to Non Secure setup requires a restart of OpenLP.*
 
 User Authentication 
 ^^^^^^^^^^^^^^^^^^^
 This option allows the additional security for update functions via the web or
-android interfaces. Once the userid and password have been accepted then updates
-will be possible for duration of the web session. 
+android interfaces. Once the userid and password have been accepted then
+updates will be possible for duration of the web session. This option can be
+changed without the need to restart OpenLP.
+
+.. _ssl_config:
+
+Generating and Installing a Certificate
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+To make the Remote access run in a secure manner ssl certificates need to be
+provided to OpenLP. This is completely optional. On Linux you will need the
+"openssl" package installed. On Mac OS X openssl should be installed by default.
+On Windows you will need to download OpenSSL for Windows.
+
+First create a configuration file for OpenSSL named openlp.cnf::
+
+      #-------------openssl.cnf----------------
+      [ req ]
+      default_bits = 1024 # Size of keys
+      default_keyfile = key.pem # name of generated keys
+      default_md = des3 # message digest algorithm
+      string_mask = nombstr # permitted characters
+      distinguished_name = req_distinguished_name
+
+      [ req_distinguished_name ]
+      # Variable name   Prompt string
+      0.organizationName = Organization Name (company)
+      organizationalUnitName = Organizational Unit Name (department, division)
+      emailAddress = Email Address
+      emailAddress_max = 40
+      localityName = Locality Name (city, district)
+      stateOrProvinceName = State or Province Name (full name)
+      countryName = Country Name (2 letter code)
+      countryName_min = 2
+      countryName_max = 2
+      commonName = Common Name (hostname, IP, or your name)
+      commonName_max = 64
+
+      #-------------------Edit this section------------------------------
+      countryName_default = --
+      stateOrProvinceName_default = None
+      localityName_default = Everywhere
+      0.organizationName_default = OpenLP
+      organizationalUnitName_default = Remote
+      commonName_default = 0.0.0.0
+      emailAddress_default = openlp@localhost
+
+Then generate your keys and certificate::
+
+      echo openlp | openssl genrsa -passout stdin -des3 -out openlp.key 1024
+      cp openlp.key openlp.key.bak
+      echo openlp | openssl rsa -passin stdin -in openlp.key.bak -out openlp.key
+
+      openssl req -new -key openlp.key -out openlp.csr -config openlp.cnf -batch
+      openssl x509 -req -days 365 -in openlp.csr -signkey openlp.key -out openlp.crt
+
+The crt and key files need to then be placed in {data}/remotes directory.
 
 Android App
 ^^^^^^^^^^^

@@ -529,7 +529,7 @@ Server Settings- Secure
 These options are identical in meaning to the ones documented in non_secure_.
 The only difference is these require an SSL cetificate to provide the security.
 Instructions for creating and installing a certificate are documented at
-`Generate SSL certificate <http://wiki.openlp.org/Authentication_and_SSL>_.
+`Generate SSL certificate <http://wiki.openlp.org/Authentication_and_SSL>`_.
 *Changing from a Secure to Non Secure setup requires a restart of OpenLP.*
 
 User Authentication 

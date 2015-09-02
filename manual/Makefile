@@ -3,7 +3,7 @@
 
 # You can set these variables from the command line.
 SPHINXOPTS    =
-SPHINXBUILD   = sphinx-build-3
+SPHINXBUILD   = `which sphinx-build-3 || which sphinx-build`
 PAPER         =
 
 # Internal variables.

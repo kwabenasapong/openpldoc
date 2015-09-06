@@ -9,7 +9,7 @@ on less powerful hardware but you may not get the performance you desire.
 * 2Ghz CPU
 * 1GB RAM
 * 100MB free disk space
-* Windows Vista/7/8/10, Linux, Mac OS X (10.9 or 10.10), FreeBSD
+* Windows Vista/7/8/10, Linux, Mac OS X (10.8 or later), FreeBSD
 * Multiple Monitor Support is highly recommended (not required)
 * For Presentation support:
 

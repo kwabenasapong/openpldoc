@@ -30,18 +30,18 @@ A variety of places!
 * If you are a member of any Christian Forums or websites, and their rules allow
   it, then perhaps review the software or ask others to review it.
 
-What operating systems will OpenLP 2.0 support?
+What operating systems will OpenLP 2.2 support?
 -----------------------------------------------
 
-OpenLP 2.0 is designed to be cross platform. Currently it has been known to run 
-on Windows (XP, Vista, 7), Linux (Ubuntu/Kubuntu, Fedora), FreeBSD & Mac OSX. 
+OpenLP 2.2 is designed to be cross platform. Currently it has been known to run 
+on Windows (XP, Vista, 7), Linux (Ubuntu/Kubuntu, Fedora), FreeBSD & Mac OS X. 
 `Please let us know <http://wiki.openlp.org/Help:Contents>`_ if you've 
 successfully run it on something else.
 
-Which programming language is 2.0 developed in?
+Which programming language is 2.2 developed in?
 -----------------------------------------------
 
-OpenLP 2.0 is written in `Python <http://www.python.org>`_ and uses the 
+OpenLP 2.2 is written in `Python3 <http://www.python.org>`_ and uses the 
 `Qt4 toolkit <http://qt.nokia.com>`_. Both are cross-platform which allows the 
 software to run on different types of machine and so allow more people access to 
 free worship software. Python is one of the easier programming languages to 
@@ -72,82 +72,28 @@ release then just `download it <http://openlp.org/en/download.html>`_.
 Upgrading
 =========
 
-Does 2.0 replace 1.2, or can they be run side by side?
-------------------------------------------------------
+Can I upgrade from any 1.9.x or 2.0.x to 2.2?
+---------------------------------------------
 
-It is perfectly safe to install 2.0 on a system with 1.2. Both versions are 
-installed in separate places, so you can still go back to 1.2. You can even run 
-them at the same time!
+No, you should first upgrade to the last stable release in the 2.0-series
+(2.0.5) and the upgrade to 2.2 to ensure that data is correctly upgraded.
 
-2.0 stores its data in a separate folder to 1.2, so your data is perfectly safe, 
-and whatever you do in 2.0 will not damage 1.2
-
-Are 1.2 and 2.0 compatible?
----------------------------
-
-No. However imports exist to transfer your data to the new version.
-
-I have a computer that is quite old, should I upgrade?
-------------------------------------------------------
-
-2.0 does require significantly more resources than v1.2. Therefore if your 
-computer does not have much memory you may find 2.0 will struggle, `especially` 
-when changing between slides.
-
-Why can I not see my 1.2 songs, bibles and themes in 2.0?
----------------------------------------------------------
-
-This is an beta release, which means it is not finished and one of the things we 
-haven't completely finished yet is importing 1.2 data automatically. We plan to 
-do this `Version 1.9.6 (beta 2) <http://wiki.openlp.org/Version_2_Milestones#Version_1.9.6_.28beta_2.29>`_.
-
-How do I transfer my 1.2 song database?
+Can I upgrade directly from 1.2 to 2.2?
 ---------------------------------------
 
-In OpenLP 2.0, go to the :menuselection:`File --> Import --> Song` menu.
-In the Wizard that appears, click Next and choose "openlp.org v1.x" from the 
-Format list. Click the search button on the Filename prompt, and at the bottom 
-of the dialog, copy the following into the File name prompt::
+No, you will have to install 2.0.5 first, then import the 1.2 data and then
+upgrade to 2.2. See the 2.0 documentation for how to upgrade from 1.2 to
+2.0.
 
-    %ALLUSERSPROFILE%\Application Data\openlp.org\Data\songs.olp
+Does 2.2 replace 2.0, or can they be run side by side?
+------------------------------------------------------
 
-*(This must be in the popup file chooser dialog. Don't enter it directly into 
-the wizard).*
-
-Click Open, then in the wizard just click Next and wait for the import to complete.
-
-How do I transfer my 1.2 Bibles?
---------------------------------
-
-In OpenLP 2.0, go to the :menuselection:`File --> Import --> Bible` menu.
-In the Wizard that appears, click Next and choose "openlp.org v1.x" from the 
-Format list.
-Click the search button on the Filename prompt, and at the bottom of the dialog, 
-copy the following into the File name prompt::
-
-    %ALLUSERSPROFILE%\Application Data\openlp.org\Data\Bibles
-
-*(This must be in the popup file chooser dialog. Don't enter it directly into 
-the wizard).*
-
-Choose the Bible, Click Open, then in the wizard just click Next, enter the 
-License details, and wait for the import to complete.
-
-How do I transfer my 1.2 Themes?
---------------------------------
-
-In openlp.org v1, export each theme by selecting it in the Theme Manager, and 
-then clicking the picture of a blue folder with red arrow on the Theme Managers 
-toolbox. This theme file can then be imported into V2 using the 
-:menuselection:`File --> Import --> Theme` menu.
-
-I can't get my 2.0 theme to look the same as 1.2
-------------------------------------------------
-
-OpenLP 2.0 is a complete rewrite using a completely different programming 
-language so it would work on different types of system. There are differences in 
-how the old and new languages draw text on the screen, and therefore it is 
-unlikely you'll get an exact match.
+OpenLP 2.2 and 2.0 cannot run side by side. When running 2.2 for first time
+any existing 2.0 data will automatically be upgraded to the 2.2 format.
+Note that OpenLP 2.2 is not backwards compatible with 2.0. Once you have
+upgraded from 2.0, version 2.0 cannot read the upgraded files. OpenLP 2.2 will
+ask if it should make a backup on startup, which can be used in case you want
+to downgrade to 2.0 again.
 
 Using OpenLP
 ============
@@ -157,8 +103,7 @@ I've started OpenLP, but I can't see the songs or bibles section in the Media Ma
 
 When you installed OpenLP, the first time wizard would have asked which plugins 
 you wanted, and songs and bibles should have been selected. If for some reason 
-they were not, then you will need to activate them yourself. See 
-`How do I activate / deactivate a plugin <http://wiki.openlp.org/Bug#How_do_I_activate_.2F_deactivate_a_plugin.3F>`_ 
+they were not, then you will need to activate them yourself. See below
 for instructions.
 
 How do I activate / deactivate a plugin?
@@ -187,9 +132,6 @@ appropriate checkbox(es). Check the applications you require, and then restart
 OpenLP for the change to be detected. 
 Note, PowerPoint Viewer 2010 is not yet supported, use 2003 or 2007.
 
-See also `I'm on Windows and PowerPoint is installed, but it doesn't appear as an option <http://wiki.openlp.org/OpenLP_2_Introduction_and_FAQ#I.27m_on_Windows_and_PowerPoint_is_installed.2C_but_it_doesn.27t_appear_as_an_option>`_
-and `Why is there no presentations plugin available on OS X? <http://wiki.openlp.org/OpenLP_2_Introduction_and_FAQ#Why_is_there_no_presentations_plugin_available_on_OS_X.3F>`_
-
 Why is there no presentations plugin available on OS X?
 -------------------------------------------------------
 
@@ -200,14 +142,19 @@ called pyuno bridge) which could be used by OpenLP. As soon as the
 interoperability component works on OS X we can re-enable the plugin and bundle 
 it. We are really sorry for that.
 
+I'm on Windows and PowerPoint is installed, but it doesn't appear as an option
+------------------------------------------------------------------------------
+
+Try installing the `Visual C++ Runtime Redistributable <http://www.microsoft.com/downloads/details.aspx?FamilyID=9b2da534-3e03-4391-8a4d-074b9f2bc1bf&displaylang=en>`_.
+
 Is it possible to get Bible x? How?
 -----------------------------------
 
-The Bible plugin has a much improved `Import Wizard` which can import Bibles 
+The Bible plugin has a `Import Wizard` which can import Bibles 
 from a variety of sources. The following sources are supported:
 
 CSV
-    The same format as documented for `openlp.org 1.x <http://www.openlp.org/en/documentation/importing_exporting_data/bibles/importing_comma_delimited_files.html>`_.
+    The format is documented in the `OpenLP API documentation <http://docs.openlp.org/plugins/bibles.html#module-openlp.plugins.bibles.lib.csvbible>`_.
 
 OSIS
     An XML format for Bible. You can export Bibles from the `Sword Project <http://www.crosswire.org/sword/software/>`_
@@ -233,6 +180,9 @@ Web Download
     * `Crosswalk <http://biblestudy.crosswalk.com/bibles/>`_
     * `BibleGateway <http://www.biblegateway.com/versions/>`_
     * `BibleServer <http://www.bibleserver.com>`_
+
+Zefania
+   The Zefania project has many bibles available from `their website <http://sourceforge.net/projects/zefania-sharp/files/Bibles/>`_
 
 Why do my Bible verses take a long time to load?
 ------------------------------------------------
@@ -298,8 +248,8 @@ this to us so that OpenLP can be improved. Before reporting any bugs please
 first make sure that there isn't already a bug report about your problem:
 
 #. Check the `Launchpad bug list <https://bugs.launchpad.net/openlp>`_
-#. `OpenLP support System <http://www.support.openlp.org/projects/openlp>`_
-#. Check the `bug reports <http://openlp.org/en/forums/openlp_20/bug_reports.html>`_ forum
+#. `OpenLP support System <http://support.openlp.org/>`_
+#. Check the `<http://forums.openlp.org/>`_ forum
 
 If there **is already a bug report**, you may be able to help by providing 
 further information. However, **if no one else has reported** it yet, then 
@@ -309,9 +259,9 @@ please post a new bug report.
    `bugs list <https://bugs.launchpad.net/openlp>`_ on Launchpad.
 #. Alternatively, if you don't have a Launchpad account and don't want to sign
    up for one, you can post in the
-   `bug reports forum <http://openlp.org/en/forums/openlp_20/bug_reports.html>`_.
+   `bug reports forum <http://support.openlp.org/>`_.
 #. If none of these ways suits you, you can send an email to
-   ``bugs (at) openlp.org``.
+   ``support (at) openlp.org``.
 
 What information should I include in a bug report?
 --------------------------------------------------
@@ -366,7 +316,7 @@ the link to the page that is created.
 Windows
 ^^^^^^^
 
-Find the OpenLP 2.0 folder in your Start menu. Choose the "OpenLP (Debug)" option.
+Find the OpenLP 2.2 folder in your Start menu. Choose the "OpenLP (Debug)" option.
 
 OpenLP will start up. Go to the :menuselection:`Tools --> Open Data Folder` menu 
 option, and an Explorer window will appear containing folders such as alerts, 
@@ -422,11 +372,6 @@ directory::
 
 ``<username>`` is your username.
 
-I'm on Windows and PowerPoint is installed, but it doesn't appear as an option
-------------------------------------------------------------------------------
-
-Try installing the `Visual C++ Runtime Redistributable <http://www.microsoft.com/downloads/details.aspx?FamilyID=9b2da534-3e03-4391-8a4d-074b9f2bc1bf&displaylang=en>`_.
-
 The command line shows many error messages
 ------------------------------------------
 
@@ -465,29 +410,12 @@ Windows & Mac OS X
 Phonon should already be set up properly. If you're still having issues, let the 
 developers know.
 
-I've upgraded from 1.9.2 to a newer version, and now OpenLP crashes on load
----------------------------------------------------------------------------
-
-You need to upgrade your song database. See this `blog post <http://openlp.org/en/users/jt/blog/2010-07-20-flag_day_database_schema_changes_in_trunk_revision_956.html>`_
-for information on how to do this.
-
-I've upgraded to 1.9.5, and now OpenLP has duplicates of many songs in the Media Manager
-----------------------------------------------------------------------------------------
-
-You need to run :menuselection:`Tools --> Re-index Songs`.
-
 There are no menu icons in OpenLP
 ---------------------------------
 
 This may affect (only) Linux users with XFCE or Gnome. To solve the problem,
 follow the instructions on `this bug report <https://bugs.launchpad.net/ubuntu/+source/qt4-x11/+bug/501468/comments/3>`_.
 
-JPEG images don't work
-----------------------
-
-This is a known issue on some Mac OS X 10.5 systems, and has also been seen on 
-Windows XP too. The solution is to convert the image into another format such as 
-PNG.
 
 MP3's and other audio formats don't work
 ----------------------------------------
@@ -509,20 +437,11 @@ this, but there is no timeframe at present.
 Features
 ========
 
-What new features will I find in 2.0?
--------------------------------------
-
-Since 2.0 was a rewrite from the ground up, you won't find a great deal of new 
-features since initially we want to ensure all the 1.2 features are included. 
-However the developers have managed to sneak a few in. Take a look at the 
-`complete list <http://wiki.openlp.org/Version_2_Features>`_.
-
 Why hasn't popular feature request X been implemented?
 ------------------------------------------------------
 
-We made a decision to first implement 1.2 features, before going wild on new 
-features. There are only a handful of developers working in their spare time. If 
-we were to try and include everything we wanted to implement, then 2.0 would not 
+There are only a handful of developers working in their spare time. If 
+we were to try and include everything we wanted to implement, then 2.2 would not 
 likely ever get released.
 
 I have a great idea for a new feature, where should I suggest it?
@@ -530,6 +449,5 @@ I have a great idea for a new feature, where should I suggest it?
 
 First of all check it isn't on the `Feature Requests <http://wiki.openlp.org/Feature_Requests>`_ 
 page. If it is, then you need to say no more, it's already been suggested! If it 
-isn't on the list, then head to the 
-`feature request forum <http://openlp.org/en/forums/openlp_20/feature_requests.html>`_ 
+isn't on the list, then head to the `forum <http://forums.openlp.org>`_ 
 and post the idea there.

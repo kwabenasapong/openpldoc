@@ -264,6 +264,37 @@ X11
   appears to affect different versions and distributions differently, this 
   setting has been added, rather than try and work it out programmatically.
 
+Players
+=======
+
+.. image:: pics/configuremedia.png
+  
+Available Media Players
+^^^^^^^^^^^^^^^^^^^^^^^
+
+Select the media players you want to be available for use. As a general rule the 
+players control the following:
+
+**Phonon:**
+   Phonon is an internal media player which uses your operating system's
+   built-in media player capabilities.
+
+**Webkit:** 
+   WebKit is another internal media player, which adds text-over-video to OpenLP.
+
+**VLC:**
+   This uses the well-known VLC media player to show videos. VLC has a
+   reputation of being able to handle almost any video or audio format.
+
+**Note:** You must have `VLC <http://www.videolan.org/vlc/>`_ installed for the 
+VLC option to be available.
+
+Player Order
+^^^^^^^^^^^^
+
+Determines the preference order of the selected media players. The order is 
+changed by selecting one of the available players and using the 
+:guilabel:`Down` or :guilabel:`Up` button to change the position of the player.
 
 .. _config_songs:
 
@@ -378,37 +409,9 @@ it is resized.
 
 .. _media_configure:
 
+
 Media
 =====
-
-.. image:: pics/configuremedia.png
-  
-Available Media Players
-^^^^^^^^^^^^^^^^^^^^^^^
-
-Select the media players you want to be available for use. As a general rule the 
-players control the following:
-
-**Phonon:**
-   Phonon is an internal media player which uses your operating system's
-   built-in media player capabilities.
-
-**Webkit:** 
-   WebKit is another internal media player, which adds text-over-video to OpenLP.
-
-**VLC:**
-   This uses the well-known VLC media player to show videos. VLC has a
-   reputation of being able to handle almost any video or audio format.
-
-**Note:** You must have `VLC <http://www.videolan.org/vlc/>`_ installed for the 
-VLC option to be available.
-
-Player Order
-^^^^^^^^^^^^
-
-Determines the preference order of the selected media players. The order is 
-changed by selecting one of the available players and using the 
-:guilabel:`Down` or :guilabel:`Up` button to change the position of the player.
 
 Advanced
 ^^^^^^^^
@@ -490,8 +493,10 @@ about this feature here: :ref:`web_remote`.
 **Note:** To use either of these features, your computers will need to be on the 
 same network, wired or wireless. 
 
-Server Settings
-^^^^^^^^^^^^^^^
+.. _non_secure:
+
+Server Settings- Non Secure
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: pics/configureremotes.png
 
@@ -518,6 +523,75 @@ Android app.
   smartphone, to view the live service display in a basic black and white 
   format. This URL shows the address you will use in the remote browser for 
   stage view.
+  
+Server Settings- Secure
+^^^^^^^^^^^^^^^^^^^^^^^
+These options are identical in meaning to the ones documented in :ref:`non_secure`.
+The only difference is these require an SSL cetificate to provide the security.
+Instructions for creating and installing a certificate are documented in
+Generate SSL certificate :ref:`ssl_config`.
+
+*Changing from a Secure to Non Secure setup requires a restart of OpenLP.*
+
+User Authentication 
+^^^^^^^^^^^^^^^^^^^
+This option allows the additional security for update functions via the web or
+android interfaces. Once the userid and password have been accepted then
+updates will be possible for duration of the web session. This option can be
+changed without the need to restart OpenLP.
+
+.. _ssl_config:
+
+Generating and Installing a Certificate
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+To make the Remote access run in a secure manner ssl certificates need to be
+provided to OpenLP. This is completely optional. On Linux you will need the
+"openssl" package installed. On Mac OS X openssl should be installed by default.
+On Windows you will need to download OpenSSL for Windows.
+
+First create a configuration file for OpenSSL named openlp.cnf::
+
+      #-------------openssl.cnf----------------
+      [ req ]
+      default_bits = 1024 # Size of keys
+      default_keyfile = key.pem # name of generated keys
+      default_md = des3 # message digest algorithm
+      string_mask = nombstr # permitted characters
+      distinguished_name = req_distinguished_name
+
+      [ req_distinguished_name ]
+      # Variable name   Prompt string
+      0.organizationName = Organization Name (company)
+      organizationalUnitName = Organizational Unit Name (department, division)
+      emailAddress = Email Address
+      emailAddress_max = 40
+      localityName = Locality Name (city, district)
+      stateOrProvinceName = State or Province Name (full name)
+      countryName = Country Name (2 letter code)
+      countryName_min = 2
+      countryName_max = 2
+      commonName = Common Name (hostname, IP, or your name)
+      commonName_max = 64
+
+      #-------------------Edit this section------------------------------
+      countryName_default = --
+      stateOrProvinceName_default = None
+      localityName_default = Everywhere
+      0.organizationName_default = OpenLP
+      organizationalUnitName_default = Remote
+      commonName_default = 0.0.0.0
+      emailAddress_default = openlp@localhost
+
+Then generate your keys and certificate::
+
+      echo openlp | openssl genrsa -passout stdin -des3 -out openlp.key 1024
+      cp openlp.key openlp.key.bak
+      echo openlp | openssl rsa -passin stdin -in openlp.key.bak -out openlp.key
+
+      openssl req -new -key openlp.key -out openlp.csr -config openlp.cnf -batch
+      openssl x509 -req -days 365 -in openlp.csr -signkey openlp.key -out openlp.crt
+
+The crt and key files need to then be placed in {data}/remotes directory.
 
 Android App
 ^^^^^^^^^^^

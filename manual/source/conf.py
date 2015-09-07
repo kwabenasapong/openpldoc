@@ -102,12 +102,7 @@ else:
 # documentation.
 #if sys.argv[2] == 'html':
 #    html_theme_options = {
-#        'sidebarbgcolor': '#3a60a9',
-#        'relbarbgcolor': '#203b6f',
-#        'footerbgcolor': '#26437c',
-#        'headtextcolor': '#203b6f',
-#        'linkcolor': '#26437c',
-#        'sidebarlinkcolor': '#ceceff'
+#    ...
 #    }
 
 # Add any paths that contain custom themes here, relative to this directory.

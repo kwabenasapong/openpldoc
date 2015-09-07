@@ -10,7 +10,7 @@ Can I help with OpenLP?
 
 OpenLP is possible because of the commitment of individuals. If you would like 
 to help there are several things that you can get involved with. Please see: 
-`Contributing <http://openlp.org/en/documentation/introduction/contributing.html>`_ 
+`Contributing <http://wiki.openlp.org/Development:Getting_Started>`_ 
 for more information.
 
 I use and like OpenLP and would like to tell others online. Where can I do this?
@@ -34,7 +34,7 @@ What operating systems will OpenLP 2.2 support?
 -----------------------------------------------
 
 OpenLP 2.2 is designed to be cross platform. Currently it has been known to run 
-on Windows (XP, Vista, 7), Linux (Ubuntu/Kubuntu, Fedora), FreeBSD & Mac OS X. 
+on Windows (XP, Vista, 7, 8, 10), Linux (Ubuntu/Kubuntu, Fedora), FreeBSD & Mac OS X.
 `Please let us know <http://wiki.openlp.org/Help:Contents>`_ if you've 
 successfully run it on something else.
 
@@ -72,11 +72,11 @@ release then just `download it <http://openlp.org/en/download.html>`_.
 Upgrading
 =========
 
-Can I upgrade from any 1.9.x or 2.0.x to 2.2?
----------------------------------------------
+Can I upgrade from any 1.9.x or 2.0.x release to 2.2?
+-----------------------------------------------------
 
 No, you should first upgrade to the last stable release in the 2.0-series
-(2.0.5) and the upgrade to 2.2 to ensure that data is correctly upgraded.
+(2.0.5) and then upgrade to 2.2 to ensure that data is correctly converted.
 
 Can I upgrade directly from 1.2 to 2.2?
 ---------------------------------------
@@ -89,11 +89,14 @@ Does 2.2 replace 2.0, or can they be run side by side?
 ------------------------------------------------------
 
 OpenLP 2.2 and 2.0 cannot run side by side. When running 2.2 for first time
-any existing 2.0 data will automatically be upgraded to the 2.2 format.
+any existing 2.0 data will automatically be converted to the 2.2 format.
 Note that OpenLP 2.2 is not backwards compatible with 2.0. Once you have
 upgraded from 2.0, version 2.0 cannot read the upgraded files. OpenLP 2.2 will
 ask if it should make a backup on startup, which can be used in case you want
 to downgrade to 2.0 again.
+
+OpenLP 2.2 cannot read service files created by OpenLP 2.0.4 and earlier, it can only
+read service files created by OpenLP 2.0.5.
 
 Using OpenLP
 ============

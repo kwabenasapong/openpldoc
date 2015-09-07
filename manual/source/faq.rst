@@ -34,7 +34,7 @@ What operating systems will OpenLP 2.2 support?
 -----------------------------------------------
 
 OpenLP 2.2 is designed to be cross platform. Currently it has been known to run 
-on Windows (XP, Vista, 7, 8, 10), Linux (Ubuntu/Kubuntu, Fedora), FreeBSD & Mac OS X.
+on Windows (Vista, 7, 8, 10), Linux (Ubuntu/Kubuntu, Fedora), FreeBSD & Mac OS X.
 `Please let us know <http://wiki.openlp.org/Help:Contents>`_ if you've 
 successfully run it on something else.
 
@@ -135,15 +135,21 @@ appropriate checkbox(es). Check the applications you require, and then restart
 OpenLP for the change to be detected. 
 Note, PowerPoint Viewer 2010 is not yet supported, use 2003 or 2007.
 
-Why is there no presentations plugin available on OS X?
--------------------------------------------------------
+Why can LibreOffice Impress not be used on Mac OS X?
+----------------------------------------------------
 
-Currently the presentations plugin is not bundled with OpenLP on OS X. The 
-reason for that is that the OpenOffice.org version on Mac OS X does not contain 
-the (more exact: does only contain a broken) interoperability component (the so 
-called pyuno bridge) which could be used by OpenLP. As soon as the 
-interoperability component works on OS X we can re-enable the plugin and bundle 
-it. We are really sorry for that.
+Currently the presentations plugin does not support Impress on OS X. The 
+reason for that is that the interoperability component (pyuno) in LibreOffice on
+Mac OS X cannot be used by OpenLP due to incompatibilities between the version
+of Python used by LibreOffice and the Python version used by OpenLP.
+
+Why can MS PowerPoint not be used on Mac OS X?
+----------------------------------------------------
+
+Currently the presentations plugin does not support PowerPoint on OS X. The 
+reason for that is that so far we have found that the available method to
+control PowerPoint on OS X is not good enough for integration with OpenLP.
+If this changes we will look at including this feature.
 
 I'm on Windows and PowerPoint is installed, but it doesn't appear as an option
 ------------------------------------------------------------------------------
@@ -285,9 +291,9 @@ Version of OpenLP
 Steps to Reproduce
     The exact steps the developers need to follow in order to reproduce the bug.
 
-Version of MS Office or OpenOffice
+Version of MS Office or LibreOffice
     If you're using the song imports or the presentation plugin, you'll need to
-    supply the version of Office, OpenOffice.org or LibreOffice.
+    supply the version of Office or LibreOffice.
 
 Bible Translation and Source
     If the bug occurred while you were working with Bibles, specify the
@@ -423,8 +429,7 @@ follow the instructions on `this bug report <https://bugs.launchpad.net/ubuntu/+
 MP3's and other audio formats don't work
 ----------------------------------------
 
-This is a known issue on some systems, including some XP machines, and we have 
-no solution at the moment.
+This is a known issue on some systems, and we have no solution at the moment.
 
 Videos can be slow or pixelated. Background Videos are very slow
 ----------------------------------------------------------------

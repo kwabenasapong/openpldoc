@@ -35,7 +35,7 @@ What operating systems will OpenLP 2.2 support?
 
 OpenLP 2.2 is designed to be cross platform. Currently it has been known to run 
 on Windows (Vista, 7, 8, 10), Linux (Ubuntu/Kubuntu, Fedora), FreeBSD & Mac OS X.
-`Please let us know <http://wiki.openlp.org/Help:Contents>`_ if you've 
+`Please let us know <http://wiki.openlp.org/Help:Contents>`_ if you have 
 successfully run it on something else.
 
 Which programming language is 2.2 developed in?
@@ -61,11 +61,11 @@ What is a beta release?
 
 A beta release is a release which is almost feature complete and is fairly 
 stable. However there may still be a few `features <http://wiki.openlp.org/Version_2_Features>`_ 
-to complete, and `bugs <https://bugs.launchpad.net/openlp>`_ we've not yet fixed. 
+to complete, and `bugs <https://bugs.launchpad.net/openlp>`_ we have not yet fixed. 
 It is used by several people without serious problems. However there is a small 
 possibility that it could still crash occasionally or do unexpected things. It 
 is intended for those who want the latest version, and are prepared to give the 
-program a good test before using it in a live situation to ensure they won't 
+program a good test before using it in a live situation to ensure they will not 
 encounter any unexpected problems. If you want to have a look at the latest beta 
 release then just `download it <http://openlp.org/en/download.html>`_.
 
@@ -101,8 +101,8 @@ read service files created by OpenLP 2.0.5.
 Using OpenLP
 ============
 
-I've started OpenLP, but I can't see the songs or bibles section in the Media Manager
--------------------------------------------------------------------------------------
+I have started OpenLP, but I cannot see the songs or bibles section in the Media Manager
+----------------------------------------------------------------------------------------
 
 When you installed OpenLP, the first time wizard would have asked which plugins 
 you wanted, and songs and bibles should have been selected. If for some reason 
@@ -113,7 +113,7 @@ How do I activate / deactivate a plugin?
 ----------------------------------------
 
 Plugins can be turned on and off from the Plugin List Screen. Select the plugin 
-you wish to start/stop and change it's status. You should not need to restart 
+you wish to start/stop and change its status. You should not need to restart 
 OpenLP.
 
 What are these plugins that I keep seeing mentioned?
@@ -144,15 +144,15 @@ Mac OS X cannot be used by OpenLP due to incompatibilities between the version
 of Python used by LibreOffice and the Python version used by OpenLP.
 
 Why can MS PowerPoint not be used on Mac OS X?
-----------------------------------------------------
+----------------------------------------------
 
 Currently the presentations plugin does not support PowerPoint on OS X. The 
 reason for that is that so far we have found that the available method to
 control PowerPoint on OS X is not good enough for integration with OpenLP.
 If this changes we will look at including this feature.
 
-I'm on Windows and PowerPoint is installed, but it doesn't appear as an option
-------------------------------------------------------------------------------
+I am on Windows and PowerPoint is installed, but it does not appear as an option
+--------------------------------------------------------------------------------
 
 Try installing the `Visual C++ Runtime Redistributable <http://www.microsoft.com/downloads/details.aspx?FamilyID=9b2da534-3e03-4391-8a4d-074b9f2bc1bf&displaylang=en>`_.
 
@@ -200,10 +200,10 @@ In order to better conform to copyright law, the Web Download Bibles are not
 downloaded when you import them, but on the fly as you search for them. As a 
 result, the search takes a little longer if you need to download those 
 particular verses. Having said that, the Web Download Bibles cache downloaded 
-verses so that you don't need to download them again.
+verses so that you do not need to download them again.
 
-My Bible is on the Web Download sites, but my Church isn't on the internet. What options do I have?
----------------------------------------------------------------------------------------------------
+My Bible is on the Web Download sites, but my Church is not on the internet. What options do I have?
+----------------------------------------------------------------------------------------------------
 
 When you create and save a service, all the items in the service are saved with 
 it. That means any images, presentations, songs and media items are saved. This 
@@ -218,7 +218,7 @@ Note this can also be done with songs, etc!
 Linux, FreeBSD & PC-BSD
 -----------------------
 
-If your distribution supports the XDG standard, you'll find OpenLP's 
+If your distribution supports the XDG standard, you will find OpenLP's 
 configuration file in::
 
     /home/<user>/.config/OpenLP/OpenLP.conf
@@ -232,7 +232,7 @@ If that file and/or directory does not exist, look for::
 OS X
 ----
 
-You'll find your configuration file here::
+You will find your configuration file here::
 
     /Users/<user>/Library/Preferences/org.openlp.OpenLP.plist
 
@@ -254,7 +254,7 @@ Something has gone wrong, what should I do to help get it fixed?
 
 If you have found an error in the program (what we call a bug) you should report 
 this to us so that OpenLP can be improved. Before reporting any bugs please 
-first make sure that there isn't already a bug report about your problem:
+first make sure that there is not already a bug report about your problem:
 
 #. Check the `Launchpad bug list <https://bugs.launchpad.net/openlp>`_
 #. `OpenLP support System <http://support.openlp.org/>`_
@@ -266,7 +266,7 @@ please post a new bug report.
 
 #. The **preferred place** for reporting bugs is the
    `bugs list <https://bugs.launchpad.net/openlp>`_ on Launchpad.
-#. Alternatively, if you don't have a Launchpad account and don't want to sign
+#. Alternatively, if you do not have a Launchpad account and do not want to sign
    up for one, you can post in the
    `bug reports forum <http://support.openlp.org/>`_.
 #. If none of these ways suits you, you can send an email to
@@ -276,14 +276,14 @@ What information should I include in a bug report?
 --------------------------------------------------
 
 Since OpenLP 1.9.4, there is a bug report dialog which automatically opens when
-OpenLP hits a serious bug. However, this doesn't appear all the time, and in
-some behavioural bugs, you'll have to file a bug report yourself. The following
+OpenLP hits a serious bug. However, this does not appear all the time, and in
+some behavioural bugs, you will have to file a bug report yourself. The following
 items are information the developers need in order to reproduce the bug.
 
 Operating System
     Include information such as the version of your operating system, the
-    distribution (e.g. Ubuntu, Fedora, etc.) if you're using Linux, or the
-    edition (e.g. Home, Basic, Business, etc.) if you're using Windows.
+    distribution (e.g. Ubuntu, Fedora, etc.) if you are using Linux, or the
+    edition (e.g. Home, Basic, Business, etc.) if you are using Windows.
 
 Version of OpenLP
     You can find out the version of OpenLP by going to :menuselection:`Help --> About`
@@ -292,7 +292,7 @@ Steps to Reproduce
     The exact steps the developers need to follow in order to reproduce the bug.
 
 Version of MS Office or LibreOffice
-    If you're using the song imports or the presentation plugin, you'll need to
+    If you are using the song imports or the presentation plugin, you will need to
     supply the version of Office or LibreOffice.
 
 Bible Translation and Source
@@ -307,8 +307,8 @@ Bible Translation and Source
 
 The more information you give us, the better we can help you.
 
-I've been asked to email a debug log, where do I find this?
------------------------------------------------------------
+I have been asked to email a debug log, where do I find this?
+-------------------------------------------------------------
 
 We may need a debug log to help pin-point the issue. A new log file is created 
 each time you start OpenLP so copy the file before you run the software a second 
@@ -316,7 +316,7 @@ time. On Windows a Debug option is available in the start menu. On other systems
 you will need to run OpenLP from the command line, with the following 
 option: ```-l debug```. Please note, that is a lowercase **L**.
 
-If you haven't been given a specific email address to send it to, then please do 
+If you have not been given a specific email address to send it to, then please do 
 not paste the log contents straight into a forum post. Instead, open the log 
 file in a text editor (such as notepad on Windows) and copy and paste the 
 contents into somewhere like `pastebin.com <http://pastebin.com>`_. Then give us 
@@ -344,15 +344,15 @@ If you installed OpenLP from a package::
 
     @:~$ openlp -l debug
 
-Alternately, if you're running OpenLP from source::
+Alternately, if you are running OpenLP from source::
 
     @:~$ ./openlp.pyw -l debug
 
-If your Linux distribution supports the XDG standard, you'll find the log in::
+If your Linux distribution supports the XDG standard, you will find the log in::
 
     ~/.cache/openlp/openlp.log
 
-Otherwise, you'll find the log file in::
+Otherwise, you will find the log file in::
 
     ~/.openlp/openlp.log
 
@@ -372,7 +372,7 @@ And then run OpenLP in debug mode::
 
     @:~$ ./openlp -l debug
 
-Once you've done that, you need to get the log file. In your home directory, 
+Once you have done that, you need to get the log file. In your home directory, 
 open the Library directory, and the Application Support directory within that. 
 Then open the openlp directory, and you should find the openlp.log file in that 
 directory::
@@ -398,17 +398,17 @@ for Phonon.
 Linux/FreeBSD
 ^^^^^^^^^^^^^
 
-If you're using Gnome, you need to install the GStreamer backend for Phonon. On 
+If you are using Gnome, you need to install the GStreamer backend for Phonon. On 
 Ubuntu you would install the ```phonon-backend-gstreamer``` package::
 
     @:~$ sudo aptitude install phonon-backend-gstreamer
 
-If you're using KDE, you need to install the Xine backend for Phonon. On Kubuntu 
+If you are using KDE, you need to install the Xine backend for Phonon. On Kubuntu 
 you would install the ```phonon-backend-xine``` package::
 
     @:~$ sudo aptitude install phonon-backend-xine
 
-If you know which audiovisual system you're using, then install the appropriate 
+If you know which audiovisual system you are using, then install the appropriate 
 backend.
 
 phonon-backend-vlc may also be worth trying on some systems.
@@ -416,7 +416,7 @@ phonon-backend-vlc may also be worth trying on some systems.
 Windows & Mac OS X
 ^^^^^^^^^^^^^^^^^^
 
-Phonon should already be set up properly. If you're still having issues, let the 
+Phonon should already be set up properly. If you are still having issues, let the 
 developers know.
 
 There are no menu icons in OpenLP
@@ -426,8 +426,8 @@ This may affect (only) Linux users with XFCE or Gnome. To solve the problem,
 follow the instructions on `this bug report <https://bugs.launchpad.net/ubuntu/+source/qt4-x11/+bug/501468/comments/3>`_.
 
 
-MP3's and other audio formats don't work
-----------------------------------------
+MP3's and other audio formats do not work
+-----------------------------------------
 
 This is a known issue on some systems, and we have no solution at the moment.
 
@@ -445,8 +445,8 @@ this, but there is no timeframe at present.
 Features
 ========
 
-Why hasn't popular feature request X been implemented?
-------------------------------------------------------
+Why has popular feature request X not been implemented?
+-------------------------------------------------------
 
 There are only a handful of developers working in their spare time. If 
 we were to try and include everything we wanted to implement, then 2.2 would not 
@@ -455,7 +455,7 @@ likely ever get released.
 I have a great idea for a new feature, where should I suggest it?
 -----------------------------------------------------------------
 
-First of all check it isn't on the `Feature Requests <http://wiki.openlp.org/Feature_Requests>`_ 
-page. If it is, then you need to say no more, it's already been suggested! If it 
-isn't on the list, then head to the `forum <http://forums.openlp.org>`_ 
+First of all check it is not on the `Feature Requests <http://wiki.openlp.org/Feature_Requests>`_ 
+page. If it is, then you need to say no more, it has already been suggested! If it 
+is not on the list, then head to the `forum <http://forums.openlp.org>`_ 
 and post the idea there.

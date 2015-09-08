@@ -34,7 +34,8 @@ What operating systems will OpenLP 2.2 support?
 -----------------------------------------------
 
 OpenLP 2.2 is designed to be cross platform. Currently it has been known to run 
-on Windows (Vista, 7, 8, 10), Linux (Ubuntu/Kubuntu, Fedora), FreeBSD & Mac OS X.
+on Windows (Vista, 7, 8, 10), Linux (Ubuntu and its variants, Fedora, Debian,
+ArchLinux, Mint, OpenSUSE and many many others), FreeBSD & Mac OS X.
 `Please let us know <http://wiki.openlp.org/Help:Contents>`_ if you have 
 successfully run it on something else.
 

@@ -57,19 +57,6 @@ OpenLP has support for multiple languages which can be seen on the
 are incomplete. If you would like to help complete or start to translate OpenLP 
 into your language then see the `Getting started page <http://wiki.openlp.org/Translation:Getting_Started>`_. 
 
-What is a beta release?
------------------------
-
-A beta release is a release which is almost feature complete and is fairly 
-stable. However there may still be a few `features <http://wiki.openlp.org/Version_2_Features>`_ 
-to complete, and `bugs <https://bugs.launchpad.net/openlp>`_ we have not yet fixed. 
-It is used by several people without serious problems. However there is a small 
-possibility that it could still crash occasionally or do unexpected things. It 
-is intended for those who want the latest version, and are prepared to give the 
-program a good test before using it in a live situation to ensure they will not 
-encounter any unexpected problems. If you want to have a look at the latest beta 
-release then just `download it <http://openlp.org/en/download.html>`_.
-
 Upgrading
 =========
 

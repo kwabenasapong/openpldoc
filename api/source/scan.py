@@ -99,7 +99,7 @@ def main():
     pkg = pkgutil.walk_packages([path_to_code], onerror=print)
 
     for importer, module, package in pkg:
-        if module.startswith('openlp'):
+        if module.startswith('openlp') and not module.endswith(('vendor', 'vlc')):
             path = os.path.join(root_path, module.replace('.', os.path.sep))
             if package:
                 if not os.path.exists(path):

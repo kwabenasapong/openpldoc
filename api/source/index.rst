@@ -10,6 +10,14 @@ Welcome to the OpenLP 2.2 API Documentation! In here you will find all
 information relating to OpenLP's core classes, core plugins, and anything else
 deemed necessary or interesting by the developers.
 
+Documentation:
+
+.. toctree::
+   :glob:
+   :maxdepth: 2
+
+   doc/*
+
 API Documentation:
 
 .. toctree::
@@ -17,14 +25,6 @@ API Documentation:
    :maxdepth: 2
 
    api/*
-
-Documentation:
-
-.. toctree::
-  :glob:
-  :maxdepth: 2
-
-  doc/*
 
 Indices and tables
 ==================

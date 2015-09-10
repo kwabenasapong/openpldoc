@@ -153,9 +153,12 @@ you should now be ready to use the web Bible.
 Importing CSV formatted Bibles
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you have a Bible in .csv format OpenLP can import it. CSV Bibles will
-consist of two files a `books` file and a `verse` file. Select CSV from the list
-of Bible types to import.
+If you have a Bible in .csv format OpenLP can import it. If you wish to create
+a bible in the CSV format yourself the format is documented in the 
+`OpenLP API documentation <http://docs.openlp.org/plugins/bibles.html#module-openlp.plugins.bibles.lib.csvbible>`_.
+
+CSV Bibles will consist of two files a `books` file and a `verse` file. 
+Select CSV from the list of Bible types to import.
 
 You are now ready to select your .csv files. You will need to select both your
 books and verse file location.

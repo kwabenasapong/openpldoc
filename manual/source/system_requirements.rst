@@ -9,14 +9,13 @@ on less powerful hardware but you may not get the performance you desire.
 * 2Ghz CPU
 * 1GB RAM
 * 100MB free disk space
-* Windows XP/Vista/Windows 7, Linux, Mac OS X (10.5 or 10.6), Free BSD
+* Windows Vista/7/8/10, Linux, Mac OS X (10.8 or later), FreeBSD
 * Multiple Monitor Support is highly recommended (not required)
 * For Presentation support:
 
-  * Windows: PowerPoint XP or later, PowerPoint Viewer 2003 or 2007,
-    OpenOffie.org Impress 3.2 or LibreOffice Impress 3.3
-  * Linux: OpenOffice.org Impress 3.2 or LibreOffice Impress 3.3
+  * Windows: PowerPoint XP or later, PowerPoint Viewer 2003 or 2007 (not 2010)
+    or LibreOffice Impress 4 or later
+  * Linux: LibreOffice Impress 4 or later
   * Mac: Not supported yet
 * The Generic Document/Presentation and Songs of Fellowship song import options
-  require OpenOffice.org 3.2 or LibreOffice 3.3
-  
+  require LibreOffice 4 or later

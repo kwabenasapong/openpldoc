@@ -136,8 +136,8 @@ next screen.
 Click on :guilabel:`Go Live` to immediately display your media on the projection 
 screen. Click on :guilabel:`Add to Service` to add your media to the bottom of 
 the :ref:`creating_service`. Click on :guilabel:`Add & Go to Service` to add
-your media to the bottom of the :ref:`creating_service`, and go to the webremote
-servicemanager.
+your media to the bottom of the :ref:`creating_service`, and go to the web
+remote service manager.
 
 .. These are all the image templates that are used in this page.
 

@@ -75,7 +75,7 @@ and make sure that the selected value for :guilabel:`Multiple displays` is
 .. image:: pics/screen-res-win10.png
 
 On Windows 10 there is also a different way of configuring your screens. By
-right-clicking on the desktop an choosing :guilabel:`Display settings` a
+right-clicking on the desktop and choosing :guilabel:`Display settings` a
 different configuration window will appear.
 
 .. image:: pics/new-display-settings-win10.png

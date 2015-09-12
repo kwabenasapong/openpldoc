@@ -15,7 +15,7 @@ instructions and settings in :ref:`remote_tab`.
 
 Open a web browser, type in the Stage View URL you found in :ref:`remote_tab` 
 and press the :kbd:`Enter` key. For this example we will use 
-\http://192.168.0.101:4316/stage. You will then be presented with the home page 
+\http://192.168.1.73:4316/stage. You will then be presented with the home page 
 of the OpenLP Stage View. On most browsers you can press F11 to go into
 fullscreen mode.
 
@@ -55,6 +55,6 @@ instructions and settings in :ref:`remote_tab`.
 
 Open a web browser, type in the Main View URL you found in :ref:`remote_tab` 
 and press the :kbd:`Enter` key. For this example we will use 
-\http://192.168.0.101:4316/main. You will then be presented with the home page 
-of the OpenLP Live View. On most browsers you can press F11 to go into
+\http://192.168.1.73:4316/main. You will then be presented with the home page 
+of the OpenLP Live View. On most web browsers you can press F11 to go into
 fullscreen mode.

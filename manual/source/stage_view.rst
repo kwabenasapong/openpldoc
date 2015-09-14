@@ -41,7 +41,7 @@ The Live View
 =============
 
 Live view gives you the ability to set up remote computers that will mirror
-what your projector is showing. The Live view basically woks by taking
+what your projector is showing. The Live view basically works by taking
 screenshots of what the projector is showing and then presenting it in a
 browser. This means that audio and video playback will not be presented in the
 Live View.

@@ -28,29 +28,27 @@ Click on the file folder icon to choose the file of the song database you
 want to import. See the following sections for information on some of the 
 different formats that OpenLP will import.
 
-Importing from OpenLP Version 1
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Importing from OpenLyrics or OpenLP 2.0 Exported Song
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Converting from OpenLP Version 1 is a simple process. First you will 
-need to locate your version 1 database file.
+OpenLyrics is an open format for song lyrics defined at `openlyrics.info
+<openlyrics.info>`_, and is the format the OpenLP can export songs to, see
+:ref:`export_songs`. 
 
-Windows XP::
+.. image:: pics/selectsongs.png
 
-    C:\Documents and Settings\All Users\Application Data\openlp.org\Data\songs.olp
+To import press :guilabel:`Add Files...` and select the OpenLyrics files.
+Then press :guilabel:`Next` to import the files.
 
-Windows Vista / Windows 7::
+Importing from EasyWorship Song Database
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-    C:\ProgramData\openlp.org\Data\songs.olp
+OpenLP can import the song database from EasyWorship 2007 and 2009. To import
+songs from EasyWorships database you must find and select the file
+:file:`Songs.DB`. You will normally find the file in
+:file:`C:\\Users\\Public\\Documents\\Softouch\\EasyWorship\\Default\\Databases\\Data\\`.
 
-After clicking :guilabel:`Next` your conversion will be complete. 
-
-.. image:: pics/finishedimport.png
-
-Press :guilabel:`Finish` and you will now be ready to use your OpenLP 
-version 1 songs.
-
-**Note:** To retain a theme assigned to a song, you must import your themes
-first.
+OpenLP will import all the songs it finds in the database.
 
 Importing from OpenSong
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -61,8 +59,6 @@ songs will be located in a folder named :guilabel:`Songs`. This folder will
 contain files with all your songs in them, without a file extension (file.xxx).
 When you have located this folder you will need to select the songs from
 the folder.
-
-.. image:: pics/selectsongs.png
 
 On most operating systems, to select all the songs, first select the first song
 in the list, press the shift key, and select the last song in the list. After
@@ -131,7 +127,7 @@ contain a collection of files such as :file:`Data.tdbd` and
 
         C:\Documents and Settings\All Users\ZionWorx\2.6\Data
 
-    Default location for ZionWorx 2.6 on Windows Vista / Windows 7:: 
+    Default location for ZionWorx 2.6 on Windows Vista or later:: 
 
         C:\ProgramData\ZionWorx\2.6\Data
 
@@ -245,6 +241,9 @@ will see the notification at the bottom left of the window saying "**Warning:**
 Not all of the verses are in use."
 
 .. image:: pics/song_edit_verse_in_use.png 
+
+If you have not entered a verse order you will in the same place see a
+notification saying "**Warning:** You have not entered a verse order."
 
 **Clone:** 
     OpenLP gives you the ability to clone a song. This could be useful if you 

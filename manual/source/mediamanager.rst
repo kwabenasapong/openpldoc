@@ -123,8 +123,8 @@ The following options are available on the quick search tab:
     |search_options|
 
     |search_reference| **Scripture Reference:**
-        Search for a specific verse using a scripture reference format. The 
-        following formats are supported:
+        Search for a specific verse using a scripture reference format. Below 
+        is some examples on supported formats:
 
         * Book Chapter
         * Book Chapter-Chapter
@@ -133,6 +133,17 @@ The following options are available on the quick search tab:
         * Book Chapter:Verse-Verse, Verse-Verse
         * Book Chapter:Verse-Verse, Chapter:Verse-Verse
         * Book Chapter:Verse-Chapter:Verse
+
+        Note that the separators might change depending on the language chosen
+        for OpenLP. See and customise separators under
+        :menuselection:`Setttings --> Configure OpenLP` on the *Bibles* tab.
+        
+        A detailed description of the format and how it is parsed by OpenLP can
+        be read `In the OpenLP API documentation
+        <http://docs.openlp.org/plugins/bibles.html#openlp.plugins.bibles.lib.parse_reference>`_.
+
+        If an invalid format is used for a search a popup window will show the
+        examples also shown above.
 
     |search_text| **Text Search:**
         Search by a keyword or words. Use more words to narrow down the list

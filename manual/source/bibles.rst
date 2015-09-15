@@ -52,24 +52,6 @@ It may take some time to import your Bible so please be patient.
 When the import has finished click :guilabel:`Finish` and you should be
 ready to use your Bible in OpenLP.
 
-Importing from openlp.org 1.x
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Importing Bibles from openlp.org 1.x is a simple process. First you will need to
-locate your version 1.x Bibles. Version 1.x Bibles have the `.bible` file
-extension.
-
-Windows XP::
-
-    C:\Documents and Settings\All Users\Application Data\openlp.org\Data\Bibles\
-
-Windows Vista / Windows 7::
-
-    C:\ProgramData\openlp.org\Data\Bibles\
-
-After selecting all of the openlp.org 1.x Bibles you want to convert, click
-:guilabel:`Next` to continue the import process.
-
 Importing OSIS Bibles
 ^^^^^^^^^^^^^^^^^^^^^
 
@@ -113,9 +95,12 @@ contain files with all your Bibles in them without a file extension. (file.xmms)
 When you have located this folder you will need to select the Bible from the
 folder.
 
-You may also import downloaded Bibles from OpenSong. The process is the same,
+You may also import downloaded Bibles from `OpenSongs webpage (scroll down to
+find bibles) <http://opensong.org/pages/downloads.html>`_. The process is the same,
 except you will need to extract the Bible from a zip file. This is usually done
 by right clicking on the downloaded file and select `Extract` or `Extract Here`.
+Note that some of the bibles on OpenSongs webpage are actually in the Zefania
+format, which OpenLP can also import, see :ref:`zefaniaimport`.
 
 After selecting the OpenSong Bibles you want to import, follow the rest of the
 import process. When the import has finished you should be ready to use your
@@ -167,3 +152,18 @@ books and verse file location.
 
 After you have selected the file locations you can continue with the import
 process. Once it is complete you should be ready to use your imported CSV Bible.
+
+.. _zefaniaimport:
+
+Importing Zefania Bibles
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+The Zefania project has many Bibles available from `their website
+<http://sourceforge.net/projects/zefania-sharp/files/Bibles/>`_.
+Find the Bible you would like to import and download the file. The downloaded
+file is a zip-file from which the Bible must be extracted. This is usually done
+by right clicking on the downloaded file and select `Extract` or `Extract Here`.
+
+You can now simply select the extracted file for import and click
+:guilabel:`Next` to continue the import process. When your import is completed
+you should now be ready to use the imported Zefania Bible.

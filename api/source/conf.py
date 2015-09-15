@@ -349,4 +349,5 @@ autosummary_generate = True
 
 autodoc_default_flags = ['members', 'undoc-members', 'show-inheritance']
 
-autodoc_mock_imports = ['pyodbc', 'uno', 'PyQt4.phonon', 'com.sun.star.connection', 'com.sun.star.beans']
+autodoc_mock_imports = ['pyodbc', 'uno', 'PyQt4.phonon', 'com.sun.star.connection', 'com.sun.star.beans',
+                        'PyQt4.QtCore']

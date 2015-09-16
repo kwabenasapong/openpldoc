@@ -263,7 +263,7 @@ the "Source Select dialog interface" option.
 NOTE: These images are examples only - what options you will have will vary
 depending on the projector you have. These images show the default PJLink text.
 
-|projector_source_select_single|    |projector_source_select_tabbed|
+|projector_source_select_tabbed|
 
 
 .. _projector_video_source_edit:
@@ -278,7 +278,7 @@ bring up the source edit dialog box.
 NOTE: These images are examples only - what options you will have will vary
 depending on the projector you have. These images show the default PJLink text.
 
-|projector_source_edit_single|    |projector_source_edit_tabbed|
+|projector_source_edit_tabbed|
 
 Once you are satisfied, you can click on the :guilabel:`OK` button to save the changes,
 or click on the :guilabel:`Cancel` button to discard these changes and continue to use
@@ -329,8 +329,6 @@ PJLink defaults.
 .. |PROJECTOR_POWER_ON_TILED| image:: pics/projector_power_on_tiled.png
 .. |PROJECTOR_SHOW| image:: pics/projector_show.png
 .. |PROJECTOR_SHOW_TILED| image:: pics/projector_show_tiled.png
-.. |PROJECTOR_SOURCE_EDIT_SINGLE| image:: pics/projector_source_edit_single.png
 .. |PROJECTOR_SOURCE_EDIT_TABBED| image:: pics/projector_source_edit_tabbed.png
 .. |PROJECTOR_SOURCE| image:: pics/projector_hdmi.png
-.. |PROJECTOR_SOURCE_SELECT_SINGLE| image:: pics/projector_source_select_single.png
 .. |PROJECTOR_SOURCE_SELECT_TABBED| image:: pics/projector_source_select_tabbed.png

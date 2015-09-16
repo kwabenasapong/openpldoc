@@ -22,10 +22,17 @@ The "Welcome to the First Time Wizard" dialog box will appear next. Click
 
 .. image:: pics/002-first-time-wizard-welcome.png
 
+The wizard will now download information from a server about which bibles, songs
+and themes that can be downloaded be the wizard. This can take a few moments,
+depending on the speed of your internet connection and the load on the server,
+so please be patient.
+
+.. image:: pics/003-first-time-wizard-download-res.png
+
 Activate Required Plugins
 -------------------------
 
-.. image:: pics/003-first-time-wizard-plugins.png
+.. image:: pics/004-first-time-wizard-plugins.png
 
 OpenLP has several plugins to choose from. By default, all plugins are enabled, 
 except the *Remote Access* plugin. For more information on these plugins, please 
@@ -37,7 +44,7 @@ or deactivate plugins later, when OpenLP is running, by going to
 Sample Songs
 ------------
 
-.. image:: pics/004-first-time-wizard-songs.png
+.. image:: pics/005-first-time-wizard-songs.png
 
 OpenLP provides some sample songs in a few languages for downloading and 
 importing into your new song database. This is convenient for new users who do 
@@ -48,7 +55,7 @@ intact. Once you are happy with which songs you'd like, click :guilabel:`Next`.
 Sample Bibles
 -------------
 
-.. image:: pics/005-first-time-wizard-bibles.png
+.. image:: pics/006-first-time-wizard-bibles.png
 
 There are also a number of free Bibles that you can download and install. Using 
 the check box next to each Bible, select each Bible that you would like 
@@ -59,7 +66,7 @@ continue.
 Sample Themes
 -------------
 
-.. image:: pics/006-first-time-wizard-themes.png
+.. image:: pics/007-first-time-wizard-themes.png
 
 Some sample themes are also available for download and installation into OpenLP. 
 As with the Bibles, simply check the check box next to each theme to select it. 
@@ -69,7 +76,7 @@ you are happy with your selected themes, click :guilabel:`Next` to continue.
 Default Settings
 ----------------
 
-.. image:: pics/007-first-time-wizard-settings.png
+.. image:: pics/008-first-time-wizard-settings.png
 
 Default Display Monitor
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -97,11 +104,17 @@ On the last page of the wizard, OpenLP will download the sample songs, Bibles
 and themes, and set up OpenLP for you. Click :guilabel:`Finish` and OpenLP will 
 start.
 
+.. image:: pics/splash-screen.png
+
+First the OpenLP logo will be shown for a few seconds while the program loads.
+
 .. image:: pics/011-first-time-wizard-song-import.png
 
-The main window.
+Then OpenLP will import the songs that were added by the first time wizard.
 
 .. image:: pics/mainwindow.png
+
+The main window.
 
 .. _wizard-run-again:
 

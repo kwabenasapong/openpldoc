@@ -17,8 +17,8 @@ to configure the settings you will use with the web browser. You can find these
 instructions and settings in :ref:`remote_tab`.
 
 Open a web browser, type in the Remote URL you found in :ref:`remote_tab` and 
-press the :kbd:`Enter` key. For this example we will use 
-\http://192.168.0.101:4316. You will then be presented with the home page of the
+press the :kbd:`Enter` key. For this example we will use
+\http://192.168.1.73:4316. You will then be presented with the home page of the
 OpenLP Remote.
 
 .. image:: pics/web_remote_start.png
@@ -47,6 +47,16 @@ You will find the following buttons throughout the web remote interface.
     projector screen. Clicking on an item in the Service Manager will 
     automatically show the item on the screen.
 
+    |web_remote_theme| Clicking this button will blank the display on the 
+    projector screen to the current theme. Note that this is not available for
+    item which does not use themes, such as images, presentations and media. 
+    Clicking on an item in the Service Manager will automatically show the 
+    item on the screen.
+
+    |web_remote_desktop| Clicking this button will hide the display on the 
+    projector screen and therefore show the desktop. Clicking on an item in the
+    Service Manager will automatically show the item on the screen.
+
     |web_remote_show| If the screen is blanked, clicking on this button will
     unblank the display.
 
@@ -65,12 +75,17 @@ Slide Controller
 After you click on an item in the Service Manager you will be taken to the Slide 
 Controller interface. 
 
-.. image:: pics/web_remote_slide.png
+.. image:: pics/web_remote_slide1.png
 
 You will find the verses displayed as they appear in the live view on the main 
 computer and the first verse will be displayed on the projection screen. You can 
 use the :guilabel:`Prev`, :guilabel:`Next` or click on each verse using the 
 mouse to display them. 
+
+.. image:: pics/web_remote_slide2.png
+
+When the slides shown are either images or presentations a small thumbnail will
+be shown.
 
 **Note:** The remote interface replicates the OpenLP software. When displaying 
 images, clicking on a single image in the service manager will display it 
@@ -108,7 +123,7 @@ will be presented with your entire list of media for the selected media.
 chapter, verse or verses. Searching :guilabel:`Songs` will search titles and 
 lyrics with the text used.
 
-For this example we are searching "Songs" and the word "Jesus". The results will 
+For this example we are searching "Songs" and the word "God". The results will 
 be displayed below the search button.
 
 .. image:: pics/web_remote_search_complete.png
@@ -120,7 +135,9 @@ next screen.
 
 Click on :guilabel:`Go Live` to immediately display your media on the projection 
 screen. Click on :guilabel:`Add to Service` to add your media to the bottom of 
-the :ref:`creating_service`.
+the :ref:`creating_service`. Click on :guilabel:`Add & Go to Service` to add
+your media to the bottom of the :ref:`creating_service`, and go to the web
+remote service manager.
 
 .. These are all the image templates that are used in this page.
 
@@ -129,6 +146,10 @@ the :ref:`creating_service`.
 .. |WEB_REMOTE_REFRESH| image:: pics/web_remote_refresh.png
 
 .. |WEB_REMOTE_BLANK| image:: pics/web_remote_blank.png
+
+.. |WEB_REMOTE_THEME| image:: pics/web_remote_theme.png
+
+.. |WEB_REMOTE_DESKTOP| image:: pics/web_remote_desktop.png
 
 .. |WEB_REMOTE_SHOW| image:: pics/web_remote_show.png
 

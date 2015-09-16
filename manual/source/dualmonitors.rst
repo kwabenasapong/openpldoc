@@ -51,8 +51,37 @@ Microsoft Windows
 -----------------
 
 Dual monitor setup is similar among all the currently supported Windows
-releases (:ref:`win7monitor`, :ref:`winvistamonitor`, :ref:`winxpmonitor`), but 
-does vary slightly from one release to the next.
+releases (:ref:`win10monitor`, :ref:`win7monitor`,
+:ref:`winvistamonitor`), but does vary slightly from one release to the next.
+
+.. _win10monitor:
+
+Windows 8 & 10
+^^^^^^^^^^^^^^
+
+When using Windows 8 and 10 enabling your projector is easy. Simply connect your
+projector and press :kbd:`Windows+P`.
+
+The more traditional way is also fairly straight forward. Go to
+:guilabel:`Control Panel` and click on :guilabel:`Adjust screen resolution`
+under :guilabel:`Appearance and Personalization`.
+
+.. image:: pics/controlpanel-win10.png
+
+This will open up a window for configuring your screens. Enable your projector
+and make sure that the selected value for :guilabel:`Multiple displays` is 
+:guilabel:`Extend these displays`.
+
+.. image:: pics/screen-res-win10.png
+
+On Windows 10 there is also a different way of configuring your screens. By
+right-clicking on the desktop and choosing :guilabel:`Display settings` a
+different configuration window will appear.
+
+.. image:: pics/new-display-settings-win10.png
+
+To change the resolution of the screens you will have to click 
+:guilabel:`Advanced display settings`.
 
 .. _win7monitor:
 
@@ -90,19 +119,6 @@ Settings`. Click on the monitor that represents your projector and make sure
 you have checked :guilabel:`Extend the desktop onto this monitor`.
 
 .. image:: pics/vistadisplaysettings.png
-
-.. _winxpmonitor:
-
-Windows XP
-^^^^^^^^^^
-
-From :guilabel:`Control Panel` select :guilabel:`Display`, or right click on a
-blank area of the desktop and select :guilabel:`Properties`. From the
-:guilabel:`Display Properties` window click on the :guilabel:`Settings` tab.
-Click on the monitor that represents your projector and make sure you have
-checked :guilabel:`Extend my Windows desktop onto this monitor`.
-
-.. image:: pics/xpdisplaysettings.png
 
 Linux
 -----

@@ -10,32 +10,12 @@ Association (JBMIA) PJLink specification. Available in OpenLP v2.2.
 
 .. _projector_settings:
 
-Projector Settings
-------------------
+Projector Configuration
+-----------------------
 
 The available projector options can be changed using the main settings menu by
 going to :guilabel:`Settings` -> :guilabel:`Configure OpenLP` -> :guilabel:`Projectors` tab.
-
-|projector_settings_tab|
-
-The options available are:
-
-    Connect to projectors on startup : Check if you want to attempt to connect
-    to all projectors when OpenLP starts
-
-    Socket timeout (seconds):  Time in seconds to wait for the projector connection.
-    Available options are 2 to 10 seconds.
-
-    Poll timeout (seconds): How often to poll the projector for status information.
-    Available options are 2 to 60 seconds. For quicker response on the status icons,
-    set to a lower value. If you have network congestion, you may need to use a higher
-    value.
-
-    Source select dialog interface: Select whether you want all video source options
-    on one dialog page or to use tabs to consolidate the inputs based on video group.
-
-Once you are satisfied with the settings, click on the :guilabel:`OK` button, otherwise click
-on the :guilabel:`Cancel` button to ignore changes and close the dialog.
+See :ref:`configure_projectors`.
 
 .. _projector_manager:
 
@@ -347,7 +327,6 @@ PJLink defaults.
 .. |PROJECTOR_POWER_OFF_TILED| image:: pics/projector_power_off_tiled.png
 .. |PROJECTOR_POWER_ON| image:: pics/projector_power_on.png
 .. |PROJECTOR_POWER_ON_TILED| image:: pics/projector_power_on_tiled.png
-.. |PROJECTOR_SETTINGS_TAB| image:: pics/projector_settings_tab.png
 .. |PROJECTOR_SHOW| image:: pics/projector_show.png
 .. |PROJECTOR_SHOW_TILED| image:: pics/projector_show_tiled.png
 .. |PROJECTOR_SOURCE_EDIT_SINGLE| image:: pics/projector_source_edit_single.png

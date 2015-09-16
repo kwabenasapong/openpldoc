@@ -299,6 +299,13 @@ asked again, it will be deleted immediately.
     Select one of seven ways to classify your lyrics. Verse, Chorus, Bridge, 
     Pre-Chorus, Intro, Ending, Other. 
 
+**Optional Split:** 
+    Inserts an optional split into the verse. An optional split is used by
+    OpenLP to improve splitting verses when presenting on a screen where there
+    is not room for the entire verse on one screen. If an optional split exists
+    OpenLP will use it when splitting the verse, else it will simply split the
+    verse when reaching the end of the screen.
+
 If you have more than one verse, you would number them Verse 1, 2, 3 as needed. 
 If you find the verse has too many lines for your screen, you can edit and 
 shorten the verse and :guilabel:`Add` another slide. 

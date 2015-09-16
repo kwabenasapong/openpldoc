@@ -401,6 +401,10 @@ Bibles
 Verse Display
 ^^^^^^^^^^^^^
 
+**Show verse numbers:**
+  With this box selected verse numbers are always shown, deselect to hide verse
+  numbers.
+
 **Only show new chapter numbers:**
   With this box selected, the live display of the verse will only show the
   chapter number and verse for the first verse, and just the verse numbers after

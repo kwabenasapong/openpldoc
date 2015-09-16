@@ -24,7 +24,7 @@ You may also enter the Bible Importer by clicking the :guilabel:`Import Icon:`
 
 You will see the Bible Importer window, click :guilabel:`Next`.
 
-.. image:: pics/bibleimport01.png
+.. image:: pics/import_bible_start.png
 
 After clicking :guilabel:`Next` you can select from the various types of
 software that OpenLP will convert Bibles from. Click on the file folder icon to
@@ -32,7 +32,7 @@ choose the file(s) of the Bible database you want to import. See the sections
 below for more information on the different formats that OpenLP will import.
 Click :guilabel:`Next` to continue.
 
-.. image:: pics/bibleimport02.png
+.. image:: pics/import_bible_dropdown.png
 
 After selecting your file(s), you'll be asked to fill in the details of the
 Bible you are importing. Remember to check what information you need to display
@@ -42,7 +42,7 @@ copyright notice. Click :guilabel:`Next` to continue.
 **Note:** You can use one blank space using the space bar in the copyright field 
 to continue if you do not have or need copyright information.
 
-.. image:: pics/bibleimportdetails1.png
+.. image:: pics/import_bible_license.png
 
 After entering the license details, OpenLP will start to import your Bible.
 It may take some time to import your Bible so please be patient.
@@ -57,6 +57,8 @@ Importing OSIS Bibles
 
 Importing OSIS files is very simple. Select OSIS as your import source, select
 your OSIS Bible file and continue the import process.
+
+.. image:: pics/import_bible_osis.png
 
 **About OSIS Formatted Bibles**
 
@@ -102,6 +104,8 @@ by right clicking on the downloaded file and select `Extract` or `Extract Here`.
 Note that some of the bibles on OpenSongs webpage are actually in the Zefania
 format, which OpenLP can also import, see :ref:`zefaniaimport`.
 
+.. image:: pics/import_bible_opensong.png
+
 After selecting the OpenSong Bibles you want to import, follow the rest of the
 import process. When the import has finished you should be ready to use your
 OpenSong Bibles.
@@ -119,17 +123,30 @@ as another option and does require an internet connection.
 
 To use the web download feature select web download from the import wizard.
 
-You can select from several options of location to download from and also
-what Bible translation you need. You will probably want to choose the location
-from where you get the best performance or has the translation you need.
+.. image:: pics/import_bible_web1.png
 
-.. image:: pics/webbible1.png
+First click :guilabel:`Download bible list` to download a list of available
+bibles.
+
+.. image:: pics/import_bible_web2.png
+
+This will take a few moments depending on your internet connection and load on
+the servers.
+
+.. image:: pics/import_bible_web3.png
+
+When the download is complete you can select from 3 different sources to 
+download from: `Crosswalk <http://www.biblestudytools.com/>`_, `BibleServer
+<http://www.bibleserver.com/>`_ and `BibleGateway
+<https://www.biblegateway.com/>`_. From each source there are many Bible
+translations available, so there is a good change that you will find what you
+need.
 
 You can also select a proxy server if needed from the `Proxy Server` tab. Your
 network administrator will know if this is necessary, in most cases this will
 not be needed.
 
-.. image:: pics/webbibleproxy1.png
+.. image:: pics/import_bible_web_proxy.png
 
 After selecting your download location and the Bible you wish to use, click
 :guilabel:`Next` to continue the import process. When your import is completed
@@ -148,7 +165,7 @@ Select CSV from the list of Bible types to import.
 You are now ready to select your .csv files. You will need to select both your
 books and verse file location.
 
-.. image:: pics/csvimport1.png
+.. image:: pics/import_bible_csv.png
 
 After you have selected the file locations you can continue with the import
 process. Once it is complete you should be ready to use your imported CSV Bible.
@@ -163,6 +180,8 @@ The Zefania project has many Bibles available from `their website
 Find the Bible you would like to import and download the file. The downloaded
 file is a zip-file from which the Bible must be extracted. This is usually done
 by right clicking on the downloaded file and select `Extract` or `Extract Here`.
+
+.. image:: pics/import_bible_zefania.png
 
 You can now simply select the extracted file for import and click
 :guilabel:`Next` to continue the import process. When your import is completed

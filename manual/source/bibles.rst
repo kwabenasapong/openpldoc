@@ -47,7 +47,7 @@ to continue if you do not have or need copyright information.
 After entering the license details, OpenLP will start to import your Bible.
 It may take some time to import your Bible so please be patient.
 
-.. image:: pics/bibleimportfinished1.png
+.. image:: pics/import_bible_finished.png
 
 When the import has finished click :guilabel:`Finish` and you should be
 ready to use your Bible in OpenLP.

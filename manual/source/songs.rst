@@ -254,7 +254,7 @@ notification saying "**Warning:** You have not entered a verse order."
 To *Clone* a song right-click on the song you would like to duplicate and left-
 click :guilabel:`Clone`. 
 
-.. image:: pics/song_edit_clone.png
+.. image:: pics/songs_right_click.png
 
 After you click *Clone* you will see the copy of the song with <copy> in the 
 title. 

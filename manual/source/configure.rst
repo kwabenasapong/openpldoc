@@ -287,6 +287,8 @@ Display Workarounds
   Using alternating row colours in most cases makes it easier for the human eye
   to overview a list of items. Uncheck to disable.
 
+.. _config_players:
+
 Players
 =======
 

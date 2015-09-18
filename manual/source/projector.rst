@@ -1,8 +1,8 @@
 .. _projector:
 
-========================
-Projector Remote Control
-========================
+=================
+Projector Manager
+=================
 
 The Projector Manager allows you to remotely control a network-connected
 projector that conforms to the Japan Business Machine and Information System

@@ -41,6 +41,9 @@ File
   **Song:** 
     Import your songs previously exported. :ref:`import_songs`
 
+  **CCLI SongSelect:** 
+    Import your songs from CCLI SongSelect. :ref:`import_songs`
+
   **Bible:** 
     Import Bibles from another program, the internet or a previously exported 
     Bible from OpenLP. :ref:`import_bibles`
@@ -85,6 +88,9 @@ Clicking on any of the next items will hide or show its respective panel.
 |button_mediamanager| **Media Manager:** 
     Hide or show :ref:`media-manager`.
 
+|button_projectormanager| **Projector Manager:** 
+    Hide or show :ref:`projector`.
+
 |button_servicemanager| **Service Manager:** 
     Hide or show :ref:`creating_service`.
 
@@ -118,6 +124,9 @@ If anything is deleted in this folder it is not recoverable through OpenLP.
 **Update Theme Images:** 
     Changing screen resolution can have an affect on theme images. Use this to 
     correct the images. 
+
+**Find Duplicated Songs:**
+    Start wizard for detecting and removing duplicated songs.
 
 |plugin_songs| **Re-index Songs:** 
     This rebuilds the internal song indexes to make them work following code 
@@ -198,3 +207,5 @@ Help
 .. |BUTTON_MEDIAMANAGER| image:: pics/button_mediamanager.png
 
 .. |BUTTON_SERVICEMANAGER| image:: pics/button_servicemanager.png
+
+.. |BUTTON_PROJECTORMANAGER| image:: pics/button_projector_manager.png

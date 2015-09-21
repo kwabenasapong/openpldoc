@@ -44,7 +44,7 @@ Importing from EasyWorship Song Database
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 OpenLP can import the song database from EasyWorship 2007 and 2009. To import
-songs from EasyWorships database you must find and select the file
+songs from EasyWorship's database you must find and select the file
 :file:`Songs.DB`. You will normally find the file in
 :file:`C:\\Users\\Public\\Documents\\Softouch\\EasyWorship\\Default\\Databases\\Data\\`.
 
@@ -242,8 +242,8 @@ Not all of the verses are in use."
 
 .. image:: pics/song_edit_verse_in_use.png 
 
-If you have not entered a verse order you will in the same place see a
-notification saying "**Warning:** You have not entered a verse order."
+If you have not entered a verse order, you will see a notification in the same
+place saying "**Warning:** You have not entered a verse order."
 
 **Clone:** 
     OpenLP gives you the ability to clone a song. This could be useful if you 
@@ -302,9 +302,9 @@ asked again, it will be deleted immediately.
 **Optional Split:** 
     Inserts an optional split into the verse. An optional split is used by
     OpenLP to improve splitting verses when presenting on a screen where there
-    is not room for the entire verse on one screen. If an optional split exists
-    OpenLP will use it when splitting the verse, else it will simply split the
-    verse when reaching the end of the screen.
+    is not room for the entire verse on one screen. If an optional split exists,
+    OpenLP will use it when splitting the verse, otherwise it will simply split
+    the verse when reaching the end of the screen.
 
 If you have more than one verse, you would number them Verse 1, 2, 3 as needed. 
 If you find the verse has too many lines for your screen, you can edit and 

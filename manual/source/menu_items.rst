@@ -125,8 +125,8 @@ If anything is deleted in this folder it is not recoverable through OpenLP.
     Changing screen resolution can have an affect on theme images. Use this to 
     correct the images. 
 
-**Find Duplicated Songs:**
-    Start wizard for detecting and removing duplicated songs.
+**Find Duplicate Songs:**
+    Start wizard for detecting and removing duplicate songs.
 
 |plugin_songs| **Re-index Songs:** 
     This rebuilds the internal song indexes to make them work following code 

@@ -283,8 +283,8 @@ Display Workarounds
   appears to affect different versions and distributions differently, this 
   setting has been added, rather than try and work it out programmatically.
 
-**Use alternating row colours in lists:**
-  Using alternating row colours in most cases makes it easier for the human eye
+**Use alternating row colors in lists:**
+  Using alternating row colors in most cases makes it easier for the human eye
   to overview a list of items. Uncheck to disable.
 
 .. _config_players:
@@ -294,9 +294,9 @@ Players
 
 .. image:: pics/configureplayers.png
 
-Background colour
-^^^^^^^^^^^^^^^^^
-Chose the background colour to be shown as background for videos with different
+Background color
+^^^^^^^^^^^^^^^^
+Chose the background color to be shown as background for videos with different
 aspect ratio than the display screen.
 
 Available Media Players
@@ -447,7 +447,7 @@ Custom Scripture References
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Here you can change the default separators used in the scripture references.
-The default values are shown in grey when the custom separators has not be 
+The default values are shown in gray when the custom separators has not be 
 enabled and nothing has been entered. Note that the default separators can
 change if the language of OpenLP is changed.
 
@@ -506,10 +506,10 @@ These options are only available if PowerPoint has been detected.
 
 **Clicking on a selected slide in the slidecontroller advances to next effect:**
   When this is enabled it is possible to go to the next effect of a slide by
-  clicking the slide in the slidecontroller. The default behaviour is to restart
+  clicking the slide in the slidecontroller. The default behavior is to restart
   the slide.
 
-**Let PowerPoint control the size and position of the presentation window (workaround for windows 8 scaling issue):**
+**Let PowerPoint control the size and position of the presentation window (workaround for Windows 8 scaling issue):**
   Windows 8 and 10 can on computers with multiple monitors use scaling to make
   windows look the same size on different monitors. Unfortunately this can
   cause issues with how OpenLP places and resizes the PowerPoint presentation

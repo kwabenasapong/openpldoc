@@ -143,7 +143,7 @@ translations available, so there is a good change that you will find what you
 need.
 
 You can also select a proxy server if needed from the `Proxy Server` tab. Your
-network administrator will know if this is necessary, in most cases this will
+network administrator will know if this is necessary. In most cases this will
 not be needed.
 
 .. image:: pics/import_bible_web_proxy.png

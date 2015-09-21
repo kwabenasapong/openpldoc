@@ -91,7 +91,7 @@ Toolbar
 ^^^^^^^
 
 |buttons_edit| **Edit the selected bible:**
-    Edit the selected bibles meta data or book names.
+    Edit meta data or book names of the selected bible.
 
 |buttons_import| **Import Bible:**
     Import Bibles from a number of formats. This is discussed in detail on the
@@ -300,7 +300,7 @@ Toolbar
 
 .. image:: pics/images_select_image_group.png
 
-When an image is added to the mediamanager a dialog will ask in which group the
+When an image is added to the mediamanager, a dialog will ask in which group the
 image should be placed. The options are :guilabel:`No group`,
 :guilabel:`Existing group` or :guilabel:`New group`.
 
@@ -327,7 +327,7 @@ Toolbar
 ^^^^^^^
 
 |buttons_media_optical| **Load CD/DVD:**
-    Import mediaclip from audio CD or DVD. This feature only works is VLC is
+    Import mediaclip from audio CD or DVD. This feature only works if VLC is
     installed on the computer and enabled in OpenLP. See :ref:`config_players`
     for how to configure media players.
 

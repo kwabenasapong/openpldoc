@@ -134,31 +134,30 @@ is recommended to use the *Classic Desktop* option. OpenLP and other
 applications requiring dual monitors may not work well with Unity due to issues
 experienced by other users with the Unity interface.
 
-GNOME 2
-^^^^^^^
-
-This guide is for users of the GNOME 2 desktop who do not use proprietary 
-drivers. From most distros go to :menuselection:`System --> Preferences --> 
-Display Settings (Monitors)`. Set up your projector with the correct resolution
-and make sure that :guilabel:`Same image on all monitors` is **unchecked**.
-
-.. image:: pics/gnome.png
-
 GNOME 3
 ^^^^^^^
 
 This guide is for users of the GNOME 3 or GNOME Shell desktop who do not use
 proprietary drivers. In GNOME shell in the search box type *Displays* or in 
 GNOME shell or fall back mode go to :menuselection:`Applications --> System Tools --> System Settings`
-then select Displays. Set up your projector with the correct resolution and
-make sure that :guilabel:`Mirror displays` is **unchecked**
+then select Displays. 
 
 .. image:: pics/gnome3displays.png 
 
-If after setting up your monitors you have the top panel on the wrong monitor
-simply drag it to the monitor you want to serve as the primary screen.
+By clicking on each of the display listed you can change the mode, resolution
+andorientation of the displays. 
+
+.. image:: pics/gnome3displaysettings.png 
+
+Make sure to put the display you plan to use for presenting to be the
+:guilabel:`Secondary Display`.
 
 .. image:: pics/gnome3drag.png
+
+Back in the :guilabel:`Displays` window, click :guilabel:`Arrange Combined
+Displays` to arrange the displays.
+If after setting up your monitors you have the top panel on the wrong monitor
+simply drag it to the monitor you want to serve as the primary screen.
 
 KDE
 ^^^
@@ -167,11 +166,11 @@ This guide is for users of the KDE desktop who do not use proprietary drivers.
 From most distros click the Kick Off menu and navigate to
 :guilabel:`System Settings`
 
-.. image:: pics/kdesystemsettings.png
+.. image:: pics/kde5systemsettings.png
 
-Click on the display and monitor icon.
+Click on the :guilabel:`Display and Monitor` icon.
 
-.. image:: pics/kdedisplay.png
+.. image:: pics/kde5display.png
 
 From here you will need to set up your projector with the appropriate
 resolution, and position. OpenLP works best projecting to the monitor on the
@@ -277,3 +276,23 @@ connect your projector and enter::
 
 **Note** it has been reported that when this issue is occurring you will not 
 want to connect your projector until your desktop is running. 
+
+
+Mac OS X
+^^^^^^^^
+
+This short guide will tell users of Mac OS X how to setup dual displays.
+
+.. image:: pics/mac-os-x-system-menu.png
+
+Open :guilabel:`System Preferences` in the Apple menu.
+
+.. image:: pics/mac-os-x-settings.png
+
+Choose the :guilabel:`Displays` option.
+
+.. image:: pics/mac-os-x-display-settings.png
+
+Click :guilabel:`Arrangement` in the top of the window. Make sure that
+:guilabel:`Mirror Displays` is unchecked. You can now arrange the displays as
+you wish.

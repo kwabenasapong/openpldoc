@@ -40,11 +40,6 @@ When you are finished with your selection click :guilabel:`Next`.
 **Note:** Exporting songs will create a file for each song, If you export one 
 hundred songs, you will have have one hundred individual files.
 
-.. image:: pics/export_song_process.png
-
-Shows the progress of exporting the songs.
-
 .. image:: pics/export_song_complete.png
 
 Click :guilabel:`Finish` to complete the export process.
-

@@ -83,6 +83,26 @@ different configuration window will appear.
 To change the resolution of the screens you will have to click 
 :guilabel:`Advanced display settings`.
 
+**Recommendations**
+
+Windows 8 and 10 have several features that might seem smart on a normal desktop
+but which is not something that should be enabled when you want to use the
+computer for presenting songs, etc. during a service.
+
+.. image:: pics/task-bar-properties-win8.png
+
+Right click the task bar and choose :guilabel:`Properties`. You should uncheck
+:guilabel:`Use Peek to preview...` since it will totally blank the 2nd display
+if hovering mouse over an icon on the taskbar. You should also uncheck
+:guilabel:`Show taskbar on all displays`.
+
+.. image:: pics/task-bar-right-click-win10.png
+
+If you use Windows 10 you should probably also hide the :guilabel:`Task View`
+button from the taskbar, since clicking it will blank your 2nd display. To
+disable it, right click the taskbar, and uncheck :guilabel:`Show Task View
+button`.
+
 .. _win7monitor:
 
 Windows 7

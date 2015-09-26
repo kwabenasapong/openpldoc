@@ -62,7 +62,7 @@ Background Audio
 **Repeat track list:**
   With this option selected and you are using background audio, the tracks will
   repeat when it reaches the end of the list (even if there is only one item).
-	
+
 Application Startup
 ^^^^^^^^^^^^^^^^^^^
 
@@ -117,7 +117,7 @@ Global Theme
 Choose the theme you would like to use as your default global theme from the
 drop down box. The theme selected appears below. The global theme use is
 determined by the Theme Level you have selected.
-	
+
 Theme Level
 ^^^^^^^^^^^
 
@@ -137,6 +137,14 @@ Choose from one of three options for the default use of your theme.
 **Global Level:**
   With this level selected, all songs and verses will use the theme selected on
   the left in the Global Theme drop down.
+
+Universal Settings
+^^^^^^^^^^^^^^^^^^
+
+**Wrap footer text:**
+  Check this if you want text in the footer to wrap if the lines are too long to
+  be on one line.
+
 
 Advanced
 ========
@@ -205,6 +213,17 @@ time when saving your service file.
 technically inclined, there is more information at 
 `Python.org <http://docs.python.org/library/datetime.html#strftime-strptime-behavior>`_.
 
+Data Location
+^^^^^^^^^^^^^
+
+If you wish to change the default location of where OpenLP stores its data, you
+can enter a custom location here.
+
+|buttons_open| **Browse for a custom data location**
+
+|buttons_revert| **Revert:**
+  Clicking this button will erase your changes and revert to the default data
+  location. 
 
 Default Images
 ^^^^^^^^^^^^^^
@@ -252,8 +271,8 @@ These three settings control
   service from start to finish. Using this setting makes it possible to use a 
   presentation remote controller. 
 
-X11
-^^^
+Display Workarounds
+^^^^^^^^^^^^^^^^^^^
 
 **Bypass X11 Window Manager:**
   Linux and other X users may need to try toggling this flag if the main display 
@@ -264,11 +283,22 @@ X11
   appears to affect different versions and distributions differently, this 
   setting has been added, rather than try and work it out programmatically.
 
+**Use alternating row colors in lists:**
+  Using alternating row colors in most cases makes it easier for the human eye
+  to overview a list of items. Uncheck to disable.
+
+.. _config_players:
+
 Players
 =======
 
-.. image:: pics/configuremedia.png
-  
+.. image:: pics/configureplayers.png
+
+Background color
+^^^^^^^^^^^^^^^^
+Chose the background color to be shown as background for videos with different
+aspect ratio than the display screen.
+
 Available Media Players
 ^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -287,7 +317,8 @@ players control the following:
    reputation of being able to handle almost any video or audio format.
 
 **Note:** You must have `VLC <http://www.videolan.org/vlc/>`_ installed for the 
-VLC option to be available.
+VLC option to be available. On Windows you must install the 32-bit version of VLC.
+On Mac OS X you must install the 64-bit version of VLC.
 
 Player Order
 ^^^^^^^^^^^^
@@ -295,6 +326,34 @@ Player Order
 Determines the preference order of the selected media players. The order is 
 changed by selecting one of the available players and using the 
 :guilabel:`Down` or :guilabel:`Up` button to change the position of the player.
+
+.. _configure_projectors:
+
+Projectors
+==========
+
+.. image:: pics/configureprojectors.png
+
+Communication Options
+^^^^^^^^^^^^^^^^^^^^^
+
+The options available are:
+
+**Connect to projectors on startup:**
+  Check if you want to attempt to connect to all projectors when OpenLP starts.
+
+**Socket timeout (seconds):**
+  Time in seconds to wait for the projector connection. Available options are 2
+  to 10 seconds.
+
+**Poll timeout (seconds):**
+  How often to poll the projector for status information. Available options are
+  2 to 60 seconds. For quicker response on the status icons, set to a lower
+  value. If you have network congestion, you may need to use a higher value.
+
+**Source select dialog interface:**
+  Select whether you want all video source options on one dialog page or to use
+  tabs to consolidate the inputs based on video group.
 
 .. _config_songs:
 
@@ -321,12 +380,20 @@ Songs Mode
   If this box is not selected, your song edit changes will only be available in 
   the :ref:`creating_service` if you add it again.
 
-**Add missing songs when opening service:**
-  With this box selected, when you open an order of service created on another
+**Import missing songs from service files:**
+  With this box selected, when you open a service file created on another
   computer, or if one of the songs are no longer in your :ref:`media-manager`, 
   it will automatically enter the song in your Songs Media Manager. If this box 
   is not checked, the song is available in the service but will not be added to 
   the :ref:`media-manager`.
+
+**Display songbook in footer:**
+  With this box selected the songbook name and number for songs (if available)
+  will be shown in the footer.
+
+**Display "©" symbol before copyright info:**
+  With this box selected the copyright symbol will be displayed in the footer
+  before the copyright information.
 
 Bibles
 ======
@@ -335,6 +402,10 @@ Bibles
 
 Verse Display
 ^^^^^^^^^^^^^
+
+**Show verse numbers:**
+  With this box selected verse numbers are always shown, deselect to hide verse
+  numbers.
 
 **Only show new chapter numbers:**
   With this box selected, the live display of the verse will only show the
@@ -372,6 +443,36 @@ Verse Display
 
 **Note:** Changes do not affect verses already in the service.
 
+Custom Scripture References
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Here you can change the default separators used in the scripture references.
+The default values are shown in gray when the custom separators has not be 
+enabled and nothing has been entered. Note that the default separators can
+change if the language of OpenLP is changed.
+
+**Verse Separators:** Enable to enter a custom verse separator.
+
+**Range Separators:** Enable to enter a custom range separator.
+
+**List Separators:** Enable to enter a custom list separator.
+
+**End Mark:** Enable to enter a custom end marker.
+
+Default Bible Language
+^^^^^^^^^^^^^^^^^^^^^^
+
+Choose the language of the bible books. The options are:
+
+**Bible Language:**
+  The language of the books will be determined by the language of the bible.
+
+**Application Language:**
+  The language of the books will be determined by the language set for OpenLP.
+
+**English:**
+  The language of the books will be set to English.
+
 Presentations
 =============
 
@@ -387,6 +488,9 @@ feature you will need to have one of the above-mentioned applications installed,
 due to the fact that OpenLP uses these application to open and run the
 presentation.
 
+Support of PDF is bundled with OpenLP on Mac OS X and Windows. On Linux you will
+need to install :file:`mupdf` (recommended) or :file:`ghostscript`.
+
 Advanced
 ^^^^^^^^
 
@@ -394,6 +498,30 @@ Advanced
   With this option selected, you will see *Present using* area with a dropdown 
   box on the Presentations toolbar in :ref:`media-manager` which gives you the 
   option to select the presentation program you want to use.
+
+PowerPoint options
+^^^^^^^^^^^^^^^^^^
+
+These options are only available if PowerPoint has been detected.
+
+**Clicking on a selected slide in the slidecontroller advances to next effect:**
+  When this is enabled it is possible to go to the next effect of a slide by
+  clicking the slide in the slidecontroller. The default behavior is to restart
+  the slide.
+
+**Let PowerPoint control the size and position of the presentation window (workaround for Windows 8 scaling issue):**
+  Windows 8 and 10 can on computers with multiple monitors use scaling to make
+  windows look the same size on different monitors. Unfortunately this can
+  cause issues with how OpenLP places and resizes the PowerPoint presentation
+  window. Check this box to enable the workaround which let PowerPoint control
+  the presentation window. When you enable this you must setup PowerPoint to
+  present to the correct monitor.
+
+PDF options
+^^^^^^^^^^^
+
+**Use given full path for mudraw or ghostscript binary:**
+  Enable this if you want to enter a custom path for mudraw or ghostscript.
 
 Images
 ======
@@ -413,6 +541,8 @@ it is resized.
 Media
 =====
 
+.. image:: pics/configuremedia.png
+
 Advanced
 ^^^^^^^^
 
@@ -420,7 +550,11 @@ Advanced
   With this option selected, you will see :guilabel:`Use Player:` area with a 
   dropdown box on the Media tool bar in the :ref:`media-manager` which gives 
   you the option to select the media player you want to use.
-  
+
+**Start Live items automatically:**
+  With this option selected media items will start to play automatically when
+  sent live.
+
 Custom
 ======
 
@@ -437,6 +571,13 @@ Custom Display
 
 **Note:** If you have an entry in the Credits box of your custom slide, title and
 credits will always be displayed.
+
+**Import missing custom slides from service files:**
+  With this box selected, when you open a service file created on another
+  computer, or if one of the custom slides are no longer in your
+  :ref:`media-manager`, it will automatically enter the custom slide in your 
+  Custom Slide Media Manager. If this box is not checked, the custom slide is
+  available in the service but will not be added to the :ref:`media-manager`.
 
 .. _configure_alerts:
 
@@ -464,7 +605,7 @@ Font
   This setting will determine how long your :ref:`alerts` will be displayed on 
   the screen, in seconds.
 
-**Location:**
+**Vertical Align:**
   Choose the location where you want the alert displayed on the
   screen, Top, Middle or Bottom.
 

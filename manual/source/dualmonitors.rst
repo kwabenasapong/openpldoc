@@ -279,7 +279,7 @@ want to connect your projector until your desktop is running.
 
 
 Mac OS X
-^^^^^^^^
+--------
 
 This short guide will tell users of Mac OS X how to setup dual displays.
 

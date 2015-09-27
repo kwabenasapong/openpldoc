@@ -28,29 +28,27 @@ Click on the file folder icon to choose the file of the song database you
 want to import. See the following sections for information on some of the 
 different formats that OpenLP will import.
 
-Importing from OpenLP Version 1
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Importing from OpenLyrics or OpenLP 2.0 Exported Song
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Converting from OpenLP Version 1 is a simple process. First you will 
-need to locate your version 1 database file.
+OpenLyrics is an open format for song lyrics defined at `openlyrics.info
+<openlyrics.info>`_, and is the format the OpenLP can export songs to, see
+:ref:`export_songs`. 
 
-Windows XP::
+.. image:: pics/selectsongs.png
 
-    C:\Documents and Settings\All Users\Application Data\openlp.org\Data\songs.olp
+To import press :guilabel:`Add Files...` and select the OpenLyrics files.
+Then press :guilabel:`Next` to import the files.
 
-Windows Vista / Windows 7::
+Importing from EasyWorship Song Database
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-    C:\ProgramData\openlp.org\Data\songs.olp
+OpenLP can import the song database from EasyWorship 2007 and 2009. To import
+songs from EasyWorship's database you must find and select the file
+:file:`Songs.DB`. You will normally find the file in
+:file:`C:\\Users\\Public\\Documents\\Softouch\\EasyWorship\\Default\\Databases\\Data\\`.
 
-After clicking :guilabel:`Next` your conversion will be complete. 
-
-.. image:: pics/finishedimport.png
-
-Press :guilabel:`Finish` and you will now be ready to use your OpenLP 
-version 1 songs.
-
-**Note:** To retain a theme assigned to a song, you must import your themes
-first.
+OpenLP will import all the songs it finds in the database.
 
 Importing from OpenSong
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -61,8 +59,6 @@ songs will be located in a folder named :guilabel:`Songs`. This folder will
 contain files with all your songs in them, without a file extension (file.xxx).
 When you have located this folder you will need to select the songs from
 the folder.
-
-.. image:: pics/selectsongs.png
 
 On most operating systems, to select all the songs, first select the first song
 in the list, press the shift key, and select the last song in the list. After
@@ -131,7 +127,7 @@ contain a collection of files such as :file:`Data.tdbd` and
 
         C:\Documents and Settings\All Users\ZionWorx\2.6\Data
 
-    Default location for ZionWorx 2.6 on Windows Vista / Windows 7:: 
+    Default location for ZionWorx 2.6 on Windows Vista or later:: 
 
         C:\ProgramData\ZionWorx\2.6\Data
 
@@ -246,6 +242,9 @@ Not all of the verses are in use."
 
 .. image:: pics/song_edit_verse_in_use.png 
 
+If you have not entered a verse order, you will see a notification in the same
+place saying "**Warning:** You have not entered a verse order."
+
 **Clone:** 
     OpenLP gives you the ability to clone a song. This could be useful if you 
     use a different version of the song with slightly different lyrics. Instead
@@ -255,7 +254,7 @@ Not all of the verses are in use."
 To *Clone* a song right-click on the song you would like to duplicate and left-
 click :guilabel:`Clone`. 
 
-.. image:: pics/song_edit_clone.png
+.. image:: pics/songs_right_click.png
 
 After you click *Clone* you will see the copy of the song with <copy> in the 
 title. 
@@ -299,6 +298,13 @@ asked again, it will be deleted immediately.
 **Verse type:** 
     Select one of seven ways to classify your lyrics. Verse, Chorus, Bridge, 
     Pre-Chorus, Intro, Ending, Other. 
+
+**Optional Split:** 
+    Inserts an optional split into the verse. An optional split is used by
+    OpenLP to improve splitting verses when presenting on a screen where there
+    is not room for the entire verse on one screen. If an optional split exists,
+    OpenLP will use it when splitting the verse, otherwise it will simply split
+    the verse when reaching the end of the screen.
 
 If you have more than one verse, you would number them Verse 1, 2, 3 as needed. 
 If you find the verse has too many lines for your screen, you can edit and 

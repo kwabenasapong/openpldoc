@@ -75,7 +75,7 @@ enable editing.
 
 .. image:: pics/gatekeeper3.png
 
-I you have not already downloaded the correct file from the OpenLP
+If you have not already downloaded the correct file from the OpenLP
 `download page <http://www.openlp.org/en/download.html>`_, download it now.
 Then double click on the .dmg file. Drag the OpenLP icon over to the Applications
 folder and you will be ready to use OpenLP. OpenLP will be available in your

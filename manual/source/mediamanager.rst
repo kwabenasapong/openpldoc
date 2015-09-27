@@ -90,6 +90,9 @@ to find Bible verses and add them to the :ref:`g-service-manager`.
 Toolbar
 ^^^^^^^
 
+|buttons_edit| **Edit the selected bible:**
+    Edit meta data or book names of the selected bible.
+
 |buttons_import| **Import Bible:**
     Import Bibles from a number of formats. This is discussed in detail on the
     :ref:`import_bibles` page.
@@ -263,6 +266,11 @@ media item. The images media item shows a list of imported images.
 Toolbar
 ^^^^^^^
 
+|buttons_image_new_group| **Add group:**
+    Opens a dialog where a new image group can be added.
+
+.. image:: pics/images_add_group.png
+
 |buttons_open| **Load image:**
     Import one or more images. Images need to be imported in order to be used
     in OpenLP.
@@ -290,6 +298,12 @@ Toolbar
 
 **Notes:** Right-clicking on an image will display some of the same options.
 
+.. image:: pics/images_select_image_group.png
+
+When an image is added to the mediamanager, a dialog will ask in which group the
+image should be placed. The options are :guilabel:`No group`,
+:guilabel:`Existing group` or :guilabel:`New group`.
+
 Images can be dragged from the desktop (or any folder) into the Images manager 
 plugin. This allows the selected items to be loaded more quickly. If a folder is 
 selected, all the contacts of the folder will be added. When the items are added, 
@@ -311,6 +325,11 @@ to resolve these issues.
 
 Toolbar
 ^^^^^^^
+
+|buttons_media_optical| **Load CD/DVD:**
+    Import mediaclip from audio CD or DVD. This feature only works if VLC is
+    installed on the computer and enabled in OpenLP. See :ref:`config_players`
+    for how to configure media players.
 
 |buttons_open| **Load media:**
     Import one or more media files. Media files need to be imported in order to
@@ -408,6 +427,10 @@ same options.
 .. |BUTTONS_CLEAR_RESULTS| image:: pics/buttons_clear_results.png
 
 .. |BUTTONS_REPLACE_LIVE_BACKGROUND| image:: pics/buttons_replace_live_background.png
+
+.. |BUTTONS_IMAGE_NEW_GROUP| image:: pics/button_image_new_group.png
+
+.. |BUTTONS_MEDIA_OPTICAL| image:: pics/button_media_optical.png
 
 .. |SEARCH_SONG| image:: pics/search_song.png
 

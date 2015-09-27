@@ -133,4 +133,12 @@ Theme Manager
 The theme manager is where themes are created and edited. Themes are the text
 styles and backgrounds that you use to personalize your services.
 
-.. image:: pics/thememanager.png
+.. image:: pics/theme_manager_main.png
+
+
+Projector Manager
+-----------------
+
+The :ref:`projector` is where you can manage and control projectors.
+
+.. image:: pics/projector_manager_list.png

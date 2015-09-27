@@ -57,6 +57,8 @@ displaying unless you want a background color for a border.
     Using the transparent theme will use whatever wallpaper or background color 
     that your desktop is using for the theme background.
 
+.. image:: /pics/theme_manager_transparent.png
+
 When finished with your selection for background, click the :guilabel:`Next`
 button. 
 

@@ -47,8 +47,6 @@ one you can click on |configshortcut| twice. This will remove the shortcut.
 
 All Actions that you click on will show either Default or Custom.
 
-.. image:: pics/configure_shortcuts_bottom.png
-
 If you change or add any shortcut the option button for Custom will be selected. 
 Clicking the Default option button will restore the original shortcut. You can 
 also click |clearshortcut| to change it back to default. 

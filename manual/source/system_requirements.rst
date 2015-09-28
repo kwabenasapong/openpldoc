@@ -14,7 +14,7 @@ on less powerful hardware but you may not get the performance you desire.
 * For Presentation support:
 
   * Windows: PowerPoint XP or later, PowerPoint Viewer 2003 or 2007 (not 2010)
-    or LibreOffice Impress 4 or later
+    or LibreOffice Impress 4 or later (32 bit)
   * Linux: LibreOffice Impress 4 or later
   * Mac: Not supported yet
 * The Generic Document/Presentation and Songs of Fellowship song import options

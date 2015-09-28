@@ -676,7 +676,7 @@ Generate SSL certificate :ref:`ssl_config`.
 
 *Changing from a Secure to Non Secure setup requires a restart of OpenLP.*
 
-.. _user_auth
+.. _user_auth:
 
 User Authentication 
 ^^^^^^^^^^^^^^^^^^^

@@ -13,7 +13,7 @@ smartphones or tablet may vary slightly in appearance.
 
 Open the :guilabel:`Google Play Store` app and search for OpenLP, and you will
 find :guilabel:`OpenLP - Remote 2`. As an alternative use `this link
-<https://play.google.com/store/apps/details?id=org.openlp.android2>` to go to
+<https://play.google.com/store/apps/details?id=org.openlp.android2>`_ to go to
 the apps page in Google Play Store. Now install the app.
 
 .. image:: pics/droid_start.png
@@ -102,98 +102,93 @@ Selecting :guilabel:`Service List` will take you to the Service Manager.
 Selecting an item with a short press in the service will immediately take it 
 live on the projection screen and you will stay on the service screen on your 
 device. Selecting an item with a long press in the service will immediately take 
-it live on the projection screen and to the live display on your device. You can 
-also move up and down through the service items using the :guilabel:`Previous` 
-and :guilabel:`Next` buttons as shown below. Use your hardware back button to 
-take you back to the main screen.
+it live on the projection screen and to the live display on your device.
 
-.. image:: pics/droid_service_list.png
+.. image:: pics/droid_service.png
 
-Slide
-^^^^^
+Live List
+^^^^^^^^^
 
-If you selected a service item with multiple verses or images you can change 
-verses or images by either selecting them with your finger or using the 
-:guilabel:`Previous` and :guilabel:`Next` buttons. Use your hardware back button 
-to take you back to the main screen.
+Selecting :guilabel:`Live List` will display what ever is in Service Manager
+at the time, or what is live at the moment. If there is items in the Service
+Manager they will be shown on the left, and the live item will be shown on the
+right.
 
-.. image:: pics/droid_slide.png
+.. image:: pics/droid_live_list_portrait.png
 
-Live
-^^^^
+When using the :guilabel:`Live List` it can be an advantage to use the device in
+landscape mode.
 
-Selecting the :guilabel:`Live` button will display what ever is live at the time 
-from to your Android device. Use your hardware back button 
-to take you back to the main screen.
+.. image:: pics/droid_live_list_landscape.png
 
-Display
-^^^^^^^
 
-Selecting the :guilabel:`Display` button will give you the ability to blank and 
-unblank your projection screen from your chosen method :ref:`above <droid_blank>`.
+Stage View
+^^^^^^^^^^
 
-.. image:: pics/droid_blank_button.png
+Selecting :guilabel:`Stage View` will display the stage view on your Android 
+evice. See the :ref:`stage_view` section in the manual for a detailed
+description.
 
-The title :guilabel:`Blank display to` means your display is live. Touching the 
-:guilabel:`Blank display to` will blank the projection screen to the chosen 
-method defined in Settings and the button will change to 
-:guilabel:`Reset display from`. Touching it again will cycle back to 
-:guilabel:`Blank display to` unblanking the screen for the live display.
+.. image:: pics/droid_stage_view.png
 
-Stage
-^^^^^
+Live View
+^^^^^^^^^^
 
-Selecting the :guilabel:`Stage` button will display the stage view on your 
-Android device. See the :ref:`stage_view` section in the manual for a detailed 
-description. Use your hardware back button to take you back to the main screen.
+Selecting :guilabel:`Live View` will display the live view on your Android
+device. See the :ref:`main_view` section in the manual for a detailed 
+description.
 
-.. image:: pics/droid_stage.png
+.. image:: pics/droid_live_view.png
 
 Alert
 ^^^^^
 
-You can send an alert to the projection screen by entering the text in the box 
-and clicking on :guilabel:`Send`. The alert will be displayed as you have 
-it configured in :ref:`configure_alerts`. Use your hardware back button to take 
-you back to the main screen.
+To send an alert to the display, touch the alert button at the top right of the
+screen.
+
+|droid_alert_button| **Alert button**
+
+You can send an alert to the display by entering the text in the box and
+clicking on :guilabel:`Process`. The alert will be displayed as you have it 
+configured in :ref:`configure_alerts`.
 
 .. image:: pics/droid_alert.png
 
-Search
-------
 
-Using the search function gives you the ability to search for a particular media, 
-add it to the service or display it immediately.
+.. _droid_blank:
 
-To use search, press the hardware magnifying glass button on your phone or you 
-can press the hardware menu button and then select :guilabel:`Search` and you 
-will be taken to the search screen.
+Blank Display
+^^^^^^^^^^^^^
 
-.. image:: pics/droid_search_all1.png
+To blank the display, touch the blank button at the top right of the screen.
 
-Enter the text you want to search for in the text box at the top. For this 
-example we are using the search word "Jesus". You can click the magnifying glass 
-next to the text box or press the return on your phone keyboard. You will be 
-presented with a list of media in which your search word was found. 
+|droid_blank_button| **Blank button**
 
-**Note:** When searching the Bible you must enter the exact name, chapter, 
-verse or verses. Searching songs will search titles and lyrics with the text 
-used.
+Using the display blank type gives you the ability to blank your screen to the 
+methods described below. You can find out more about this feature and how it 
+operates on the main computer at :ref:`blank_control`.
 
-This screen shows the number of instances your searched text is found. 
+**Show Live:**
+    Do not blank, or unblank the display.
 
-.. image:: pics/droid_found1.png
+**Display Blank:**
+    Choosing this option will blank your projector to black as if it were shut 
+    off.
 
-As you can see in the example, there are 130 songs with the word "Jesus" in them. 
-You can scroll through the list of songs until you find the one you want.
+**Display Theme:**
+    Choosing this option will show your blank theme only, without lyrics or 
+    verses. If you are blanking a song with an assigned theme it will blank to 
+    that theme. If no theme is assigned or you are blanking a presentation or 
+    image, it will blank to the global theme.
 
-.. image:: pics/droid_found_select1.png
+**Display Desktop:**
+    Choosing this option will show your desktop wallpaper or a program that you 
+    have open on the extended monitor or projector. You can seamlessly switch 
+    between the desktop wallpaper or a program and OpenLP by Blank to Desktop.
 
-Click on :guilabel:`Add to Service` to add your media to the bottom of the 
-:ref:`creating_service`. Click on :guilabel:`Send Live` to immediately display 
-your media on the projection screen.
+.. image:: pics/droid_blank.png
 
-.. image:: pics/droid_found_add1.png
 
-When you have completed your search you must press the back button on your phone 
-to return to the main screen.
+.. |droid_alert_button| image:: pics/droid_alert_button.png
+
+.. |droid_blank_button| image:: pics/droid_blank_button.png

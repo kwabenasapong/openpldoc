@@ -203,7 +203,7 @@ right click Images.
 
 Left click Reorder Item.
 
-.. image:: pics/service_manger_reorder_images.png
+.. image:: pics/service_manager_reorder_images.png
 
 From this box you will be able to rearrange the order of your images by clicking
 on one and using the :guilabel:`Up` and :guilabel:`Down` arrows to move it to
@@ -216,7 +216,7 @@ images, left click the image you want to add and hold the mouse button and drag
 it over your group of Images and release the mouse button. You will be given 
 two options, :guilabel:`Add New Item` and :guilabel:`Add to Selected Item`.
 
-.. image:: pics/service_manger_reorder_images.png
+.. image:: pics/service_manager_image_dnd_menu.png
 
 If you click :guilabel:`Add New Item` your image will be separate from your
 group of images as another item at the bottom of the Service. If you click

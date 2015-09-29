@@ -255,6 +255,16 @@ added. When the items are added, only items with the correct file suffix for the
 plugin will be loaded. If you try to drop a presentation into the images folder, 
 an error message will be generated.
 
+In :ref:`presentation_configure` configuration it is possible to enable 
+:guilabel:`Allow presentation application to be overridden`, which shows a
+dropdown box which gives you the option to select the presentation application
+you want to use. The default is :guilabel:`Automatic`, but you can choose any
+available presentation application. Note that this can lead to unexpected
+behaviour if the application chosen is not compatible with the presentation.
+
+.. image:: pics/media_manager_presentation_select.png
+
+
 Images
 ------
 
@@ -329,7 +339,13 @@ Toolbar
 |buttons_media_optical| **Load CD/DVD:**
     Import mediaclip from audio CD or DVD. This feature only works if VLC is
     installed on the computer and enabled in OpenLP. See :ref:`config_players`
-    for how to configure media players.
+    for how to configure media players. Clicking the icon will bring up a window
+    where you can load a DVD or audio CD and select a track and a range and save
+    it as a named media clip. Note that the audio CD or DVD is still required
+    when playing the media clip, even if the media clip is saved to a service
+    file.
+
+.. image:: pics/select_media_clip.png
 
 |buttons_open| **Load media:**
     Import one or more media files. Media files need to be imported in order to
@@ -364,6 +380,13 @@ folder is selected, all the contacts of the folder will be added. When the items
 are added, only items with the correct file suffix for the plugin will be loaded. 
 If you try to drop a presentation into the images folder, an error message will 
 be generated.
+
+In :ref:`media_configure` configuration it is possible to enable 
+:guilabel:`Allow media player to be overridden`, which shows a dropdown box
+which gives you the option to select the media player you want to use. The
+default is :guilabel:`Automatic`, but you can choose any available player.
+
+.. image:: pics/media_manager_media_select.png
 
 Custom Slides
 -------------

@@ -473,6 +473,8 @@ Choose the language of the bible books. The options are:
 **English:**
   The language of the books will be set to English.
 
+.. _presentation_configure:
+
 Presentations
 =============
 

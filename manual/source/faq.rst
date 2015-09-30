@@ -427,13 +427,13 @@ this, but there is no timeframe at present.
 Why do live backgrounds not work in OpenLP 2.2 on Windows & Mac OS X
 --------------------------------------------------------------------
 
-Due to changes in the one of the underlying frameworks that OpenLP uses (Qt4),
-live backgrounds does not work in OpenLP 2.2. This will be fixed in OpenLP 2.4.
+Due to changes in one of the underlying frameworks that OpenLP uses (Qt4),
+live backgrounds do not work in OpenLP 2.2. This will be fixed in OpenLP 2.4.
 
 Why do playback of linked audio not work in OpenLP 2.2 on Mac OS X
 ------------------------------------------------------------------
 
-Due to changes in the one of the underlying frameworks that OpenLP uses (Qt4),
+Due to changes in one of the underlying frameworks that OpenLP uses (Qt4),
 playback of linked audio does not work in OpenLP 2.2. This will be fixed in
 OpenLP 2.4.
 

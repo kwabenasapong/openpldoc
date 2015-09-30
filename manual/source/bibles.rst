@@ -139,7 +139,7 @@ When the download is complete you can select from 3 different sources to
 download from: `Crosswalk <http://www.biblestudytools.com/>`_, `BibleServer
 <http://www.bibleserver.com/>`_ and `BibleGateway
 <https://www.biblegateway.com/>`_. From each source there are many Bible
-translations available, so there is a good change that you will find what you
+translations available, so there is a good chance that you will find what you
 need.
 
 You can also select a proxy server if needed from the `Proxy Server` tab. Your

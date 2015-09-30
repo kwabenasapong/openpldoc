@@ -7,17 +7,13 @@ Troubleshooting
 I can not play videos or other media
 ------------------------------------
 
-If you can not play video or audio through openlp, there are several areas that
-could be an issue. First thing is to make sure you can play the media file
-through your default media player. OpenLP should be able to play any file that
-you can play through your default media player.
+If you can not play video or audio through OpenLP, the problem is most likely
+that the media players have not be properly configured. The recommended media
+player for OpenLP is VLC, see the manual for :ref:`config_players` for how to 
+setup VLC as your default player.
 
-If you can play a file through your media player but not on OpenLP it may help
-to enable Phonon for multimedia playback. Go to the OpenLP configuration
-:menuselection:`Settings --> Configure OpenLP...` and select the Media tab.
-Make sure the check box for `Use Phonon for video playback` is checked.
-
-.. image:: pics/phononcheckbox.png
+If you want to use the Phonon player, but it cannot play your media files, you
+can look below for how best to set it up.
 
 Codecs
 ^^^^^^
@@ -120,7 +116,7 @@ To enable the plugins navigate to :menuselection:`Settings --> Plugins` or
 press :kbd:`Alt+F7`. You will want to click on the plugin to the left that you
 would like to enable and select **active** from the drop down box to the right.
 
-.. image:: pics/plugins.png
+.. image:: pics/plugin_list_main.png
 
 By default all plugins should be enabled during the first run wizard except the
 remotes plugin, unless you specify differently.
@@ -132,12 +128,6 @@ The book, chapter, and verse should be displayed when you display scripture. If
 you can not see this your theme probably has the text size too small for the
 info to be seen. See the section of the manual on :ref:`themes` if you need more info
 on text sizes in themes.
-
-I am running Mac OS X and I do not have a presentations plugin
---------------------------------------------------------------
-
-Due to software limitations with Keynote and OpenOffice Impress, the
-presentations plugin on OS X is not currently available.
 
 I am using PowerPoint 2010 or PowerPoint Viewer 2010 and presentations do not work
 ----------------------------------------------------------------------------------
@@ -201,3 +191,11 @@ image format and yields the best performance. Images should also be sized to
 the size of your output. For example, if your output screen is 1024x768 you 
 should size your background image to 1024x768 also. OpenLP does not scale
 images.
+
+OpenLP crashes on startup on Windows
+------------------------------------
+
+If Windows is missing a proper driver for the graphics card on the computer, it
+might cause OpenLP to crash on startup, resulting in a message saying 
+:guilabel:`OpenLP has stopped working`. To fix this find, download and install
+the newest driver for your graphics card.

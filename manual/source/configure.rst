@@ -296,8 +296,8 @@ Players
 
 Background color
 ^^^^^^^^^^^^^^^^
-Chose the background color to be shown as background for videos with different
-aspect ratio than the display screen.
+Choose the background color displayed as background for videos with a different
+aspect ratio than the display screen
 
 Available Media Players
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -473,6 +473,8 @@ Choose the language of the bible books. The options are:
 **English:**
   The language of the books will be set to English.
 
+.. _presentation_configure:
+
 Presentations
 =============
 
@@ -636,8 +638,8 @@ same network, wired or wireless.
 
 .. _non_secure:
 
-Server Settings- Non Secure
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Server Settings - Non Secure
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: pics/configureremotes.png
 
@@ -664,15 +666,19 @@ Android app.
   smartphone, to view the live service display in a basic black and white 
   format. This URL shows the address you will use in the remote browser for 
   stage view.
-  
-Server Settings- Secure
-^^^^^^^^^^^^^^^^^^^^^^^
+
+.. _secure_server:
+
+Server Settings - Secure
+^^^^^^^^^^^^^^^^^^^^^^^^
 These options are identical in meaning to the ones documented in :ref:`non_secure`.
 The only difference is these require an SSL cetificate to provide the security.
 Instructions for creating and installing a certificate are documented in
 Generate SSL certificate :ref:`ssl_config`.
 
 *Changing from a Secure to Non Secure setup requires a restart of OpenLP.*
+
+.. _user_auth:
 
 User Authentication 
 ^^^^^^^^^^^^^^^^^^^

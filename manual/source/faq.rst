@@ -424,17 +424,17 @@ monitor resolution and avoiding shadows and outline text will help. We are
 hoping a future release of the toolkit we are using (QtWebKit) will help improve
 this, but there is no timeframe at present.
 
-Why does live backgrounds not work in OpenLP 2.2 on Windows & Mac OS X
-----------------------------------------------------------------------
+Why do live backgrounds not work in OpenLP 2.2 on Windows & Mac OS X
+--------------------------------------------------------------------
 
 Due to changes in the one of the underlying frameworks that OpenLP uses (Qt4),
 live backgrounds does not work in OpenLP 2.2. This will be fixed in OpenLP 2.4.
 
-Why does playback of linked audio not work in OpenLP 2.2 on Mac OS X
---------------------------------------------------------------------
+Why do playback of linked audio not work in OpenLP 2.2 on Mac OS X
+------------------------------------------------------------------
 
 Due to changes in the one of the underlying frameworks that OpenLP uses (Qt4),
-playback of linked audio  does not work in OpenLP 2.2. This will be fixed in
+playback of linked audio does not work in OpenLP 2.2. This will be fixed in
 OpenLP 2.4.
 
 Features

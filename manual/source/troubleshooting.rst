@@ -8,12 +8,12 @@ I can not play videos or other media
 ------------------------------------
 
 If you can not play video or audio through OpenLP, the problem is most likely
-that the media players has not be properly configured. The recommended media
+that the media players have not be properly configured. The recommended media
 player for OpenLP is VLC, see the manual for :ref:`config_players` for how to 
 setup VLC as your default player.
 
-If you want to use the Phonon player, but it cannot play your media files you
-can look below for who best to set it up.
+If you want to use the Phonon player, but it cannot play your media files, you
+can look below for how best to set it up.
 
 Codecs
 ^^^^^^

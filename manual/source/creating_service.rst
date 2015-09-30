@@ -182,7 +182,7 @@ Adding a Group of Images
 
 At some point you may have a group of images to display together. It may be
 pictures from a youth group adventure, bulletin announcements, or some other
-reason. You can either create the group in the :ref:`media-manager`, and then
+reason. You can either create the group in the :ref:`media-manager` and then
 click the |buttons_add| icon above the images, or you can manually select a
 group of images. Do this by holding the :kbd:`Ctrl` 
 key on your keyboard and click each image you want to add as a group. As you 

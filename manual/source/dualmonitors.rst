@@ -164,8 +164,8 @@ then select Displays.
 
 .. image:: pics/gnome3displays.png 
 
-By clicking on each of the display listed you can change the mode, resolution
-andorientation of the displays. 
+By clicking on each of the displays listed you can change the mode, resolution
+and orientation of the displays. 
 
 .. image:: pics/gnome3displaysettings.png 
 

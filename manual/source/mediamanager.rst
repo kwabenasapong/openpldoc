@@ -260,7 +260,7 @@ In :ref:`presentation_configure` configuration it is possible to enable
 dropdown box which gives you the option to select the presentation application
 you want to use. The default is :guilabel:`Automatic`, but you can choose any
 available presentation application. Note that this can lead to unexpected
-behaviour if the application chosen is not compatible with the presentation.
+behavior if the application chosen is not compatible with the presentation.
 
 .. image:: pics/media_manager_presentation_select.png
 
@@ -340,7 +340,7 @@ Toolbar
     Import mediaclip from audio CD or DVD. This feature only works if VLC is
     installed on the computer and enabled in OpenLP. See :ref:`config_players`
     for how to configure media players. Clicking the icon will bring up a window
-    where you can load a DVD or audio CD and select a track and a range and save
+    where you can load a DVD or audio CD, select a track and a range and save
     it as a named media clip. Note that the audio CD or DVD is still required
     when playing the media clip, even if the media clip is saved to a service
     file.

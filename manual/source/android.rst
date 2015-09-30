@@ -9,7 +9,7 @@ Installation
 OpenLP gives you the ability to control your service from an Android based 
 smartphone. The following tutorial will describe how to install and 
 use the application. For this example we will be using a LG G2. Other Android
-smartphones or tablet may vary slightly in appearance.
+smartphones or tablets may vary slightly in appearance.
 
 Open the :guilabel:`Google Play Store` app and search for OpenLP, and you will
 find :guilabel:`OpenLP - Remote 2`. As an alternative use `this link
@@ -37,7 +37,7 @@ Display Text Size
 .. image:: pics/droid_preferences1.png
 
 **Select display text size:**
-    This allows you to change the the font size for the application display.
+    This allows you to change the font size for the application display.
 
 Set Custom Timeout
 ^^^^^^^^^^^^^^^^^^
@@ -110,7 +110,7 @@ Live List
 ^^^^^^^^^
 
 Selecting :guilabel:`Live List` will display what ever is in Service Manager
-at the time, or what is live at the moment. If there is items in the Service
+at the time, or what is live at the moment. If there are items in the Service
 Manager they will be shown on the left, and the live item will be shown on the
 right.
 
@@ -126,7 +126,7 @@ Stage View
 ^^^^^^^^^^
 
 Selecting :guilabel:`Stage View` will display the stage view on your Android 
-evice. See the :ref:`stage_view` section in the manual for a detailed
+device. See the :ref:`stage_view` section in the manual for a detailed
 description.
 
 .. image:: pics/droid_stage_view.png

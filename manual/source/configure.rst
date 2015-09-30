@@ -296,8 +296,8 @@ Players
 
 Background color
 ^^^^^^^^^^^^^^^^
-Choose the background color displayed as background for videos with different
-aspect ratio than the display screen.
+Choose the background color displayed as background for videos with a different
+aspect ratio than the display screen
 
 Available Media Players
 ^^^^^^^^^^^^^^^^^^^^^^^

@@ -199,3 +199,11 @@ If Windows is missing a proper driver for the graphics card on the computer, it
 might cause OpenLP to crash on startup, resulting in a message saying 
 :guilabel:`OpenLP has stopped working`. To fix this find, download and install
 the newest driver for your graphics card.
+
+I saved service-files in the servicemanager folder but now they are gone
+------------------------------------------------------------------------
+
+The `servicemanager` folder which can be found in OpenLP's data folder is used
+internally by OpenLP for temporary files and anything in there can and will be
+deleted by OpenLP. In general you should not modify or create files in OpenLP's
+data folder unless you know what you are doing.

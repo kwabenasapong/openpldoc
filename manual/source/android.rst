@@ -39,6 +39,13 @@ Display Text Size
 **Select display text size:**
     This allows you to change the font size for the application display.
 
+Auto center display
+^^^^^^^^^^^^^^^^^^^
+
+**Allow displays to auto center:**
+    Check this box to allow the selected item to scroll to the centre of the
+    list.
+
 Set Custom Timeout
 ^^^^^^^^^^^^^^^^^^
 
@@ -99,10 +106,10 @@ Service List
 ^^^^^^^^^^^^
 
 Selecting :guilabel:`Service List` will take you to the Service Manager. 
-Selecting an item with a short press in the service will immediately take it 
+Selecting an item with a in the service manager will immediately take it 
 live on the projection screen and you will stay on the service screen on your 
-device. Selecting an item with a long press in the service will immediately take 
-it live on the projection screen and to the live display on your device.
+device. You can use the arrows buttons shown on the bottom left and right to
+move to the next slide inside the item. 
 
 .. image:: pics/droid_service.png
 
@@ -112,7 +119,8 @@ Live List
 Selecting :guilabel:`Live List` will display what ever is in Service Manager
 at the time, or what is live at the moment. If there are items in the Service
 Manager they will be shown on the left, and the live item will be shown on the
-right.
+right. You can use the arrows buttons shown on the bottom left and right to move
+to the next slide inside the item. 
 
 .. image:: pics/droid_live_list_portrait.png
 

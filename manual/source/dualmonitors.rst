@@ -196,6 +196,34 @@ From here you will need to set up your projector with the appropriate
 resolution, and position. OpenLP works best projecting to the monitor on the
 right.
 
+.. _xfce4display:
+
+Xfce4
+^^^^^
+
+This guide is for users of the Xfce4 desktop. Open the Xfce4 menu and chose
+:guilabel:`Settings Manager`.
+
+.. image:: pics/xfce4-settings.png 
+
+Open :guilabel:`Display` to open the settings for displays.
+
+.. image:: pics/xfce4-display.png 
+
+If the second display has not yet been enabled, enable it by selecting it in the
+window and tick `Use this display`.
+
+There is an issue with the Xfce4 compositor that makes OpenLP freeze when using
+a dual monitor setup. This issue can be worked around by disabling an option for
+the compositor. To do this open :guilabel:`Settings Manager` and open
+:guilabel:`Window Manager Tweaks`.
+
+.. image:: pics/xfce4-win-manager-tweaks-comp.png
+
+Go to the :guilabel:`Compositor` tab and disable :guilabel:`Display fullscreen
+overlay windows directly`. Click :guilabel:`Close` and now OpenLP should run
+without issues.
+
 Linux Systems Using nVidia Drivers
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 

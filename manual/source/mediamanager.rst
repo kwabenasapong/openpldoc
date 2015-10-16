@@ -143,7 +143,7 @@ The following options are available on the quick search tab:
         
         A detailed description of the format and how it is parsed by OpenLP can
         be read `In the OpenLP API documentation
-        <http://docs.openlp.org/plugins/bibles.html#openlp.plugins.bibles.lib.parse_reference>`_.
+        <http://api.openlp.io/api/openlp/plugins/bibles/lib.html#openlp.plugins.bibles.lib.parse_reference>`_.
 
         If an invalid format is used for a search a popup window will show the
         examples also shown above.
@@ -328,8 +328,7 @@ Clicking on *Media* in the :ref:`g-media-manager` will display the media item
 for media. The media item shows a list of imported audio or video files.
 
 **Note:** On some computers OpenLP has trouble displaying videos. Please read
-the `Frequently Asked Questions <http://wiki.openlp.org/faq>`_ for tips on how
-to resolve these issues.
+the :ref:`troubleshooting` for tips on how to resolve these issues.
 
 .. image:: pics/mediamanager_media.png
 

@@ -2,7 +2,7 @@ Installing OpenLP on Microsoft Windows
 ======================================
 
 Installing OpenLP is identical over all supported versions of Windows. After
-downloading the file from the `download page <http://www.openlp.org/en/download.html>`_ 
+downloading the file from the `website <http://www.openlp.org/>`_ 
 open the file by double clicking when the download is complete. After opening 
 the downloaded file agree to open the unverified file if you are prompted.
 On Windows 8 you might have to click :guilabel:`More info` before you can
@@ -63,22 +63,23 @@ Privacy Settings to run OpenLP.
 
 Click the Apple icon and open System Preferences
 
-.. image:: pics/gatekeeper1.png
+.. image:: pics/mac-os-x-system-menu.png
 
 Open the Security & Privacy settings
 
-.. image:: pics/gatekeeper2.png
+.. image:: pics/mac-os-x-settings.png
 
 Change the setting from Mac App Store to Anywhere. If the settings are grayed
 out click on the lock in the lower lefthand corner of the settings window to  
 enable editing.
 
-.. image:: pics/gatekeeper3.png
+.. image:: pics/mac-os-x-security-and-privacy.png
 
 If you have not already downloaded the correct file from the OpenLP
-`download page <http://www.openlp.org/en/download.html>`_, download it now.
-Then double click on the .dmg file. Drag the OpenLP icon over to the Applications
-folder and you will be ready to use OpenLP. OpenLP will be available in your
-Applications folder.
+`website <http://www.openlp.org/>`_, download it now. Then double click on the
+.dmg file. This will open a window with two icons: An OpenLP icon and an
+Applications Folder icon. To install OpenLP, simply drag the OpenLP icon over to
+the Applications folder icon and you will be ready to use OpenLP. OpenLP will be
+available in your Applications folder.
 
-.. image:: pics/osxinstall.png
+.. image:: pics/mac-os-x-dnd-install.png

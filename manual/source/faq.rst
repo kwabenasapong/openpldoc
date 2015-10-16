@@ -151,7 +151,7 @@ The Bible plugin has a `Import Wizard` which can import Bibles
 from a variety of sources. The following sources are supported:
 
 CSV
-    The format is documented in the `OpenLP API documentation <http://docs.openlp.org/plugins/bibles.html#module-openlp.plugins.bibles.lib.csvbible>`_.
+    The format is documented in the `OpenLP API documentation <http://api.openlp.io/api/openlp/plugins/bibles/lib/csvbible.html#module-openlp.plugins.bibles.lib.csvbible>`_.
 
 OSIS
     An XML format for Bible. You can export Bibles from the `Sword Project <http://www.crosswire.org/sword/software/>`_

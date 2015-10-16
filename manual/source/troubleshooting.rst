@@ -1,3 +1,5 @@
+.. _troubleshooting:
+
 ===============
 Troubleshooting
 ===============
@@ -207,3 +209,10 @@ The `servicemanager` folder which can be found in OpenLP's data folder is used
 internally by OpenLP for temporary files and anything in there can and will be
 deleted by OpenLP. In general you should not modify or create files in OpenLP's
 data folder unless you know what you are doing.
+
+OpenLP freezes on Xfce4 in a dual monitor setup
+-----------------------------------------------
+
+There is an issue with the Xfce4 compositor that makes OpenLP freeze when using
+a dual monitor setup. See configuration of dual monitor for :ref:`xfce4display`
+for a solution.

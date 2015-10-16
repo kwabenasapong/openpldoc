@@ -149,10 +149,14 @@ assumes you have properly set up any proprietary drivers if needed. You
 should seek out your distributions documentation if this general guide does not
 work.
 
-**Note to Ubuntu 11.04 Users:** Ubuntu 11.04 uses the new Unity interface. It
-is recommended to use the *Classic Desktop* option. OpenLP and other 
-applications requiring dual monitors may not work well with Unity due to issues
-experienced by other users with the Unity interface.
+**Note to Ubuntu Users:** Standard Ubuntu uses the Unity interface.
+Unfortunately we cannot recommend using Unity for a dual display setup with 
+OpenLP, since there seems to be no reliable way to hide the menubar from the
+secondary display, as well as other issues. Instead we recommend using a
+different desktop environment like GNOME, KDE or Xfce, all of which are
+available from the Ubuntu repositories, and via special Ubuntu variants, such as
+`Ubuntu GNOME <https://ubuntugnome.org/>`_, `Kubuntu <http://kubuntu.org/>`_ or
+`Xubuntu <http://xubuntu.org/>`_.
 
 GNOME 3
 ^^^^^^^
@@ -195,6 +199,34 @@ Click on the :guilabel:`Display and Monitor` icon.
 From here you will need to set up your projector with the appropriate
 resolution, and position. OpenLP works best projecting to the monitor on the
 right.
+
+.. _xfce4display:
+
+Xfce4
+^^^^^
+
+This guide is for users of the Xfce4 desktop. Open the Xfce4 menu and chose
+:guilabel:`Settings Manager`.
+
+.. image:: pics/xfce4-settings.png 
+
+Open :guilabel:`Display` to open the settings for displays.
+
+.. image:: pics/xfce4-display.png 
+
+If the second display has not yet been enabled, enable it by selecting it in the
+window and tick `Use this display`.
+
+There is an issue with the Xfce4 compositor that makes OpenLP freeze when using
+a dual monitor setup. This issue can be worked around by disabling an option for
+the compositor. To do this open :guilabel:`Settings Manager` and open
+:guilabel:`Window Manager Tweaks`.
+
+.. image:: pics/xfce4-win-manager-tweaks-comp.png
+
+Go to the :guilabel:`Compositor` tab and disable :guilabel:`Display fullscreen
+overlay windows directly`. Click :guilabel:`Close` and now OpenLP should run
+without issues.
 
 Linux Systems Using nVidia Drivers
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

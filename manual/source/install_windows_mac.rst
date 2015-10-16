@@ -2,7 +2,7 @@ Installing OpenLP on Microsoft Windows
 ======================================
 
 Installing OpenLP is identical over all supported versions of Windows. After
-downloading the file from the `download page <http://www.openlp.org/en/download.html>`_ 
+downloading the file from the `website <http://www.openlp.org/>`_ 
 open the file by double clicking when the download is complete. After opening 
 the downloaded file agree to open the unverified file if you are prompted.
 On Windows 8 you might have to click :guilabel:`More info` before you can

@@ -151,7 +151,7 @@ The Bible plugin has a `Import Wizard` which can import Bibles
 from a variety of sources. The following sources are supported:
 
 CSV
-    The format is documented in the `OpenLP API documentation <http://docs.openlp.org/plugins/bibles.html#module-openlp.plugins.bibles.lib.csvbible>`_.
+    The format is documented in the `OpenLP API documentation <http://api.openlp.io/api/openlp/plugins/bibles/lib/csvbible.html#module-openlp.plugins.bibles.lib.csvbible>`_.
 
 OSIS
     An XML format for Bible. You can export Bibles from the `Sword Project <http://www.crosswire.org/sword/software/>`_
@@ -404,15 +404,9 @@ phonon-backend-vlc may also be worth trying on some systems.
 Windows & Mac OS X
 ^^^^^^^^^^^^^^^^^^
 
-Phonon should already be set up properly. If you are still having issues, let the 
+Phonon should already be set up properly. If you are still having issues see
+:ref:`t-no-media` in the Troubleshooting section. If that does not work, let the
 developers know.
-
-There are no menu icons in OpenLP
----------------------------------
-
-This may affect (only) Linux users with XFCE or Gnome. To solve the problem,
-follow the instructions on `this bug report <https://bugs.launchpad.net/ubuntu/+source/qt4-x11/+bug/501468/comments/3>`_.
-
 
 MP3's and other audio formats do not work
 -----------------------------------------
@@ -429,6 +423,19 @@ As for text over video, we have no solution for speeding this up. Reducing the
 monitor resolution and avoiding shadows and outline text will help. We are
 hoping a future release of the toolkit we are using (QtWebKit) will help improve
 this, but there is no timeframe at present.
+
+Why do live backgrounds not work in OpenLP 2.2 on Windows & Mac OS X
+--------------------------------------------------------------------
+
+Due to changes in one of the underlying frameworks that OpenLP uses (Qt4),
+live backgrounds do not work in OpenLP 2.2. This will be fixed in OpenLP 2.4.
+
+Why do playback of linked audio not work in OpenLP 2.2 on Mac OS X
+------------------------------------------------------------------
+
+Due to changes in one of the underlying frameworks that OpenLP uses (Qt4),
+playback of linked audio does not work in OpenLP 2.2. This will be fixed in
+OpenLP 2.4.
 
 Features
 ========

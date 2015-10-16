@@ -83,6 +83,26 @@ different configuration window will appear.
 To change the resolution of the screens you will have to click 
 :guilabel:`Advanced display settings`.
 
+**Recommendations**
+
+Windows 8 and 10 have several features that might seem smart on a normal desktop
+but which is not something that should be enabled when you want to use the
+computer for presenting songs, etc. during a service.
+
+.. image:: pics/task-bar-properties-win8.png
+
+Right click the task bar and choose :guilabel:`Properties`. You should uncheck
+:guilabel:`Use Peek to preview...` since it will totally blank the 2nd display
+if hovering mouse over an icon on the taskbar. You should also uncheck
+:guilabel:`Show taskbar on all displays`.
+
+.. image:: pics/task-bar-right-click-win10.png
+
+If you use Windows 10 you should probably also hide the :guilabel:`Task View`
+button from the taskbar, since clicking it will blank your 2nd display. To
+disable it, right click the taskbar, and uncheck :guilabel:`Show Task View
+button`.
+
 .. _win7monitor:
 
 Windows 7
@@ -129,20 +149,14 @@ assumes you have properly set up any proprietary drivers if needed. You
 should seek out your distributions documentation if this general guide does not
 work.
 
-**Note to Ubuntu 11.04 Users:** Ubuntu 11.04 uses the new Unity interface. It
-is recommended to use the *Classic Desktop* option. OpenLP and other 
-applications requiring dual monitors may not work well with Unity due to issues
-experienced by other users with the Unity interface.
-
-GNOME 2
-^^^^^^^
-
-This guide is for users of the GNOME 2 desktop who do not use proprietary 
-drivers. From most distros go to :menuselection:`System --> Preferences --> 
-Display Settings (Monitors)`. Set up your projector with the correct resolution
-and make sure that :guilabel:`Same image on all monitors` is **unchecked**.
-
-.. image:: pics/gnome.png
+**Note to Ubuntu Users:** Standard Ubuntu uses the Unity interface.
+Unfortunately we cannot recommend using Unity for a dual display setup with 
+OpenLP, since there seems to be no reliable way to hide the menubar from the
+secondary display, as well as other issues. Instead we recommend using a
+different desktop environment like GNOME, KDE or Xfce, all of which are
+available from the Ubuntu repositories, and via special Ubuntu variants, such as
+`Ubuntu GNOME <https://ubuntugnome.org/>`_, `Kubuntu <http://kubuntu.org/>`_ or
+`Xubuntu <http://xubuntu.org/>`_.
 
 GNOME 3
 ^^^^^^^
@@ -150,15 +164,24 @@ GNOME 3
 This guide is for users of the GNOME 3 or GNOME Shell desktop who do not use
 proprietary drivers. In GNOME shell in the search box type *Displays* or in 
 GNOME shell or fall back mode go to :menuselection:`Applications --> System Tools --> System Settings`
-then select Displays. Set up your projector with the correct resolution and
-make sure that :guilabel:`Mirror displays` is **unchecked**
+then select Displays. 
 
 .. image:: pics/gnome3displays.png 
 
-If after setting up your monitors you have the top panel on the wrong monitor
-simply drag it to the monitor you want to serve as the primary screen.
+By clicking on each of the displays listed you can change the mode, resolution
+and orientation of the displays. 
+
+.. image:: pics/gnome3displaysettings.png 
+
+Make sure to put the display you plan to use for presenting to be the
+:guilabel:`Secondary Display`.
 
 .. image:: pics/gnome3drag.png
+
+Back in the :guilabel:`Displays` window, click :guilabel:`Arrange Combined
+Displays` to arrange the displays.
+If after setting up your monitors you have the top panel on the wrong monitor
+simply drag it to the monitor you want to serve as the primary screen.
 
 KDE
 ^^^
@@ -167,15 +190,43 @@ This guide is for users of the KDE desktop who do not use proprietary drivers.
 From most distros click the Kick Off menu and navigate to
 :guilabel:`System Settings`
 
-.. image:: pics/kdesystemsettings.png
+.. image:: pics/kde5systemsettings.png
 
-Click on the display and monitor icon.
+Click on the :guilabel:`Display and Monitor` icon.
 
-.. image:: pics/kdedisplay.png
+.. image:: pics/kde5display.png
 
 From here you will need to set up your projector with the appropriate
 resolution, and position. OpenLP works best projecting to the monitor on the
 right.
+
+.. _xfce4display:
+
+Xfce4
+^^^^^
+
+This guide is for users of the Xfce4 desktop. Open the Xfce4 menu and chose
+:guilabel:`Settings Manager`.
+
+.. image:: pics/xfce4-settings.png 
+
+Open :guilabel:`Display` to open the settings for displays.
+
+.. image:: pics/xfce4-display.png 
+
+If the second display has not yet been enabled, enable it by selecting it in the
+window and tick `Use this display`.
+
+There is an issue with the Xfce4 compositor that makes OpenLP freeze when using
+a dual monitor setup. This issue can be worked around by disabling an option for
+the compositor. To do this open :guilabel:`Settings Manager` and open
+:guilabel:`Window Manager Tweaks`.
+
+.. image:: pics/xfce4-win-manager-tweaks-comp.png
+
+Go to the :guilabel:`Compositor` tab and disable :guilabel:`Display fullscreen
+overlay windows directly`. Click :guilabel:`Close` and now OpenLP should run
+without issues.
 
 Linux Systems Using nVidia Drivers
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -277,3 +328,23 @@ connect your projector and enter::
 
 **Note** it has been reported that when this issue is occurring you will not 
 want to connect your projector until your desktop is running. 
+
+
+Mac OS X
+--------
+
+This short guide will tell users of Mac OS X how to setup dual displays.
+
+.. image:: pics/mac-os-x-system-menu.png
+
+Open :guilabel:`System Preferences` in the Apple menu.
+
+.. image:: pics/mac-os-x-settings.png
+
+Choose the :guilabel:`Displays` option.
+
+.. image:: pics/mac-os-x-display-settings.png
+
+Click :guilabel:`Arrangement` in the top of the window. Make sure that
+:guilabel:`Mirror Displays` is unchecked. You can now arrange the displays as
+you wish.

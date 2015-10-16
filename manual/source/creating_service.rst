@@ -20,7 +20,7 @@ On the right side of your screen at the top is the Service Manager. Everything
 you want to display should be in the Service Manager and preferably in the order 
 you want to display it.
 
-.. image:: pics/service_manager.png
+.. image:: pics/servicemanager.png
 
 .. _new_service:
 
@@ -51,10 +51,7 @@ You can create your service file on a different computer than the projection
 computer. If a song is not in the projection computer database when you open the
 saved file OpenLP will automatically import the song into the song database with 
 this option checked here :ref:`config_songs` "Add missing songs when opening 
-service." If this option is not selected, and the song is not in your database, 
-you will see a popup when you mouseover the song in the service manager.
-
-.. image:: pics/service_manager_edit.png
+service."
 
 You always have the ability to edit the song in the service manager by right 
 clicking on the song and choosing :menuselection:`Edit Item` from the context 
@@ -94,6 +91,8 @@ Double-click on the verse you want to display live.
 
 |live| Send the selected item to Live.
 
+|custom_delete| Remove the service item.
+
 **Note:** You always have the option to send any media live direct from the 
 :ref:`media-manager`. Please see the :ref:`media-manager` section for more 
 details.
@@ -123,11 +122,6 @@ When you get your Service file set up and you are previewing a slide or sending
 it Live and you notice you don't have the correct theme for it, you can right
 click the item and mouseover :guilabel:`Change Item Theme` and select the theme
 you want to use.
-
-An easy way to check which theme you are using is to move your mouse cursor over
-an item in your service and you will see a popup with the theme being used.
-
-.. image:: pics/service_manager_theme.png
 
 Moving Through a Service
 ------------------------
@@ -188,14 +182,16 @@ Adding a Group of Images
 
 At some point you may have a group of images to display together. It may be
 pictures from a youth group adventure, bulletin announcements, or some other
-reason. Once you add your images to the :ref:`media-manager` hold the :kbd:`Ctrl` 
+reason. You can either create the group in the :ref:`media-manager` and then
+click the |buttons_add| icon above the images, or you can manually select a
+group of images. Do this by holding the :kbd:`Ctrl` 
 key on your keyboard and click each image you want to add as a group. As you 
 click the images they will remain highlighted. When you are done with your 
 selections you can either click the |buttons_add| icon above the images or, 
 click on one of the highlighted images, hold the mouse button and drag them over 
 to the Service Manager side and place them where you need them.
 
-.. image:: pics/service_images.png
+.. image:: pics/service_manager_image_group.png
 
 Sorting a Group of Images
 -------------------------
@@ -203,11 +199,11 @@ Sorting a Group of Images
 If you do not like the order the images are in,
 right click Images.
 
-.. image:: pics/service_reorder.png
+.. image:: pics/service_manager_image_group_right_click.png
 
 Left click Reorder Item.
 
-.. image:: pics/service_reorder_service_item.png
+.. image:: pics/service_manager_reorder_images.png
 
 From this box you will be able to rearrange the order of your images by clicking
 on one and using the :guilabel:`Up` and :guilabel:`Down` arrows to move it to
@@ -220,7 +216,7 @@ images, left click the image you want to add and hold the mouse button and drag
 it over your group of Images and release the mouse button. You will be given 
 two options, :guilabel:`Add New Item` and :guilabel:`Add to Selected Item`.
 
-.. image:: pics/service_add.png
+.. image:: pics/service_manager_image_dnd_menu.png
 
 If you click :guilabel:`Add New Item` your image will be separate from your
 group of images as another item at the bottom of the Service. If you click
@@ -242,12 +238,12 @@ You can type your note in the box and click :guilabel:`Save`. If you change your
 mind you can click :guilabel:`Cancel`. Your note will appear as a yellow note on
 your item.
 
-.. image:: pics/service_note.png
+.. image:: pics/service_manager_note_icon.png
 
 To view your note move your mouse cursor over the item in your service and you 
 will see a popup with the information you typed in your note.
 
-.. image:: pics/service_manager_noteview.png
+.. image:: pics/service_manager_note_hover.png
 
 If you need to change your Note or delete it, open it again, delete your text
 and click :guilabel:`Save`
@@ -301,29 +297,29 @@ After adding your media file to the :ref:`creating_service` you can mouseover
 your file and the popup will show you the play time "Length" in hours, minutes 
 and seconds.
 
-.. image:: pics/service_media_timer.png
+.. image:: pics/service_manager_media_hover.png
 
 Right click on your media file and left click 
 |service_timer| :guilabel:`Start Time`.
 
-.. image:: pics/service_media_timer_start.png
+.. image:: pics/service_manager_media_right_click.png
 
 **Item Start and Finish Time**
     The start and stop time default to the beginning and end of the video.
 
-.. image:: pics/service_media_timer_config.png
+.. image:: pics/service_manager_media_times.png
 
 Change the hours, minutes and seconds to the times you want your video to begin 
 and end. When you are finished click :guilabel:`Ok` to save your changes or 
 :guilabel:`Cancel` to leave the times as they were originally. When you display 
 your media live it will start and stop with the times you configured.
 
-.. image:: pics/service_media_timer_configend.png
+.. image:: pics/service_manager_media_times2.png
 
-After your changes have been saved you can check your start and stop times by 
+After your changes have been saved you can check your start and stop times by
 putting your mouse cursor over the media file. 
 
-.. image:: pics/service_media_timerend.png
+.. image:: pics/service_manager_media_hover2.png
 
 .. _blank_control:
 
@@ -331,10 +327,14 @@ Using the "Blank to" Control
 ----------------------------
 
 On the *Live Controller Bar* in between the Live windows are three options to
-Blank your screen. Clicking on the down arrow next to the blank button will show
-you your three options.
+Blank your screen. Depending on how narrow your slidecontroller is, the three 
+options will be presented as a dropdown menu in the toolbar.
 
-.. image:: pics/service_blank.png
+.. image:: pics/blank_screen_dropdown.png
+
+Or as three separate buttons in the toolbar.
+
+.. image:: pics/blank_screen_toolbar.png
 
 |slide_blank| **Blank Screen:**
     Choosing this option will blank your projector to black as if it were shut off.

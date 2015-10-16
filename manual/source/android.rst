@@ -7,46 +7,18 @@ Installation
 ------------
 
 OpenLP gives you the ability to control your service from an Android based 
-smartphone. The following tutorial will describe how to download, install and 
-use the application. For this example we will be using the HTC Incredible. Other 
-Android phones may vary slightly in appearance and installation.
+smartphone. The following tutorial will describe how to install and 
+use the application. For this example we will be using a LG G2. Other Android
+smartphones or tablets may vary slightly in appearance.
 
-Click the screen button on the phone to bring up the start menu for "All apps" 
-and scroll to and select :guilabel:`Play Store` seen at the top right of the 
-image. 
+Open the :guilabel:`Google Play Store` app and search for OpenLP, and you will
+find :guilabel:`OpenLP - Remote 2`. As an alternative use `this link
+<https://play.google.com/store/apps/details?id=org.openlp.android2>`_ to go to
+the apps page in Google Play Store. Now install the app.
 
-.. image:: pics/droid_all_apps.png
+.. image:: pics/droid_start.png
 
-Once selected you will be taken to the Google Play main screen. 
-
-.. image:: pics/droid_play.png
-
-Click on the hardware magnifying glass or the magnifying glass on the top right 
-and type in :kbd:`openlp` and select it.
-
-.. image:: pics/droid_find.png
-
-Once selected, this screen will appear and you will select OpenLP.
-
-.. image:: pics/droid_free.png
-
-Click on :guilabel:`Install`
-
-.. image:: pics/droid_install.png
-
-The next page shows the Permissions you will need to accept to continue the 
-download. Click on :guilabel:`Accept & download`.
-
-.. image:: pics/droid_accept.png
-
-The downloading progress bar will appear verifying you are downloading the app.
-
-.. image:: pics/droid_downloading.png
-
-Once the install is complete you will see a window where you can :guilabel:`Open`
-OpenLP for use. You will also find the OpenLP icon in your application menu.
-
-.. image:: pics/droid_open.png
+You can now start the app and when you do you will see the startup screen.
 
 Android application settings
 ----------------------------
@@ -54,44 +26,44 @@ Android application settings
 After the installation is complete and you open the OpenLP Android application 
 you will need to configure your preferences and settings. 
 
-.. image:: pics/droid_configure.png
+.. image:: pics/droid_right_menu.png
 
-Text Size Type
-^^^^^^^^^^^^^^
+Open the settings by opening the menu in the top right corner and choosing 
+:guilabel:`Settings`. This will show the preferences.
 
-Clicking on :guilabel:`Text Size Type` will bring up a selection to choose your 
-desired font size for the application display.
+Display Text Size
+^^^^^^^^^^^^^^^^^
 
-.. image:: pics/droid_text.png
+.. image:: pics/droid_preferences1.png
 
-.. _droid_blank:
+**Select display text size:**
+    This allows you to change the font size for the application display.
 
-Display Blank Type
+Auto center display
+^^^^^^^^^^^^^^^^^^^
+
+**Allow displays to auto center:**
+    Check this box to allow the selected item to scroll to the centre of the
+    list.
+
+Set Custom Timeout
 ^^^^^^^^^^^^^^^^^^
 
-Using the display blank type gives you the ability to blank your screen to the 
-methods described below. You can find out more about this feature and how it 
-operates on the main computer at :ref:`blank_control`.
+In general the OpenLP Android application will work fine without having to 
+change the custom timeout settings. If you experience connection issues or are 
+having trouble staying connected, you can change these settings.
 
-**Screen:**
-    Choosing this option will blank your projector to black as if it were shut 
-    off.
+.. image:: pics/droid_preferences2.png
 
-**Theme:**
-    Choosing this option will show your blank theme only, without lyrics or 
-    verses. If you are blanking a song with an assigned theme it will blank to 
-    that theme. If no theme is assigned or you are blanking a presentation or 
-    image, it will blank to the global theme.
+**Enable Custom Timeout:**
+    Check this box to enable setting a custom timeout.
 
-**Desktop:**
-    Choosing this option will show your desktop wallpaper or a program that you 
-    have open on the extended monitor or projector. You can seamlessly switch 
-    between the desktop wallpaper or a program and OpenLP by Blank to Desktop.
+**Connection Timeout:**
+    Once Custom Timeout has been enabled you can set a custom connection timeout
+    here.
 
-.. image:: pics/droid_blank_type.png
-
-Server
-^^^^^^
+Server Details
+^^^^^^^^^^^^^^
 
 You will need to configure the server settings you will use with your phone.  
 You can find these instructions and settings in the OpenLP desktop application 
@@ -100,160 +72,131 @@ under :ref:`remote_tab`.
 **Note:** To use the Android application you will need to be on the same 
 network as the main computer.
 
-Select the :guilabel:`Server` button and enter the :guilabel:`Serve on IP address`
-found in :ref:`remote_tab`. After entering the IP address in the box select 
-:guilabel:`OK`
+**Hostname or IP:**
+    Enter the :guilabel:`Server on IP address` found in :ref:`remote_tab`. After
+    entering the IP address in the box select :guilabel:`OK`
 
-.. image:: pics/droid_server.png
+**Port:**
+    Enter the :guilabel:`Port number` found in :ref:`remote_tab` and enter it in
+    the box. By default this is 4316. After entering the port number select
+    :guilabel:`OK`.
 
-The next step is to enter the port number. Select :guilabel:`Port`. Use the 
-:guilabel:`Port number` found in :ref:`remote_tab` and enter it in the box. 
-After entering the port number select :guilabel:`OK`.
+**Use HTTPS:**
+    This specifies if HTTPS should be used. **Note:** To use HTTPS you must
+    setup OpenLP to be secure, see :ref:`secure_server`.
 
-.. image:: pics/droid_port.png
+**Username:**
+    Here you can enter a username used for accessing OpenLP remotely. This
+    must be the same as set in :ref:`user_auth`.
 
-Custom Timeout
-^^^^^^^^^^^^^^
+**Password:**
+    Here you can enter a password used for accessing OpenLP remotely. This
+    must be the same as set in :ref:`user_auth`.
 
-In general the OpenLP Android application will work fine without having to 
-change the custom timeout settings. If you experience connection issues or are 
-having trouble staying connected, you can change these settings. Select the box
-next to :guilabel:`Enable Custom Timeouts`.
-
-.. image:: pics/droid_connection.png
-
-Connection Timeout
-^^^^^^^^^^^^^^^^^^
-
-If you are having trouble connecting please double check your settings first and 
-be sure you did not type any extra characters or spaces. If your settings are 
-correct and you are still having trouble, you can increase the 
-:guilabel:`Connection Timeout` settings and try again.
-
-.. image:: pics/droid_connection_timeout.png
-
-Socket Timeout
-^^^^^^^^^^^^^^
-
-If you are having trouble maintaining a connection you can increase the timeout 
-settings here.
-
-.. image:: pics/droid_socket_timeout.png
-
-When you are happy with your settings you can press the back button on your 
-phone to check for connection. Make sure OpenLP is running on the main computer. 
-If you were successful in your setup you will see the OpenLP application running.
-
-If you need to change or adjust your settings you can always press your hardware 
-menu button on your phone while OpenLP is running and selecting 
-:guilabel:`Settings` and it will take you back to the configuration screen.
 
 Using OpenLP Android Application
 --------------------------------
 
-After you have completed the setup you will be on the main page with six buttons.
+After you have completed the setup you are now ready to use the app. Touch the
+menu button in the top left corner to see the list of views the app supports.
 
-.. image:: pics/droid_settings_return1.png
+.. image:: pics/droid_left_menu.png
 
-Service
-^^^^^^^
+Service List
+^^^^^^^^^^^^
 
-Selecting the :guilabel:`Service` button will take you to the Service Manager. 
-Selecting an item with a short press in the service will immediately take it 
+Selecting :guilabel:`Service List` will take you to the Service Manager. 
+Selecting an item with a in the service manager will immediately take it 
 live on the projection screen and you will stay on the service screen on your 
-device. Selecting an item with a long press in the service will immediately take 
-it live on the projection screen and to the live display on your device. You can 
-also move up and down through the service items using the :guilabel:`Previous` 
-and :guilabel:`Next` buttons as shown below. Use your hardware back button to 
-take you back to the main screen.
+device. You can use the arrows buttons shown on the bottom left and right to
+move to the next slide inside the item. 
 
 .. image:: pics/droid_service.png
 
-Slide
-^^^^^
+Live List
+^^^^^^^^^
 
-If you selected a service item with multiple verses or images you can change 
-verses or images by either selecting them with your finger or using the 
-:guilabel:`Previous` and :guilabel:`Next` buttons. Use your hardware back button 
-to take you back to the main screen.
+Selecting :guilabel:`Live List` will display what ever is in Service Manager
+at the time, or what is live at the moment. If there are items in the Service
+Manager they will be shown on the left, and the live item will be shown on the
+right. You can use the arrows buttons shown on the bottom left and right to move
+to the next slide inside the item. 
 
-.. image:: pics/droid_slide.png
+.. image:: pics/droid_live_list_portrait.png
 
-Live
-^^^^
+When using the :guilabel:`Live List` it can be an advantage to use the device in
+landscape mode.
 
-Selecting the :guilabel:`Live` button will display what ever is live at the time 
-from to your Android device. Use your hardware back button 
-to take you back to the main screen.
+.. image:: pics/droid_live_list_landscape.png
 
-Display
-^^^^^^^
 
-Selecting the :guilabel:`Display` button will give you the ability to blank and 
-unblank your projection screen from your chosen method :ref:`above <droid_blank>`.
+Stage View
+^^^^^^^^^^
 
-.. image:: pics/droid_blank_button.png
+Selecting :guilabel:`Stage View` will display the stage view on your Android 
+device. See the :ref:`stage_view` section in the manual for a detailed
+description.
 
-The title :guilabel:`Blank display to` means your display is live. Touching the 
-:guilabel:`Blank display to` will blank the projection screen to the chosen 
-method defined in Settings and the button will change to 
-:guilabel:`Reset display from`. Touching it again will cycle back to 
-:guilabel:`Blank display to` unblanking the screen for the live display.
+.. image:: pics/droid_stage_view.png
 
-Stage
-^^^^^
+Live View
+^^^^^^^^^^
 
-Selecting the :guilabel:`Stage` button will display the stage view on your 
-Android device. See the :ref:`stage_view` section in the manual for a detailed 
-description. Use your hardware back button to take you back to the main screen.
+Selecting :guilabel:`Live View` will display the live view on your Android
+device. See the :ref:`main_view` section in the manual for a detailed 
+description.
 
-.. image:: pics/droid_stage.png
+.. image:: pics/droid_live_view.png
 
 Alert
 ^^^^^
 
-You can send an alert to the projection screen by entering the text in the box 
-and clicking on :guilabel:`Send`. The alert will be displayed as you have 
-it configured in :ref:`configure_alerts`. Use your hardware back button to take 
-you back to the main screen.
+To send an alert to the display, touch the alert button at the top right of the
+screen.
+
+|droid_alert_button| **Alert button**
+
+You can send an alert to the display by entering the text in the box and
+clicking on :guilabel:`Process`. The alert will be displayed as you have it 
+configured in :ref:`configure_alerts`.
 
 .. image:: pics/droid_alert.png
 
-Search
-------
 
-Using the search function gives you the ability to search for a particular media, 
-add it to the service or display it immediately.
+.. _droid_blank:
 
-To use search, press the hardware magnifying glass button on your phone or you 
-can press the hardware menu button and then select :guilabel:`Search` and you 
-will be taken to the search screen.
+Blank Display
+^^^^^^^^^^^^^
 
-.. image:: pics/droid_search_all1.png
+To blank the display, touch the blank button at the top right of the screen.
 
-Enter the text you want to search for in the text box at the top. For this 
-example we are using the search word "Jesus". You can click the magnifying glass 
-next to the text box or press the return on your phone keyboard. You will be 
-presented with a list of media in which your search word was found. 
+|droid_blank_button| **Blank button**
 
-**Note:** When searching the Bible you must enter the exact name, chapter, 
-verse or verses. Searching songs will search titles and lyrics with the text 
-used.
+Using the display blank type gives you the ability to blank your screen to the 
+methods described below. You can find out more about this feature and how it 
+operates on the main computer at :ref:`blank_control`.
 
-This screen shows the number of instances your searched text is found. 
+**Show Live:**
+    Do not blank, or unblank the display.
 
-.. image:: pics/droid_found1.png
+**Display Blank:**
+    Choosing this option will blank your projector to black as if it were shut 
+    off.
 
-As you can see in the example, there are 130 songs with the word "Jesus" in them. 
-You can scroll through the list of songs until you find the one you want.
+**Display Theme:**
+    Choosing this option will show your blank theme only, without lyrics or 
+    verses. If you are blanking a song with an assigned theme it will blank to 
+    that theme. If no theme is assigned or you are blanking a presentation or 
+    image, it will blank to the global theme.
 
-.. image:: pics/droid_found_select1.png
+**Display Desktop:**
+    Choosing this option will show your desktop wallpaper or a program that you 
+    have open on the extended monitor or projector. You can seamlessly switch 
+    between the desktop wallpaper or a program and OpenLP by Blank to Desktop.
 
-Click on :guilabel:`Add to Service` to add your media to the bottom of the 
-:ref:`creating_service`. Click on :guilabel:`Send Live` to immediately display 
-your media on the projection screen.
+.. image:: pics/droid_blank.png
 
-.. image:: pics/droid_found_add1.png
 
-When you have completed your search you must press the back button on your phone 
-to return to the main screen.
+.. |droid_alert_button| image:: pics/droid_alert_button.png
+
+.. |droid_blank_button| image:: pics/droid_blank_button.png

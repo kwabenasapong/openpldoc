@@ -149,10 +149,14 @@ assumes you have properly set up any proprietary drivers if needed. You
 should seek out your distributions documentation if this general guide does not
 work.
 
-**Note to Ubuntu 11.04 Users:** Ubuntu 11.04 uses the new Unity interface. It
-is recommended to use the *Classic Desktop* option. OpenLP and other 
-applications requiring dual monitors may not work well with Unity due to issues
-experienced by other users with the Unity interface.
+**Note to Ubuntu Users:** Standard Ubuntu uses the Unity interface.
+Unfortunately we cannot recommend using Unity for a dual display setup with 
+OpenLP, since there seems to be no reliable way to hide the menubar from the
+secondary display, as well as other issues. Instead we recommend using a
+different desktop environment like GNOME, KDE or Xfce, all of which are
+available from the Ubuntu repositories, and via special Ubuntu variants, such as
+`Ubuntu GNOME <https://ubuntugnome.org/>`_, `Kubuntu <http://kubuntu.org/>`_ or
+`Xubuntu <http://xubuntu.org/>`_.
 
 GNOME 3
 ^^^^^^^

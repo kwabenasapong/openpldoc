@@ -19,8 +19,11 @@ import os
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
-path_to_code = os.path.abspath(os.path.join(os.path.split(__file__)[0],
-                                            '..', '..', '..', '..', 'openlp', 'trunk'))
+if 'OPENLP_SOURCE' in os.environ:
+    path_to_code = os.path.abspath(os.environ['OPENLP_SOURCE'])
+else:
+    path_to_code = os.path.abspath(os.path.join(os.path.split(__file__)[0],
+                                                '..', '..', '..', '..', 'openlp', 'trunk'))
 if not os.path.exists(path_to_code):
     print('Incorrect path to code, expecting "%s"' % path_to_code)
     sys.exit(1)

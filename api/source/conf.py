@@ -346,11 +346,16 @@ epub_exclude_files = ['search.html']
 
 
 # Example configuration for intersphinx: refer to the Python standard library.
-intersphinx_mapping = {'python': ('http://docs.python.org/3.4', None)}
+intersphinx_mapping = {'python': ('http://docs.python.org/3.5', None),
+                       'sqlalchemy': ('http://docs.sqlalchemy.org/en/latest', None),
+                       'alembic': ('http://alembic.readthedocs.org/en/latest', None),
+                       'chardet': ('http://chardet.readthedocs.org/en/latest', None),
+                       'bs4': ('http://www.crummy.com/software/BeautifulSoup/bs4/doc/', None),
+                       'mako': ('http://docs.makotemplates.org/en/latest/', None),
+                       'psycopg2': ('http://initd.org/psycopg/docs/', None)}
 
 autosummary_generate = True
 
 autodoc_default_flags = ['members', 'undoc-members', 'show-inheritance']
 
-autodoc_mock_imports = ['pyodbc', 'uno', 'PyQt4.phonon', 'com.sun.star.connection', 'com.sun.star.beans',
-                        'PyQt4.QtCore']
+autodoc_mock_imports = ['pyodbc', 'uno', 'com.sun.star.connection', 'com.sun.star.beans', 'PyQt5.QtCore']

@@ -80,7 +80,7 @@ the link to the page that is created.
 Windows
 ^^^^^^^
 
-Find the OpenLP 2.2 folder in your Start menu. Choose the "OpenLP (Debug)" option.
+Find the OpenLP 2.4 folder in your Start menu. Choose the "OpenLP (Debug)" option.
 
 OpenLP will start up. Go to the :menuselection:`Tools --> Open Data Folder` menu 
 option, and an Explorer window will appear containing folders such as alerts, 
@@ -404,15 +404,9 @@ monitor resolution and avoiding shadows and outline text will help. We are
 hoping a future release of the toolkit we are using (QtWebKit) will help improve
 this, but there is no timeframe at present.
 
-Why do live backgrounds not work in OpenLP 2.2 on Windows & Mac OS X
+Why do live backgrounds not work in OpenLP 2.4 on Windows & Mac OS X
 --------------------------------------------------------------------
 
-Due to changes in one of the underlying frameworks that OpenLP uses (Qt4),
-live backgrounds do not work in OpenLP 2.2. This will be fixed in OpenLP 2.4.
+Due to bugs in one of the underlying frameworks that OpenLP uses (Qt5),
+live backgrounds do not work in OpenLP 2.4. This will be fixed in OpenLP 2.6.
 
-Why do playback of linked audio not work in OpenLP 2.2 on Mac OS X
-------------------------------------------------------------------
-
-Due to changes in one of the underlying frameworks that OpenLP uses (Qt4),
-playback of linked audio does not work in OpenLP 2.2. This will be fixed in
-OpenLP 2.4.

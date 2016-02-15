@@ -13,8 +13,8 @@ Song Importer
 =============
 
 If you are using an earlier version of OpenLP or, come from another software 
-package, you may be able to convert your existing database to work in OpenLP
-2.0. To access the Song Importer click :menuselection:`File --> Import --> Song`.
+package, you may be able to convert your existing database to work in OpenLP.
+To access the Song Importer click :menuselection:`File --> Import --> Song`.
 You will see the Song Importer window, then click :guilabel:`Next`.
 
 .. image:: pics/songimporter.png 

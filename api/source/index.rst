@@ -6,7 +6,7 @@
 Welcome
 =======
 
-Welcome to the OpenLP 2.2 API Documentation! In here you will find all
+Welcome to the OpenLP 2.4 API Documentation! In here you will find all
 information relating to OpenLP's core classes, core plugins, and anything else
 deemed necessary or interesting by the developers.
 

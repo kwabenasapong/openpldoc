@@ -407,6 +407,5 @@ this, but there is no timeframe at present.
 Why do live backgrounds not work in OpenLP 2.4 on Windows & Mac OS X
 --------------------------------------------------------------------
 
-Due to bugs in one of the underlying frameworks that OpenLP uses (Qt5),
-live backgrounds do not work in OpenLP 2.4. This will be fixed in OpenLP 2.6.
-
+Due to issues in one of the underlying frameworks that OpenLP uses (Qt5),
+live backgrounds do not work in OpenLP 2.4. We aim to fix this in OpenLP 2.6.

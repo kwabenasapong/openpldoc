@@ -35,6 +35,24 @@ displayed in the :ref:`creating_service`.
 
 .. image:: pics/stage_view_image_w_note.png 
 
+Custom Stage Views
+^^^^^^^^^^^^^^^^^^
+
+It is possible to create custom stage view with custom styles, javescript and
+html. To create a custom stage view, go to the OpenLP Data Folder by going to
+:menuselection:`Tools --> Open Data Folder`. Inside the data folder create a
+folder names :file:`stages`. Inside the :file:`stages` folder you can now create
+a folder which will be the name of your custom view, an example could be
+:file:`myview`. Now copy :file:`stage.html`, :file:`stage.css` and
+:file:`stages.js` from inside OpenLPs program folder
+:file:`openlp/plugins/remote/html/`, and customize them to your needs. Remember
+to modify :file:`stage.html` to the other files from the custom stage view
+folder, for instance :file:`stages/myview/stage.css` for a custom
+:file:`stage.css`.
+
+To access the custom stage view in a browser go to http://myopenlpip:4316/stage/myview.
+
+
 .. _main_view:
 
 The Live View

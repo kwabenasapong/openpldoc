@@ -349,45 +349,6 @@ There is an issue with the Xfce4 compositor that makes OpenLP freeze when using
 a dual monitor setup. See configuration of dual monitor for :ref:`xfce4display`
 for a solution.
 
-The command line shows many error messages
-------------------------------------------
-
-When running OpenLP from the command line, you might get something like this::
-
-    WARNING: bool Phonon::FactoryPrivate::createBackend() phonon backend plugin could not be loaded 
-    WARNING: bool Phonon::FactoryPrivate::createBackend() phonon backend plugin could not be loaded 
-    WARNING: Phonon::createPath: Cannot connect  Phonon::MediaObject ( no objectName ) to  VideoDisplay ( no objectName ). 
-    WARNING: Phonon::createPath: Cannot connect  Phonon::MediaObject ( no objectName ) to  Phonon::AudioOutput ( no objectName ). 
-    WARNING: bool Phonon::FactoryPrivate::createBackend() phonon backend plugin could not be loaded
-
-These error messages indicate that you need to install an appropriate backend 
-for Phonon.
-
-Linux/FreeBSD
-^^^^^^^^^^^^^
-
-If you are using Gnome, you need to install the GStreamer backend for Phonon. On 
-Ubuntu you would install the ```phonon-backend-gstreamer``` package::
-
-    @:~$ sudo aptitude install phonon-backend-gstreamer
-
-If you are using KDE, you need to install the Xine backend for Phonon. On Kubuntu 
-you would install the ```phonon-backend-xine``` package::
-
-    @:~$ sudo aptitude install phonon-backend-xine
-
-If you know which audiovisual system you are using, then install the appropriate 
-backend.
-
-phonon-backend-vlc may also be worth trying on some systems.
-
-Windows & Mac OS X
-^^^^^^^^^^^^^^^^^^
-
-Phonon should already be set up properly. If you are still having issues see
-:ref:`t-no-media` in the Troubleshooting section. If that does not work, let the
-developers know.
-
 MP3's and other audio formats do not work
 -----------------------------------------
 
@@ -409,3 +370,34 @@ Why do live backgrounds not work in OpenLP 2.4 on Windows & Mac OS X
 
 Due to issues in one of the underlying frameworks that OpenLP uses (Qt5),
 live backgrounds do not work in OpenLP 2.4. We aim to fix this in OpenLP 2.6.
+
+Downgrade guide (how to restore a backup)
+-----------------------------------------
+In some cases new versions of OpenLP can contain bugs that was not discovered
+during testing, which in some cases can mean that OpenLP cannot function
+probably and the only way out is to downgrade to the previous version.
+
+Since the OpenLP 2.2 release, new versions of OpenLP always ask if a backup
+should be made of the data on the first run. It is always recommend to create
+this backup, since OpenLPs data format often changes between versions, which
+means that older OpenLP versions cannot read the data created by newer versions.
+In case of downgrading this backup can be restored. To perform a downgrade
+follow these steps:
+
+#. Open OpenLP and in the menu go to :menuselection:`Tools --> Open Data` Folder
+   to open the current data folder in a fileexplorer. If OpenLP cannot open due
+   to a bug see :ref:`data_folder`.
+#. Keep the fileexplorer window open and close OpenLP
+#. Uninstall OpenLP and install the old version (if you have not done this
+   already). Do not run OpenLP when the installation completes.
+#. In the fileexplorer go up one folder-level. You should now see a lot of
+   folders, find the folders that starts with ``openlp``. Depending on how many
+   upgrades you have done you will see some folders looking like
+   ``openlp-20160128-185424``. These folders are the backups made by OpenLP on
+   upgrade. The numbers are a timestamp that you can use to find the backup with
+   the you wish to restore.
+#. Rename the ``openlp`` folder to ``openlp-broken-update`` or similar.
+#. Rename the backup folder you wish to restore to ``openlp``.
+#. Start OpenLP and watch it load your restored data.
+
+Note: This does not restore your settings!

@@ -145,6 +145,15 @@ I am on Windows and PowerPoint is installed, but it does not appear as an option
 
 Try installing the `Visual C++ Runtime Redistributable <http://www.microsoft.com/downloads/details.aspx?FamilyID=9b2da534-3e03-4391-8a4d-074b9f2bc1bf&displaylang=en>`_.
 
+Why does PowerPoint presentations not advance automatically
+-----------------------------------------------------------
+
+The reason that PowerPoint does not advance automatically is that it can only do
+so when it has the focus. But when using OpenLP for controlling presentation,
+OpenLP has the focus. So in order to make PowerPoint advance automatically the
+focus must be switched to PowerPoint, which can be done by clicking the
+Powerpoint-icon in the taskbar once the PowerPoint presentation has opened.
+
 Is it possible to get Bible x? How?
 -----------------------------------
 
@@ -201,11 +210,15 @@ home computer, insert a Bible passage from the web, save it and then open the
 service using your church computer and voila, the Bible passage should be there! 
 Note this can also be done with songs, etc!
 
-(Advanced) Where do I find the configuration file?
-==================================================
+
+Location of OpenLP files
+========================
+
+Where do I find the configuration file?
+---------------------------------------
 
 Linux, FreeBSD & PC-BSD
------------------------
+^^^^^^^^^^^^^^^^^^^^^^^
 
 If your distribution supports the XDG standard, you will find OpenLP's 
 configuration file in::
@@ -218,8 +231,8 @@ If that file and/or directory does not exist, look for::
 
 ``<user>`` is your username.
 
-OS X
-----
+Mac OS X
+^^^^^^^^
 
 You will find your configuration file here::
 
@@ -228,12 +241,39 @@ You will find your configuration file here::
 ``<user>`` is your username.
 
 Windows
--------
+^^^^^^^
 
 On Windows, OpenLP does not use a configuration file, it uses the Windows 
 registry. You can find the settings here::
 
     HKEY_CURRENT_USER\Software\OpenLP\OpenLP
+
+.. _data_folder:
+
+Where do I find the data folder?
+--------------------------------
+
+Normally you can open the data folder by using the menu :menuselection:`Tools --> Open Data Folder`
+and a fileexplorer window will appear with the data folder. In some cases due to
+bugs or other issues this is not an option, and the folder must be found
+manually.
+
+Linux, FreeBSD & PC-BSD
+^^^^^^^^^^^^^^^^^^^^^^^
+
+The data folder is located in ``/home/<user>/.local/share/openlp``.
+
+Mac OS X
+^^^^^^^^
+
+On Mac OS X the data folder is located in ``/Users/<username>/Library/Application Support/openlp``
+
+Windows
+^^^^^^^
+
+To get to the data folder on Windows, pres the Windows Key and "R" at the same
+time. This will open a the :menuselection:`Run dialog`. Enter ``%appdata%\OpenLP``
+and press <Enter>. This will open a fileexplorer with in the data folder.
 
 Features
 ========

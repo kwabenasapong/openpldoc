@@ -305,8 +305,8 @@ Available Media Players
 Select the media players you want to be available for use. As a general rule the 
 players control the following:
 
-**Phonon:**
-   Phonon is an internal media player which uses your operating system's
+**System:**
+   System is an internal media player which uses your operating system's
    built-in media player capabilities.
 
 **Webkit:** 

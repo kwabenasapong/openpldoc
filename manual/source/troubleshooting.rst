@@ -146,7 +146,7 @@ that the media players have not be properly configured. The recommended media
 player for OpenLP is VLC, see the manual for :ref:`config_players` for how to 
 setup VLC as your default player.
 
-If you want to use the Phonon player, but it cannot play your media files, you
+If you want to use the System player, but it cannot play your media files, you
 can look below for how best to set it up.
 
 Codecs
@@ -358,7 +358,7 @@ Videos can be slow or pixelated. Background Videos are very slow
 ----------------------------------------------------------------
 
 If you are just playing videos from the Media plugin, try selecting the 
-:guilabel:`Use Phonon for Video playback` option in the Media configuration,
+:guilabel:`Use System for Video playback` option in the Media configuration,
 accessible by going to :menuselection:`Settings --> Configure OpenLP --> Media`.
 As for text over video, we have no solution for speeding this up. Reducing the
 monitor resolution and avoiding shadows and outline text will help. We are

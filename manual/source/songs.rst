@@ -13,8 +13,35 @@ Song Importer
 =============
 
 If you are using an earlier version of OpenLP or, come from another software 
-package, you may be able to convert your existing database to work in OpenLP
-2.0. To access the Song Importer click :menuselection:`File --> Import --> Song`.
+package, you may be able to convert your existing database to work in OpenLP.
+OpenLP can import songs from the following sources:
+
+* OpenLyrics or OpenLP 2 Exported Song
+* Generic Documents/Presentations (Requires LibreOffice)
+* CCLI SongSelect Files
+* DreamBeam Song Files
+* EasySlides XML File
+* EasyWorship 2009 Song Database
+* EasyWorship 2009 Service File
+* Foilpresenter Song Files
+* LyriX (Exported TXT-files)
+* MediaShout Database (Windows only)
+* PowerPraise Song Files'
+* PowerSong 1.0
+* PresentationManager Song Files
+* ProPresenter 4 Song Files
+* SongBeamer Files
+* SongPro (Export File)
+* SongShow Plus Song Files
+* Songs Of Fellowship Song Files (Requires LibreOffice)
+* SundayPlus Song Files
+* VideoPsalm Files
+* Words Of Worship Song Files
+* Worship Assistant (Export CSV)
+* WorshipCenter Pro Song Files (Windows only)
+* ZionWorx (Converted CSV)
+
+To access the Song Importer click :menuselection:`File --> Import --> Song`.
 You will see the Song Importer window, then click :guilabel:`Next`.
 
 .. image:: pics/songimporter.png 
@@ -26,10 +53,10 @@ software that OpenLP will convert songs from.
 
 Click on the file folder icon to choose the file of the song database you
 want to import. See the following sections for information on some of the 
-different formats that OpenLP will import.
+different formats that OpenLP will import. Open
 
-Importing from OpenLyrics or OpenLP 2.0 Exported Song
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Importing from OpenLyrics or OpenLP 2 Exported Song
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 OpenLyrics is an open format for song lyrics defined at `openlyrics.info
 <openlyrics.info>`_, and is the format the OpenLP can export songs to, see

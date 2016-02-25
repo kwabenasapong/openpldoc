@@ -30,20 +30,20 @@ A variety of places!
 * If you are a member of any Christian Forums or websites, and their rules allow
   it, then perhaps review the software or ask others to review it.
 
-What operating systems will OpenLP 2.2 support?
+What operating systems will OpenLP 2.4 support?
 -----------------------------------------------
 
-OpenLP 2.2 is designed to be cross platform. Currently it has been known to run 
+OpenLP 2.4 is designed to be cross platform. Currently it has been known to run 
 on Windows (Vista, 7, 8, 10), Linux (Ubuntu and its variants, Fedora, Debian,
 ArchLinux, Mint, OpenSUSE and many many others), FreeBSD & Mac OS X.
 `Please let us know <http://wiki.openlp.org/Help:Contents>`_ if you have 
 successfully run it on something else.
 
-Which programming language is 2.2 developed in?
+Which programming language is 2.4 developed in?
 -----------------------------------------------
 
-OpenLP 2.2 is written in `Python3 <http://www.python.org>`_ and uses the 
-`Qt4 toolkit <http://qt.nokia.com>`_. Both are cross-platform which allows the 
+OpenLP 2.4 is written in `Python3 <http://www.python.org>`_ and uses the 
+`Qt5 toolkit <http://www.qt.io>`_. Both are cross-platform which allows the 
 software to run on different types of machine and so allow more people access to 
 free worship software. Python is one of the easier programming languages to 
 learn, so this helps us develop and `find bugs <http://wiki.openlp.org/Bug#Something_has_gone_wrong.2C_what_should_I_do_to_help_get_it_fixed.3F>`_ 
@@ -60,31 +60,31 @@ into your language then see the `Getting started page <http://wiki.openlp.org/Tr
 Upgrading
 =========
 
-Can I upgrade from any 1.9.x or 2.0.x release to 2.2?
+Can I upgrade from any 1.9.x or 2.0.x release to 2.4?
 -----------------------------------------------------
 
 No, you should first upgrade to the last stable release in the 2.0-series
-(2.0.5) and then upgrade to 2.2 to ensure that data is correctly converted.
+(2.0.5) and then upgrade to 2.4 to ensure that data is correctly converted.
 You can download OpenLP 2.0.5 from <http://sourceforge.net/projects/openlp/files/openlp/2.0.5/>`_. 
 
-Can I upgrade directly from 1.2 to 2.2?
+Can I upgrade directly from 1.2 to 2.4?
 ---------------------------------------
 
 No, you will have to install 2.0.5 first, then import the 1.2 data and then
-upgrade to 2.2. See the 2.0 documentation for how to upgrade from 1.2 to
+upgrade to 2.4. See the 2.0 documentation for how to upgrade from 1.2 to
 2.0. You can download OpenLP 2.0.5 from <http://sourceforge.net/projects/openlp/files/openlp/2.0.5/>`_. 
 
-Does 2.2 replace 2.0, or can they be run side by side?
-------------------------------------------------------
+Does 2.4 replace older 2.x versions, or can they be run side by side?
+---------------------------------------------------------------------
 
-OpenLP 2.2 and 2.0 cannot run side by side. When running 2.2 for first time
-any existing 2.0 data will automatically be converted to the 2.2 format.
-Note that OpenLP 2.2 is not backwards compatible with 2.0. Once you have
-upgraded from 2.0, version 2.0 cannot read the upgraded files. OpenLP 2.2 will
+OpenLP 2.4 and earlier 2.x versions cannot run side by side. When running 2.4 for first time
+any existing 2.x data will automatically be converted to the 2.4 format.
+Note that OpenLP 2.4 is not backwards compatible with earlier 2.x versions. Once you have
+upgraded from the older OpenLP versions cannot read the upgraded files. OpenLP 2.4 will
 ask if it should make a backup on startup, which can be used in case you want
-to downgrade to 2.0 again.
+to downgrade again.
 
-OpenLP 2.2 cannot read service files created by OpenLP 2.0.4 and earlier, it can only
+OpenLP 2.4 cannot read service files created by OpenLP 2.0.4 and earlier, it can only
 read service files created by OpenLP 2.0.5.
 
 Using OpenLP
@@ -145,6 +145,15 @@ I am on Windows and PowerPoint is installed, but it does not appear as an option
 
 Try installing the `Visual C++ Runtime Redistributable <http://www.microsoft.com/downloads/details.aspx?FamilyID=9b2da534-3e03-4391-8a4d-074b9f2bc1bf&displaylang=en>`_.
 
+Why does PowerPoint presentations not advance automatically
+-----------------------------------------------------------
+
+The reason that PowerPoint does not advance automatically is that it can only do
+so when it has the focus. But when using OpenLP for controlling presentation,
+OpenLP has the focus. So in order to make PowerPoint advance automatically the
+focus must be switched to PowerPoint, which can be done by clicking the
+Powerpoint-icon in the taskbar once the PowerPoint presentation has opened.
+
 Is it possible to get Bible x? How?
 -----------------------------------
 
@@ -201,11 +210,15 @@ home computer, insert a Bible passage from the web, save it and then open the
 service using your church computer and voila, the Bible passage should be there! 
 Note this can also be done with songs, etc!
 
-(Advanced) Where do I find the configuration file?
-==================================================
+
+Location of OpenLP files
+========================
+
+Where do I find the configuration file?
+---------------------------------------
 
 Linux, FreeBSD & PC-BSD
------------------------
+^^^^^^^^^^^^^^^^^^^^^^^
 
 If your distribution supports the XDG standard, you will find OpenLP's 
 configuration file in::
@@ -218,8 +231,8 @@ If that file and/or directory does not exist, look for::
 
 ``<user>`` is your username.
 
-OS X
-----
+Mac OS X
+^^^^^^^^
 
 You will find your configuration file here::
 
@@ -228,12 +241,39 @@ You will find your configuration file here::
 ``<user>`` is your username.
 
 Windows
--------
+^^^^^^^
 
 On Windows, OpenLP does not use a configuration file, it uses the Windows 
 registry. You can find the settings here::
 
     HKEY_CURRENT_USER\Software\OpenLP\OpenLP
+
+.. _data_folder:
+
+Where do I find the data folder?
+--------------------------------
+
+Normally you can open the data folder by using the menu :menuselection:`Tools --> Open Data Folder`
+and a fileexplorer window will appear with the data folder. In some cases due to
+bugs or other issues this is not an option, and the folder must be found
+manually.
+
+Linux, FreeBSD & PC-BSD
+^^^^^^^^^^^^^^^^^^^^^^^
+
+The data folder is located in ``/home/<user>/.local/share/openlp``.
+
+Mac OS X
+^^^^^^^^
+
+On Mac OS X the data folder is located in ``/Users/<username>/Library/Application Support/openlp``
+
+Windows
+^^^^^^^
+
+To get to the data folder on Windows, pres the Windows Key and "R" at the same
+time. This will open a the :menuselection:`Run dialog`. Enter ``%appdata%\OpenLP``
+and press <Enter>. This will open a fileexplorer with in the data folder.
 
 Features
 ========
@@ -242,7 +282,7 @@ Why has popular feature request X not been implemented?
 -------------------------------------------------------
 
 There are only a handful of developers working in their spare time. If 
-we were to try and include everything we wanted to implement, then 2.2 would not 
+we were to try and include everything we wanted to implement, then 2.4 would not 
 likely ever get released.
 
 I have a great idea for a new feature, where should I suggest it?

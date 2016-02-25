@@ -1,4 +1,4 @@
-Welcome to the OpenLP 2.2 User Manual
+Welcome to the OpenLP 2.4 User Manual
 =====================================
 
 Getting Started With OpenLP

@@ -13,9 +13,9 @@ Installation of OpenLP on Ubuntu can either be done through the Software Center
 or the command line. Command line instructions will be included at the end of
 this section on Ubuntu and its variants.
 
-OpenLP 2.2 supports Ubuntu 14.04 or later versions. There is currently an older
+OpenLP 2.4 supports Ubuntu 14.04 or later versions. There is currently an older
 version of OpenLP available in the official Ubuntu repositories, which can be
-found using the Software Center, but to get OpenLP 2.2 it is necessary to add
+found using the Software Center, but to get OpenLP 2.4 it is necessary to add
 the OpenLP Personal Package Archive (PPA) to your system. 
 
 Ubuntu, Ubuntu GNOME, Xubuntu

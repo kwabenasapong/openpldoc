@@ -210,8 +210,7 @@ time when saving your service file.
   name when saving the file.
 
 **Note:** If the date and time format does not suit your needs and you are 
-technically inclined, there is more information at 
-`Python.org <http://docs.python.org/library/datetime.html#strftime-strptime-behavior>`_.
+technically inclined, there is more information at `Python.org`_.
 
 Data Location
 ^^^^^^^^^^^^^
@@ -316,9 +315,9 @@ players control the following:
    This uses the well-known VLC media player to show videos. VLC has a
    reputation of being able to handle almost any video or audio format.
 
-**Note:** You must have `VLC <http://www.videolan.org/vlc/>`_ installed for the 
-VLC option to be available. On Windows you must install the 32-bit version of VLC.
-On Mac OS X you must install the 64-bit version of VLC.
+**Note:** You must have `VLC`_ installed for the VLC option to be available. On
+Windows you must install the 32-bit version of VLC. On Mac OS X you must install
+the 64-bit version of VLC.
 
 Player Order
 ^^^^^^^^^^^^
@@ -740,12 +739,13 @@ Then generate your keys and certificate::
 
 The crt and key files need to then be placed in {data}/remotes directory.
 
-Android App
-^^^^^^^^^^^
+Android and iOS Remotes
+^^^^^^^^^^^^^^^^^^^^^^^
 
-You can quickly find and download the OpenLP Android application using your 
-Android device barcode scanner or by clicking on the :guilabel:`download` link. 
-More details on the OpenLP Android application can be found at :ref:`android`.
+You can quickly find and download the OpenLP Android or iOS remote apps using your 
+barcode scanner or by clicking on the :guilabel:`download` link. See the sections on
+the :ref:`android-remote` and ref:`ios-remote` for more details on how to install
+and use them.
 
 Finding your IP address
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -796,3 +796,6 @@ port number or one or both computers are not connected to the network.
 .. |BUTTONS_OPEN| image:: pics/buttons_open.png
 
 .. |BUTTONS_REVERT| image:: pics/button_rerun.png
+
+.. _Python.org: http://docs.python.org/library/datetime.html#strftime-strptime-behavior
+.. _VLC: http://www.videolan.org/vlc/

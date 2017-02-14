@@ -1,7 +1,7 @@
-.. _android:
+.. _android-remote:
 
-Android App
-===========
+Android Remote
+==============
 
 Installation
 ------------

@@ -40,7 +40,8 @@ Reference Manual
    alert
    web_remote
    stage_view
-   android
+   android-remote
+   ios-remote
    glossary
 
 Questions and Troubleshooting

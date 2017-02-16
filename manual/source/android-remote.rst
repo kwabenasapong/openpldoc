@@ -3,33 +3,28 @@
 Android Remote
 ==============
 
+OpenLP gives you the ability to control your service from an Android based 
+device. The following tutorial will describe how to install and 
+use the application.
+
 Installation
 ------------
 
-OpenLP gives you the ability to control your service from an Android based 
-smartphone. The following tutorial will describe how to install and 
-use the application. For this example we will be using a LG G2. Other Android
-smartphones or tablets may vary slightly in appearance.
-
-Open the :guilabel:`Google Play Store` app and search for OpenLP, and you will
-find :guilabel:`OpenLP - Remote 2`. As an alternative use `this link
-<https://play.google.com/store/apps/details?id=org.openlp.android2>`_ to go to
-the apps page in Google Play Store. Now install the app.
+Open the :guilabel:`Google Play Store` app and search for OpenLP. You should
+find the `OpenLP - Remote 2`_ app. Now install the app.
 
 .. image:: pics/droid_start.png
 
 You can now start the app and when you do you will see the startup screen.
 
-Android application settings
-----------------------------
+Settings
+--------
 
-After the installation is complete and you open the OpenLP Android application 
-you will need to configure your preferences and settings. 
+After the installation is complete and you open the OpenLP Remote app you will need to
+configure your settings. Open the settings by touching the menu button in the top right
+corner and tapping on :guilabel:`Settings`. This will show the settings screen.
 
 .. image:: pics/droid_right_menu.png
-
-Open the settings by opening the menu in the top right corner and choosing 
-:guilabel:`Settings`. This will show the preferences.
 
 Display Text Size
 ^^^^^^^^^^^^^^^^^
@@ -49,9 +44,9 @@ Auto center display
 Set Custom Timeout
 ^^^^^^^^^^^^^^^^^^
 
-In general the OpenLP Android application will work fine without having to 
-change the custom timeout settings. If you experience connection issues or are 
-having trouble staying connected, you can change these settings.
+In general the OpenLP Remote will work fine without having to change the custom timeout
+settings. If you experience connection issues or are having trouble staying connected,
+you can change these settings.
 
 .. image:: pics/droid_preferences2.png
 
@@ -69,8 +64,8 @@ You will need to configure the server settings you will use with your phone.
 You can find these instructions and settings in the OpenLP desktop application 
 under :ref:`remote_tab`.
 
-**Note:** To use the Android application you will need to be on the same 
-network as the main computer.
+**Note:** To use the OpenLP Remote you will need to be on the same network as the main
+computer.
 
 **Hostname or IP:**
     Enter the :guilabel:`Server on IP address` found in :ref:`remote_tab`. After
@@ -94,8 +89,8 @@ network as the main computer.
     must be the same as set in :ref:`user_auth`.
 
 
-Using OpenLP Android Application
---------------------------------
+Using the Android Remote
+------------------------
 
 After you have completed the setup you are now ready to use the app. Touch the
 menu button in the top left corner to see the list of views the app supports.
@@ -198,5 +193,6 @@ operates on the main computer at :ref:`blank_control`.
 
 
 .. |droid_alert_button| image:: pics/droid_alert_button.png
-
 .. |droid_blank_button| image:: pics/droid_blank_button.png
+
+.. _OpenLP - Remote 2: https://play.google.com/store/apps/details?id=org.openlp.android2

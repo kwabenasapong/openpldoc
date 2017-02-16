@@ -36,20 +36,18 @@ left corner.
 Server Details
 ^^^^^^^^^^^^^^
 
-You will need to configure the server settings you will use with your device. You can find these instructions and
-settings in the OpenLP desktop application under :ref:`remote_tab`.
+You will need to configure the server settings you will use with your device. You can
+find these instructions and settings in the OpenLP desktop application under
+:ref:`remote_tab`.
 
-**Note:** To use the OpenLP Remote you will need to be on the same network as the main computer.
+**Note:** To use the OpenLP Remote you will need to be on the same network as the main
+computer.
 
 **Server IP:**
     Enter the :guilabel:`Server on IP address` found in :ref:`remote_tab`.
 
 **Server port:**
     Enter the :guilabel:`Port number` found in :ref:`remote_tab` and enter it in the box. By default this is ``4316``.
-
-**Use HTTPS:**
-    This specifies if HTTPS should be used. **Note:** To use HTTPS you must
-    setup OpenLP to be secure, see :ref:`secure_server`.
 
 Authentication
 ^^^^^^^^^^^^^^
@@ -86,8 +84,8 @@ Service
 
 Selecting :guilabel:`Service` will take you to the Service tab. Selecting an item with
 a in the service manager will immediately take it live on the projection screen and you
-will stay on the service screen on your device. You can use the arrows buttons shown on
-the bottom left and right to move to the next slide inside the item. 
+will be taken to the *Slides* screen on your device. You can use the arrows buttons
+shown on the bottom left and right to move to the next slide inside the item. 
 
 .. image:: pics/ios-service-screen.png
    :width: 25%
@@ -127,7 +125,7 @@ Search
 ^^^^^^
 
 If you want to search for an item that is not currently in your service, press on the
-*Search* tab at the bottom of the screen. Type your search term in the search box at the top of the tab, and then select which type of item you want to search for.
+*Search* tab at the bottom of the screen. Type your search term in the search box at the top of the screen, and then select which type of item you want to search for.
 
 .. image:: pics/ios-search-screen.png
    :width: 25%

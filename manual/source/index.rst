@@ -9,7 +9,8 @@ Getting Started With OpenLP
 
    introduction
    system_requirements
-   install_windows_mac
+   install_windows
+   install_mac
    install_linux
    install_bsd
 

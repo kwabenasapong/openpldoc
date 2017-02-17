@@ -9,7 +9,8 @@ Getting Started With OpenLP
 
    introduction
    system_requirements
-   install_windows_mac
+   install_windows
+   install_mac
    install_linux
    install_bsd
 
@@ -40,7 +41,8 @@ Reference Manual
    alert
    web_remote
    stage_view
-   android
+   android-remote
+   ios-remote
    glossary
 
 Questions and Troubleshooting

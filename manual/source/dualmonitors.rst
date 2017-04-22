@@ -330,21 +330,22 @@ connect your projector and enter::
 want to connect your projector until your desktop is running. 
 
 
-Mac OS X
---------
+macOS
+-----
 
-This short guide will tell users of Mac OS X how to setup dual displays.
-
-.. image:: pics/mac-os-x-system-menu.png
+This short guide will tell users of macOS how to setup dual displays.
 
 Open :guilabel:`System Preferences` in the Apple menu.
 
-.. image:: pics/mac-os-x-settings.png
+.. image:: pics/dual-monitors-macos-01-system-menu.png
 
 Choose the :guilabel:`Displays` option.
 
-.. image:: pics/mac-os-x-display-settings.png
+.. image:: pics/dual-monitors-macos-02-settings.png
 
 Click :guilabel:`Arrangement` in the top of the window. Make sure that
 :guilabel:`Mirror Displays` is unchecked. You can now arrange the displays as
 you wish.
+
+.. image:: pics/dual-monitors-macos-03-display-settings.png
+

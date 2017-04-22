@@ -73,7 +73,7 @@ You can use the commands below convert Bibles from that software to OSIS format.
 
 The following commands are used in all platforms and the commands are case
 sensitive across all platforms. To convert a Bible using the command prompt in
-Windows or a terminal in Linux or Mac OS X you would type::
+Windows or a terminal in Linux or macOS you would type::
 
     mod2osis biblename > biblename.osis
 

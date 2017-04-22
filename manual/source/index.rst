@@ -1,5 +1,9 @@
-Welcome to the OpenLP 2.4 User Manual
-=====================================
+Welcome to the OpenLP User Manual
+=================================
+
+The OpenLP User Manual is here to help you learn how to use OpenLP. From installing, to setting up your monitors, to
+using OpenLP on a regular basis, all the information you need to know is in here. And if you see some of it is missing,
+please `help us add it`_.
 
 Getting Started With OpenLP
 ---------------------------
@@ -53,3 +57,5 @@ Questions and Troubleshooting
 
    faq
    troubleshooting
+
+.. _help us add it: https://openlp.org/contribute

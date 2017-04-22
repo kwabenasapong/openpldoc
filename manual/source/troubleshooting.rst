@@ -167,12 +167,10 @@ K-Lite Codec Pack. If you are having issues, results do seem to vary with the
 different options. What works for some may not for others, so some trial and
 error may be required.
 
-Mac
-^^^
+macOS
+^^^^^
 
-If you are using a Mac. You may wish to play Windows formats. flip4mac enables
-you to use popular Windows formats such as .wmv on your Mac. You can get it
-`from here <http://dynamic.telestream.net/downloads/download-flip4macwmv.htm>`_.
+Most modern Macs should already support most popular formats out of the box.
 
 Ubuntu Linux (and variants)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -365,8 +363,8 @@ monitor resolution and avoiding shadows and outline text will help. We are
 hoping a future release of the toolkit we are using (QtWebKit) will help improve
 this, but there is no timeframe at present.
 
-Why do live backgrounds not work in OpenLP 2.4 on Windows & Mac OS X
---------------------------------------------------------------------
+Why do live backgrounds not work in OpenLP 2.4 on Windows and macOS
+-------------------------------------------------------------------
 
 Due to issues in one of the underlying frameworks that OpenLP uses (Qt5),
 live backgrounds do not work in OpenLP 2.4. We aim to fix this in OpenLP 2.6.

@@ -36,7 +36,7 @@ This setting often comes in useful when you only have a single display, and you
 want to be able to make the display smaller so that it does not cover your
 entire screen.
 
-Display if a single screen
+Display if a Single Screen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^ 
 
 Checking this checkbox will show the display output in a separate window when
@@ -316,7 +316,7 @@ players control the following:
    reputation of being able to handle almost any video or audio format.
 
 **Note:** You must have `VLC`_ installed for the VLC option to be available. On
-Windows you must install the 32-bit version of VLC. On Mac OS X you must install
+Windows you must install the 32-bit version of VLC. On macOS you must install
 the 64-bit version of VLC.
 
 Player Order
@@ -489,7 +489,7 @@ feature you will need to have one of the above-mentioned applications installed,
 due to the fact that OpenLP uses these application to open and run the
 presentation.
 
-Support of PDF is bundled with OpenLP on Mac OS X and Windows. On Linux you will
+Support of PDF is bundled with OpenLP on macOS and Windows. On Linux you will
 need to install :file:`mupdf` (recommended) or :file:`ghostscript`.
 
 Advanced
@@ -692,7 +692,7 @@ Generating and Installing a Certificate
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 To make the Remote access run in a secure manner ssl certificates need to be
 provided to OpenLP. This is completely optional. On Linux you will need the
-"openssl" package installed. On Mac OS X openssl should be installed by default.
+"openssl" package installed. On macOS openssl should be installed by default.
 On Windows you will need to download OpenSSL for Windows.
 
 First create a configuration file for OpenSSL named openlp.cnf::

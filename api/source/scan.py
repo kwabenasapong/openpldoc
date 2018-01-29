@@ -36,6 +36,9 @@ def find_modules(importer, module, package):
         underline = str(len(title) * '=')
         values = {'underline': underline, 'title': title, 'module': module}
         path = os.path.join(find_modules.root_path, module.replace('.', os.path.sep) + '.rst')
+        base_path = os.path.basename(path)
+        if not os.path.exists(base_path):
+            os.makedirs(base_path, '0755')
         if package:
             with open(os.path.join(path), 'w+') as file:
                 file.write(PACKAGE_RST.substitute(values))
@@ -47,13 +50,14 @@ def find_modules(importer, module, package):
             except ImportError:
                 print('Failed to import {0}{1}'.format(module, ' '*25))
                 raise
-            except:
+            except Exception:
                 print('Failed in module {0}'.format(module))
                 raise
             for name in finder.modules.keys():
                 if name.startswith('sqlalchemy'):
                     exclude = "   :exclude-members: mapper, or_, and_\n"
             values['exclude'] = exclude
+
             with open(os.path.join(path), 'w+') as file:
                 file.write(MODULE_RST.substitute(values))
     find_modules.queue.put(module)
@@ -121,4 +125,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-

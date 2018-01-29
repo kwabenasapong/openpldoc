@@ -38,7 +38,7 @@ def find_modules(importer, module, package):
         path = os.path.join(find_modules.root_path, module.replace('.', os.path.sep) + '.rst')
         base_path = os.path.basename(path)
         if not os.path.exists(base_path):
-            os.makedirs(base_path, '0755')
+            os.makedirs(base_path, 0o755)
         if package:
             with open(os.path.join(path), 'w+') as file:
                 file.write(PACKAGE_RST.substitute(values))

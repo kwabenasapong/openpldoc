@@ -118,7 +118,7 @@ How do I enable PowerPoint/Impress/PowerPoint Viewer?
 
 .. note::
 
-   PowerPoint, Keynote and LibreOffice are not supported on macOS due to limitations within the platform. This is
+   PowerPoint, Keynote and LibreOffice are not supported on macOS due to limitations with the platform. This is
    outside of our control.
 
 .. note::

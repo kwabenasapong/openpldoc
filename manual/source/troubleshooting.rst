@@ -273,7 +273,13 @@ Viewers. `Download the PowerPoint 2007 viewer for free
 I have PowerPoint installed but it does not show as a presentation option
 -------------------------------------------------------------------------
 
-Installing the `Visual C++ Runtime Redistributable. <http://www.microsoft.com/downloads/en/details.aspx?FamilyID=9b2da534-3e03-4391-8a4d-074b9f2bc1bf&displaylang=en>`_
+macOS
+^^^^^
+Due to limitations on macOS, OpenLP cannot currently interface with PowerPoint, LibreOffice or Keynote.
+
+Windows
+^^^^^^^
+Installing the `Visual C++ Runtime Redistributable <http://www.microsoft.com/downloads/en/details.aspx?FamilyID=9b2da534-3e03-4391-8a4d-074b9f2bc1bf&displaylang=en>`_
 has fixed this problem according to some of our users.
 
 I am running a Linux Distro and cannot see the menu icons

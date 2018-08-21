@@ -58,8 +58,8 @@ different formats that OpenLP will import. Open
 Importing from OpenLyrics or OpenLP 2 Exported Song
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-OpenLyrics is an open format for song lyrics defined at `openlyrics.info
-<openlyrics.info>`_, and is the format the OpenLP can export songs to, see
+OpenLyrics is an open format for song lyrics defined at `openlyrics.org
+<http://openlyrics.org>`_, and is the format the OpenLP can export songs to, see
 :ref:`export_songs`. 
 
 .. image:: pics/selectsongs.png

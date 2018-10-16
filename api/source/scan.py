@@ -8,6 +8,7 @@ from modulefinder import ModuleFinder
 import pkgutil
 import string
 import multiprocessing
+from queue import Empty
 
 PACKAGE_RST = string.Template("""$underline
 $title
@@ -73,7 +74,7 @@ def progress(queue, number):
     while number > progress_percentage:
         try:
             module = queue.get(True, 5)
-        except queue.Empty:
+        except Empty:
             break
         percent = round((progress_percentage/number)*100)
         sys.stdout.write('{0}% File: {1}{2}\r'.format(percent, module, ' '*25))

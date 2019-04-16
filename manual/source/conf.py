@@ -42,7 +42,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'OpenLP'
-copyright = u'2004 - 2015, Raoul Snyman'
+copyright = u'OpenLP Developers'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the

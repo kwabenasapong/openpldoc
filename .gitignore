@@ -1,4 +1,5 @@
-build
 .directory
-.idea/
+.idea
+.venv
+build
 api/source/api

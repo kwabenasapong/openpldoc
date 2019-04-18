@@ -68,4 +68,4 @@ view the documentation, let's run Python's built-in web server on that directory
     $ cd build/html
     $ python3 -m http.server
 
-Now open your browser to `http://localhost:8000/`_ and you should see the OpenLP manual.
+Now open your browser to `http://localhost:8000/ <http://localhost:8000/>`_ and you should see the OpenLP manual.

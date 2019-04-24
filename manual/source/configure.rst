@@ -106,6 +106,8 @@ Application Settings
   a group of images, verses, or the lyrics in a song. This control timer is 
   also accessible on the :ref:`using_timer`
 
+.. _configtheme:
+  
 Themes
 ======
 

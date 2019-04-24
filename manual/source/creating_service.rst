@@ -44,6 +44,16 @@ Three icons at the top of the *Service Manager* will do the following:
     order of service, songs, images, Bible verses, service notes, and custom 
     slides are all saved in the file.
 
+Changing the Service Level Theme
+----------------------------------------
+
+If you click on the Theme dropdown, you have the option to set the Service
+level theme. This option is covered in greater detail under
+:ref:`configtheme`.
+
+Note: This feature is only available if you have the Theme level set to 
+Service or Song Level in :ref:`configtheme`.
+
 Editing Songs in the Service
 ----------------------------
 
@@ -59,8 +69,11 @@ menu. Follow the directions here :ref:`songs_create_edit` to make changes to
 your song. 
 
 **Note:** Editing a song in :ref:`creating_service` will be applied to 
-the :ref:`media-manager` song database. Editing a song in the :ref:`media-manager` 
-will be applied to the song in your :ref:`creating_service`.  
+the :ref:`creating_service` song database. Editing a song in the :ref:`media-manager` 
+will be applied to the song in your :ref:`media-manager`.  This can be changed
+so that changes made in the :ref:`creating_service` song database update 
+the :ref:`media-manager` song database and changes made in the :ref:`media-manager`
+song database update the :ref:`creating_service` song database in :ref:`configure`.
 
 Adding Media
 ------------
@@ -92,6 +105,13 @@ Double-click on the verse you want to display live.
 |live| Send the selected item to Live.
 
 |custom_delete| Remove the service item.
+
+As an alternative to expanding or collapsing all items in the list you can use the
+buttons to the right of a list item to expand or collapse a single list item.
+
+|EXPAND_SINGLE| Expand a single service item.
+
+|COLLAPSE_SINGLE| Collapse a single service item.
 
 **Note:** You always have the option to send any media live direct from the 
 :ref:`media-manager`. Please see the :ref:`media-manager` section for more 
@@ -223,6 +243,12 @@ group of images as another item at the bottom of the Service. If you click
 :guilabel:`Add to Selected Item` your image will be added to your group of
 images.
 
+Renaming a List Item
+---------------------
+
+You can rename an item in the list to make it easier to understand.  This is
+done by right clicking on item in your service manager and left clicking *Rename*.
+
 .. _adding_note:
 
 Adding a Service Note
@@ -247,6 +273,15 @@ will see a popup with the information you typed in your note.
 
 If you need to change your Note or delete it, open it again, delete your text
 and click :guilabel:`Save`
+
+Creating a New Custom Slide
+---------------------------
+
+You have the ability to create a custom slide in the service manager by right 
+clicking on the Song, Bible Verse or Custom Slide then 
+choosing :menuselection:`Create new Custom Slide` from the context menu. 
+Follow the directions here :ref:`media-manager` to 
+create your new custom slide.
 
 .. _using_timer:
 
@@ -397,3 +432,5 @@ want to save your file and click :guilabel:`Ok`.
 .. |SERVICE_SAVE| image:: pics/service_save.png
 .. |AUDIO_PAUSE| image:: pics/media_playback_pause.png
 .. |BUTTONS_ADD| image:: pics/buttons_add.png
+.. |EXPAND_SINGLE| image:: pics/service_manager_expand_one_item.png
+.. |COLLAPSE_SINGLE| image:: pics/service_manager_collapse_one_item.png

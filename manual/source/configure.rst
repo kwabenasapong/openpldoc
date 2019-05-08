@@ -499,7 +499,7 @@ Advanced
 
 **Allow presentation application to be overridden:**
   With this option selected, you will see *Present using* area with a dropdown 
-  box on the Presentations toolbar in :ref:`media-manager` which gives you the 
+  box on the Presentations toolbar in the Library :ref:`media-manager-presentations` which gives you the 
   option to select the presentation program you want to use.
 
 PowerPoint options

@@ -214,6 +214,8 @@ in the verse list.
 
 .. image:: pics/mediamanager_bibles_results.png
 
+.. _media-manager-presentations:
+
 Presentations
 -------------
 

@@ -76,19 +76,27 @@ Options
 **Include play length of media items:**
   This option will print the length of media items in the service.
 
+.. _advanced:
+
 Customizing with CSS (Advanced)
 -------------------------------
 
 It is possible to customize the printed service using CSS. To do this go to
 :menuselection:`Tools --> Open Data Folder` If you have a file named 
-servicePrint.css delete it. In the open folder create a file named 
-service_print.css containing your customizations. Paste the following into 
-service_print.css::
+servicePrint.css delete it. 
+
+Locate the folder in the Data Folder named serviceprint.  
+If you do not have a serviceprint folder in your Data folder, you will need 
+to create a new folder named serviceprint in the Data folder.  
+
+Create a file named service_print.css in the serviceprint folder and paste 
+the following into service_print.css then make your changes to this file::
 
 	/*
-	Edit this service_print.css file to customize the service order print. Note, that not all CSS
-	properties are supported. See:
-	http://doc.trolltech.com/4.7/richtext-html-subset.html#css-properties
+	Edit this service_print.css file to customize the service order print. 
+	Note, that not all CSS properties are supported. 
+	Please see https://doc.qt.io/qt-5/stylesheet-reference.html for details
+	concerning the supported properties.
 	*/
 
 	.serviceTitle {
@@ -307,11 +315,11 @@ The HTML layout should look something like this::
 
 Edit the CSS file to produce the required style.
 
-**Note:** not all CSS properties are supported. See
-`Qt4 CSS subset <http://doc.trolltech.com/4.7/richtext-html-subset.html#css-properties>`_
+**Note:** Not all CSS properties are supported. See
+`Qt5 CSS subset <https://doc.qt.io/qt-5/stylesheet-reference.html>`_
 for more information.
 
-**Example:** Item titles with notes on right hand side.
+**Example 1:** Item titles with notes on right hand side.
 
 This service_print.css assumes the slide text will not be included.::
 
@@ -327,6 +335,44 @@ This service_print.css assumes the slide text will not be included.::
 	.itemNotesTitle {
 	   font-weight:bold;
 	}
+
+**Example 2:** Bold Item Names and increase Font Size to 24 point for the Item Title and Item Text.
+
+For this example, update the following sections of the original CSS file::
+	
+	.itemTitle {
+	   font-weight:bold;
+	   font-size:24pt;
+	   margin: 0px;
+	}
+	.itemText {
+	   font-size:24pt;
+	}
+	
+**Transfering with Your style changes for editing**
+
+After modifying the .css file, the copy button will not capture the output with the 
+changes made to the .css file.  The Print function will print with the changes in 
+the .css file and the Copy as HTML button will capture the output with the changes 
+made to the .css file.
+
+If you need to edit the output of the service print window here is a workaround that will produce
+a copy of your .css changes for use in your word processer.
+
+1. Open the service print window.
+2. Make any needed changes in the options menu.
+3. Select the 'Copy as HTML' button.
+4. Open a text editor.
+5. Paste the copied text into the text editor.
+6. Save the file from the text editor with the .html file extension.
+7. Open the file you saved in your web browser.
+8. Select and Copy the text in the web browser.
+9. Open your word processor.
+10. Paste the copied text into your word processor.
+
+Note: If the first line in your word processor is not what is shown in your web browser, 
+try a different web browser.  Some web browsers will not copy the formating for the first 
+line of text in the browser window.
 
 .. The following section defines the inline pics
 

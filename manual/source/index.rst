@@ -27,6 +27,7 @@ Reference Manual
    wizard
    menu_items
    configure
+   configure_ui
    backing_up
    dualmonitors
    mediamanager

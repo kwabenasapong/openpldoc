@@ -68,6 +68,8 @@ File
     Closes OpenLP. If there is an open service that has not 
     been saved you will be prompted to do so.
 
+.. _menu_items_view:
+
 View
 ----
 

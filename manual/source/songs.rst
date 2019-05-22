@@ -441,6 +441,30 @@ When you are done, click :guilabel:`Save` to save your choices. You can click
 audio file is being played with a song. You can stop or start the audio playing 
 by using this button. 
 
+.. image:: pics/play_or_pause.png
+
+To the right of the |audio_pause| button a count down timer for the audio file is
+displayed to indicate the play time remaining for the linked audio file.  If you 
+have multiple linked audio files, the play time remaining will only be for the 
+current playing linked audio file.
+
+.. image:: pics/audio_dropdown1.png
+
+By selecting the drop down menu between the |audio_pause| button and the count down
+timer you can jump to the next linked audio file for the song using :guilabel:`Next Track` or select
+the :guilabel:`Tracks` menu selection and jump to any linked audio file in the song.
+
+.. image:: pics/audio_dropdown3.png
+
+Linked audio files or groups of linked audio files can repeat when the last file
+finishes playing.  To set linked audio files to repeat, enable the :guilabel:`Repeat track list`
+in :ref:`configure` on the General page.
+
+Linked audio files can be set to start playing as soon as the first slide of the song
+is displayed.  To enable the linked audio files to start playing when the first slide 
+is displayed, disable the :guilabel:`Start background audio paused` option in :ref:`configure` 
+on the General page.
+
 .. These are all the image templates that are used in this page.
 
 .. |MOVE_UP| image:: pics/service_up.png

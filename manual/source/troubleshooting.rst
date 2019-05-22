@@ -81,16 +81,17 @@ Windows
 ^^^^^^^
 
 Find the OpenLP 2.4 folder in your Start menu. Choose the "OpenLP (Debug)" option.
+OpenLP will start up in Debug mode and save the log file.
 
-OpenLP will start up. Go to the :menuselection:`Tools --> Open Data Folder` menu 
-option, and an Explorer window will appear containing folders such as alerts, 
-bibles, custom etc. Keep this Explorer window open.
+To get to the log file folder on Windows, press the Windows Key and "R" at the same time. This will open the
+:menuselection:`Run dialog`. Type ``%appdata%\OpenLP`` and press <Enter>. This will open a file Explorer window within the
+OpenLP folder.  Keep this Explorer window open.
 
 Now repeat the steps you need to take in OpenLP to reproduce the problem you had, 
 and then close down OpenLP. 
 
-In the Explorer window you left open, navigate up one level into the openlp 
-folder. You will see the ``openlp.log`` file. This is the file to e-mail.
+In the Explorer window you left open, you will see the ``openlp.log`` file. This 
+is the file to e-mail.
 
 Linux/FreeBSD
 ^^^^^^^^^^^^^

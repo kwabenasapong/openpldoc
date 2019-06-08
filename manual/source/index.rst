@@ -31,7 +31,7 @@ Reference Manual
    backing_up
    dualmonitors
    mediamanager
-   creating_service
+   service
    print_service
    projector
    plugin_list

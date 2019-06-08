@@ -1,8 +1,8 @@
 .. _creating_service:
 
-===============
-Service Manager
-===============
+=======
+Service
+=======
 
 Creating a Service
 ==================

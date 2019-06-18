@@ -746,7 +746,7 @@ Android and iOS Remotes
 
 You can quickly find and download the OpenLP Android or iOS remote apps using your 
 barcode scanner or by clicking on the :guilabel:`download` link. See the sections on
-the :ref:`android-remote` and ref:`ios-remote` for more details on how to install
+the :ref:`android-remote` and :ref:`ios-remote` for more details on how to install
 and use them.
 
 Finding your IP address

@@ -109,3 +109,65 @@ To delete :ref:`g-formatting-tags` that you have entered click on the
 **Note:** if a tag is deleted that is in use in a song or custom slide the slide
 will display the tags {} without any formatting.  The deleted tags will need to
 be manually deleted from the songs or custom slides.
+
+Additional Useful Tags to Add
+=============================
+
+The :ref:`g-formatting-tags` included when you installed OpenLP provide many of the commonly used 
+formating Tags.  The following are :ref:`g-formatting-tags` that are used by some of the 
+user community and may be of use to you.
+
+The alignment Tags can be used to override the Theme formating.  A common use
+is to Center the Title of a song when the Theme is left justified.
+
+The Font size up and down Tags can be used to make the Theme Font size larger
+or smaller for the text between the tags.  Both Tags can be combined to provide 
+multiple size changes.
+
+The Font size 20pt Tag sets the font size to a specific size.  The size
+'20pt' is not an exact copy of what you would get in a word processor, but will
+be comperable in size.
+
+The Font name Tags, Arial and Times New Roman, will change the font used for the 
+text enclosed by the Tags.  The Font name Tags can be combined with Color or 
+Formating Tags to create easily destiguishable differences on the screen.  One use
+could be for responsive readings.
+
+The Paragraph with hanging text is used to indent the lines of Text after the
+first line of text in a paragraph.
+
+The Column Left and Column Right Tags can be used to create two columns of text,
+each left justified.
+
+
+
+.. table::
+   :widths: grid
+   
+   +----------------+-----+-----------------------------------------------------------------------------------------------------------------------------+----------------+
+   | Description    | Tag | Start HTML                                                                                                                  | End HTML       |
+   +================+=====+=============================================================================================================================+================+
+   | Align Left     | al  | ``<div align="left">``                                                                                                      | ``</div>``     |
+   +----------------+-----+-----------------------------------------------------------------------------------------------------------------------------+----------------+
+   | Align Center   | ac  | ``<div align="center">``                                                                                                    | ``</div>``     |
+   +----------------+-----+-----------------------------------------------------------------------------------------------------------------------------+----------------+
+   | Align Right    | ar  | ``<div align="right">``                                                                                                     | ``</div>``     |
+   +----------------+-----+-----------------------------------------------------------------------------------------------------------------------------+----------------+
+   | Font size ˄    | fu  | ``<big>``                                                                                                                   | ``</big>``     |
+   +----------------+-----+-----------------------------------------------------------------------------------------------------------------------------+----------------+
+   | Font size ˅    | fd  | ``<small>``                                                                                                                 | ``</small>``   |
+   +----------------+-----+-----------------------------------------------------------------------------------------------------------------------------+----------------+
+   | Font size 20pt | f20 | ``<span style="font-size: 20pt">``                                                                                          | ``</span>``    +
+   +----------------+-----+-----------------------------------------------------------------------------------------------------------------------------+----------------+
+   | Arial          |arial| ``<span style="font-family:arial;">``                                                                                       | ``</span>``    |
+   +----------------+-----+-----------------------------------------------------------------------------------------------------------------------------+----------------+
+   | Times New      |times| ``<span style="font-family:times new roman;">``                                                                             | ``</span>``    |
+   | Roman          |     |                                                                                                                             |                |
+   +----------------+-----+-----------------------------------------------------------------------------------------------------------------------------+----------------+
+   | Paragraph with | phg | ``<div style=" padding-left: 2em;text-indent: -0.5em; adding-left: 2em; padding-bottom:0.1em; margin:4em; float: left; ">`` | ``</div>``     |
+   | hanging test   |     |                                                                                                                             |                |
+   +----------------+-----+-----------------------------------------------------------------------------------------------------------------------------+----------------+
+   | Column left    | cl  | ``<div style="position:absolute; margin-left:0%>``                                                                          | ``</div>``     |
+   +----------------+-----+-----------------------------------------------------------------------------------------------------------------------------+----------------+
+   | Column right   | cr  | ``<div style="position:absolute; margin-left:50%>``                                                                         | ``</div>``     |
+   +----------------+-----+-----------------------------------------------------------------------------------------------------------------------------+----------------+

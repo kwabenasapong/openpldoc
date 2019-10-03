@@ -1,8 +1,4 @@
-image: alpine
-
-before_script:
-- apk --no-cache add make py3-setuptools python3-dev
-- python3 -m pip install sphinx sphinx_rtd_theme
+image: openlp/documentation
 
 pages:
   stage: deploy
@@ -10,6 +6,10 @@ pages:
   - cd manual
   - make html
   - mv build/html/ ../public/
+  - make latex
+  - cd build/latex
+  - make all-pdf
+  - mv OpenLP.pdf ../../../public/
   artifacts:
     paths:
     - public
@@ -22,6 +22,10 @@ test:
   - cd manual
   - make html
   - mv build/html/ ../test/
+  - make latex
+  - cd build/latex
+  - make all-pdf
+  - mv OpenLP.pdf ../../../test/
   artifacts:
     paths:
     - test

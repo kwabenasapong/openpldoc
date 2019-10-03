@@ -5,6 +5,16 @@ The OpenLP User Manual is here to help you learn how to use OpenLP. From install
 using OpenLP on a regular basis, all the information you need to know is in here. And if you see some of it is missing,
 please `help us add it`_.
 
+Download This Manual
+--------------------
+
+You can download this manual as a PDF from here: https://manual.openlp.org/OpenLP.pdf
+
+To open the downloaded manual, you'll need a PDF reader. On macOS and Linux your computer should already have a PDF
+reader. On Windows you'll need to install `SumatraPDF`_.
+
+If you're reading the downloaded manual, you can get the online version at https://manual.openlp.org
+
 Getting Started With OpenLP
 ---------------------------
 
@@ -60,3 +70,4 @@ Questions and Troubleshooting
    troubleshooting
 
 .. _help us add it: https://openlp.org/contribute
+.. _SumatraPDF: https://www.sumatrapdfreader.org/

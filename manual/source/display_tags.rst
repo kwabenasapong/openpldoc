@@ -167,7 +167,7 @@ each left justified.
    | Paragraph with  |  phg  | ``<div style=" padding-left: 2em;text-indent: -0.5em; adding-left: 2em; padding-bottom:0.1em; margin:4em; float: left; ">`` | ``</div>``     |
    | hanging test    |       |                                                                                                                             |                |
    +-----------------+-------+-----------------------------------------------------------------------------------------------------------------------------+----------------+
-   | Column left     |  cl   | ``<div style="position:absolute; margin-left:0%>``                                                                          | ``</div>``     |
+   | Column left     |  cl   | ``<div style="position:absolute; margin-left:0%">``                                                                         | ``</div>``     |
    +-----------------+-------+-----------------------------------------------------------------------------------------------------------------------------+----------------+
-   | Column right    |  cr   | ``<div style="position:absolute; margin-left:50%>``                                                                         | ``</div>``     |
+   | Column right    |  cr   | ``<div style="position:absolute; margin-left:50%">``                                                                        | ``</div>``     |
    +-----------------+-------+-----------------------------------------------------------------------------------------------------------------------------+----------------+

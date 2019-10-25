@@ -11,21 +11,18 @@ If you have found an error in the program (what we call a bug) you should report
 this to us so that OpenLP can be improved. Before reporting any bugs please 
 first make sure that there is not already a bug report about your problem:
 
-#. Check the `Launchpad bug list <https://bugs.launchpad.net/openlp>`_
-#. `OpenLP support System <http://support.openlp.org/>`_
-#. Check the `<http://forums.openlp.org/>`_ forum
+#. Check the `OpenLP Issue list <https://gitlab.com/groups/openlp/-/issues>`_
+#. Check the `Troubleshooting forum <https://forums.openlp.org/categories/troubleshooting>`_
 
 If there **is already a bug report**, you may be able to help by providing 
 further information. However, **if no one else has reported** it yet, then 
 please post a new bug report.
 
 #. The **preferred place** for reporting bugs is the
-   `bugs list <https://bugs.launchpad.net/openlp>`_ on Launchpad.
-#. Alternatively, if you do not have a Launchpad account and do not want to sign
+   `bugs list <https://gitlab.com/groups/openlp/-/issues>`_ on GitLab.
+#. Alternatively, if you do not have a GitLab account and do not want to sign
    up for one, you can post in the
-   `bug reports forum <http://support.openlp.org/>`_.
-#. If none of these ways suits you, you can send an email to
-   ``support (at) openlp.org``.
+   `Troubleshooting forum <https://forums.openlp.org/categories/troubleshooting>`_.
 
 What information should I include in a bug report?
 --------------------------------------------------

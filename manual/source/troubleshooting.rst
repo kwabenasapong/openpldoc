@@ -391,7 +391,12 @@ follow these steps:
    to a bug see :ref:`data_folder`.
 #. Keep the fileexplorer window open and close OpenLP
 #. Uninstall OpenLP and install the old version (if you have not done this
-   already). Do not run OpenLP when the installation completes.
+   already). Do not run OpenLP when the installation completes.  Older versions
+   can be downloaded from <https://get.openlp.org/>. Use caution and only download
+   versions with an even minor number. Odd numbered versions are test versions
+   and may not be stable.  Versions of OpenLP are listed in the format:
+   Major Revision(dot)Minor Revision(dot)Iteration.  As an example, version
+   2.4.x is a stable version and version 2.3.x is a test version.
 #. In the fileexplorer go up one folder-level. You should now see a lot of
    folders, find the folders that starts with ``openlp``. Depending on how many
    upgrades you have done you will see some folders looking like

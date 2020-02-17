@@ -139,16 +139,22 @@ from CCLI SongSelect.
 Importing from ZionWorx
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-ZionWorx (version 2.5/2.6) stores your songs in a proprietary database format
-which OpenLP is unable to access directly. You will first need to convert it to
-a CSV text file, which OpenLP and other tools (such as spreadsheet applications)
-are able to access. This can be achieved via a free third-party utility called 
-"TurboDB Data Exchange".
+ZionWorx stores your songs in a proprietary database format which OpenLP is 
+unable to access directly. You will first need to convert it to a CSV text 
+file, which OpenLP and other tools (such as spreadsheet applications) are able
+to access. This can be achieved via a demo third-party utility called
+"TurboDB for VCL 6" for database version 3.8 or a free third-party utility called 
+"TurboDB Data Exchange" for database version 2.5/2.6. 
 
 First, locate your ZionWorx songs database. ZionWorx lets you define the 
 location in :menuselection:`File --> Preferences`. The database folder will 
-contain a collection of files such as :file:`Data.tdbd` and 
-:file:`MainTable.dat`.
+contain a collection of files.  If you find :file:`Song.tbdbt` your database
+is version 3.8.  If you find files such as :file:`Data.tdbd` and
+:file:`MainTable.dat` your database is version 2.5/2.6.
+
+    Default location for ZionWorx 3.8 on Windows 10::
+    
+        C:\ProgramData\Jubilate Software\ZionWorx\Data
 
     Default location for ZionWorx 2.6 on Windows XP::
 
@@ -157,6 +163,85 @@ contain a collection of files such as :file:`Data.tdbd` and
     Default location for ZionWorx 2.6 on Windows Vista or later:: 
 
         C:\ProgramData\ZionWorx\2.6\Data
+
+**Version 3.8**
+
+Download `TurboDB for VCL 6
+<http://www.dataweb.de/en/support/downloads.html>`_ from dataWeb. The install
+will be a windows installer file.
+
+Create a `Restore Point
+<https://support.microsoft.com/en-us/help/4027538/windows-create-a-system-restore-point>`_ before 
+installing TurboDB for VLC 6.
+
+Double Click the TurboDB for VCL 6 file you downloaded and follow the
+prompts to install the programs.  Use all the default options for any questions
+you may be asked.  Once the installation is complete open `TurboDB Viewer`
+from the start menu.
+
+Open the database using the :menuselection:`Database --> Open --> Database...` dropdown menu.
+
+.. image:: pics/ZionWorksDBMenu.png 
+
+Use the File Selection window to select any of the files in your database directory.
+When the File Selection window closes you will see the tables in the database
+displayed near the top of the TurboDB Viewer window.  Select the `SQL` tab just
+above the table names.
+
+.. image:: pics/ZionWorxSQL.png
+
+Cut and Paste the SQL command below into the SQL tab.::
+
+    Select SongID,
+    Title,
+    AltTitle as "Title2",
+    Lyrics,
+    WordsBy+' '+MusicBy as "Writer",
+    Copyright,
+    PublicDomain as "Keywords",
+    DefaultStyle
+    from Song
+
+With the SQL command entered into the SQL tab, select the green Run arrow to run the SQL statement.
+
+.. image:: pics/ZionWorxSQLrun.png
+
+When the SQL command has been processed the lower part of the window will contain the songs
+from the ZionWorx database in the format that OpenLP can import.  To export the songs to a file,
+select :menuselection:`Tools --> Export Records...`
+
+.. image:: pics/ZionWorxToolsMenu.png
+
+The `TurboDB Batch Move Wizard` will open to guide you through the export process.
+Select the :guilabel:`...` button and use the file selection window to navigate to a directory and
+create a name for the output file.
+
+.. image:: pics/ZionWorxxportWindowTitle.png
+
+Use the filetype dropdown to select `Text File` as the file type of the export file.
+
+.. image:: pics/ZionWorxBatchMoveFileType.png
+
+Once the filename and the filetype have been input press the :guilabel:`Continue` button.
+
+.. image:: pics/ZionWorxExportWindowContinue.png
+
+The Wizard will update and allow you to set the options for the export.   
+Verify that the checkbox for `The First row of the file holds the fieldnames` is checked.
+Verify that the `Quoted Character` is the double quote.
+Verify that the `Fields are separated by` option is a comma.
+Then press the :guilabel:`Continue` button.
+
+.. image:: pics/ZionWorxExportWindowComma.png
+
+When the progress completes you will see a completion message in the window and can
+select the :guilabel:`Close` button to close the `Batch Move Wizard`.
+
+.. image:: pics/ZionWorxExportWindowClose.png
+
+Please see **Importing the CSV file** below to import your songs.
+
+**Version 2.5/2.6:**
 
 Download `TurboDB Data Exchange 
 <http://www.dataweb.de/en/support/downloads.html>`_ from dataWeb. The utility
@@ -198,10 +283,12 @@ will be downloaded as an archive file:
         
             ./tdbdatax MainTable.dat songstable.csv -fsdf -s, -qd
 
-You should see some feedback indicating success, such as::
+    You should see some feedback indicating success, such as::
    
-    Batch move has moved 408 records.
-       
+        Batch move has moved 408 records.
+
+**Importing the CSV file:**
+
 Your ZionWorx songs database has now been converted to a CSV text file. Run the
 Song Importer in OpenLP, select :guilabel:`ZionWorx (CSV)`, and locate the
 :file:`songstable.csv` file you just created. 
@@ -470,3 +557,4 @@ on the General page.
 .. |MOVE_UP| image:: pics/service_up.png
 .. |MOVE_DOWN| image:: pics/service_down.png
 .. |AUDIO_PAUSE| image:: pics/media_playback_pause.png
+.. |DBMENU| image:: pics/ZionWorksDBMenu.png

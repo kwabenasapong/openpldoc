@@ -24,6 +24,7 @@ OpenLP can import songs from the following sources:
 * EasyWorship 2009 Song Database
 * EasyWorship 2009 Service File
 * Foilpresenter Song Files
+* LiveWorship Database Dump
 * LyriX (Exported TXT-files)
 * MediaShout Database (Windows only)
 * PowerPraise Song Files'
@@ -53,7 +54,7 @@ software that OpenLP will convert songs from.
 
 Click on the file folder icon to choose the file of the song database you
 want to import. See the following sections for information on some of the 
-different formats that OpenLP will import. Open
+different formats that OpenLP will import.
 
 Importing from OpenLyrics or OpenLP 2 Exported Song
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -298,6 +299,40 @@ Song Importer in OpenLP, select :guilabel:`ZionWorx (CSV)`, and locate the
 After clicking :guilabel:`Next` your import will be complete.
 
 .. _songs_create_edit:
+
+
+Importing from LiveWorship
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+LiveWorship stores your songs in a proprietary database format which OpenLP is 
+unable to access directly. You will first need to convert it to an XML file
+file, which OpenLP will then be able to import. This can be done by downloading
+Valentina Studio from `Valentina DB <https://www.valentina-db.com>`_. It is
+available for both Windows, Linux and macOS. The free version is enough for
+what is needed to convert the song database. After installing Valentina Studio,
+open it. 
+
+The first time you open Valentina Studio you can enter register and get a serial
+number (it is available for free) to get full access to Valentina Studio. You
+can also just cancel or skip this step, which will open Valentina Studio in demo
+mode, meaning it will only work for 10 minutes at a time, but that is enough for
+converting a database.
+
+Open :menuselection:`File --> Open Database` and find the song database file
+you wish to convert. It will usually end with :file:`.vdb`, on Windows it will
+usually be located in
+:file:`C:\Users\<username>\AppData\Local\VirtualStore\Program Files (x86)\LiveWorship\Media Library`
+This will open the song database. To dump the database content to XML, open
+:menuselection:`File --> Open Database`. Select XML as :guilabel:`Output Format`
+and :guilabel:`Structure And Records` for :guilabel:`Dump Content`. Select
+:guilabel:`Dump Destination` and keep the encoding as :guilabel:`UTF-8` and save
+the dump.
+
+Your LiveWorship songs database has now been converted to an XML file. Run the
+Song Importer in OpenLP, select :guilabel:`LiveWorship Database Dump`, and
+locate the XML file you just created. 
+
+After clicking :guilabel:`Next` your import will be complete.
+
 
 Creating or Editing a Song Slide
 ================================

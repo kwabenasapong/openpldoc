@@ -57,26 +57,26 @@ Upgrading
    
    It is always a good idea to make a backup when prompted by OpenLP.
 
-Can I upgrade from any 1.9.x or 2.0.x release to 2.4?
+Can I upgrade from any 1.9.x or 2.0.x release to 3.0?
 -----------------------------------------------------
 
-No, you should first upgrade to the last stable release in the 2.0-series (2.0.5) and then upgrade to 2.4 to ensure
-that data is correctly converted.  You can download OpenLP 2.0.5 from `<https://get.openlp.org/2.0.5/>`_. 
+No, you should first upgrade to the last stable release in the 2.0-series (2.0.5) and then upgrade to 3.0 to ensure
+that data is correctly converted. You can download OpenLP 2.0.5 from `<https://get.openlp.org/2.0.5/>`_. 
 
-Can I upgrade directly from 1.2 to 2.4?
+Can I upgrade directly from 1.2 to 3.0?
 ---------------------------------------
 
-No, you will have to install 2.0.5 first, then import the 1.2 data and then upgrade to 2.4. See the 2.0 documentation
+No, you will have to install 2.0.5 first, then import the 1.2 data and then upgrade to 3.0. See the 2.0 documentation
 for how to upgrade from 1.2 to 2.0. You can download OpenLP 2.0.5 from `<https://get.openlp.org/2.0.5/>`_. 
 
-Does 2.4 replace older 2.x versions, or can they be run side by side?
+Does 3.0 replace older 2.x versions, or can they be run side by side?
 ---------------------------------------------------------------------
 
-OpenLP 2.4 and earlier 2.x versions cannot run side by side. When running 2.4 for first time any existing 2.x data will
-automatically be converted to the 2.4 format. OpenLP 2.4 will ask if it should make a backup on startup, which can be
+OpenLP 3.0 and earlier 2.x versions cannot run side by side. When running 3.0 for first time any existing 2.x data will
+automatically be converted to the 3.0 format. OpenLP 3.0 will ask if it should make a backup on startup, which can be
 used in case you want to downgrade again.
 
-OpenLP 2.4 cannot read service files created by OpenLP 2.0.4 and earlier, it can only read service files created by
+OpenLP 3.0 cannot read service files created by OpenLP 2.0.4 and earlier, it can only read service files created by
 OpenLP 2.0.5 and higher.
 
 Where can I download an older version of OpenLP?

@@ -77,7 +77,7 @@ the link to the page that is created.
 Windows
 ^^^^^^^
 
-Find the OpenLP 2.4 folder in your Start menu. Choose the "OpenLP (Debug)" option.
+Find the OpenLP 3.0 folder in your Start menu. Choose the "OpenLP (Debug)" option.
 OpenLP will start up in Debug mode and save the log file.
 
 To get to the log file folder on Windows, press the Windows Key and "R" at the same time. This will open the
@@ -366,12 +366,6 @@ As for text over video, we have no solution for speeding this up. Reducing the
 monitor resolution and avoiding shadows and outline text will help. We are
 hoping a future release of the toolkit we are using (QtWebKit) will help improve
 this, but there is no timeframe at present.
-
-Why do live backgrounds not work in OpenLP 2.4 on Windows and macOS
--------------------------------------------------------------------
-
-Due to issues in one of the underlying frameworks that OpenLP uses (Qt5),
-live backgrounds do not work in OpenLP 2.4. We aim to fix this in OpenLP 2.6.
 
 Downgrade guide (how to restore a backup)
 -----------------------------------------

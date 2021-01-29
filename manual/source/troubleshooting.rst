@@ -134,17 +134,17 @@ directory::
 
 ``<username>`` is your username.
 
-.. _t-no-media:
+.. _t-no-library:
 
-I can not play videos or other media
-------------------------------------
+I can not play videos or other library items.
+---------------------------------------------
 
 If you can not play video or audio through OpenLP, the problem is most likely
-that the media players have not be properly configured. The recommended media
-player for OpenLP is VLC, see the manual for :ref:`config_players` for how to 
+that the players have not be properly configured. The recommended
+player for OpenLP is VLC, see the manual for :ref:`media_configure` for how to 
 setup VLC as your default player.
 
-If you want to use the System player, but it cannot play your media files, you
+If you want to use the System player, but it cannot play your audio or video files, you
 can look below for how best to set it up.
 
 Codecs
@@ -234,12 +234,12 @@ install.
 Follow the tutorial `using the rpmfusion repository <http://www.linuxjournal.com/video/getting-mp3-support-fedora-using-rpmfusion-repositories>`_
 to enable extra audio and video formats on Fedora
 
-.. _t-no-media-items:
+.. _t-no-library-items:
 
-The Media Manager appears to be missing some features
------------------------------------------------------
+The Library appears to be missing some features
+-----------------------------------------------
 
-If you do not see all the features listed in the Media Manager, you may need
+If you do not see all the features listed in the Library, you may need
 to enable them.
 
 To enable the plugins navigate to :menuselection:`Settings --> Plugins` or

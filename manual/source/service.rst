@@ -10,9 +10,9 @@ Creating a Service
 Now that you have OpenLP set up the way you want, it is time to put it to use.
 
 Everything you need to display will be in the left panel called the
-:ref:`g-media-manager`, under their respective categories. Using the
-:ref:`g-media-manager` you can add new media, songs, images, Bibles or create a
-custom slide as discussed earlier in the :ref:`media-manager` section.
+:ref:`g-library`, under their respective categories. Using the
+:ref:`g-library` you can add new media, songs, images, Bibles or create a
+custom slide as discussed earlier in the :ref:`library` section.
 
 .. image:: pics/mediamanager_songs.png
 
@@ -69,17 +69,17 @@ menu. Follow the directions here :ref:`songs_create_edit` to make changes to
 your song. 
 
 **Note:** Editing a song in :ref:`creating_service` will be applied to 
-the :ref:`creating_service` song database. Editing a song in the :ref:`media-manager` 
-will be applied to the song in your :ref:`media-manager`.  This can be changed
+the :ref:`creating_service` song database. Editing a song in the :ref:`library` 
+will be applied to the song in your :ref:`library`.  This can be changed
 so that changes made in the :ref:`creating_service` song database update 
-the :ref:`media-manager` song database and changes made in the :ref:`media-manager`
+the :ref:`library` song database and changes made in the :ref:`library`
 song database update the :ref:`creating_service` song database in :ref:`configure`.
 
 Adding Media
 ------------
 
-To add your media you can click on an item in the :ref:`media-manager` hold and 
-drag your selection from the :ref:`media-manager` over to the *Service Manager* 
+To add your media you can click on an item in the :ref:`library` hold and 
+drag your selection from the :ref:`library` over to the *Service Manager* 
 or, after clicking the media or verse you want to use, click the |add_plus|. 
 This will add your media to the service side at the bottom. Once it is in the 
 Service Manager you can click on your item and drag and drop it in the order you 
@@ -114,7 +114,7 @@ buttons to the right of a list item to expand or collapse a single list item.
 |COLLAPSE_SINGLE| Collapse a single service item.
 
 **Note:** You always have the option to send any media live direct from the 
-:ref:`media-manager`. Please see the :ref:`media-manager` section for more 
+:ref:`library`. Please see the :ref:`library` section for more 
 details.
 
 Displaying an Item
@@ -202,7 +202,7 @@ Adding a Group of Images
 
 At some point you may have a group of images to display together. It may be
 pictures from a youth group adventure, bulletin announcements, or some other
-reason. You can either create the group in the :ref:`media-manager` and then
+reason. You can either create the group in the :ref:`library` and then
 click the |buttons_add| icon above the images, or you can manually select a
 group of images. Do this by holding the :kbd:`Ctrl` 
 key on your keyboard and click each image you want to add as a group. As you 
@@ -231,7 +231,7 @@ where you want it. If there is an image you do not want in your order, click on
 it and then click the :guilabel:`Delete` button. When you are done arranging
 your images click :guilabel:`Save`.
 
-If you need to add another image from the :ref:`media-manager` to your group of 
+If you need to add another image from the :ref:`library` to your group of 
 images, left click the image you want to add and hold the mouse button and drag 
 it over your group of Images and release the mouse button. You will be given 
 two options, :guilabel:`Add New Item` and :guilabel:`Add to Selected Item`.
@@ -280,7 +280,7 @@ Creating a New Custom Slide
 You have the ability to create a custom slide in the service manager by right 
 clicking on the Song, Bible Verse or Custom Slide then 
 choosing :menuselection:`Create new Custom Slide` from the context menu. 
-Follow the directions here :ref:`media-manager` to 
+Follow the directions here :ref:`library` to 
 create your new custom slide.
 
 .. _using_timer:

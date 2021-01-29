@@ -5,12 +5,20 @@ The Web Remote
 
 OpenLP gives you the ability to control the :ref:`creating_service`. You also 
 have the ability to search for and add or display media from the 
-:ref:`media-manager` or send an :ref:`alerts`, using a remote computer, netbook 
+:ref:`library` or send an :ref:`alerts`, using a remote computer, netbook 
 or smartphone and a web browser. You can use the web remote to control the 
 entire service away from the main computer or, have the nursery or daycare send 
 an :ref:`alerts` message to the projection screen. This could also be used for a 
 guest speaker or worship team leader to control their own slides if needed.
 
+The Web Remote was moved to being part of the core program in version 2.9.2.
+The only thing you need to do is go into :ref:`configure`, select the Remote Interface
+item int the menu on the left side of the Settings window then press the
+Check for Updates button.  If the Current version number is not the same as
+Latest Version then press the Upgrade button.  When the numbers match, press the
+OK button at the bottom of the settings window.
+
+Versions before 2.9.2
 The first step is to make sure the Remote plugin is activated. You can accomplish
 this by following the instructions in the :ref:`plugin_list`. The second step is 
 to configure the settings you will use with the web browser. You can find these 

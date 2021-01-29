@@ -275,8 +275,8 @@ Adding scriptures to a service can be done by selecting a group of verses
 or by moving one verse at a time.
 
 To add Bible verses you can click on a verse, hold and drag your selection
-from the :ref:`media-manager` over to the *Service Manager* 
-or, after clicking the media or verse you want to use, click the 
+from the :ref:`library` over to the *Service Manager* 
+or, after selecting the verse or group of verses you want to use, click the 
 |bibleadd| Add to Service icon. This will add your scriptures at the bottom 
 of the *Service*. 
 

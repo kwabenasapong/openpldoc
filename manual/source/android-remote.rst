@@ -168,7 +168,7 @@ you to search that library item.
 
 Selecting the blank line to the right of :guilabel:`Search Text` will allow you
 to enter the text you want to find.  The search is the same search you would 
-make on the instance of OpenLP :ref:`media-manager` and will find parts of the lyrics within a 
+make on the instance of OpenLP :ref:`library` and will find parts of the lyrics within a 
 song if you type in part of the lyrics.  When you have typed in your search
 criteria, select the search icon in the keyboard to activate the search.
 

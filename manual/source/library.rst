@@ -1,23 +1,23 @@
-.. _media-manager:
+.. _library:
 
-Media Manager
-=============
+Library
+=======
 
 Once you get your system set up for OpenLP you will be ready to add content to
 your :ref:`g-service-manager`. This will all happen through the
-:ref:`g-media-manager`. The :ref:`g-media-manager` contains all the Bibles,
-Songs, Presentations, Media, and Custom Slides that you will project through
-OpenLP.
+:ref:`g-library`. The :ref:`g-library` contains all the Bibles,
+Songs, Presentations, Audio files, Visual files, and Custom Slides
+that you will project through OpenLP.
 
-If you don't see the "Songs", "Bibles" and other media items in the
-:ref:`g-media-manager`, then refer to :ref:`t-no-media-items` in the
+If you don't see the "Songs", "Bibles" and other library items in the
+:ref:`g-library`, then refer to :ref:`t-no-library-items` in the
 troubleshooting guide.
 
 Songs
 -----
 
-Clicking on *Songs* in the :ref:`g-media-manager` will display the songs media
-item. The songs media item shows a list of all the songs in the songs database.
+Clicking on *Songs* in the :ref:`g-library` will display the songs library
+item. The songs library item shows a list of all the songs in the songs database.
 
 .. image:: pics/mediamanager_songs.png
 
@@ -43,7 +43,7 @@ Toolbar
 |buttons_add| **Add song to service:**
     Add the selected song(s) to the :ref:`g-service-manager`. Songs can also be
     added to the :ref:`g-service-manager` by means of drag and drop from the
-    :ref:`g-media-manager`.
+    :ref:`g-library`.
 
 |buttons_db| **Maintain authors, topics and books:**
     Open the song maintenance dialog to add, edit or delete authors, topics or
@@ -81,8 +81,8 @@ in the song list.
 Bibles
 ------
 
-Clicking on *Bibles* in the :ref:`g-media-manager` will display the Bibles media
-item. The Bibles media item shows Bible verses and provides a search function
+Clicking on *Bibles* in the :ref:`g-library` will display the Bibles
+item. The Bibles item shows Bible verses and provides a search function
 to find Bible verses and add them to the :ref:`g-service-manager`.
 
 .. image:: pics/mediamanager_bibles.png
@@ -107,7 +107,7 @@ Toolbar
 |buttons_add| **Add verses to service:**
     Add the selected verses to the :ref:`g-service-manager`. Verses can also be
     added to the :ref:`g-service-manager` by means of drag and drop from the
-    :ref:`g-media-manager`.
+    :ref:`g-library`.
 
 **Note:** Right-clicking on a selection of verses will display some of the
 same options.
@@ -214,13 +214,13 @@ in the verse list.
 
 .. image:: pics/mediamanager_bibles_results.png
 
-.. _media-manager-presentations:
+.. _library-presentations:
 
 Presentations
 -------------
 
-Clicking on *Presentations* in the :ref:`g-media-manager` will display the
-presentations media item. The presentations media item shows a list of imported
+Clicking on *Presentations* in the :ref:`g-library` will display the
+presentations item. The presentations item shows a list of imported
 presentations.
 
 .. image:: pics/mediamanager_presentations.png
@@ -246,12 +246,12 @@ Toolbar
 |buttons_add| **Add presentation to service:**
     Add the selected presentation to the :ref:`g-service-manager`. Presentations
     can also be added to the :ref:`g-service-manager` by means of drag and drop
-    from the :ref:`g-media-manager`.
+    from the :ref:`g-library`.
 
 **Notes:** Right-clicking on a presentation will display some of the same options.
 
 Presentation items can be dragged from the desktop (or any folder) into the 
-Presentation media manager plugin. This allows the selected items to be loaded 
+Presentation library plugin. This allows the selected items to be loaded 
 more quickly. If a folder is selected, all the contacts of the folder will be 
 added. When the items are added, only items with the correct file suffix for the 
 plugin will be loaded. If you try to drop a presentation into the images folder, 
@@ -270,8 +270,8 @@ behavior if the application chosen is not compatible with the presentation.
 Images
 ------
 
-Clicking on *Images* in the :ref:`g-media-manager` will display the images
-media item. The images media item shows a list of imported images.
+Clicking on *Images* in the :ref:`g-library` will display the images
+item. The images item shows a list of imported images.
 
 .. image:: pics/mediamanager_images.png
 
@@ -301,7 +301,7 @@ Toolbar
 |buttons_add| **Add image to service:**
     Add the selected image(s) to the :ref:`g-service-manager`. Images can also
     be added to the :ref:`g-service-manager` by means of drag and drop from the
-    :ref:`g-media-manager`.
+    :ref:`g-library`.
 
 |buttons_replace_live_background| **Replace live background:**
     Replace the current live theme background with the selected image. This
@@ -312,7 +312,7 @@ Toolbar
 
 .. image:: pics/images_select_image_group.png
 
-When an image is added to the mediamanager, a dialog will ask in which group the
+When an image is added to the library, a dialog will ask in which group the
 image should be placed. The options are :guilabel:`No group`,
 :guilabel:`Existing group` or :guilabel:`New group`.
 
@@ -326,8 +326,8 @@ generated.
 Media
 -----
 
-Clicking on *Media* in the :ref:`g-media-manager` will display the media item
-for media. The media item shows a list of imported audio or video files.
+Clicking on *Media* in the :ref:`g-library` will display the audio or video files
+in the Library.
 
 **Note:** On some computers OpenLP has trouble displaying videos. Please read
 the :ref:`troubleshooting` for tips on how to resolve these issues.
@@ -338,44 +338,44 @@ Toolbar
 ^^^^^^^
 
 |buttons_media_optical| **Load CD/DVD:**
-    Import mediaclip from audio CD or DVD. This feature only works if VLC is
-    installed on the computer and enabled in OpenLP. See :ref:`config_players`
-    for how to configure media players. Clicking the icon will bring up a window
-    where you can load a DVD or audio CD, select a track and a range and save
-    it as a named media clip. Note that the audio CD or DVD is still required
-    when playing the media clip, even if the media clip is saved to a service
-    file.
+    This feature only works if VLC is installed on the computer and enabled in OpenLP.
+    See :ref:`media_configure` for how to configure media players. Clicking the icon
+    will bring up a window where you can load a DVD or audio CD, select a track and
+    a range and save it as a named clip. Note that the audio CD or DVD is still required
+    when playing the clip, even if the clip is saved to a service file.
 
 .. image:: pics/select_media_clip.png
 
-|buttons_open| **Load media:**
-    Import one or more media files. Media files need to be imported in order to
-    be used in OpenLP.
+|buttons_open| **Open device stream:**
+    Connect to a video stream that is physically connected to the OpenLP computer.
 
-|buttons_delete| **Delete media:**
-    Removes the selected media file(s) from the list. Note that this does not
-    delete the original media file(s) from the disk.
+|buttons_video| **Open network stream:**
+    Connect to a video stream that is accessable over the network connected to
+    the OpenLP computer.
 
-|buttons_preview| **Preview media:**
-    Send the selected media to the :ref:`g-preview-slide-controller`.
+|buttons_link| **Load new media:**
+    Import one or more audio and video files. Audio and video files need to be
+    imported in order to be used in OpenLP.
 
-|buttons_live| **Send media live:**
-    Send the selected media to the :ref:`g-live-slide-controller` to be shown
+|buttons_delete| **Delete the selected media:**
+    Removes the selected audio or video file(s) from the list. Note that this does not
+    delete the original file(s) from the disk.
+
+|buttons_preview| **Preview the selected media:**
+    Send the selected audio and video files to the :ref:`g-preview-slide-controller`.
+
+|buttons_live| **Send the selected media live:**
+    Send the selected audio or video file to the :ref:`g-live-slide-controller` to be shown
     on the display screen.
 
-|buttons_add| **Add media to service:**
-    Add the selected media to the :ref:`g-service-manager`. Media can also be
-    added to the :ref:`g-service-manager` by means of drag and drop from the
-    :ref:`g-media-manager`.
+|buttons_add| **Add the selected media to the service:**
+    Add the selected audio and video files to the :ref:`g-service-manager`. Audio and video
+    files can also be added to the :ref:`g-service-manager` by means of drag and drop
+    from the     :ref:`g-library`.
 
-|buttons_replace_live_background| **Replace live background:**
-    Replace the current live theme background with the selected media. This
-    has effect until the theme changes, or the *Remove Background* button is
-    clicked.
+**Notes:** Right-clicking on a audio or video file will display some of the same options.
 
-**Notes:** Right-clicking on a media file will display some of the same options.
-
-Media items can be dragged from the desktop (or any folder) into the Media 
+Audio and video items can be dragged from the desktop (or any folder) into the Media 
 manager plugin. This allows the selected items to be loaded more quickly. If a 
 folder is selected, all the contacts of the folder will be added. When the items 
 are added, only items with the correct file suffix for the plugin will be loaded. 
@@ -392,8 +392,8 @@ default is :guilabel:`Automatic`, but you can choose any available player.
 Custom Slides
 -------------
 
-Clicking on *Custom Slides* in the :ref:`g-media-manager` will display the
-custom slides media item. The custom slides media item shows a list of custom
+Clicking on *Custom Slides* in the :ref:`g-library` will display the
+custom slides libruary item. The custom slides item shows a list of custom
 textual items. Custom slides are useful for creating unstructured text items,
 such as liturgy or prayers.
 
@@ -421,7 +421,7 @@ Toolbar
 |buttons_add| **Add custom slide to service:**
     Add the selected custom slide(s) to the :ref:`g-service-manager`. Custom
     slides can also be added to the :ref:`g-service-manager` by means of drag
-    and drop from the :ref:`g-media-manager`.
+    and drop from the :ref:`g-library`.
 
 **Note:** Right-clicking on a custom slide in the list will display some of the
 same options.
@@ -436,6 +436,12 @@ same options.
 
 .. |BUTTONS_PREVIEW| image:: pics/buttons_preview.png
 
+.. |BUTTONS_REPLACE_LIVE_BACKGROUND| image:: pics/buttons_replace_live_background.png
+
+.. |BUTTONS_VIDEO| image:: pics/buttons_video.png
+
+.. |BUTTONS_LINK| image:: pics/buttons_link.png
+
 .. |BUTTONS_LIVE| image:: pics/buttons_live.png
 
 .. |BUTTONS_ADD| image:: pics/buttons_add.png
@@ -449,8 +455,6 @@ same options.
 .. |BUTTONS_KEEP_RESULTS| image:: pics/buttons_keep_results.png
 
 .. |BUTTONS_CLEAR_RESULTS| image:: pics/buttons_clear_results.png
-
-.. |BUTTONS_REPLACE_LIVE_BACKGROUND| image:: pics/buttons_replace_live_background.png
 
 .. |BUTTONS_IMAGE_NEW_GROUP| image:: pics/button_image_new_group.png
 

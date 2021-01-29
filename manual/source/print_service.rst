@@ -74,7 +74,7 @@ Options
   This option will include any notes you have added to the service items.
 
 **Include play length of media items:**
-  This option will print the length of media items in the service.
+  This option will print the length of audio and video items in the service.
 
 .. _advanced:
 

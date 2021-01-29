@@ -125,7 +125,7 @@ corner and choose either the .txt or .usr file.
 You will be asked to choose a download location if your browser does not 
 automatically select one for you. Select the downloaded file from the OpenLP 
 import window and then click :guilabel:`Next`. When import is finished, you will 
-find your song in the :ref:`g-media-manager`.
+find your song in the :ref:`g-library`.
 
 **Note:** Most operating systems allow you to select multiple songs for import 
 by selecting the first item in the list and then holding the :kbd:`Shift` and 
@@ -344,10 +344,10 @@ assign a Theme, or edit Copyright Info & Comments, you will do this through the
 
 **Edit:** 
     To edit an existing song you can either click on a song in the 
-    :ref:`media-manager` and then click the button to :guilabel:`Edit the selected song` 
-    or right click a song from either the :ref:`media-manager` or additionally 
+    :ref:`library` and then click the button to :guilabel:`Edit the selected song` 
+    or right click a song from either the :ref:`library` or additionally 
     from the :ref:`creating_service` and click :guilabel:`Edit item`. If you are 
-    adding a new song click :guilabel:`Add a new Song` in the :ref:`media-manager`.
+    adding a new song click :guilabel:`Add a new Song` in the :ref:`library`.
 
 .. image:: pics/song_edit_lyrics.png
 
@@ -539,7 +539,7 @@ the song is displayed live.
     Add an audio file from a folder on your computer by clicking :guilabel:`Add File(s)`.
 
 **Add Media:** 
-    Add an audio file that is already in the :ref:`media-manager` by   clicking 
+    Add an audio file that is already in the :ref:`library` by   clicking 
     :guilabel:`Add Media`.
 
 **Remove:** 

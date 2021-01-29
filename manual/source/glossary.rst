@@ -35,24 +35,24 @@ the tools and plugins that make OpenLP function.
 
 .. image:: pics/mainwindow.png
 
-.. _g-media-manager:
+.. _g-library:
 
-Media Manager
--------------
+Library
+-------
 
-The Media Manager contains a number of tabs which the plugins supply to OpenLP.
-Each tab in the Media Manager is called a :ref:`g-media-item`. You can send
-songs, Bibles, etc from the :ref:`g-media-item` to the
+The Library contains a number of tabs which the plugins supply to OpenLP.
+Each tab in the Library is called a :ref:`g-library-item`. You can send
+songs, Bibles, etc from the :ref:`g-library-item` to the
 :ref:`g-preview-slide-controller` or :ref:`g-live-slide-controller`.
 
 .. image:: pics/mediamanager_songs.png
 
-.. _g-media-item:
+.. _g-library-item:
 
-Media Item
-----------
+Library Item
+------------
 
-A media item is a tab in the :ref:`g-media-manager`. The media item contains
+A library item is a tab in the :ref:`g-library`. The library item contains
 any items from the various plugins which can be displayed on the display screen.
 
 .. g-platform:
@@ -68,7 +68,7 @@ system, Windows, Linux, (Mac) OS X or FreeBSD/PC-BSD.
 Preview Pane
 ------------
 
-The preview pane is a section to preview your media items before you go live
+The preview pane is a section to preview your library items before you go live
 with them.
 
 .. image:: pics/preview.png
@@ -86,15 +86,15 @@ The service file consist of :ref:`g-service-item`
 Service Items
 -------------
 
-Service items are the :ref:`g-media-item` that are in the :ref:`g-service-manager`.
+Service items are the :ref:`g-library-item` that are in the :ref:`g-service-manager`.
 
 .. _g-service-manager:
 
 Service Manager
 ---------------
 
-The service manager contains the media items in your service file. This is the
-area where your media items go live. You can also save, open, and edit
+The service manager contains the library items in your service file. This is the
+area where your library items go live. You can also save, open, and edit
 services files from here.
 
 .. image:: pics/servicemanager.png

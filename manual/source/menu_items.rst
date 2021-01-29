@@ -80,7 +80,7 @@ View
     Displays all of the panels of OpenLP. 
 
   **Setup:** 
-    Displays Preview, :ref:`media-manager` and :ref:`creating_service`.
+    Displays Preview, :ref:`library` and :ref:`creating_service`.
 
   **Live:** 
     Displays the live panel and :ref:`creating_service`
@@ -88,7 +88,7 @@ View
 Clicking on any of the next items will hide or show its respective panel.
 
 |button_mediamanager| **Media Manager:** 
-    Hide or show :ref:`media-manager`.
+    Hide or show :ref:`library`.
 
 |button_projectormanager| **Projector Manager:** 
     Hide or show :ref:`projector`.

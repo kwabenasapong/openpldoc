@@ -40,7 +40,7 @@ Reference Manual
    configure_ui
    backing_up
    dualmonitors
-   mediamanager
+   library
    service
    print_service
    projector

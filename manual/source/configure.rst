@@ -152,6 +152,8 @@ time when saving your service file.
 **Note:** If the date and time format does not suit your needs and you are 
 technically inclined, there is more information at `Python.org`_.
 
+.. _slide_controller_config:
+
 Slide Controller
 ^^^^^^^^^^^^^^^^
 
@@ -312,6 +314,8 @@ Generic Screen Settings
   Checking this checkbox will show the display output in a separate window when
   you only have a single monitor. To close the display window, click on it and
   press the :kbd:`Esc` key.
+
+.. _theme_configure:
 
 Themes
 ======

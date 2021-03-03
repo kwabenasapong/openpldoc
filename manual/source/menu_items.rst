@@ -10,16 +10,16 @@ There is a brief description or link for their intended purpose.
 File
 ----
 
-|buttons_new| **New:** 
+|buttons_new|  **New Service** 
     Creates a new service. :ref:`new_service`
 
-|buttons_open| **Open:** 
+|buttons_open| **Open Service** 
     Load an existing service. :ref:`new_service`
 
-|buttons_save| **Save:** 
+|buttons_save| **Save Service** 
     Saves your existing loaded service.
 
-**Save As:** 
+**Save Service As:** 
     Saves your newly created service.
 
 **Recent Files:** 
@@ -28,7 +28,7 @@ File
   **Clear List:** 
     Clears your recent files list.
 
-**Import:** 
+|buttons_import| **Import:** 
   This provides the items you can import.
 
   **Settings:** 
@@ -48,7 +48,7 @@ File
     Import Bibles from another program, the internet or a previously exported 
     Bible from OpenLP. :ref:`import_bibles`
 
-**Export:** 
+|buttons_export| **Export:** 
   Provides the items you can export.
 
   **Settings:** 
@@ -73,10 +73,10 @@ File
 View
 ----
 
-**Mode:** 
+**Layout Presets:** 
   These three settings are optimized for setup and live display.
 
-  **Default:** 
+  **Show all:** 
     Displays all of the panels of OpenLP. 
 
   **Setup:** 
@@ -87,25 +87,25 @@ View
 
 Clicking on any of the next items will hide or show its respective panel.
 
-|button_mediamanager| **Media Manager:** 
+|button_mediamanager| **Library:** 
     Hide or show :ref:`library`.
 
-|button_projectormanager| **Projector Manager:** 
+|button_projectormanager| **Projector Controller:** 
     Hide or show :ref:`projector`.
 
-|button_servicemanager| **Service Manager:** 
+|button_servicemanager| **Service:** 
     Hide or show :ref:`creating_service`.
 
-|theme_new| **Theme Manager:** 
+|theme_new| **Themes:** 
     Hide or show :ref:`themes`.
 
-**Preview Panel:** 
+**Preview:** 
     Hide or show the preview panel.
 
-**Live Panel:** 
+**Live:** 
     Hide or show the live panel.
 
-**Lock Panels:** 
+**Lock visibility of panels:** 
     Using this lock will keep all your panel settings the way they 
     are when clicked, whether hidden or showing. Click this again to unlock the 
     panels.
@@ -182,11 +182,15 @@ Help
 
 .. These are all the image templates that are used in this page.
 
-.. |BUTTONS_NEW| image:: pics/buttons_new.png
+.. |BUTTONS_NEW| image:: pics/new_service.png
 
-.. |BUTTONS_OPEN| image:: pics/buttons_open.png
+.. |BUTTONS_OPEN| image:: pics/service_open.png
 
 .. |BUTTONS_SAVE| image:: pics/service_save.png
+
+.. |BUTTONS_IMPORT| image:: pics/buttons_import.png
+
+.. |BUTTONS_EXPORT| image:: pics/buttons_export.png
 
 .. |BUTTONS_EXIT| image:: pics/buttons_exit.png
 

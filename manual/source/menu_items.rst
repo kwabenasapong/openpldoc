@@ -87,7 +87,7 @@ View
 
 Clicking on any of the next items will hide or show its respective panel.
 
-|button_mediamanager| **Library:** 
+|button_libruary| **Library:** 
     Hide or show :ref:`library`.
 
 |button_projectormanager| **Projector Controller:** 
@@ -184,7 +184,7 @@ Help
 
 .. |BUTTONS_NEW| image:: pics/new_service.png
 
-.. |BUTTONS_OPEN| image:: pics/service_open.png
+.. |BUTTONS_OPEN| image:: pics/open_service.png
 
 .. |BUTTONS_SAVE| image:: pics/service_save.png
 
@@ -194,7 +194,7 @@ Help
 
 .. |BUTTONS_EXIT| image:: pics/buttons_exit.png
 
-.. |THEME_NEW| image:: pics/theme_new.png
+.. |THEME_NEW| image:: pics/buttons_replace_live_background.png
 
 .. |BUTTON_RERUN| image:: pics/button_rerun.png
 
@@ -206,12 +206,12 @@ Help
 
 .. |BUTTON_CONFIGURE| image:: pics/button_configure.png
 
-.. |BUTTON_SETTINGS| image:: pics/configure_shortcuts_config.png
+.. |BUTTON_SETTINGS| image:: pics/button_settings.png
 
 .. |BUTTON_TAG| image:: pics/button_tag.png
 
-.. |BUTTON_MEDIAMANAGER| image:: pics/button_mediamanager.png
+.. |BUTTON_LIBRUARY| image:: pics/button_libruary.png
 
-.. |BUTTON_SERVICEMANAGER| image:: pics/button_servicemanager.png
+.. |BUTTON_SERVICEMANAGER| image:: pics/button_service.png
 
-.. |BUTTON_PROJECTORMANAGER| image:: pics/button_projector_manager.png
+.. |BUTTON_PROJECTORMANAGER| image:: pics/buttons_video.png

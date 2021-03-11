@@ -253,6 +253,6 @@ default. This option is covered in greater detail under :ref:`configure`.
 
 .. |THEME_IMPORT| image:: pics/theme_import.png
 
-.. |THEME_NEW| image:: pics/theme_new.png
+.. |THEME_NEW| image:: pics/new_service.png
 
 .. |BUTTONS_OPEN| image:: pics/buttons_open.png

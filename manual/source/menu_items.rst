@@ -170,17 +170,21 @@ Settings
 Help
 ----
 
-**Online Help:** 
+|ONLINE_HELP| **Online Help:** 
     This is a direct link to OpenLP's operating manual.
 
 **Web Site:** 
     This is a direct link to OpenLP's web site.
 
-**About:** 
+|INFO_ICON| **About:** 
     Provides information, credits and license for OpenLP.
 
 
 .. These are all the image templates that are used in this page.
+
+.. |INFO_ICON| image:: pics/info-solid.png
+
+.. |ONLINE_HELP| image:: pics/graduation-cap-solid.png
 
 .. |BUTTONS_NEW| image:: pics/new_service.png
 

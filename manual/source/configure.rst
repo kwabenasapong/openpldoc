@@ -673,9 +673,13 @@ Custom Scripture References
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Here you can change the default separators used in the scripture references.
-The default values are shown in gray when the custom separators has not be 
-enabled and nothing has been entered. Note that the default separators can
-change if the language of OpenLP is changed.
+Sugested values are shown in gray when the custom separators has not be 
+enabled and nothing has been entered. The sugested values can not be used as
+displayed, you need remove everything that you don't want to use.  If the value
+you choose fails the language checks, when you exit settings and re-enter
+Settings the changes you made will revert to not enabled.
+
+Note that the default separators can change if the language of OpenLP is changed.
 
 **Verse Separators:** Enable to enter a custom verse separator.
 
@@ -775,12 +779,14 @@ Image Background
 
 **Use Blank Theme**
   Select this option to place the image on a blank background.  If the
-  image is smaller than the screen, the area around the imabe will be
+  image is smaller than the screen, the area around the image will be
   black.
 
 **Custom Theme**
   Select this option and use the dropdown box to use one of the current
-  themes as a background for the imate.
+  themes as a background for the image.  If the Theme you select has 
+  transitions enabled, the images will change with the transition selected
+  in the Theme.
 
 
 Custom Slides
